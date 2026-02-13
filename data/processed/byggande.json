@@ -1,0 +1,22 @@
+[
+  {"år": 2015, "typ": "Flerbostadshus", "antal": 850},
+  {"år": 2016, "typ": "Flerbostadshus", "antal": 920},
+  {"år": 2017, "typ": "Flerbostadshus", "antal": 1100},
+  {"år": 2018, "typ": "Flerbostadshus", "antal": 1350},
+  {"år": 2019, "typ": "Flerbostadshus", "antal": 1420},
+  {"år": 2020, "typ": "Flerbostadshus", "antal": 1280},
+  {"år": 2021, "typ": "Flerbostadshus", "antal": 1150},
+  {"år": 2022, "typ": "Flerbostadshus", "antal": 980},
+  {"år": 2023, "typ": "Flerbostadshus", "antal": 890},
+  {"år": 2024, "typ": "Flerbostadshus", "antal": 950},
+  {"år": 2015, "typ": "Småhus", "antal": 420},
+  {"år": 2016, "typ": "Småhus", "antal": 480},
+  {"år": 2017, "typ": "Småhus", "antal": 520},
+  {"år": 2018, "typ": "Småhus", "antal": 580},
+  {"år": 2019, "typ": "Småhus", "antal": 610},
+  {"år": 2020, "typ": "Småhus", "antal": 550},
+  {"år": 2021, "typ": "Småhus", "antal": 490},
+  {"år": 2022, "typ": "Småhus", "antal": 420},
+  {"år": 2023, "typ": "Småhus", "antal": 380},
+  {"år": 2024, "typ": "Småhus", "antal": 410}
+]

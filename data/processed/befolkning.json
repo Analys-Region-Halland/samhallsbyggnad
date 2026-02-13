@@ -1,0 +1,22 @@
+[
+  {"år": 2015, "region": "Halland", "befolkning": 312920},
+  {"år": 2016, "region": "Halland", "befolkning": 316748},
+  {"år": 2017, "region": "Halland", "befolkning": 321419},
+  {"år": 2018, "region": "Halland", "befolkning": 326979},
+  {"år": 2019, "region": "Halland", "befolkning": 331781},
+  {"år": 2020, "region": "Halland", "befolkning": 335960},
+  {"år": 2021, "region": "Halland", "befolkning": 338941},
+  {"år": 2022, "region": "Halland", "befolkning": 342348},
+  {"år": 2023, "region": "Halland", "befolkning": 346567},
+  {"år": 2024, "region": "Halland", "befolkning": 351200},
+  {"år": 2015, "region": "Riket (index)", "befolkning": 312920},
+  {"år": 2016, "region": "Riket (index)", "befolkning": 316234},
+  {"år": 2017, "region": "Riket (index)", "befolkning": 320105},
+  {"år": 2018, "region": "Riket (index)", "befolkning": 324521},
+  {"år": 2019, "region": "Riket (index)", "befolkning": 328900},
+  {"år": 2020, "region": "Riket (index)", "befolkning": 332100},
+  {"år": 2021, "region": "Riket (index)", "befolkning": 334800},
+  {"år": 2022, "region": "Riket (index)", "befolkning": 337200},
+  {"år": 2023, "region": "Riket (index)", "befolkning": 340100},
+  {"år": 2024, "region": "Riket (index)", "befolkning": 343500}
+]

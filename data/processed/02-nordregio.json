@@ -1,0 +1,872 @@
+[
+  {
+    "region": "Stockholm",
+    "typologi": "Inner urban area",
+    "befolkning": 2014489,
+    "andel": 83.6
+  },
+  {
+    "region": "Stockholm",
+    "typologi": "Outer urban area",
+    "befolkning": 184316,
+    "andel": 7.6
+  },
+  {
+    "region": "Stockholm",
+    "typologi": "Peri-urban area",
+    "befolkning": 101057,
+    "andel": 4.2
+  },
+  {
+    "region": "Stockholm",
+    "typologi": "Rural area close to urban",
+    "befolkning": 60679,
+    "andel": 2.5
+  },
+  {
+    "region": "Stockholm",
+    "typologi": "Local centre in rural area",
+    "befolkning": 29074,
+    "andel": 1.2
+  },
+  {
+    "region": "Stockholm",
+    "typologi": "Rural heartland",
+    "befolkning": 19345,
+    "andel": 0.8
+  },
+  {
+    "region": "Stockholm",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 896,
+    "andel": 0
+  },
+  {
+    "region": "Skåne",
+    "typologi": "Inner urban area",
+    "befolkning": 714114,
+    "andel": 51
+  },
+  {
+    "region": "Skåne",
+    "typologi": "Outer urban area",
+    "befolkning": 131841,
+    "andel": 9.4
+  },
+  {
+    "region": "Skåne",
+    "typologi": "Peri-urban area",
+    "befolkning": 266429,
+    "andel": 19
+  },
+  {
+    "region": "Skåne",
+    "typologi": "Rural area close to urban",
+    "befolkning": 155594,
+    "andel": 11.1
+  },
+  {
+    "region": "Skåne",
+    "typologi": "Local centre in rural area",
+    "befolkning": 93556,
+    "andel": 6.7
+  },
+  {
+    "region": "Skåne",
+    "typologi": "Rural heartland",
+    "befolkning": 38306,
+    "andel": 2.7
+  },
+  {
+    "region": "Skåne",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 20,
+    "andel": 0
+  },
+  {
+    "region": "Västra Götaland",
+    "typologi": "Inner urban area",
+    "befolkning": 854008,
+    "andel": 49
+  },
+  {
+    "region": "Västra Götaland",
+    "typologi": "Outer urban area",
+    "befolkning": 240282,
+    "andel": 13.8
+  },
+  {
+    "region": "Västra Götaland",
+    "typologi": "Peri-urban area",
+    "befolkning": 204414,
+    "andel": 11.7
+  },
+  {
+    "region": "Västra Götaland",
+    "typologi": "Rural area close to urban",
+    "befolkning": 217633,
+    "andel": 12.5
+  },
+  {
+    "region": "Västra Götaland",
+    "typologi": "Local centre in rural area",
+    "befolkning": 88747,
+    "andel": 5.1
+  },
+  {
+    "region": "Västra Götaland",
+    "typologi": "Rural heartland",
+    "befolkning": 133821,
+    "andel": 7.7
+  },
+  {
+    "region": "Västra Götaland",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 3227,
+    "andel": 0.2
+  },
+  {
+    "region": "Uppsala",
+    "typologi": "Inner urban area",
+    "befolkning": 192463,
+    "andel": 48.8
+  },
+  {
+    "region": "Uppsala",
+    "typologi": "Outer urban area",
+    "befolkning": 31681,
+    "andel": 8
+  },
+  {
+    "region": "Uppsala",
+    "typologi": "Peri-urban area",
+    "befolkning": 62441,
+    "andel": 15.8
+  },
+  {
+    "region": "Uppsala",
+    "typologi": "Rural area close to urban",
+    "befolkning": 56775,
+    "andel": 14.4
+  },
+  {
+    "region": "Uppsala",
+    "typologi": "Local centre in rural area",
+    "befolkning": 6193,
+    "andel": 1.6
+  },
+  {
+    "region": "Uppsala",
+    "typologi": "Rural heartland",
+    "befolkning": 42116,
+    "andel": 10.7
+  },
+  {
+    "region": "Uppsala",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 2567,
+    "andel": 0.7
+  },
+  {
+    "region": "Västmanland",
+    "typologi": "Inner urban area",
+    "befolkning": 133967,
+    "andel": 48.1
+  },
+  {
+    "region": "Västmanland",
+    "typologi": "Outer urban area",
+    "befolkning": 15769,
+    "andel": 5.7
+  },
+  {
+    "region": "Västmanland",
+    "typologi": "Peri-urban area",
+    "befolkning": 21190,
+    "andel": 7.6
+  },
+  {
+    "region": "Västmanland",
+    "typologi": "Rural area close to urban",
+    "befolkning": 33005,
+    "andel": 11.9
+  },
+  {
+    "region": "Västmanland",
+    "typologi": "Local centre in rural area",
+    "befolkning": 62225,
+    "andel": 22.3
+  },
+  {
+    "region": "Västmanland",
+    "typologi": "Rural heartland",
+    "befolkning": 11063,
+    "andel": 4
+  },
+  {
+    "region": "Västmanland",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 1223,
+    "andel": 0.4
+  },
+  {
+    "region": "Östergötland",
+    "typologi": "Inner urban area",
+    "befolkning": 219698,
+    "andel": 46.8
+  },
+  {
+    "region": "Östergötland",
+    "typologi": "Outer urban area",
+    "befolkning": 39018,
+    "andel": 8.3
+  },
+  {
+    "region": "Östergötland",
+    "typologi": "Peri-urban area",
+    "befolkning": 66491,
+    "andel": 14.2
+  },
+  {
+    "region": "Östergötland",
+    "typologi": "Rural area close to urban",
+    "befolkning": 65288,
+    "andel": 13.9
+  },
+  {
+    "region": "Östergötland",
+    "typologi": "Local centre in rural area",
+    "befolkning": 45349,
+    "andel": 9.7
+  },
+  {
+    "region": "Östergötland",
+    "typologi": "Rural heartland",
+    "befolkning": 27884,
+    "andel": 5.9
+  },
+  {
+    "region": "Östergötland",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 5465,
+    "andel": 1.2
+  },
+  {
+    "region": "Örebro",
+    "typologi": "Inner urban area",
+    "befolkning": 128765,
+    "andel": 42.1
+  },
+  {
+    "region": "Örebro",
+    "typologi": "Outer urban area",
+    "befolkning": 43482,
+    "andel": 14.2
+  },
+  {
+    "region": "Örebro",
+    "typologi": "Peri-urban area",
+    "befolkning": 42931,
+    "andel": 14
+  },
+  {
+    "region": "Örebro",
+    "typologi": "Rural area close to urban",
+    "befolkning": 51469,
+    "andel": 16.8
+  },
+  {
+    "region": "Örebro",
+    "typologi": "Local centre in rural area",
+    "befolkning": 16119,
+    "andel": 5.3
+  },
+  {
+    "region": "Örebro",
+    "typologi": "Rural heartland",
+    "befolkning": 21039,
+    "andel": 6.9
+  },
+  {
+    "region": "Örebro",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 2387,
+    "andel": 0.8
+  },
+  {
+    "region": "Södermanland",
+    "typologi": "Inner urban area",
+    "befolkning": 118705,
+    "andel": 39.4
+  },
+  {
+    "region": "Södermanland",
+    "typologi": "Outer urban area",
+    "befolkning": 46494,
+    "andel": 15.5
+  },
+  {
+    "region": "Södermanland",
+    "typologi": "Peri-urban area",
+    "befolkning": 45505,
+    "andel": 15.1
+  },
+  {
+    "region": "Södermanland",
+    "typologi": "Rural area close to urban",
+    "befolkning": 61760,
+    "andel": 20.5
+  },
+  {
+    "region": "Södermanland",
+    "typologi": "Local centre in rural area",
+    "befolkning": 26527,
+    "andel": 8.8
+  },
+  {
+    "region": "Södermanland",
+    "typologi": "Rural heartland",
+    "befolkning": 1886,
+    "andel": 0.6
+  },
+  {
+    "region": "Södermanland",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 36,
+    "andel": 0
+  },
+  {
+    "region": "Västerbotten",
+    "typologi": "Inner urban area",
+    "befolkning": 107302,
+    "andel": 39.1
+  },
+  {
+    "region": "Västerbotten",
+    "typologi": "Outer urban area",
+    "befolkning": 22310,
+    "andel": 8.1
+  },
+  {
+    "region": "Västerbotten",
+    "typologi": "Peri-urban area",
+    "befolkning": 24552,
+    "andel": 9
+  },
+  {
+    "region": "Västerbotten",
+    "typologi": "Rural area close to urban",
+    "befolkning": 30463,
+    "andel": 11.1
+  },
+  {
+    "region": "Västerbotten",
+    "typologi": "Local centre in rural area",
+    "befolkning": 20426,
+    "andel": 7.4
+  },
+  {
+    "region": "Västerbotten",
+    "typologi": "Rural heartland",
+    "befolkning": 21225,
+    "andel": 7.7
+  },
+  {
+    "region": "Västerbotten",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 48014,
+    "andel": 17.5
+  },
+  {
+    "region": "Gotland",
+    "typologi": "Inner urban area",
+    "befolkning": 20704,
+    "andel": 34
+  },
+  {
+    "region": "Gotland",
+    "typologi": "Outer urban area",
+    "befolkning": 4705,
+    "andel": 7.7
+  },
+  {
+    "region": "Gotland",
+    "typologi": "Peri-urban area",
+    "befolkning": 5852,
+    "andel": 9.6
+  },
+  {
+    "region": "Gotland",
+    "typologi": "Rural area close to urban",
+    "befolkning": 9703,
+    "andel": 15.9
+  },
+  {
+    "region": "Gotland",
+    "typologi": "Rural heartland",
+    "befolkning": 16830,
+    "andel": 27.6
+  },
+  {
+    "region": "Gotland",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 3130,
+    "andel": 5.1
+  },
+  {
+    "region": "Kronoberg",
+    "typologi": "Inner urban area",
+    "befolkning": 67867,
+    "andel": 33.4
+  },
+  {
+    "region": "Kronoberg",
+    "typologi": "Outer urban area",
+    "befolkning": 19097,
+    "andel": 9.4
+  },
+  {
+    "region": "Kronoberg",
+    "typologi": "Peri-urban area",
+    "befolkning": 9688,
+    "andel": 4.8
+  },
+  {
+    "region": "Kronoberg",
+    "typologi": "Rural area close to urban",
+    "befolkning": 36054,
+    "andel": 17.8
+  },
+  {
+    "region": "Kronoberg",
+    "typologi": "Local centre in rural area",
+    "befolkning": 24977,
+    "andel": 12.3
+  },
+  {
+    "region": "Kronoberg",
+    "typologi": "Rural heartland",
+    "befolkning": 40256,
+    "andel": 19.8
+  },
+  {
+    "region": "Kronoberg",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 5110,
+    "andel": 2.5
+  },
+  {
+    "region": "Jönköping",
+    "typologi": "Inner urban area",
+    "befolkning": 118744,
+    "andel": 32.4
+  },
+  {
+    "region": "Jönköping",
+    "typologi": "Outer urban area",
+    "befolkning": 53000,
+    "andel": 14.5
+  },
+  {
+    "region": "Jönköping",
+    "typologi": "Peri-urban area",
+    "befolkning": 24889,
+    "andel": 6.8
+  },
+  {
+    "region": "Jönköping",
+    "typologi": "Rural area close to urban",
+    "befolkning": 60023,
+    "andel": 16.4
+  },
+  {
+    "region": "Jönköping",
+    "typologi": "Local centre in rural area",
+    "befolkning": 46161,
+    "andel": 12.6
+  },
+  {
+    "region": "Jönköping",
+    "typologi": "Rural heartland",
+    "befolkning": 61418,
+    "andel": 16.8
+  },
+  {
+    "region": "Jönköping",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 2364,
+    "andel": 0.6
+  },
+  {
+    "region": "Gävleborg",
+    "typologi": "Inner urban area",
+    "befolkning": 89685,
+    "andel": 31.2
+  },
+  {
+    "region": "Gävleborg",
+    "typologi": "Outer urban area",
+    "befolkning": 36074,
+    "andel": 12.5
+  },
+  {
+    "region": "Gävleborg",
+    "typologi": "Peri-urban area",
+    "befolkning": 24504,
+    "andel": 8.5
+  },
+  {
+    "region": "Gävleborg",
+    "typologi": "Rural area close to urban",
+    "befolkning": 23026,
+    "andel": 8
+  },
+  {
+    "region": "Gävleborg",
+    "typologi": "Local centre in rural area",
+    "befolkning": 39740,
+    "andel": 13.8
+  },
+  {
+    "region": "Gävleborg",
+    "typologi": "Rural heartland",
+    "befolkning": 66916,
+    "andel": 23.3
+  },
+  {
+    "region": "Gävleborg",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 7738,
+    "andel": 2.7
+  },
+  {
+    "region": "Halland",
+    "typologi": "Inner urban area",
+    "befolkning": 104030,
+    "andel": 30.7
+  },
+  {
+    "region": "Halland",
+    "typologi": "Outer urban area",
+    "befolkning": 65055,
+    "andel": 19.2
+  },
+  {
+    "region": "Halland",
+    "typologi": "Peri-urban area",
+    "befolkning": 79211,
+    "andel": 23.3
+  },
+  {
+    "region": "Halland",
+    "typologi": "Rural area close to urban",
+    "befolkning": 55399,
+    "andel": 16.3
+  },
+  {
+    "region": "Halland",
+    "typologi": "Local centre in rural area",
+    "befolkning": 17753,
+    "andel": 5.2
+  },
+  {
+    "region": "Halland",
+    "typologi": "Rural heartland",
+    "befolkning": 16999,
+    "andel": 5
+  },
+  {
+    "region": "Halland",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 925,
+    "andel": 0.3
+  },
+  {
+    "region": "Värmland",
+    "typologi": "Inner urban area",
+    "befolkning": 74618,
+    "andel": 26.4
+  },
+  {
+    "region": "Värmland",
+    "typologi": "Outer urban area",
+    "befolkning": 21433,
+    "andel": 7.6
+  },
+  {
+    "region": "Värmland",
+    "typologi": "Peri-urban area",
+    "befolkning": 42046,
+    "andel": 14.9
+  },
+  {
+    "region": "Värmland",
+    "typologi": "Rural area close to urban",
+    "befolkning": 26470,
+    "andel": 9.4
+  },
+  {
+    "region": "Värmland",
+    "typologi": "Local centre in rural area",
+    "befolkning": 39943,
+    "andel": 14.1
+  },
+  {
+    "region": "Värmland",
+    "typologi": "Rural heartland",
+    "befolkning": 65509,
+    "andel": 23.1
+  },
+  {
+    "region": "Värmland",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 12961,
+    "andel": 4.6
+  },
+  {
+    "region": "Västernorrland",
+    "typologi": "Inner urban area",
+    "befolkning": 63449,
+    "andel": 26
+  },
+  {
+    "region": "Västernorrland",
+    "typologi": "Outer urban area",
+    "befolkning": 46048,
+    "andel": 18.9
+  },
+  {
+    "region": "Västernorrland",
+    "typologi": "Peri-urban area",
+    "befolkning": 52388,
+    "andel": 21.5
+  },
+  {
+    "region": "Västernorrland",
+    "typologi": "Rural area close to urban",
+    "befolkning": 19303,
+    "andel": 7.9
+  },
+  {
+    "region": "Västernorrland",
+    "typologi": "Local centre in rural area",
+    "befolkning": 14692,
+    "andel": 6
+  },
+  {
+    "region": "Västernorrland",
+    "typologi": "Rural heartland",
+    "befolkning": 32105,
+    "andel": 13.2
+  },
+  {
+    "region": "Västernorrland",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 15858,
+    "andel": 6.5
+  },
+  {
+    "region": "Kalmar",
+    "typologi": "Inner urban area",
+    "befolkning": 62848,
+    "andel": 25.5
+  },
+  {
+    "region": "Kalmar",
+    "typologi": "Outer urban area",
+    "befolkning": 24713,
+    "andel": 10
+  },
+  {
+    "region": "Kalmar",
+    "typologi": "Peri-urban area",
+    "befolkning": 33924,
+    "andel": 13.7
+  },
+  {
+    "region": "Kalmar",
+    "typologi": "Rural area close to urban",
+    "befolkning": 27938,
+    "andel": 11.3
+  },
+  {
+    "region": "Kalmar",
+    "typologi": "Local centre in rural area",
+    "befolkning": 31303,
+    "andel": 12.7
+  },
+  {
+    "region": "Kalmar",
+    "typologi": "Rural heartland",
+    "befolkning": 56646,
+    "andel": 22.9
+  },
+  {
+    "region": "Kalmar",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 9560,
+    "andel": 3.9
+  },
+  {
+    "region": "Norrbotten",
+    "typologi": "Inner urban area",
+    "befolkning": 60691,
+    "andel": 24.3
+  },
+  {
+    "region": "Norrbotten",
+    "typologi": "Outer urban area",
+    "befolkning": 51895,
+    "andel": 20.8
+  },
+  {
+    "region": "Norrbotten",
+    "typologi": "Peri-urban area",
+    "befolkning": 32587,
+    "andel": 13.1
+  },
+  {
+    "region": "Norrbotten",
+    "typologi": "Rural area close to urban",
+    "befolkning": 17499,
+    "andel": 7
+  },
+  {
+    "region": "Norrbotten",
+    "typologi": "Local centre in rural area",
+    "befolkning": 26474,
+    "andel": 10.6
+  },
+  {
+    "region": "Norrbotten",
+    "typologi": "Rural heartland",
+    "befolkning": 17894,
+    "andel": 7.2
+  },
+  {
+    "region": "Norrbotten",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 42443,
+    "andel": 17
+  },
+  {
+    "region": "Blekinge",
+    "typologi": "Inner urban area",
+    "befolkning": 34816,
+    "andel": 21.9
+  },
+  {
+    "region": "Blekinge",
+    "typologi": "Outer urban area",
+    "befolkning": 38661,
+    "andel": 24.4
+  },
+  {
+    "region": "Blekinge",
+    "typologi": "Peri-urban area",
+    "befolkning": 30181,
+    "andel": 19
+  },
+  {
+    "region": "Blekinge",
+    "typologi": "Rural area close to urban",
+    "befolkning": 27808,
+    "andel": 17.5
+  },
+  {
+    "region": "Blekinge",
+    "typologi": "Local centre in rural area",
+    "befolkning": 18490,
+    "andel": 11.6
+  },
+  {
+    "region": "Blekinge",
+    "typologi": "Rural heartland",
+    "befolkning": 8762,
+    "andel": 5.5
+  },
+  {
+    "region": "Blekinge",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 44,
+    "andel": 0
+  },
+  {
+    "region": "Dalarna",
+    "typologi": "Inner urban area",
+    "befolkning": 60919,
+    "andel": 21.1
+  },
+  {
+    "region": "Dalarna",
+    "typologi": "Outer urban area",
+    "befolkning": 50844,
+    "andel": 17.6
+  },
+  {
+    "region": "Dalarna",
+    "typologi": "Peri-urban area",
+    "befolkning": 34534,
+    "andel": 12
+  },
+  {
+    "region": "Dalarna",
+    "typologi": "Rural area close to urban",
+    "befolkning": 36206,
+    "andel": 12.6
+  },
+  {
+    "region": "Dalarna",
+    "typologi": "Local centre in rural area",
+    "befolkning": 25356,
+    "andel": 8.8
+  },
+  {
+    "region": "Dalarna",
+    "typologi": "Rural heartland",
+    "befolkning": 68182,
+    "andel": 23.7
+  },
+  {
+    "region": "Dalarna",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 12090,
+    "andel": 4.2
+  },
+  {
+    "region": "Jämtland",
+    "typologi": "Inner urban area",
+    "befolkning": 27432,
+    "andel": 20.8
+  },
+  {
+    "region": "Jämtland",
+    "typologi": "Outer urban area",
+    "befolkning": 21875,
+    "andel": 16.6
+  },
+  {
+    "region": "Jämtland",
+    "typologi": "Peri-urban area",
+    "befolkning": 10727,
+    "andel": 8.1
+  },
+  {
+    "region": "Jämtland",
+    "typologi": "Rural area close to urban",
+    "befolkning": 11429,
+    "andel": 8.7
+  },
+  {
+    "region": "Jämtland",
+    "typologi": "Rural heartland",
+    "befolkning": 26153,
+    "andel": 19.8
+  },
+  {
+    "region": "Jämtland",
+    "typologi": "Sparsely populated rural area",
+    "befolkning": 34281,
+    "andel": 26
+  }
+]
