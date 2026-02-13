@@ -1,0 +1,282 @@
+[
+  {
+    "region": "Blekinge",
+    "typologi": "Medelbefolkade områden",
+    "andel": 50.4
+  },
+  {
+    "region": "Blekinge",
+    "typologi": "Glesbefolkade områden",
+    "andel": 49.6
+  },
+  {
+    "region": "Dalarna",
+    "typologi": "Medelbefolkade områden",
+    "andel": 42.8
+  },
+  {
+    "region": "Dalarna",
+    "typologi": "Glesbefolkade områden",
+    "andel": 57.2
+  },
+  {
+    "region": "Gotland",
+    "typologi": "Medelbefolkade områden",
+    "andel": 40.6
+  },
+  {
+    "region": "Gotland",
+    "typologi": "Glesbefolkade områden",
+    "andel": 59.4
+  },
+  {
+    "region": "Gävleborg",
+    "typologi": "Medelbefolkade områden",
+    "andel": 53.7
+  },
+  {
+    "region": "Gävleborg",
+    "typologi": "Glesbefolkade områden",
+    "andel": 46.3
+  },
+  {
+    "region": "Halland",
+    "typologi": "Medelbefolkade områden",
+    "andel": 51.4
+  },
+  {
+    "region": "Halland",
+    "typologi": "Glesbefolkade områden",
+    "andel": 48.6
+  },
+  {
+    "region": "Jämtland",
+    "typologi": "Medelbefolkade områden",
+    "andel": 33.4
+  },
+  {
+    "region": "Jämtland",
+    "typologi": "Glesbefolkade områden",
+    "andel": 66.6
+  },
+  {
+    "region": "Jönköping",
+    "typologi": "Tätbefolkade områden",
+    "andel": 17.4
+  },
+  {
+    "region": "Jönköping",
+    "typologi": "Medelbefolkade områden",
+    "andel": 38.4
+  },
+  {
+    "region": "Jönköping",
+    "typologi": "Glesbefolkade områden",
+    "andel": 44.3
+  },
+  {
+    "region": "Kalmar",
+    "typologi": "Medelbefolkade områden",
+    "andel": 47.3
+  },
+  {
+    "region": "Kalmar",
+    "typologi": "Glesbefolkade områden",
+    "andel": 52.7
+  },
+  {
+    "region": "Kronoberg",
+    "typologi": "Medelbefolkade områden",
+    "andel": 47.6
+  },
+  {
+    "region": "Kronoberg",
+    "typologi": "Glesbefolkade områden",
+    "andel": 52.4
+  },
+  {
+    "region": "Norrbotten",
+    "typologi": "Medelbefolkade områden",
+    "andel": 55.9
+  },
+  {
+    "region": "Norrbotten",
+    "typologi": "Glesbefolkade områden",
+    "andel": 44.1
+  },
+  {
+    "region": "Riket",
+    "typologi": "Tätbefolkade områden",
+    "andel": 33.2
+  },
+  {
+    "region": "Riket",
+    "typologi": "Medelbefolkade områden",
+    "andel": 33.9
+  },
+  {
+    "region": "Riket",
+    "typologi": "Glesbefolkade områden",
+    "andel": 32.9
+  },
+  {
+    "region": "Skåne",
+    "typologi": "Tätbefolkade områden",
+    "andel": 36
+  },
+  {
+    "region": "Skåne",
+    "typologi": "Medelbefolkade områden",
+    "andel": 35.2
+  },
+  {
+    "region": "Skåne",
+    "typologi": "Glesbefolkade områden",
+    "andel": 28.9
+  },
+  {
+    "region": "Stockholm",
+    "typologi": "Tätbefolkade områden",
+    "andel": 65.8
+  },
+  {
+    "region": "Stockholm",
+    "typologi": "Medelbefolkade områden",
+    "andel": 24.5
+  },
+  {
+    "region": "Stockholm",
+    "typologi": "Glesbefolkade områden",
+    "andel": 9.7
+  },
+  {
+    "region": "Södermanland",
+    "typologi": "Tätbefolkade områden",
+    "andel": 17.5
+  },
+  {
+    "region": "Södermanland",
+    "typologi": "Medelbefolkade områden",
+    "andel": 47.3
+  },
+  {
+    "region": "Södermanland",
+    "typologi": "Glesbefolkade områden",
+    "andel": 35.2
+  },
+  {
+    "region": "Uppsala",
+    "typologi": "Tätbefolkade områden",
+    "andel": 40.1
+  },
+  {
+    "region": "Uppsala",
+    "typologi": "Medelbefolkade områden",
+    "andel": 21
+  },
+  {
+    "region": "Uppsala",
+    "typologi": "Glesbefolkade områden",
+    "andel": 38.9
+  },
+  {
+    "region": "Värmland",
+    "typologi": "Tätbefolkade områden",
+    "andel": 19.1
+  },
+  {
+    "region": "Värmland",
+    "typologi": "Medelbefolkade områden",
+    "andel": 28.6
+  },
+  {
+    "region": "Värmland",
+    "typologi": "Glesbefolkade områden",
+    "andel": 52.3
+  },
+  {
+    "region": "Västerbotten",
+    "typologi": "Tätbefolkade områden",
+    "andel": 25.2
+  },
+  {
+    "region": "Västerbotten",
+    "typologi": "Medelbefolkade områden",
+    "andel": 24.5
+  },
+  {
+    "region": "Västerbotten",
+    "typologi": "Glesbefolkade områden",
+    "andel": 50.4
+  },
+  {
+    "region": "Västernorrland",
+    "typologi": "Medelbefolkade områden",
+    "andel": 54.1
+  },
+  {
+    "region": "Västernorrland",
+    "typologi": "Glesbefolkade områden",
+    "andel": 45.9
+  },
+  {
+    "region": "Västmanland",
+    "typologi": "Tätbefolkade områden",
+    "andel": 37.4
+  },
+  {
+    "region": "Västmanland",
+    "typologi": "Medelbefolkade områden",
+    "andel": 31.5
+  },
+  {
+    "region": "Västmanland",
+    "typologi": "Glesbefolkade områden",
+    "andel": 31.1
+  },
+  {
+    "region": "Västra Götaland",
+    "typologi": "Tätbefolkade områden",
+    "andel": 34.2
+  },
+  {
+    "region": "Västra Götaland",
+    "typologi": "Medelbefolkade områden",
+    "andel": 32.6
+  },
+  {
+    "region": "Västra Götaland",
+    "typologi": "Glesbefolkade områden",
+    "andel": 33.2
+  },
+  {
+    "region": "Örebro",
+    "typologi": "Tätbefolkade områden",
+    "andel": 30.9
+  },
+  {
+    "region": "Örebro",
+    "typologi": "Medelbefolkade områden",
+    "andel": 28.4
+  },
+  {
+    "region": "Örebro",
+    "typologi": "Glesbefolkade områden",
+    "andel": 40.7
+  },
+  {
+    "region": "Östergötland",
+    "typologi": "Tätbefolkade områden",
+    "andel": 39.2
+  },
+  {
+    "region": "Östergötland",
+    "typologi": "Medelbefolkade områden",
+    "andel": 23.9
+  },
+  {
+    "region": "Östergötland",
+    "typologi": "Glesbefolkade områden",
+    "andel": 36.9
+  }
+]

@@ -1,0 +1,82 @@
+# Bakgrund
+
+Denna rapport är framtagen av Region Halland, som har i uppdrag att främja hållbar regional utveckling. Arbetet utgår från [Hallands strategi för hållbar tillväxt 2021--2028](https://www.regionhalland.se/download/18.25cdd0fd18e65a1a5d0395ba/1711298319746/Hallands-strategi-fo%CC%88r-ha%CC%8Allbar-tillva%CC%88xt-2021-2028-tillga%CC%88nglighetsanpassad.pdf), där mål och strategier för länets utveckling formuleras. Ett av strategins målområden är *en hållbar och attraktiv region mitt i ett växande Sydvästsverige*; det är denna ambition som utgör rapportens utgångspunkt.
+
+Syftet med rapporten är att ge en bred och till delar fördjupad bild av Hallands samhällsbyggnadsförutsättningar inom fälten demografi, samhällsekonomisk geografi och samhällsbyggnad. Rapporten gör inte anspråk på att vara heltäckande; den är primärt tänkt som en fördjupande översikt och orientering inom de olika områdena. Respektive kapitel innehåller avgränsningar vad gäller urval av statistik, vilka perspektiv som belyses och geografiska indelningar. Ambitionen är att ge läsaren en sammanhängande och användbar bild av Halland, med tillräckligt djup för att ligga till grund för vidare analys och strategiskt arbete.
+
+## Disposition
+
+```{=html}
+<div class="disposition-timeline">
+  <div class="disposition-item">
+    <div class="disposition-dot"></div>
+    <div class="disposition-content">
+      <div class="disposition-title">Översikt</div>
+      <div class="disposition-desc">Aggregerad bild av Halland i ett nationellt perspektiv. Fungerar som fond till de efterföljande fördjupningarna.</div>
+    </div>
+  </div>
+  <div class="disposition-item">
+    <div class="disposition-dot"></div>
+    <div class="disposition-content">
+      <div class="disposition-title">Befolkning</div>
+      <div class="disposition-desc">Demografisk utveckling, befolkningsstruktur och flyttmönster i Hallands kommuner.</div>
+    </div>
+  </div>
+  <div class="disposition-item">
+    <div class="disposition-dot"></div>
+    <div class="disposition-content">
+      <div class="disposition-title">Bostäder</div>
+      <div class="disposition-desc">Bostadsbestånd, nyproduktion och bostadsmarknadens utveckling.</div>
+    </div>
+  </div>
+  <div class="disposition-item">
+    <div class="disposition-dot"></div>
+    <div class="disposition-content">
+      <div class="disposition-title">Infrastruktur</div>
+      <div class="disposition-desc">Transportnät, tillgänglighet och pendlingsmönster.</div>
+    </div>
+  </div>
+  <div class="disposition-item">
+    <div class="disposition-dot"></div>
+    <div class="disposition-content">
+      <div class="disposition-title">Näringsliv</div>
+      <div class="disposition-desc">Näringslivsstruktur, arbetsmarknad och sysselsättning.</div>
+    </div>
+  </div>
+  <div class="disposition-item">
+    <div class="disposition-dot"></div>
+    <div class="disposition-content">
+      <div class="disposition-title">Miljö</div>
+      <div class="disposition-desc">Mark- och vattenanvändning, klimatanpassning och hållbarhet.</div>
+    </div>
+  </div>
+  <div class="disposition-item">
+    <div class="disposition-dot"></div>
+    <div class="disposition-content">
+      <div class="disposition-title">Samhällsservice</div>
+      <div class="disposition-desc">Tillgång till skola, vård och övrig offentlig service.</div>
+    </div>
+  </div>
+  <div class="disposition-item disposition-last">
+    <div class="disposition-dot"></div>
+    <div class="disposition-content">
+      <div class="disposition-title">Utmaningar &amp; slutsatser</div>
+      <div class="disposition-desc">Sammanfattande analys och framåtblickande reflektioner.</div>
+    </div>
+  </div>
+</div>
+```
+
+## Rapportens funktionssätt
+
+Denna rapport är utformad som ett interaktivt digitalt dokument. Diagrammen är inte statiska bilder utan dynamiska visualiseringar som läsaren kan utforska.
+
+**Interaktivitet.** I de flesta diagram kan du klicka på enskilda element för att filtrera eller markera data. Många diagram har en filterpanel som öppnas via knappen under diagrammets rubrik, där du kan välja vilka kommuner, län eller kategorier som ska visas.
+
+**Tidsanimering.** Vissa diagram har en uppspelningsfunktion som visar utvecklingen över tid. Klicka på uppspelningsknappen i diagrammets undertitel för att starta animeringen, eller dra i reglaget för att välja ett specifikt år.
+
+**Nedladdning.** Varje diagram kan laddas ned som SVG-fil via nedladdningsknappen (↓) i diagrammets övre högra hörn. SVG-formatet behåller full skärpa i alla storlekar och kan redigeras vidare i exempelvis Illustrator eller Inkscape.
+
+**Bläddringsvy.** Vissa avsnitt innehåller flera varianter av samma diagram, t.ex. olika geografiska nedbrytningar. Dessa presenteras i en bläddringsvy där du kan växla mellan vyerna med pilarna i diagrammets rubrikfält.
+
+**Information.** Diagram som har kompletterande metodbeskrivningar eller datakällor visar detta via informationsknappen (i) i rubrikfältet.

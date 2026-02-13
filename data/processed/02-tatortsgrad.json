@@ -1,0 +1,86 @@
+[
+  {
+    "region": "Stockholm",
+    "tatortsgrad": 97.1
+  },
+  {
+    "region": "Skåne",
+    "tatortsgrad": 91.2
+  },
+  {
+    "region": "Västmanland",
+    "tatortsgrad": 88.4
+  },
+  {
+    "region": "Västra Götaland",
+    "tatortsgrad": 87.2
+  },
+  {
+    "region": "Östergötland",
+    "tatortsgrad": 85.8
+  },
+  {
+    "region": "Halland",
+    "tatortsgrad": 85.7
+  },
+  {
+    "region": "Södermanland",
+    "tatortsgrad": 84.7
+  },
+  {
+    "region": "Örebro",
+    "tatortsgrad": 84.5
+  },
+  {
+    "region": "Jönköping",
+    "tatortsgrad": 83.9
+  },
+  {
+    "region": "Blekinge",
+    "tatortsgrad": 83.9
+  },
+  {
+    "region": "Uppsala",
+    "tatortsgrad": 83.3
+  },
+  {
+    "region": "Norrbotten",
+    "tatortsgrad": 82.9
+  },
+  {
+    "region": "Dalarna",
+    "tatortsgrad": 82.8
+  },
+  {
+    "region": "Gävleborg",
+    "tatortsgrad": 80.9
+  },
+  {
+    "region": "Västerbotten",
+    "tatortsgrad": 80.8
+  },
+  {
+    "region": "Kalmar",
+    "tatortsgrad": 80
+  },
+  {
+    "region": "Kronoberg",
+    "tatortsgrad": 79.6
+  },
+  {
+    "region": "Västernorrland",
+    "tatortsgrad": 79.4
+  },
+  {
+    "region": "Värmland",
+    "tatortsgrad": 76
+  },
+  {
+    "region": "Jämtland",
+    "tatortsgrad": 72.7
+  },
+  {
+    "region": "Gotland",
+    "tatortsgrad": 64.8
+  }
+]

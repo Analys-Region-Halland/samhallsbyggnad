@@ -1,0 +1,589 @@
+[
+  {
+    "lnkod": "01",
+    "region": "Stockholm",
+    "niva": "kommun",
+    "n": 26,
+    "koncentration": 40
+  },
+  {
+    "lnkod": "01",
+    "region": "Stockholm",
+    "niva": "ruta_1km",
+    "n": 6548,
+    "koncentration": 81.9
+  },
+  {
+    "lnkod": "01",
+    "region": "Stockholm",
+    "niva": "ruta_1km_beb",
+    "n": 4431,
+    "koncentration": 76.4
+  },
+  {
+    "lnkod": "01",
+    "region": "Stockholm",
+    "niva": "tatort",
+    "n": 156,
+    "koncentration": 83.8
+  },
+  {
+    "lnkod": "03",
+    "region": "Uppsala",
+    "niva": "kommun",
+    "n": 8,
+    "koncentration": 55.2
+  },
+  {
+    "lnkod": "03",
+    "region": "Uppsala",
+    "niva": "ruta_1km",
+    "n": 8231,
+    "koncentration": 79.8
+  },
+  {
+    "lnkod": "03",
+    "region": "Uppsala",
+    "niva": "ruta_1km_beb",
+    "n": 4522,
+    "koncentration": 75
+  },
+  {
+    "lnkod": "03",
+    "region": "Uppsala",
+    "niva": "tatort",
+    "n": 84,
+    "koncentration": 70.4
+  },
+  {
+    "lnkod": "04",
+    "region": "Södermanland",
+    "niva": "kommun",
+    "n": 9,
+    "koncentration": 39.2
+  },
+  {
+    "lnkod": "04",
+    "region": "Södermanland",
+    "niva": "ruta_1km",
+    "n": 6097,
+    "koncentration": 79
+  },
+  {
+    "lnkod": "04",
+    "region": "Södermanland",
+    "niva": "ruta_1km_beb",
+    "n": 4217,
+    "koncentration": 75.8
+  },
+  {
+    "lnkod": "04",
+    "region": "Södermanland",
+    "niva": "tatort",
+    "n": 73,
+    "koncentration": 66.1
+  },
+  {
+    "lnkod": "05",
+    "region": "Östergötland",
+    "niva": "kommun",
+    "n": 13,
+    "koncentration": 56.8
+  },
+  {
+    "lnkod": "05",
+    "region": "Östergötland",
+    "niva": "ruta_1km",
+    "n": 10603,
+    "koncentration": 81.9
+  },
+  {
+    "lnkod": "05",
+    "region": "Östergötland",
+    "niva": "ruta_1km_beb",
+    "n": 6536,
+    "koncentration": 78.5
+  },
+  {
+    "lnkod": "05",
+    "region": "Östergötland",
+    "niva": "tatort",
+    "n": 100,
+    "koncentration": 69.5
+  },
+  {
+    "lnkod": "06",
+    "region": "Jönköping",
+    "niva": "kommun",
+    "n": 13,
+    "koncentration": 37.7
+  },
+  {
+    "lnkod": "06",
+    "region": "Jönköping",
+    "niva": "ruta_1km",
+    "n": 10480,
+    "koncentration": 80.5
+  },
+  {
+    "lnkod": "06",
+    "region": "Jönköping",
+    "niva": "ruta_1km_beb",
+    "n": 6287,
+    "koncentration": 76.6
+  },
+  {
+    "lnkod": "06",
+    "region": "Jönköping",
+    "niva": "tatort",
+    "n": 93,
+    "koncentration": 65.3
+  },
+  {
+    "lnkod": "07",
+    "region": "Kronoberg",
+    "niva": "kommun",
+    "n": 8,
+    "koncentration": 42.6
+  },
+  {
+    "lnkod": "07",
+    "region": "Kronoberg",
+    "niva": "ruta_1km",
+    "n": 8458,
+    "koncentration": 78.7
+  },
+  {
+    "lnkod": "07",
+    "region": "Kronoberg",
+    "niva": "ruta_1km_beb",
+    "n": 4770,
+    "koncentration": 74.2
+  },
+  {
+    "lnkod": "07",
+    "region": "Kronoberg",
+    "niva": "tatort",
+    "n": 49,
+    "koncentration": 66.6
+  },
+  {
+    "lnkod": "08",
+    "region": "Kalmar",
+    "niva": "kommun",
+    "n": 12,
+    "koncentration": 33
+  },
+  {
+    "lnkod": "08",
+    "region": "Kalmar",
+    "niva": "ruta_1km",
+    "n": 11207,
+    "koncentration": 78.4
+  },
+  {
+    "lnkod": "08",
+    "region": "Kalmar",
+    "niva": "ruta_1km_beb",
+    "n": 5174,
+    "koncentration": 70.6
+  },
+  {
+    "lnkod": "08",
+    "region": "Kalmar",
+    "niva": "tatort",
+    "n": 88,
+    "koncentration": 63.3
+  },
+  {
+    "lnkod": "09",
+    "region": "Gotland",
+    "niva": "kommun",
+    "n": 1
+  },
+  {
+    "lnkod": "09",
+    "region": "Gotland",
+    "niva": "ruta_1km",
+    "n": 3150,
+    "koncentration": 70.9
+  },
+  {
+    "lnkod": "09",
+    "region": "Gotland",
+    "niva": "ruta_1km_beb",
+    "n": 1603,
+    "koncentration": 61.8
+  },
+  {
+    "lnkod": "09",
+    "region": "Gotland",
+    "niva": "tatort",
+    "n": 19,
+    "koncentration": 71.4
+  },
+  {
+    "lnkod": "10",
+    "region": "Blekinge",
+    "niva": "kommun",
+    "n": 5,
+    "koncentration": 28
+  },
+  {
+    "lnkod": "10",
+    "region": "Blekinge",
+    "niva": "ruta_1km",
+    "n": 2943,
+    "koncentration": 73.8
+  },
+  {
+    "lnkod": "10",
+    "region": "Blekinge",
+    "niva": "ruta_1km_beb",
+    "n": 2145,
+    "koncentration": 69.9
+  },
+  {
+    "lnkod": "10",
+    "region": "Blekinge",
+    "niva": "tatort",
+    "n": 58,
+    "koncentration": 63.7
+  },
+  {
+    "lnkod": "12",
+    "region": "Skåne",
+    "niva": "kommun",
+    "n": 33,
+    "koncentration": 42
+  },
+  {
+    "lnkod": "12",
+    "region": "Skåne",
+    "niva": "ruta_1km",
+    "n": 11008,
+    "koncentration": 78.8
+  },
+  {
+    "lnkod": "12",
+    "region": "Skåne",
+    "niva": "ruta_1km_beb",
+    "n": 9227,
+    "koncentration": 77
+  },
+  {
+    "lnkod": "12",
+    "region": "Skåne",
+    "niva": "tatort",
+    "n": 252,
+    "koncentration": 66.9
+  },
+  {
+    "lnkod": "13",
+    "region": "Halland",
+    "niva": "kommun",
+    "n": 6,
+    "koncentration": 30.7
+  },
+  {
+    "lnkod": "13",
+    "region": "Halland",
+    "niva": "ruta_1km",
+    "n": 5451,
+    "koncentration": 76.1
+  },
+  {
+    "lnkod": "13",
+    "region": "Halland",
+    "niva": "ruta_1km_beb",
+    "n": 3763,
+    "koncentration": 71.8
+  },
+  {
+    "lnkod": "13",
+    "region": "Halland",
+    "niva": "tatort",
+    "n": 94,
+    "koncentration": 67.3
+  },
+  {
+    "lnkod": "14",
+    "region": "Västra Götaland",
+    "niva": "kommun",
+    "n": 49,
+    "koncentration": 45.9
+  },
+  {
+    "lnkod": "14",
+    "region": "Västra Götaland",
+    "niva": "ruta_1km",
+    "n": 23914,
+    "koncentration": 79.6
+  },
+  {
+    "lnkod": "14",
+    "region": "Västra Götaland",
+    "niva": "ruta_1km_beb",
+    "n": 17019,
+    "koncentration": 76.7
+  },
+  {
+    "lnkod": "14",
+    "region": "Västra Götaland",
+    "niva": "tatort",
+    "n": 326,
+    "koncentration": 73.3
+  },
+  {
+    "lnkod": "17",
+    "region": "Värmland",
+    "niva": "kommun",
+    "n": 16,
+    "koncentration": 35.5
+  },
+  {
+    "lnkod": "17",
+    "region": "Värmland",
+    "niva": "ruta_1km",
+    "n": 17613,
+    "koncentration": 80.8
+  },
+  {
+    "lnkod": "17",
+    "region": "Värmland",
+    "niva": "ruta_1km_beb",
+    "n": 6446,
+    "koncentration": 71.2
+  },
+  {
+    "lnkod": "17",
+    "region": "Värmland",
+    "niva": "tatort",
+    "n": 65,
+    "koncentration": 64
+  },
+  {
+    "lnkod": "18",
+    "region": "Örebro",
+    "niva": "kommun",
+    "n": 12,
+    "koncentration": 49.1
+  },
+  {
+    "lnkod": "18",
+    "region": "Örebro",
+    "niva": "ruta_1km",
+    "n": 8543,
+    "koncentration": 81.8
+  },
+  {
+    "lnkod": "18",
+    "region": "Örebro",
+    "niva": "ruta_1km_beb",
+    "n": 4182,
+    "koncentration": 76
+  },
+  {
+    "lnkod": "18",
+    "region": "Örebro",
+    "niva": "tatort",
+    "n": 60,
+    "koncentration": 70.1
+  },
+  {
+    "lnkod": "19",
+    "region": "Västmanland",
+    "niva": "kommun",
+    "n": 10,
+    "koncentration": 52.4
+  },
+  {
+    "lnkod": "19",
+    "region": "Västmanland",
+    "niva": "ruta_1km",
+    "n": 5141,
+    "koncentration": 84
+  },
+  {
+    "lnkod": "19",
+    "region": "Västmanland",
+    "niva": "ruta_1km_beb",
+    "n": 2718,
+    "koncentration": 79.6
+  },
+  {
+    "lnkod": "19",
+    "region": "Västmanland",
+    "niva": "tatort",
+    "n": 47,
+    "koncentration": 68.5
+  },
+  {
+    "lnkod": "20",
+    "region": "Dalarna",
+    "niva": "kommun",
+    "n": 15,
+    "koncentration": 31.9
+  },
+  {
+    "lnkod": "20",
+    "region": "Dalarna",
+    "niva": "ruta_1km",
+    "n": 28172,
+    "koncentration": 89
+  },
+  {
+    "lnkod": "20",
+    "region": "Dalarna",
+    "niva": "ruta_1km_beb",
+    "n": 4363,
+    "koncentration": 66.2
+  },
+  {
+    "lnkod": "20",
+    "region": "Dalarna",
+    "niva": "tatort",
+    "n": 115,
+    "koncentration": 65.1
+  },
+  {
+    "lnkod": "21",
+    "region": "Gävleborg",
+    "niva": "kommun",
+    "n": 10,
+    "koncentration": 36.8
+  },
+  {
+    "lnkod": "21",
+    "region": "Gävleborg",
+    "niva": "ruta_1km",
+    "n": 18208,
+    "koncentration": 85.3
+  },
+  {
+    "lnkod": "21",
+    "region": "Gävleborg",
+    "niva": "ruta_1km_beb",
+    "n": 4439,
+    "koncentration": 70.1
+  },
+  {
+    "lnkod": "21",
+    "region": "Gävleborg",
+    "niva": "tatort",
+    "n": 86,
+    "koncentration": 69.6
+  },
+  {
+    "lnkod": "22",
+    "region": "Västernorrland",
+    "niva": "kommun",
+    "n": 7,
+    "koncentration": 41.3
+  },
+  {
+    "lnkod": "22",
+    "region": "Västernorrland",
+    "niva": "ruta_1km",
+    "n": 21673,
+    "koncentration": 86.4
+  },
+  {
+    "lnkod": "22",
+    "region": "Västernorrland",
+    "niva": "ruta_1km_beb",
+    "n": 4438,
+    "koncentration": 69.3
+  },
+  {
+    "lnkod": "22",
+    "region": "Västernorrland",
+    "niva": "tatort",
+    "n": 59,
+    "koncentration": 70
+  },
+  {
+    "lnkod": "23",
+    "region": "Jämtland",
+    "niva": "kommun",
+    "n": 8,
+    "koncentration": 41.6
+  },
+  {
+    "lnkod": "23",
+    "region": "Jämtland",
+    "niva": "ruta_1km",
+    "n": 49206,
+    "koncentration": 93.3
+  },
+  {
+    "lnkod": "23",
+    "region": "Jämtland",
+    "niva": "ruta_1km_beb",
+    "n": 3871,
+    "koncentration": 67.7
+  },
+  {
+    "lnkod": "23",
+    "region": "Jämtland",
+    "niva": "tatort",
+    "n": 61,
+    "koncentration": 68.3
+  },
+  {
+    "lnkod": "24",
+    "region": "Västerbotten",
+    "niva": "kommun",
+    "n": 15,
+    "koncentration": 66.7
+  },
+  {
+    "lnkod": "24",
+    "region": "Västerbotten",
+    "niva": "ruta_1km",
+    "n": 55013,
+    "koncentration": 92.1
+  },
+  {
+    "lnkod": "24",
+    "region": "Västerbotten",
+    "niva": "ruta_1km_beb",
+    "n": 5869,
+    "koncentration": 75.5
+  },
+  {
+    "lnkod": "24",
+    "region": "Västerbotten",
+    "niva": "tatort",
+    "n": 78,
+    "koncentration": 67.5
+  },
+  {
+    "lnkod": "25",
+    "region": "Norrbotten",
+    "niva": "kommun",
+    "n": 14,
+    "koncentration": 44
+  },
+  {
+    "lnkod": "25",
+    "region": "Norrbotten",
+    "niva": "ruta_1km",
+    "n": 97969,
+    "koncentration": 96.3
+  },
+  {
+    "lnkod": "25",
+    "region": "Norrbotten",
+    "niva": "ruta_1km_beb",
+    "n": 4355,
+    "koncentration": 74.3
+  },
+  {
+    "lnkod": "25",
+    "region": "Norrbotten",
+    "niva": "tatort",
+    "n": 83,
+    "koncentration": 65
+  }
+]

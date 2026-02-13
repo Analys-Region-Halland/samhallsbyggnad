@@ -1,0 +1,8 @@
+[
+  {"kommun": "Halmstad", "hyresrätt": 18500, "bostadsrätt": 12300, "äganderätt": 21200},
+  {"kommun": "Varberg", "hyresrätt": 9200, "bostadsrätt": 7100, "äganderätt": 18500},
+  {"kommun": "Falkenberg", "hyresrätt": 6800, "bostadsrätt": 4200, "äganderätt": 14200},
+  {"kommun": "Kungsbacka", "hyresrätt": 8900, "bostadsrätt": 9800, "äganderätt": 24500},
+  {"kommun": "Laholm", "hyresrätt": 3200, "bostadsrätt": 1800, "äganderätt": 8900},
+  {"kommun": "Hylte", "hyresrätt": 1100, "bostadsrätt": 600, "äganderätt": 3800}
+]

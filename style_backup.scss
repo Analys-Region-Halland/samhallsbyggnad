@@ -1,0 +1,881 @@
+// ==========================================================================
+// Kompetensrapport Halland - REN SCSS
+// Endast färger, typsnitt och enkel styling
+// ==========================================================================
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+/*-- scss:defaults --*/
+
+// Färgpalett
+$green-primary: #004232;
+$green-accent: #20AC6C;
+$green-light: #E5F2E5;
+$white: #FFFFFF;
+$gray-dark: #212529;
+$gray-light: #dee2e6;
+
+// Bootstrap/Quarto variabler
+$primary: $green-primary;
+$secondary: $green-accent;
+$body-bg: $green-light;
+$body-color: $gray-dark;
+$link-color: $green-primary;
+$link-hover-color: $green-accent;
+
+// Typsnitt
+$font-family-serif: 'Merriweather', Georgia, 'Times New Roman', serif;
+$font-family-headings: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+$font-family-sans-serif: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+$font-family-base: $font-family-serif;  // Brödtext i Merriweather
+$headings-font-family: $font-family-headings;  // Rubriker i Roboto
+$headings-font-weight: 700;
+$headings-color: $green-primary;
+
+// Storlekar - något mindre för serif (ser större ut)
+$font-size-base: 0.95rem;
+$line-height-base: 1.8;  // Lite mer luft för serif
+$h1-font-size: 1.8rem;
+$h2-font-size: 1.4rem;
+$h3-font-size: 1.15rem;
+
+// Sidebar
+$sidebar-bg: $white;
+
+/*-- scss:rules --*/
+
+// ==========================================================================
+// GLOBAL MAX-WIDTH för stora skärmar
+// ==========================================================================
+
+// Begränsa huvudinnehållet för läsbarhet på stora skärmar
+#quarto-content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Banner ska gå edge-to-edge med centrerat innehåll
+.quarto-title-banner {
+  max-width: none !important;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+
+  // Centrera innehållet i bannern (inte relativt till sidebar)
+  .quarto-title {
+    max-width: 800px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+// ==========================================================================
+// TITLE-BLOCK-BANNER (endast index.qmd)
+// ==========================================================================
+
+.quarto-title-banner {
+  padding: 2.5rem 2rem;
+
+  .quarto-title {
+    max-width: 600px; // Samma bredd som löptexten
+
+    // Lägg till logga ovanför titeln - centrerad
+    &::before {
+      content: '';
+      display: block;
+      width: 180px;
+      height: 60px;
+      background-image: url('logo_vit.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      margin: 0 auto 1.5rem auto; // Centrerad
+    }
+  }
+
+  h1.title {
+    color: $white !important;
+    font-family: $font-family-headings;
+    font-size: 2.4rem;
+    font-weight: 900;  // Roboto Black
+    margin-bottom: 0.5rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+
+  .subtitle {
+    color: $white !important;
+    opacity: 0.9;
+    font-size: 1.2rem;
+    text-align: center; // Centrerad
+  }
+}
+
+// Mobil-anpassning för title banner
+@media (max-width: 768px) {
+  .quarto-title-banner {
+    padding: 1.5rem 1rem;
+
+    .quarto-title {
+      max-width: 100% !important;
+      width: 100% !important;
+      padding: 0 !important;
+      margin: 0 !important;
+
+      &::before {
+        width: 140px;
+        height: 50px;
+        margin-bottom: 1rem;
+      }
+    }
+
+    h1.title {
+      font-size: 1.75rem;
+      word-wrap: break-word;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+    }
+  }
+
+  // Fixar Quarto's column-body constraint på mobil
+  .column-body {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+// Dölj metadata i bannern
+.quarto-title-meta {
+  display: none;
+}
+
+// ==========================================================================
+// SIDEBAR - Hela sidebaren
+// ==========================================================================
+
+#quarto-sidebar {
+  background-color: #f7f9f7 !important;
+  border-right: 1px solid #e2e8e4 !important;
+  padding: 0 !important;  // Ta bort all padding från sidebaren själv
+}
+
+// ==========================================================================
+// SIDEBAR HEADER - Fyller HELA bredden
+// ==========================================================================
+
+// Headern ska fylla hela sidebaren edge-to-edge
+.sidebar-header,
+.sidebar-header-stacked,
+div.sidebar-header,
+div.sidebar-header-stacked,
+#quarto-sidebar > .sidebar-header,
+#quarto-sidebar > div.sidebar-header {
+  background-color: $green-primary !important;
+  padding: 0.75rem 0.85rem !important;
+  margin: 0 !important;
+  border-bottom: 2px solid $green-accent !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  padding-top: 0.75rem !important;
+  margin-top: 0 !important;
+  text-align: center !important;  // CENTRERAD
+}
+
+// Logo-länk
+.sidebar-logo-link {
+  display: block !important;
+  margin: 0 auto !important;  // Centrerad
+  padding: 0 !important;
+  text-align: center !important;
+}
+
+// Logga
+.sidebar-logo {
+  max-height: 22px !important;
+  height: 22px !important;
+  width: auto !important;
+  margin: 0 auto 0.3rem auto !important;  // Centrerad
+  padding: 0 !important;
+  display: block !important;
+}
+
+// Titel
+.sidebar-title {
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center !important;
+
+  a {
+    color: $white !important;
+    font-family: $font-family-headings;
+    font-weight: 700;
+    font-size: 0.8rem !important;
+    line-height: 1.3;
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+
+    &:hover {
+      color: rgba($white, 0.9) !important;
+      text-decoration: none;
+    }
+  }
+}
+
+// ==========================================================================
+// SIDEBAR NAVIGATION - Matchar header-padding
+// ==========================================================================
+
+.sidebar-menu-container {
+  padding: 0.4rem 0 !important;
+  margin: 0 !important;
+}
+
+.sidebar-menu-container > ul,
+.sidebar-menu-container ul.list-unstyled {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.sidebar-item {
+  margin: 0 !important;
+  border-bottom: 1px solid #eaefeb;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.sidebar-item-container {
+  padding: 0.55rem 0.85rem !important;  // SAMMA som header (0.85rem horisontellt)
+  margin: 0 !important;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: #eef2ef;
+  }
+}
+
+.sidebar-item-text,
+.sidebar-link {
+  color: #2d3a32 !important;
+  font-family: $font-family-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none !important;
+
+  &:hover {
+    color: $green-primary !important;
+  }
+}
+
+// Aktiv länk - tydlig markering
+.sidebar-link.active,
+.sidebar-item-container:has(.sidebar-link.active) {
+  background-color: $green-primary !important;
+
+  .sidebar-item-text,
+  .sidebar-link,
+  .chapter-title {
+    color: $white !important;
+    font-weight: 600;
+  }
+}
+
+// Chapter-titlar
+.sidebar-item .chapter-title {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+// Liten etikett-stil för "Introduktion"
+.sidebar-item:first-child .sidebar-item-container {
+  border-bottom: 1px solid #d4ddd6;
+
+  .chapter-title {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    color: #5a6b5f;
+  }
+}
+
+// Override för första aktiva
+.sidebar-item:first-child .sidebar-link.active .chapter-title {
+  color: $white !important;
+}
+
+// ==========================================================================
+// MOBIL HEADER (quarto-secondary-nav)
+// ==========================================================================
+
+#quarto-header {
+  background-color: $green-primary;
+}
+
+.quarto-secondary-nav {
+  background-color: $green-primary !important;
+}
+
+.quarto-secondary-nav-title {
+  color: $white !important;
+  font-family: $font-family-headings;
+  font-weight: 700;
+}
+
+.quarto-btn-toggle {
+  color: $white !important;
+}
+
+// ==========================================================================
+// HUVUDINNEHÅLL
+// ==========================================================================
+
+// Titlar i innehållet
+.quarto-title .title,
+h1.title {
+  color: $green-primary;
+  font-family: $headings-font-family;
+}
+
+// Rubriker
+h1, h2, h3, h4, h5, h6 {
+  color: $green-primary;
+}
+
+h2 {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $green-accent;
+  max-width: 600px;
+  margin-bottom: 1.25rem;
+}
+
+// Länkar
+a {
+  color: $green-primary;
+
+  &:hover {
+    color: $green-accent;
+  }
+}
+
+// Fetstil
+strong {
+  color: $green-primary;
+}
+
+// ==========================================================================
+// TABLE OF CONTENTS (höger sida)
+// ==========================================================================
+
+#TOC a {
+  color: $green-primary;
+
+  &:hover {
+    color: $green-accent;
+    background-color: rgba($green-primary, 0.05);
+  }
+
+  &.active {
+    color: $green-primary;
+    font-weight: 600;
+    background-color: $green-light;
+    border-left: 2px solid $green-primary;
+  }
+}
+
+// ==========================================================================
+// TABELLER
+// ==========================================================================
+
+th {
+  background-color: $green-primary;
+  color: $white;
+}
+
+tr:hover {
+  background-color: rgba($green-light, 0.5);
+}
+
+// ==========================================================================
+// CALLOUTS
+// ==========================================================================
+
+.callout-note {
+  border-left-color: $green-primary !important;
+}
+
+.callout-tip {
+  border-left-color: $green-accent !important;
+}
+
+// ==========================================================================
+// FOOTER & NAVIGATION
+// ==========================================================================
+
+.nav-footer {
+  background-color: $white;
+  color: $green-primary;
+}
+
+.page-navigation a {
+  color: $green-primary;
+
+  &:hover {
+    color: $green-accent;
+  }
+}
+
+// ==========================================================================
+// WIDGETS (ggiraph etc)
+// ==========================================================================
+
+.girafe.html-widget {
+  max-width: 100%;
+}
+
+// ==========================================================================
+// VISUALISERINGAR - Z-index för att ligga över sidebar
+// ==========================================================================
+
+.visualization-container {
+  position: relative;
+  z-index: 500;
+
+  svg {
+    overflow: visible;
+    position: relative;
+    z-index: 500;
+  }
+}
+
+// Tooltip måste ligga över allt
+.chart-tooltip {
+  z-index: 10000 !important;
+  position: absolute !important;
+}
+
+// Margin-sidebar ska ha lägre z-index än graferna
+#quarto-margin-sidebar,
+.margin-sidebar {
+  z-index: 50 !important;
+}
+
+// Gemensam wrapper för alla D3-grafer
+.d3-chart-wrapper {
+  position: relative;
+  z-index: 500;
+  overflow: visible;
+  display: block;
+  margin: 1.5rem 0;
+
+  svg {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+
+// ==========================================================================
+// LAYOUT - Bredare visualiseringar och bättre utrymme
+// ==========================================================================
+
+// Låt visualiseringar använda mer bredd än texten
+.visualization-container,
+.d3-chart-wrapper,
+.plot-wrapper {
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// SVG-grafer får vara bredare
+.visualization-container svg,
+.d3-chart-wrapper svg {
+  max-width: 100%;
+  height: auto;
+}
+
+// Begränsa löptext för läsbarhet (men inte grafer)
+p, ul, ol {
+  max-width: 600px;
+}
+
+// Undantag: grafer och widgets får ta full bredd
+.graf-container p,
+.graf-container ul,
+.cell-output-display p,
+.observablehq p {
+  max-width: none;
+}
+
+// Callouts ska också följa textbredden
+.callout {
+  max-width: 600px;
+}
+
+// Kapitel-sammanfattning - samma som löptext
+.kapitel-sammanfattning {
+  max-width: 600px;
+}
+
+// Deep-dive kort och fördjupningar - samma som löptext
+.deep-dive-card,
+.fordjupning-wrapper {
+  max-width: 600px;
+}
+
+// HTMLwidgets och ggiraph - ge mer plats
+.html-widget,
+.girafe.html-widget,
+.r2d3.html-widget {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+// Cell output från R - tillåt full bredd
+.cell-output-display {
+  max-width: 100%;
+  overflow: visible;
+}
+
+// Responsiv hantering
+@media (max-width: 992px) {
+  .visualization-container svg,
+  .d3-chart-wrapper svg {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .content > p,
+  .textx p {
+    max-width: 100%;
+  }
+}
+
+// På stora skärmar - låt grafer spilla ut lite i marginalen
+@media (min-width: 1400px) {
+  .visualization-container,
+  .d3-chart-wrapper {
+    margin-right: -50px;
+  }
+}
+
+// ==========================================================================
+// KAPITEL-SAMMANFATTNING (gemensam styling)
+// ==========================================================================
+
+.kapitel-sammanfattning {
+  background: linear-gradient(135deg, #f8fdfb 0%, #ffffff 100%);
+  border: 1px solid #d4e5df;
+  border-left: 4px solid $green-primary;
+  border-radius: 0 12px 12px 0;
+  padding: 0;
+  margin: 1.5rem 0 2rem 0;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.sammanfattning-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.875rem 1.25rem;
+  background: linear-gradient(135deg, $green-primary 0%, #00634a 100%);
+  color: white;
+}
+
+.sammanfattning-ikon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.sammanfattning-label {
+  font-family: $font-family-sans-serif;  // Sans-serif för etiketter
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.sammanfattning-innehall {
+  padding: 1.25rem 1.5rem;
+
+  p {
+    font-family: $font-family-serif;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: #2d3a36;
+    margin: 0 0 0.875rem 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// ==========================================================================
+// ANALYS OCH SLUTSATSER (conclusion cards)
+// ==========================================================================
+
+// H3 rubriker ska också ha begränsad bredd
+h3 {
+  max-width: 600px;
+}
+
+.conclusion-card {
+  background: linear-gradient(135deg, #f8fdfb 0%, #ffffff 100%);
+  border: 1px solid #d4e5df;
+  border-left: 4px solid $green-primary;
+  border-radius: 0 8px 8px 0;
+  padding: 1.25rem 1.5rem;
+  margin: 0 0 2rem 0;
+  max-width: 600px;
+
+  p {
+    font-family: $font-family-serif;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: #2d3a36;
+    margin: 0 0 0.75rem 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// ==========================================================================
+// FIGURER OCH DIAGRAMRUBRIKER
+// ==========================================================================
+
+// Figur-container - vänsterjusterad
+.quarto-figure,
+figure,
+div[id^="fig-"] {
+  margin: 1.5rem 0;
+  max-width: none;
+  text-align: left;
+}
+
+// Överskriv Quartos centrering helt
+.quarto-figure-center {
+  text-align: left !important;
+}
+
+// Diagramrubrik (figcaption) - mörkgrön, fet, IBM Plex Sans
+figcaption,
+.figure-caption,
+.quarto-figure figcaption {
+  font-family: $font-family-sans-serif; // IBM Plex Sans
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: $green-primary;
+  max-width: 600px;
+  margin-top: 0.75rem;
+  padding: 0;
+  text-align: left;
+}
+
+// ==========================================================================
+// VIZ-CARD - Expanderbara kort i Kapitel 4
+// ==========================================================================
+
+// Säkerställ vänsterjustering i viz-cards
+.viz-card {
+  text-align: left;
+}
+
+.viz-card-header,
+.viz-card-title,
+.viz-card-subtitle,
+.viz-card-content {
+  text-align: left !important;
+}
+
+// ==========================================================================
+// GRAF-CONTAINER - Wrapper för D3-grafer (NYT-inspirerad)
+// ==========================================================================
+
+// ==========================================================================
+// GRAF-CONTAINER - Responsiv wrapper för D3-grafer
+// ==========================================================================
+
+.graf-container {
+  background: $white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin: 1.75rem 0;
+  overflow: hidden;
+
+  // Responsiv bredd - tar max 620px på desktop, 100% på mobil
+  width: 100%;
+  max-width: 620px;
+}
+
+.graf-header {
+  padding: 10px 14px 10px 14px;  // Matchar marginLeft i grafen
+  background: $green-primary;
+}
+
+.graf-title {
+  font-family: $font-family-headings;  // Roboto för titlar
+  font-size: 1rem;
+  font-weight: 700;
+  color: $white;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.graf-subtitle {
+  font-family: $font-family-sans-serif;  // IBM Plex för undertitel
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgba($white, 0.85);
+  line-height: 1.3;
+  margin-top: 3px;
+}
+
+.graf-svg-container {
+  padding: 0;
+  background: $white;
+  line-height: 0;  // Tar bort whitespace under SVG
+}
+
+.graf-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.graf-axis-label {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  fill: #1a1a1a;
+}
+
+.graf-caption {
+  font-family: $font-family-sans-serif;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: rgba($white, 0.9);
+  line-height: 1.3;
+  padding: 7px 14px;  // Matchar header-padding
+  background: $green-primary;
+}
+
+// Värde-display (hover info)
+.graf-value-display {
+  padding: 0 14px;
+  background: #f8f8f8;
+  font-family: $font-family-sans-serif;
+  font-size: 12px;
+  color: #1a1a1a;
+  height: 26px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  b { font-weight: 600; }
+}
+
+// Responsiv graf-container
+@media (max-width: 768px) {
+  .graf-container {
+    margin: 1rem 0;
+    box-shadow: none;
+  }
+
+  .graf-header {
+    padding: 8px 12px;
+  }
+
+  .graf-title {
+    font-size: 0.85rem;
+  }
+
+  .graf-subtitle {
+    font-size: 0.7rem;
+  }
+
+  .graf-caption {
+    padding: 5px 12px;
+    font-size: 0.6rem;
+  }
+
+  .graf-value-display {
+    font-size: 10px;
+    height: 20px;
+    padding: 4px 12px;
+  }
+}
+
+// ==========================================================================
+// OJS OUTPUT - Låt OJS-output ta full bredd
+// ==========================================================================
+
+.cell-output-display {
+  max-width: 100%;
+  overflow: visible;
+}
+
+// OJS-specifika containers
+.observablehq {
+  max-width: 100%;
+}
+
+// ==========================================================================
+// MOBIL - Full bredd för grafer
+// ==========================================================================
+
+@media (max-width: 768px) {
+  // Fixar overflow-problem
+  .cell {
+    overflow: visible !important;
+  }
+
+  .cell-output-display,
+  .observablehq {
+    overflow: visible !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  // Graf tar full tillgänglig bredd
+  .graf-container {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  // All text och element tar full bredd på mobil
+  p, ul, ol, h2, h3,
+  .callout,
+  .kapitel-sammanfattning,
+  .conclusion-card,
+  figcaption {
+    max-width: 100% !important;
+  }
+}

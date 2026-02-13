@@ -1,0 +1,36 @@
+# Bostäder
+
+## Bostadsbyggande
+
+```{ojs}
+linjediagram(byggande, {
+  x: "år",
+  y: "antal",
+  color: "typ",
+  title: "Bostadsbyggande i Halland",
+  subtitle: "Antal färdigställda bostäder per år, 2015–2024",
+  caption: "Källa: SCB.",
+  yLabel: "Antal bostäder",
+  logo: "logo_farg.svg",
+  highlight: ["Flerbostadshus", "Småhus"],
+  interactive: true
+})
+```
+
+## Bostadsbestånd
+
+```{ojs}
+stapeldiagram(bestand, {
+  x: "kommun",
+  y: "antal",
+  color: "typ",
+  grouped: true,
+  title: "Bostadsbestånd per upplåtelseform",
+  subtitle: "Fördelning mellan hyresrätt, bostadsrätt och äganderätt",
+  caption: "Källa: SCB.",
+  yLabel: "Antal bostäder",
+  logo: "logo_farg.svg",
+  interactive: true,
+  filterBy: "color"
+})
+```

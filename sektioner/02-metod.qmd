@@ -1,0 +1,13 @@
+# Metod
+
+## Datakällor
+
+Rapporten bygger på offentlig statistik från SCB, Tillväxtverket och regionala databaser.
+
+## Analysmetoder
+
+Data har analyserats med deskriptiv statistik och visualiserats med interaktiva diagram.
+
+## Avgränsningar
+
+Analysen omfattar Hallands län med fokus på perioden 2015–2024.

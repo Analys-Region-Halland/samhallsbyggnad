@@ -1,0 +1,76 @@
+# Befolkning
+
+## Demografisk utveckling
+
+Halland har haft en av Sveriges starkaste befolkningsutvecklingar under 2000-talet, med en ökning på över 20 procent sedan år 2000.
+
+```{ojs}
+linjediagram(befolkningIndex, {
+  x: "år",
+  y: "index",
+  color: "region",
+  title: "Befolkningsutveckling i Sveriges regioner",
+  subtitle: "Index 100 = år 2000",
+  caption: "Källa: SCB.",
+  yLabel: "Index",
+  highlight: ["Halland", "Riket"],
+  formatY: d => d.toFixed(0),
+  yMin: "auto",
+  hline: { value: 100 },
+  logo: "logo_farg.svg",
+  interactive: true,
+  maxHighlights: 6
+})
+```
+
+## Befolkning per kommun
+
+```{ojs}
+stapeldiagram(kommuner, {
+  x: "kommun",
+  y: "befolkning",
+  title: "Befolkning per kommun",
+  subtitle: "Hallands sex kommuner, 2024",
+  caption: "Källa: SCB.",
+  yLabel: "Antal invånare",
+  logo: "logo_farg.svg",
+  interactive: true
+})
+```
+
+## Halland i nationellt perspektiv
+
+Diagrammet visar samtliga 290 svenska kommuner efter befolkningsstorlek.
+
+```{ojs}
+grafStepper([
+  beeswarm(beeswarmKommuner, {
+    value: "befolkning",
+    label: "kommun",
+    group: "län",
+    title: "Sveriges 290 kommuner efter befolkningsstorlek",
+    subtitle: "Hallands kommuner markerade",
+    caption: "Källa: SCB. Logaritmisk skala.",
+    xLabel: "Antal invånare",
+    filter: ["Halland"],
+    highlight: ["Halland"],
+    formatValue: d => d.toLocaleString("sv-SE"),
+    logScale: true,
+    logo: "logo_farg.svg",
+    interactive: true
+  }),
+  beeswarmFacet(beeswarmKommuner, {
+    value: "befolkning",
+    label: "kommun",
+    facet: "län",
+    title: "Sveriges kommuner efter befolkningsstorlek",
+    subtitle: "Samtliga 290 kommuner, sorterade per län. Halland markerat.",
+    caption: "Källa: SCB (2024). Logaritmisk skala.",
+    highlight: ["Halland"],
+    logScale: true,
+    formatValue: d => d.toLocaleString("sv-SE"),
+    interactive: true,
+    logo: "logo_farg.svg"
+  })
+])
+```

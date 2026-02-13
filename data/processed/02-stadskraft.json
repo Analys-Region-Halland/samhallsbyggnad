@@ -1,0 +1,128 @@
+[
+  {
+    "region": "Stockholm",
+    "totalPoang": 734.45,
+    "antalTatorter": 29,
+    "index": 13185.8
+  },
+  {
+    "region": "Skåne",
+    "totalPoang": 671.7,
+    "antalTatorter": 62,
+    "index": 12059.2
+  },
+  {
+    "region": "Västra Götaland",
+    "totalPoang": 633.41,
+    "antalTatorter": 59,
+    "index": 11371.8
+  },
+  {
+    "region": "Uppsala",
+    "totalPoang": 157.72,
+    "antalTatorter": 13,
+    "index": 2831.6
+  },
+  {
+    "region": "Västmanland",
+    "totalPoang": 49.36,
+    "antalTatorter": 10,
+    "index": 886.2
+  },
+  {
+    "region": "Östergötland",
+    "totalPoang": 45.19,
+    "antalTatorter": 23,
+    "index": 811.3
+  },
+  {
+    "region": "Örebro",
+    "totalPoang": 44.99,
+    "antalTatorter": 11,
+    "index": 807.7
+  },
+  {
+    "region": "Jönköping",
+    "totalPoang": 18.65,
+    "antalTatorter": 19,
+    "index": 334.8
+  },
+  {
+    "region": "Västerbotten",
+    "totalPoang": 13.63,
+    "antalTatorter": 9,
+    "index": 244.7
+  },
+  {
+    "region": "Gävleborg",
+    "totalPoang": 9.14,
+    "antalTatorter": 9,
+    "index": 164.1
+  },
+  {
+    "region": "Halland",
+    "totalPoang": 5.57,
+    "antalTatorter": 13,
+    "index": 100
+  },
+  {
+    "region": "Kronoberg",
+    "totalPoang": 5.06,
+    "antalTatorter": 7,
+    "index": 90.8
+  },
+  {
+    "region": "Södermanland",
+    "totalPoang": 4.48,
+    "antalTatorter": 16,
+    "index": 80.4
+  },
+  {
+    "region": "Västernorrland",
+    "totalPoang": 4.27,
+    "antalTatorter": 8,
+    "index": 76.7
+  },
+  {
+    "region": "Värmland",
+    "totalPoang": 3.98,
+    "antalTatorter": 15,
+    "index": 71.5
+  },
+  {
+    "region": "Jämtland",
+    "totalPoang": 1.37,
+    "antalTatorter": 3,
+    "index": 24.6
+  },
+  {
+    "region": "Norrbotten",
+    "totalPoang": 1.07,
+    "antalTatorter": 13,
+    "index": 19.2
+  },
+  {
+    "region": "Dalarna",
+    "totalPoang": 1.03,
+    "antalTatorter": 12,
+    "index": 18.5
+  },
+  {
+    "region": "Kalmar",
+    "totalPoang": 0.61,
+    "antalTatorter": 12,
+    "index": 11
+  },
+  {
+    "region": "Blekinge",
+    "totalPoang": 0.31,
+    "antalTatorter": 9,
+    "index": 5.6
+  },
+  {
+    "region": "Gotland",
+    "totalPoang": 0.08,
+    "antalTatorter": 1,
+    "index": 1.4
+  }
+]

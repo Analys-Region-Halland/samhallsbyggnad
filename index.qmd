@@ -1,0 +1,242 @@
+---
+title: "Samhällsbyggnad i Halland"
+subtitle: "En rapport om regional utveckling"
+title-block-banner: "#004232"
+format:
+  html:
+    theme:
+      - cosmo
+      - style.scss
+    toc: true
+    toc-depth: 3
+    toc-title: "Innehåll"
+    toc-location: left
+    smooth-scroll: true
+    grid:
+      body-width: 850px
+      sidebar-width: 220px
+      margin-width: 0px
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{ojs}
+//| echo: false
+
+// Importera D3-komponenter
+import { linjediagram } from "./js/linjediagram.js"
+import { stapeldiagram } from "./js/stapeldiagram.js"
+import { scatterplot } from "./js/scatterplot.js"
+import { lollipop } from "./js/lollipop.js"
+import { beeswarm } from "./js/beeswarm.js"
+import { beeswarmFacet } from "./js/beeswarmFacet.js"
+import { karta } from "./js/karta.js"
+import { grafStepper } from "./js/grafStepper.js"
+import { createFilterState, createSelectorPanel } from "./js/filterUtils.js"
+
+// Ladda all data
+geoSverige = FileAttachment("data/processed/sverige.topojson").json()
+geoSydsverige = FileAttachment("data/processed/02-sydsverige.topojson").json()
+ranksize = FileAttachment("data/processed/02-ranksize.json").json()
+stadskraft = FileAttachment("data/processed/02-stadskraft.json").json()
+tatorterBeeswarm = FileAttachment("data/processed/02-tatorter-beeswarm.json").json()
+tatortsgrad = FileAttachment("data/processed/02-tatortsgrad.json").json()
+nordregio = FileAttachment("data/processed/02-nordregio.json").json()
+nordregioKarta = FileAttachment("data/processed/02-nordregio-karta.topojson").json()
+tathetHalland = FileAttachment("data/processed/02-tathet-halland.topojson").json()
+tatorter = FileAttachment("data/processed/tatorter.topojson").json()
+befolkning = FileAttachment("data/processed/befolkning.json").json()
+kommuner = FileAttachment("data/processed/kommuner.json").json()
+byggande = FileAttachment("data/processed/byggande.json").json()
+bestand_raw = FileAttachment("data/processed/bestand.json").json()
+
+// Transformera bostadsbestånd till långt format
+bestand = bestand_raw.flatMap(d => [
+  { kommun: d.kommun, typ: "Hyresrätt", antal: d.hyresrätt },
+  { kommun: d.kommun, typ: "Bostadsrätt", antal: d.bostadsrätt },
+  { kommun: d.kommun, typ: "Äganderätt", antal: d.äganderätt }
+])
+
+// =============================================================================
+// SCATTERPLOT TIDSSERIEDATA - Befolkning vs Byggande 1990-2024
+// Kommuner från flera län för jämförelse
+// =============================================================================
+scatterData = {
+  const kommuner = [
+    // Halland
+    { namn: "Halmstad", län: "Halland", startPop: 78000, endPop: 105000, startBygg: 350, endBygg: 850 },
+    { namn: "Varberg", län: "Halland", startPop: 38000, endPop: 67000, startBygg: 180, endBygg: 420 },
+    { namn: "Kungsbacka", län: "Halland", startPop: 52000, endPop: 87000, startBygg: 280, endBygg: 520 },
+    { namn: "Falkenberg", län: "Halland", startPop: 36000, endPop: 46000, startBygg: 120, endBygg: 180 },
+    { namn: "Laholm", län: "Halland", startPop: 22000, endPop: 26000, startBygg: 55, endBygg: 85 },
+    { namn: "Hylte", län: "Halland", startPop: 11000, endPop: 10500, startBygg: 35, endBygg: 45 },
+    // Västra Götaland (grannlän)
+    { namn: "Göteborg", län: "Västra Götaland", startPop: 435000, endPop: 590000, startBygg: 2200, endBygg: 4500 },
+    { namn: "Borås", län: "Västra Götaland", startPop: 95000, endPop: 114000, startBygg: 380, endBygg: 620 },
+    { namn: "Kungsör", län: "Västra Götaland", startPop: 42000, endPop: 58000, startBygg: 150, endBygg: 320 },
+    { namn: "Mölndal", län: "Västra Götaland", startPop: 52000, endPop: 70000, startBygg: 220, endBygg: 450 },
+    // Skåne (grannlän)
+    { namn: "Malmö", län: "Skåne", startPop: 235000, endPop: 357000, startBygg: 1100, endBygg: 2800 },
+    { namn: "Helsingborg", län: "Skåne", startPop: 110000, endPop: 152000, startBygg: 480, endBygg: 850 },
+    { namn: "Lund", län: "Skåne", startPop: 85000, endPop: 128000, startBygg: 350, endBygg: 720 },
+    { namn: "Kristianstad", län: "Skåne", startPop: 72000, endPop: 86000, startBygg: 180, endBygg: 320 },
+    // Jönköping
+    { namn: "Jönköping", län: "Jönköping", startPop: 110000, endPop: 143000, startBygg: 420, endBygg: 780 },
+    { namn: "Värnamo", län: "Jönköping", startPop: 28000, endPop: 35000, startBygg: 80, endBygg: 150 }
+  ];
+
+  const years = d3.range(1990, 2025);
+  const data = [];
+
+  kommuner.forEach(k => {
+    years.forEach((år, i) => {
+      const progress = i / (years.length - 1);
+      const sCurve = progress < 0.5
+        ? 2 * progress * progress
+        : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+
+      const noise = Math.sin(år * 0.5 + k.namn.length) * 0.03;
+
+      const befolkning = Math.round(k.startPop + (k.endPop - k.startPop) * (0.6 * progress + 0.4 * sCurve) * (1 + noise));
+      const byggande = Math.round(k.startBygg + (k.endBygg - k.startBygg) * (0.5 * progress + 0.5 * sCurve) * (1 + noise * 2));
+
+      data.push({
+        kommun: k.namn,
+        län: k.län,
+        befolkning: befolkning,
+        byggande: Math.max(20, byggande),
+        år: år
+      });
+    });
+  });
+
+  return data;
+}
+
+// Exempeldata för lollipop (nyckeltal per kommun)
+lollipopData = [
+  { kommun: "Halmstad", index: 78 },
+  { kommun: "Varberg", index: 72 },
+  { kommun: "Kungsbacka", index: 85 },
+  { kommun: "Falkenberg", index: 68 },
+  { kommun: "Laholm", index: 62 },
+  { kommun: "Hylte", index: 55 }
+]
+
+// Exempeldata för horisontell lollipop (ranking)
+rankingData = [
+  { kategori: "Tillgänglighet", poäng: 82 },
+  { kategori: "Bostäder", poäng: 71 },
+  { kategori: "Näringsliv", poäng: 68 },
+  { kategori: "Miljö", poäng: 89 },
+  { kategori: "Service", poäng: 75 }
+]
+
+// =============================================================================
+// RANKING TIDSSERIE - Kommunranking över tid för stapeldiagram-animation
+// =============================================================================
+rankingTimeSeries = {
+  const kommuner = [
+    { namn: "Halmstad", start: 65, end: 78 },
+    { namn: "Varberg", start: 55, end: 72 },
+    { namn: "Kungsbacka", start: 70, end: 85 },
+    { namn: "Falkenberg", start: 58, end: 68 },
+    { namn: "Laholm", start: 52, end: 62 },
+    { namn: "Hylte", start: 48, end: 55 }
+  ];
+
+  const years = d3.range(2010, 2025);
+  const data = [];
+
+  kommuner.forEach(k => {
+    years.forEach((år, i) => {
+      const progress = i / (years.length - 1);
+      // Varierande tillväxt med lite brus
+      const noise = Math.sin(år * 0.3 + k.namn.length * 2) * 4;
+      const value = k.start + (k.end - k.start) * progress + noise;
+
+      data.push({
+        kommun: k.namn,
+        index: Math.round(value * 10) / 10,
+        år: år
+      });
+    });
+  });
+
+  return data;
+}
+
+// =============================================================================
+// BEFOLKNINGSUTVECKLING - Indexerad data 2000-2024 (index 100 = år 2000)
+// Syntetisk data baserad på verkliga trender för Sveriges 21 regioner + Riket
+// =============================================================================
+
+befolkningIndex = {
+  // Tillväxttrender per region (slutvärde år 2024, index 100 = år 2000)
+  const regionTrends = {
+    "Stockholm": 128,      // Stark tillväxt
+    "Uppsala": 124,        // Stark tillväxt
+    "Skåne": 122,          // Stark tillväxt
+    "Halland": 121,        // Stark tillväxt
+    "Västra Götaland": 115,// God tillväxt
+    "Östergötland": 111,   // Måttlig tillväxt
+    "Jönköping": 109,      // Måttlig tillväxt
+    "Kronoberg": 108,      // Måttlig tillväxt
+    "Södermanland": 108,   // Måttlig tillväxt
+    "Örebro": 107,         // Måttlig tillväxt
+    "Västmanland": 106,    // Svag tillväxt
+    "Gotland": 104,        // Nästan oförändrad
+    "Västerbotten": 103,   // Nästan oförändrad
+    "Kalmar": 99,          // Svag nedgång
+    "Blekinge": 98,        // Nedgång
+    "Jämtland": 97,        // Nedgång
+    "Värmland": 96,        // Nedgång
+    "Dalarna": 95,         // Nedgång
+    "Gävleborg": 94,       // Nedgång
+    "Norrbotten": 93,      // Nedgång
+    "Västernorrland": 91,  // Stark nedgång
+    "Riket": 118           // Nationellt genomsnitt
+  };
+
+  // Generera årlig data 2000-2024 med realistisk kurva
+  const years = d3.range(2000, 2025);
+  const data = [];
+
+  for (const [region, endValue] of Object.entries(regionTrends)) {
+    const growthRate = (endValue - 100) / 24;  // Linjär bas
+
+    years.forEach((year, i) => {
+      // Lägg till lite variation och S-kurva
+      const progress = i / 24;
+      const sCurve = progress < 0.5
+        ? 2 * progress * progress
+        : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+
+      // Kombination av linjär och S-kurva med lite brus
+      const noise = (Math.sin(year * 0.7 + region.length) * 0.5);
+      const value = 100 + (endValue - 100) * (0.7 * progress + 0.3 * sCurve) + noise;
+
+      data.push({
+        år: year,
+        index: Math.round(value * 10) / 10,
+        region: region
+      });
+    });
+  }
+
+  return data;
+}
+
+// =============================================================================
+// KOMMUNDATA - Riktig SCB-data (290 kommuner + Sverige-snitt)
+// =============================================================================
+beeswarmKommuner = FileAttachment("data/processed/03-beeswarm-kommuner.json").json()
+```
+
+{{< include sektioner/01-bakgrund.qmd >}}
+
+{{< include sektioner/02-oversikt.qmd >}}
+
+<!-- {{< include sektioner/99-grafer.qmd >}} -->

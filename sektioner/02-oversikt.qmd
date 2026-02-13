@@ -1,0 +1,1065 @@
+# Översikt
+
+Detta kapitel syftar till att rama in Halland som region utifrån ett geografiskt och ekonomiskgeografiskt perspektiv. Anslaget är medvetet övergripande: avsikten är att ge läsaren en fond för de mer fördjupande delarna som följer i rapporten. Här presenteras grundläggande demografiska och territoriella förutsättningar som tillsammans tecknar en bild av vad Halland är för typ av region, hur länets kommuner förhåller sig till varandra och var Halland befinner sig i ett nationellt sammanhang.
+
+```{=html}
+<style>
+.insight-carousel {
+  position: relative;
+  max-width: 820px;
+  margin: 2.2rem auto 2.8rem;
+  border: 2px solid #1a1a1a;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #fff;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.insight-carousel__header {
+  background: #00664D;
+  padding: 0.7rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.insight-carousel__header-icon {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+
+.insight-carousel__header-label {
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.insight-carousel__stage {
+  position: relative;
+  min-height: 210px;
+  overflow: hidden;
+}
+
+.insight-carousel__card {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.45s ease;
+  padding: 2.2rem 2.4rem 1.6rem;
+}
+
+.insight-carousel__card--active {
+  opacity: 1;
+  pointer-events: auto;
+  position: relative;
+}
+
+.insight-carousel__number {
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 5.5rem;
+  line-height: 1;
+  color: #00664D;
+  opacity: 0.08;
+  position: absolute;
+  top: 0.3rem;
+  left: 1.4rem;
+  user-select: none;
+  pointer-events: none;
+}
+
+.insight-carousel__body {
+  position: relative;
+  z-index: 1;
+  padding-left: 0.2rem;
+}
+
+.insight-carousel__title {
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.18rem;
+  line-height: 1.3;
+  color: #1a1a1a;
+  margin: 0 0 0.7rem;
+}
+
+.insight-carousel__text {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 0.92rem;
+  line-height: 1.72;
+  color: #333;
+  margin: 0;
+  max-width: 600px;
+}
+
+.insight-carousel__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.5rem 1.5rem 1.3rem;
+}
+
+.insight-carousel__arrow {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid #1a1a1a;
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.18s, border-color 0.18s;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.insight-carousel__arrow:hover {
+  background: #00664D;
+  border-color: #00664D;
+}
+
+.insight-carousel__arrow:hover svg {
+  stroke: #fff;
+}
+
+.insight-carousel__arrow svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: #1a1a1a;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: stroke 0.18s;
+}
+
+.insight-carousel__dots {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.insight-carousel__dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1.5px solid #1a1a1a;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.22s, border-color 0.22s, transform 0.22s;
+}
+
+.insight-carousel__dot--active {
+  background: #00664D;
+  border-color: #00664D;
+  transform: scale(1.25);
+}
+
+.insight-carousel__dot:hover:not(.insight-carousel__dot--active) {
+  background: #b8d8cf;
+  border-color: #00664D;
+}
+
+.insight-carousel__progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background: #00664D;
+  transition: width 0.35s ease;
+}
+
+@media (max-width: 600px) {
+  .insight-carousel__card {
+    padding: 1.8rem 1.2rem 1.2rem;
+  }
+  .insight-carousel__number {
+    font-size: 3.8rem;
+    left: 0.8rem;
+  }
+  .insight-carousel__title {
+    font-size: 1.05rem;
+  }
+  .insight-carousel__text {
+    font-size: 0.85rem;
+  }
+}
+</style>
+
+<div class="insight-carousel" role="region" aria-label="Centrala insikter" aria-roledescription="carousel">
+
+  <div class="insight-carousel__header">
+    <svg class="insight-carousel__header-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+      <path d="M2 17l10 5 10-5"/>
+      <path d="M2 12l10 5 10-5"/>
+    </svg>
+    <span class="insight-carousel__header-label">Centrala insikter</span>
+  </div>
+
+  <div class="insight-carousel__stage">
+
+    <div class="insight-carousel__card insight-carousel__card--active" role="group" aria-roledescription="slide" aria-label="1 av 5">
+      <span class="insight-carousel__number">01</span>
+      <div class="insight-carousel__body">
+        <h3 class="insight-carousel__title">Korridoren</h3>
+        <p class="insight-carousel__text">E6 och Västkustbanan binder samman Halland med Göteborg i norr och Öresundsregionen i söder. Det ger länet en tillgänglighet som vida överstiger vad den egna befolkningen på 345 000 invånare annars skulle motivera.</p>
+      </div>
+    </div>
+
+    <div class="insight-carousel__card" role="group" aria-roledescription="slide" aria-label="2 av 5">
+      <span class="insight-carousel__number">02</span>
+      <div class="insight-carousel__body">
+        <h3 class="insight-carousel__title">Ingen huvudstad</h3>
+        <p class="insight-carousel__text">Halmstad svarar för 21 procent av länets befolkning. Det är en av de lägsta andelarna i landet. Fyra tätorter, alla kring eller över 30 000 invånare, bär tillsammans regionens funktionella struktur. Halland är flerkärnigt på ett sätt som få svenska regioner utanför storstadslänen är.</p>
+      </div>
+    </div>
+
+    <div class="insight-carousel__card" role="group" aria-roledescription="slide" aria-label="3 av 5">
+      <span class="insight-carousel__number">03</span>
+      <div class="insight-carousel__body">
+        <h3 class="insight-carousel__title">En urban region</h3>
+        <p class="insight-carousel__text">89 procent av hallänningarna bor i områden med funktionell koppling till en stad. Halland är en genomgående urban geografi, men urbaniseringen ser annorlunda ut än i storstadslänen: bara 31 procent bor i täta stadskärnor. Resten bor i yttre stadsområden, periurbana samhällen och stationsorter.</p>
+      </div>
+    </div>
+
+    <div class="insight-carousel__card" role="group" aria-roledescription="slide" aria-label="4 av 5">
+      <span class="insight-carousel__number">04</span>
+      <div class="insight-carousel__body">
+        <h3 class="insight-carousel__title">Landsbygd utan glesbygd</h3>
+        <p class="insight-carousel__text">Halland har jordbruksbygd och skogsmark, men knappt någon avlägsen glesbygd. 0,3 procent av befolkningen klassificeras som remote rural. I Norrlandslänen ligger samma andel på 17 till 26 procent. Landsbygden finns, men den ligger nära städerna.</p>
+      </div>
+    </div>
+
+    <div class="insight-carousel__card" role="group" aria-roledescription="slide" aria-label="5 av 5">
+      <span class="insight-carousel__number">05</span>
+      <div class="insight-carousel__body">
+        <h3 class="insight-carousel__title">Kustbandet</h3>
+        <p class="insight-carousel__text">På 1 km-rutnivå syns det tydligt: befolkningen koncentreras i ett sammanhängande urbant band längs kusten från Kungsbacka till Halmstad. Inlandet är glest. Det är kuststråket, inte de enskilda stadskärnorna, som utgör Hallands verkliga stadsgeografi.</p>
+      </div>
+    </div>
+
+    <div class="insight-carousel__progress" style="width: 20%"></div>
+  </div>
+
+  <div class="insight-carousel__nav">
+    <button class="insight-carousel__arrow insight-carousel__arrow--prev" aria-label="Föregående insikt">
+      <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="insight-carousel__dots">
+      <button class="insight-carousel__dot insight-carousel__dot--active" aria-label="Insikt 1" data-slide="0"></button>
+      <button class="insight-carousel__dot" aria-label="Insikt 2" data-slide="1"></button>
+      <button class="insight-carousel__dot" aria-label="Insikt 3" data-slide="2"></button>
+      <button class="insight-carousel__dot" aria-label="Insikt 4" data-slide="3"></button>
+      <button class="insight-carousel__dot" aria-label="Insikt 5" data-slide="4"></button>
+    </div>
+    <button class="insight-carousel__arrow insight-carousel__arrow--next" aria-label="Nästa insikt">
+      <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
+    </button>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  const carousel = document.querySelector('.insight-carousel');
+  if (!carousel) return;
+
+  const cards = carousel.querySelectorAll('.insight-carousel__card');
+  const dots = carousel.querySelectorAll('.insight-carousel__dot');
+  const prevBtn = carousel.querySelector('.insight-carousel__arrow--prev');
+  const nextBtn = carousel.querySelector('.insight-carousel__arrow--next');
+  const progress = carousel.querySelector('.insight-carousel__progress');
+  const total = cards.length;
+  let current = 0;
+  function goTo(idx) {
+    current = ((idx % total) + total) % total;
+    cards.forEach((c, i) => {
+      c.classList.toggle('insight-carousel__card--active', i === current);
+    });
+    dots.forEach((d, i) => {
+      d.classList.toggle('insight-carousel__dot--active', i === current);
+    });
+    progress.style.width = ((current + 1) / total * 100) + '%';
+  }
+
+  function next() { goTo(current + 1); }
+  function prev() { goTo(current - 1); }
+
+  prevBtn.addEventListener('click', prev);
+  nextBtn.addEventListener('click', next);
+  dots.forEach(d => {
+    d.addEventListener('click', () => goTo(+d.dataset.slide));
+  });
+
+  /* Swipe support */
+  let startX = 0;
+  carousel.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, {passive: true});
+  carousel.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - startX;
+    if (Math.abs(dx) > 40) dx > 0 ? prev() : next();
+  }, {passive: true});
+
+  /* Keyboard */
+  carousel.setAttribute('tabindex', '0');
+  carousel.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight') next();
+    else if (e.key === 'ArrowLeft') prev();
+  });
+})();
+</script>
+```
+
+## Halland: en flerkärnig och tät region
+
+Halland är en av Sveriges 21 regioner och sträcker sig längs västkusten mellan Göteborg i norr och nordvästra Skåne i söder. Med drygt 345 000 invånare (2024) utgör länet knappt 3,3 procent av landets befolkning, fördelad på en landareal om cirka 5 450 kvadratkilometer, motsvarande 1,3 procent av Sveriges yta. Proportionerna säger något om regionens karaktär: Halland rymmer en förhållandevis stor andel av befolkningen på en liten del av landytan, i ett land som ur ett europeiskt perspektiv tillhör de allra största men också de mest glesbefolkade, med i genomsnitt knappt 26 invånare per kvadratkilometer.
+
+```{=html}
+<p class="figur-label">Karta 1: Kommuner, tätorter och infrastruktur i Sydsverige</p>
+```
+
+```{ojs}
+karta(geoSydsverige, {
+  title: "Sydsverige: kommuner, tätorter och infrastruktur",
+  subtitle: "Halland i sitt regionala sammanhang",
+  caption: "Källa: SCB tätorter 2023, befolkning 2024. Trafikverket FPV 2026.",
+  highlight: ["Halmstad", "Varberg", "Kungsbacka", "Falkenberg", "Laholm", "Hylte"],
+  zoomTo: true,
+  zoomPadding: 1.5,
+  urbanAreas: "tatorter",
+  roads: "vagnat",
+  railways: "jarnvag",
+  urbanMinPop: 2000,
+  logo: "logo_farg.svg",
+  info: `<p><strong>Om vägnätet (FPV)</strong></p>
+<p>Vägnätet i kartan bygger på Trafikverkets <em>funktionellt prioriterade vägnät</em> (FPV), en klassificering som rangordnar vägar utifrån deras transportfunktion snarare än trafikvolym. Syftet är att ge en enhetlig grund för planering, underhåll och investeringar i vägsystemet.</p>
+<p>FPV delar in vägarna i tre kategorier:</p>
+<ul style="margin:0.3em 0 0.8em 1.2em;padding:0;font-size:inherit">
+<li><strong>Nationella vägar</strong> binder samman landets större regioner och har en central funktion för långväga gods- och persontransporter. I Halland utgörs dessa främst av E6 och riksväg 25/26.</li>
+<li><strong>Regionalt viktiga vägar</strong> knyter samman kommunhuvudorter med varandra och med det nationella vägnätet, exempelvis väg 15, 41 och 153/154.</li>
+<li><strong>Kompletterande regionalt viktiga vägar</strong> kompletterar det regionala nätet och säkerställer tillgänglighet till mindre orter och landsbygdsområden.</li>
+</ul>
+<p><strong>Om tätortsavgränsningen</strong></p>
+<p>SCB avgränsar tätorter utifrån sammanhängande bebyggelse: minst 200 invånare och normalt högst 200 meter mellan byggnader. För större orter tillåts avståndet stegvis öka upp till 500 meter via vägnätet. Avgränsningen är rent statistisk och följer bebyggelsens utbredning, inte administrativa gränser.</p>
+<p><strong>Kungsbacka (GBG)</strong></p>
+<p>I takt med att bebyggelsen förtätats längs kusten mellan Göteborg och Kungsbacka har flera orter i Kungsbacka kommun successivt vuxit samman med Göteborgs tätort. Anneberg uppgick vid SCB:s uppdatering 2015; Billdal med Kullavik, Särö och Brattås följde 2018. Vid uppdateringen 2020 hade även centrala Kungsbacka vuxit samman med Göteborg.</p>
+<p>Göteborgs tätort sträcker sig därmed över länsgränsen in i Halland. I denna karta har vi klippt tätortspolygonen mot länsgränsen och benämner Hallandsdelen <em>Kungsbacka (GBG)</em>. Befolkningstalet (39 913) avser de invånare inom Göteborgs tätort som är folkbokförda i Hallands län.</p>`
+})
+```
+
+Halland är med sina drygt 5 450 kvadratkilometer ett av landets minsta län, det fjärde minsta efter Blekinge, Gotland och Västmanland. Befolkningsmässigt placerar sig regionen som sjunde störst bland de 21 länen. Framför allt är det befolkningstätheten som utmärker Halland: med drygt 63 invånare per kvadratkilometer är länet det fjärde tätaste i landet, efter Stockholm, Skåne och Västra Götaland, och mer än dubbelt så tättbefolkat som riket i genomsnitt. Sedan millennieskiftet har tätheten ökat med omkring 26 procent, en utveckling som speglar den starka befolkningstillväxt som präglar hela Sydvästsverige.
+
+Hallands geografiska läge är en av regionens mest framträdande tillgångar. Länet utgör en del av den svenska västkusten, och E6:an och Västkustbanan löper genom hela regionen och knyter samman de halländska tätorterna med Göteborg i norr och Ängelholm, Helsingborg, Malmö och i förlängningen Köpenhamn i söder. Österut ger riksvägarna 25, 26 och 41 tvärgående kopplingar mot Småland och Västra Götaland. Halland ingår därmed i ett sammanhängande pendlings- och arbetsmarknadsområde som sträcker sig genom hela sydvästra Sverige och vidare in i Öresundsregionen. Kombinationen av kustläge, storstadsnärhet och väl utbyggd infrastruktur ger regionen i allt väsentligt mycket goda ekonomiskgeografiska förutsättningar.
+
+Ortsstrukturer och befolkningskoncentrationer studeras mer i detalj i nästa avsnitt, men redan här kan man konstatera att Halland har flera tätorter med betydande befolkningsunderlag. Tre av kommunhuvudorterna, Halmstad (73 000 invånare i tätorten), Varberg (39 000) och Falkenberg (30 000), har var för sig en storlek som i den regionalekonomiska litteraturen brukar betraktas som tillräcklig för att generera agglomerationsfördelar: en bredare lokal arbetsmarknad, ett mer differentierat serviceutbud och bättre förutsättningar för kunskapsspridning. Därtill kommer de knappt 40 000 Hallandsinvånare som sedan tätortsuppdateringen 2020 statistiskt ingår i Göteborgs tätort, huvudsakligen i Kungsbacka kommun. Det samlade befolkningsunderlaget, den marknad som invånare, företag och institutioner har tillgång till, överstiger med god marginal vad de enskilda orterna kan erbjuda var för sig. Forskningen visar dock att en flerkärnig ortsstruktur inte automatiskt levererar samma fördelar som en enda stor stad; det förutsätter funktionell integration i form av pendling, arbetsmarknadsutbyte och komplementär specialisering mellan orterna. Hur Hallands orter förhåller sig till varandra i denna mening, och vilka koncentrationsmönster som präglar regionen, är temat för det följande avsnittet.
+
+### Befolkningsfördelning och koncentration
+
+Hallands drygt 345 000 invånare gör regionen till den sjunde folkrikaste av landets 21 län. Befolkningen är fördelad på sex kommuner, vilket är det lägsta antalet efter Gotlands enda. Halmstad är störst med drygt 106 000 invånare, följt av Kungsbacka (86 000), Varberg (69 000), Falkenberg (47 000), Laholm (27 000) och Hylte (10 000). Riksmedianen för Sveriges 290 kommuner ligger vid knappt 19 500 invånare. Fyra av Hallands sex kommuner överstiger det värdet; Halmstad placerar sig som landets 25:e folkrikaste kommun och Kungsbacka som den 50:e. Halland är med andra ord en region med få men förhållandevis stora kommuner. Fördelningen mellan dem är dessutom jämnare än i många andra län: ingen enskild kommun dominerar på samma sätt som Uppsala dominerar Uppsala län eller Umeå dominerar Västerbotten.
+
+```{=html}
+<p class="figur-label">Figur 1: Sveriges 290 kommuner efter befolkningsstorlek</p>
+```
+
+```{ojs}
+grafStepper([
+  beeswarm(beeswarmKommuner, {
+    value: "befolkning",
+    label: "kommun",
+    group: "län",
+    title: "Sveriges 290 kommuner efter befolkningsstorlek",
+    subtitle: "Hallands kommuner markerade",
+    caption: "Källa: SCB (2024). Logaritmisk skala. Streckad linje = riksmedian.",
+    xLabel: "Antal invånare",
+    filter: ["Halland"],
+    highlight: ["Halland"],
+    formatValue: d => d.toLocaleString("sv-SE"),
+    logScale: true,
+    vline: { value: 19495, label: "Riksmedian" },
+    logo: "logo_farg.svg",
+    interactive: true
+  }),
+  beeswarmFacet(beeswarmKommuner, {
+    value: "befolkning",
+    label: "kommun",
+    facet: "län",
+    title: "Sveriges kommuner efter befolkningsstorlek",
+    subtitle: "Samtliga 290 kommuner, sorterade per län. Halland markerat.",
+    caption: "Källa: SCB (2024). Logaritmisk skala. Streckad linje = riksmedian.",
+    highlight: ["Halland"],
+    logScale: true,
+    vline: { value: 19495, label: "Riksmedian" },
+    formatValue: d => d.toLocaleString("sv-SE"),
+    interactive: true,
+    logo: "logo_farg.svg"
+  })
+])
+```
+
+Kommunindelningen fångar dock bara en del av bilden. En kommun med stor befolkning kan ha en dominerande centralort eller flera medelstora samhällen, och kommunstorleken säger i sig inte hur koncentrerad eller spridd bosättningen är inom kommunens gränser. För att förstå var människor faktiskt bor, och hur Hallands bebyggelsestruktur ser ut i förhållande till andra regioner, behöver man gå till tätortsnivån.
+
+Ett sätt att jämföra ortshierarkier mellan regioner är att ställa frågan: hur stor andel av befolkningen bor i den största tätorten? I de två största? I de tre största? Genom att stegvis lägga samman de största tätorternas befolkning som andel av regionens totalbefolkning framträder en kurva som avslöjar hur koncentrerad eller spridd ortsstrukturen är. En brant kurva, där den största orten ensam utgör en stor andel, kännetecknar regioner med en dominerande huvudort. En flackare kurva tyder på en mer polycentrisk struktur där flera orter bidrar till det samlade befolkningsunderlaget.
+
+```{=html}
+<p class="figur-label">Figur 2: Ortshierarki och stadskraft i Sveriges regioner</p>
+```
+
+```{ojs}
+function createRankSizeChart() {
+  // =========================================================================
+  // RANK-SIZE: KUMULATIV ANDEL AV LÄNSBEFOLKNING
+  // Hover-system anpassat från linjediagram (crosshair + tooltip)
+  // =========================================================================
+  const data = ranksize;
+  const regions = [...new Set(data.map(d => d.region))].sort();
+  const grouped = d3.group(data, d => d.region);
+
+  const filterState = createFilterState(data, {
+    itemField: "region",
+    highlight: ["Halland"]
+  });
+
+  const highlightColors = ["#00664D", "#004990", "#FF7E00", "#433C9D", "#2DB8F6", "#A51300"];
+  const mutedColor = "#d0d0d0";
+  const otherColor = "#7a8b99";
+
+  const isHighlighted = (r) => filterState.isHighlighted(r);
+
+  function getColor(region) {
+    const hl = filterState.getHighlight();
+    if (!hl) return highlightColors[regions.indexOf(region) % highlightColors.length];
+    const idx = hl.indexOf(region);
+    if (idx === 0) return highlightColors[0];
+    if (idx === 1) return highlightColors[1];
+    if (idx >= 2) return otherColor;
+    return mutedColor;
+  }
+
+  const W = 780, H = 460;
+  const mt = 16, mr = 130, mb = 48, ml = 50;
+
+  const container = d3.create("div")
+    .attr("class", "graf-container")
+    .style("position", "relative")
+    .attr("data-base-width", W);
+
+  const header = container.append("div").attr("class", "graf-header");
+  header.append("div").attr("class", "graf-title").text("Ortshierarki: kumulativ befolkningsandel");
+  header.append("div").attr("class", "graf-subtitle").text("De 10 största tätorterna, andel av regionens totalbefolkning");
+
+  const selectorCtrl = createSelectorPanel(header, {
+    filterState,
+    allItems: regions,
+    colorScale: (r) => getColor(r),
+    triggerText: "Markera \u203a",
+    onUpdate: () => updateChart(),
+    onItemHover: (item) => {
+      const hoverColor = isHighlighted(item) ? getColor(item) : "#555";
+      linesGroup.selectAll("path").each(function() {
+        const el = d3.select(this);
+        const key = el.attr("data-key");
+        if (key === item) {
+          el.attr("stroke-width", 2.8).attr("stroke-opacity", 1).attr("stroke", hoverColor);
+        } else {
+          el.attr("stroke-opacity", 0.12);
+        }
+      });
+      linesGroup.selectAll("circle").each(function() {
+        const el = d3.select(this);
+        el.attr("fill-opacity", el.attr("data-key") === item ? 1 : 0.12);
+      });
+      if (!isHighlighted(item)) {
+        const pts = grouped.get(item);
+        if (pts) {
+          const last = pts[pts.length - 1];
+          labelsGroup.selectAll(".hover-label").remove();
+          labelsGroup.append("circle")
+            .attr("class", "hover-label")
+            .attr("cx", xScale(last.rank)).attr("cy", yScale(last.kum_andel))
+            .attr("r", 5).attr("fill", hoverColor);
+          labelsGroup.append("text")
+            .attr("class", "hover-label")
+            .attr("x", xScale(last.rank) + 8).attr("y", yScale(last.kum_andel))
+            .attr("dy", "0.35em")
+            .attr("font-family", "'IBM Plex Sans', sans-serif")
+            .attr("font-size", "11px").attr("font-weight", "600")
+            .attr("fill", hoverColor).text(item);
+        }
+      }
+    },
+    onItemLeave: () => {
+      linesGroup.selectAll("path").each(function() {
+        const el = d3.select(this);
+        const key = el.attr("data-key");
+        if (el.classed("line-highlight")) {
+          el.attr("stroke-width", 2).attr("stroke-opacity", 1).attr("stroke", getColor(key));
+        } else {
+          el.attr("stroke-width", 1.2).attr("stroke-opacity", 0.25).attr("stroke", "#aaa");
+        }
+      });
+      linesGroup.selectAll("circle").attr("fill-opacity", 1);
+      labelsGroup.selectAll(".hover-label").remove();
+    }
+  });
+
+  // Inject tooltip CSS (idempotent)
+  if (!document.getElementById("graf-tooltip-styles")) {
+    const styles = document.createElement("style");
+    styles.id = "graf-tooltip-styles";
+    styles.textContent = `
+      .graf-tooltip { position:absolute; background:#fff; font-family:'IBM Plex Sans',sans-serif; font-size:11px; pointer-events:none; z-index:1000; box-shadow:0 2px 8px rgba(0,0,0,0.12),0 8px 24px rgba(0,0,0,0.08); border:1px solid #1a1a1a; min-width:140px; overflow:hidden; }
+      .graf-tooltip-year { font-size:12px; font-weight:700; color:#fff; background:#1a1a1a; padding:6px 10px; letter-spacing:0.02em; }
+      .graf-tooltip-list { display:flex; flex-direction:column; }
+      .graf-tooltip-row { display:flex; align-items:center; gap:8px; padding:5px 10px; line-height:1.3; }
+      .graf-tooltip-row:nth-child(odd) { background:#f8f8f8; }
+      .graf-tooltip-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+      .graf-tooltip-name { color:#444; flex:1; }
+      .graf-tooltip-val { font-weight:600; font-variant-numeric:tabular-nums; color:#1a1a1a; }
+      .graf-tooltip-row.focused { background:#e8f4ec !important; }
+      .graf-tooltip-row.focused .graf-tooltip-name { font-weight:600; color:#1a1a1a; }
+      .graf-tooltip-preview { display:flex; align-items:center; gap:8px; padding:6px 10px; margin-top:1px; border-top:1px dashed #ddd; background:#f5f5f5; font-style:italic; line-height:1.3; }
+      .graf-tooltip-add { font-size:9px; color:#888; margin-left:auto; }
+    `;
+    document.head.appendChild(styles);
+  }
+
+  // Tooltip
+  const tooltip = container.append("div")
+    .attr("class", "graf-tooltip")
+    .style("display", "none");
+
+  // SVG
+  const svgContainer = container.append("div").attr("class", "graf-svg-container");
+  const svg = svgContainer.append("svg")
+    .attr("viewBox", `0 0 ${W} ${H}`)
+    .attr("preserveAspectRatio", "xMidYMid meet")
+    .attr("class", "graf-svg");
+
+  // Skalor
+  const xScale = d3.scaleLinear().domain([1, 10]).range([ml, W - mr]);
+  const yScale = d3.scaleLinear().domain([0, 100]).range([H - mb, mt]);
+
+  // Y-axel (OWID-stil: tick-labels, ingen axellinje)
+  const yTicks = [0, 20, 40, 60, 80, 100];
+  svg.append("g")
+    .attr("transform", `translate(${ml},0)`)
+    .call(d3.axisLeft(yScale).tickValues(yTicks).tickFormat(d => d + "%"))
+    .call(g => g.select(".domain").remove())
+    .call(g => g.selectAll(".tick line").remove())
+    .call(g => g.selectAll(".tick text")
+      .attr("x", -8).attr("text-anchor", "end")
+      .attr("fill", "#666").style("font-size", "12px")
+      .style("font-family", "'IBM Plex Sans', sans-serif"));
+
+  // Gridlinjer
+  yTicks.forEach(v => {
+    if (v === 0) return;
+    svg.append("line")
+      .attr("x1", ml).attr("x2", W - mr)
+      .attr("y1", yScale(v)).attr("y2", yScale(v))
+      .attr("stroke", "#e0e0e0").attr("stroke-dasharray", "12,6");
+  });
+
+  // X-axel
+  svg.append("g")
+    .attr("transform", `translate(0,${H - mb})`)
+    .call(d3.axisBottom(xScale).tickValues(d3.range(1, 11)).tickFormat(d3.format("d")))
+    .call(g => g.select(".domain").attr("stroke", "#1a1a1a"))
+    .call(g => g.selectAll(".tick line").attr("stroke", "#1a1a1a"))
+    .call(g => g.selectAll(".tick text").attr("fill", "#1a1a1a").style("font-size", "13px")
+      .style("font-family", "'IBM Plex Sans', sans-serif"));
+
+  svg.append("text")
+    .attr("x", (ml + W - mr) / 2).attr("y", H - 8)
+    .attr("text-anchor", "middle").attr("fill", "#555")
+    .style("font-family", "'IBM Plex Sans', sans-serif").style("font-size", "12px")
+    .text("Antal tätorter (störst först)");
+
+  // Linjegenerator
+  const line = d3.line().x(d => xScale(d.rank)).y(d => yScale(d.kum_andel));
+
+  // Grupper (z-order)
+  const linesGroup = svg.append("g").attr("class", "lines-group");
+  const labelsGroup = svg.append("g").attr("class", "line-labels");
+
+  // =========================================================================
+  // UPPDATERINGSFUNKTION
+  // =========================================================================
+  function updateChart() {
+    linesGroup.selectAll("*").remove();
+    labelsGroup.selectAll("*").remove();
+
+    // Bakgrundslinjer (ej highlighted)
+    for (const [region, pts] of grouped) {
+      if (isHighlighted(region)) continue;
+      linesGroup.append("path")
+        .datum(pts).attr("d", line)
+        .attr("class", "line-bg").attr("data-key", region)
+        .attr("fill", "none").attr("stroke", "#aaa")
+        .attr("stroke-width", 1.2).attr("stroke-opacity", 0.25);
+    }
+
+    // Highlighted linjer + dots
+    const highlightedEndpoints = [];
+
+    for (const [region, pts] of grouped) {
+      if (!isHighlighted(region)) continue;
+      const color = getColor(region);
+
+      linesGroup.append("path")
+        .datum(pts).attr("d", line)
+        .attr("class", "line-highlight").attr("data-key", region)
+        .attr("fill", "none").attr("stroke", color).attr("stroke-width", 2);
+
+      pts.forEach(d => {
+        linesGroup.append("circle")
+          .attr("data-key", region)
+          .attr("cx", xScale(d.rank)).attr("cy", yScale(d.kum_andel))
+          .attr("r", 3).attr("fill", color)
+          .attr("stroke", "#fff").attr("stroke-width", 1.5);
+      });
+
+      const last = pts[pts.length - 1];
+      highlightedEndpoints.push({
+        key: region,
+        xPos: xScale(last.rank),
+        yPos: yScale(last.kum_andel),
+        color
+      });
+    }
+
+    // Direktetiketter med kollisionshantering (OWID-stil)
+    if (highlightedEndpoints.length > 0) {
+      const minSpacing = 18;
+      const chartTop = mt + 8, chartBottom = H - mb - 8;
+
+      highlightedEndpoints.sort((a, b) => a.yPos - b.yPos);
+      const lp = highlightedEndpoints.map(ep => ({ ...ep, labelY: ep.yPos }));
+
+      for (let iter = 0; iter < 20; iter++) {
+        let moved = false;
+        for (let i = 0; i < lp.length; i++) {
+          for (let j = 0; j < i; j++) {
+            const overlap = (lp[j].labelY + minSpacing) - lp[i].labelY;
+            if (overlap > 0) {
+              lp[i].labelY += overlap * 0.6;
+              lp[j].labelY -= overlap * 0.4;
+              moved = true;
+            }
+          }
+          lp[i].labelY = Math.max(chartTop, Math.min(chartBottom, lp[i].labelY));
+        }
+        if (!moved) break;
+      }
+
+      const connX = W - mr + 8, labelX = W - mr + 14;
+
+      for (const p of lp) {
+        const endX = p.xPos + 7;
+        const diagonal = Math.abs(p.labelY - p.yPos) > 3;
+
+        if (diagonal) {
+          labelsGroup.append("path")
+            .attr("d", `M ${endX} ${p.yPos} L ${connX - 6} ${p.yPos} L ${connX} ${p.labelY} L ${labelX - 4} ${p.labelY}`)
+            .attr("fill", "none").attr("stroke", p.color)
+            .attr("stroke-width", 1).attr("stroke-opacity", 0.35);
+        } else {
+          labelsGroup.append("line")
+            .attr("x1", endX).attr("y1", p.yPos)
+            .attr("x2", labelX - 4).attr("y2", p.labelY)
+            .attr("stroke", p.color).attr("stroke-width", 1).attr("stroke-opacity", 0.35);
+        }
+
+        labelsGroup.append("text")
+          .attr("x", labelX).attr("y", p.labelY).attr("dy", "0.35em")
+          .attr("font-size", "12px")
+          .attr("font-family", "'IBM Plex Sans', sans-serif")
+          .attr("font-weight", 500).attr("fill", p.color)
+          .text(p.key);
+      }
+    }
+
+    if (selectorCtrl) selectorCtrl.update();
+  }
+
+  function toggleHighlight(region) {
+    filterState.toggle(region);
+    updateChart();
+  }
+
+  updateChart();
+
+  // =========================================================================
+  // CROSSHAIR + TOOLTIP (anpassat från linjediagram)
+  // =========================================================================
+  const crosshair = svg.append("line")
+    .attr("y1", mt).attr("y2", H - mb)
+    .attr("stroke", "#bbb").attr("stroke-width", 1).attr("stroke-dasharray", "4,3")
+    .style("opacity", 0).style("pointer-events", "none");
+
+  const hoverHighlights = svg.append("g").style("pointer-events", "none");
+
+  let lastFocusedKey = null;
+
+  const overlay = svg.append("rect")
+    .attr("x", ml).attr("y", mt - 20)
+    .attr("width", W - ml - mr).attr("height", H - mt - mb + 40)
+    .attr("fill", "transparent").style("cursor", "default");
+
+  overlay
+    .on("mouseenter", () => {
+      crosshair.style("opacity", 1);
+      tooltip.style("display", "block");
+    })
+    .on("mouseleave", () => {
+      crosshair.style("opacity", 0);
+      hoverHighlights.selectAll("*").remove();
+      tooltip.style("display", "none");
+      lastFocusedKey = null;
+      // Återställ linjestil
+      linesGroup.selectAll("path").each(function() {
+        const el = d3.select(this);
+        const key = el.attr("data-key");
+        if (el.classed("line-highlight")) {
+          el.attr("stroke-width", 2).attr("stroke-opacity", 1).attr("stroke", getColor(key));
+        } else {
+          el.attr("stroke-width", 1.2).attr("stroke-opacity", 0.25).attr("stroke", "#aaa");
+        }
+      });
+    })
+    .on("click", () => {
+      if (lastFocusedKey) toggleHighlight(lastFocusedKey);
+    })
+    .on("mousemove", function(event) {
+      const [mx, my] = d3.pointer(event);
+
+      // Snap till närmaste rang
+      const closestRank = Math.max(1, Math.min(10, Math.round(xScale.invert(mx))));
+      const xPos = xScale(closestRank);
+      crosshair.attr("x1", xPos).attr("x2", xPos);
+
+      // Samla alla regioners värden vid denna rang
+      const allValues = [];
+      for (const [region, pts] of grouped) {
+        const pt = pts.find(d => d.rank === closestRank);
+        if (pt) {
+          allValues.push({
+            key: region,
+            tatort: pt.tatort,
+            value: pt.kum_andel,
+            befolkning: pt.befolkning,
+            yPos: yScale(pt.kum_andel),
+            color: getColor(region),
+            highlighted: isHighlighted(region)
+          });
+        }
+      }
+
+      // Hitta närmaste linje vertikalt (alla linjer)
+      const maxFocusDist = 20;
+      let focusedKey = null, focusedIsGray = false, minDist = Infinity;
+      for (const v of allValues) {
+        const dist = Math.abs(v.yPos - my);
+        if (dist < minDist && dist < maxFocusDist) {
+          minDist = dist;
+          focusedKey = v.key;
+          focusedIsGray = !v.highlighted;
+        }
+      }
+      lastFocusedKey = focusedKey;
+      d3.select(this).style("cursor", focusedKey ? "pointer" : "default");
+
+      // Linjestil baserat på fokus
+      linesGroup.selectAll("path").each(function() {
+        const el = d3.select(this);
+        const key = el.attr("data-key");
+        if (!focusedKey) {
+          if (el.classed("line-highlight")) {
+            el.attr("stroke-width", 2).attr("stroke-opacity", 1).attr("stroke", getColor(key));
+          } else {
+            el.attr("stroke-width", 1.2).attr("stroke-opacity", 0.25).attr("stroke", "#aaa");
+          }
+        } else if (key === focusedKey) {
+          el.attr("stroke-width", 2.8).attr("stroke-opacity", 1)
+            .attr("stroke", focusedIsGray ? "#555" : getColor(key));
+        } else if (isHighlighted(key)) {
+          el.attr("stroke-width", 1.8).attr("stroke-opacity", 0.5);
+        } else {
+          el.attr("stroke-width", 1).attr("stroke-opacity", 0.12);
+        }
+      });
+
+      // Tooltip: highlighted regioner + preview för fokuserad grå
+      const values = allValues.filter(v => v.highlighted);
+      values.sort((a, b) => b.value - a.value);
+
+      let rows = values.map(v =>
+        `<div class="graf-tooltip-row${v.key === focusedKey && !focusedIsGray ? " focused" : ""}">
+          <span class="graf-tooltip-dot" style="background:${v.color}"></span>
+          <span class="graf-tooltip-name">${v.tatort}</span>
+          <span class="graf-tooltip-val">${v.value.toFixed(1)}%</span>
+        </div>`
+      ).join("");
+
+      let previewRow = "";
+      if (focusedIsGray && focusedKey) {
+        const gi = allValues.find(v => v.key === focusedKey);
+        if (gi) {
+          previewRow = `<div class="graf-tooltip-preview">
+            <span class="graf-tooltip-dot" style="background:#555"></span>
+            <span class="graf-tooltip-name">${gi.key}: ${gi.tatort}</span>
+            <span class="graf-tooltip-val">${gi.value.toFixed(1)}%</span>
+            <span class="graf-tooltip-add">+ klicka</span>
+          </div>`;
+        }
+      }
+
+      tooltip.html(`
+        <div class="graf-tooltip-year">Rang ${closestRank}</div>
+        <div class="graf-tooltip-list">${rows}</div>
+        ${previewRow}
+      `);
+
+      // Positionera tooltip
+      const svgRect = svgContainer.node().getBoundingClientRect();
+      const containerRect = container.node().getBoundingClientRect();
+      const tooltipRect = tooltip.node().getBoundingClientRect();
+
+      let tooltipX = xPos * (svgRect.width / W) + svgRect.left - containerRect.left - tooltipRect.width - 15;
+      let tooltipY = my * (svgRect.height / H) + svgRect.top - containerRect.top - 10;
+
+      if (tooltipX < 10) {
+        tooltipX = xPos * (svgRect.width / W) + svgRect.left - containerRect.left + 15;
+      }
+      const maxY = containerRect.height - tooltipRect.height - 10;
+      tooltipY = Math.max(10, Math.min(tooltipY, maxY));
+
+      tooltip.style("left", tooltipX + "px").style("top", tooltipY + "px");
+
+      // Highlight-cirklar
+      hoverHighlights.selectAll("*").remove();
+
+      // Fokuserad grå linje: visa markör + slutetikett
+      if (focusedIsGray && focusedKey) {
+        const gi = allValues.find(v => v.key === focusedKey);
+        if (gi) {
+          hoverHighlights.append("circle")
+            .attr("cx", xPos).attr("cy", gi.yPos)
+            .attr("r", 8).attr("fill", "none")
+            .attr("stroke", "#555").attr("stroke-width", 2).attr("stroke-opacity", 0.5);
+          hoverHighlights.append("circle")
+            .attr("cx", xPos).attr("cy", gi.yPos)
+            .attr("r", 4).attr("fill", "#555");
+          // Slutetikett
+          const pts = grouped.get(focusedKey);
+          if (pts) {
+            const last = pts[pts.length - 1];
+            hoverHighlights.append("circle")
+              .attr("cx", xScale(last.rank)).attr("cy", yScale(last.kum_andel))
+              .attr("r", 5).attr("fill", "#555");
+            hoverHighlights.append("text")
+              .attr("x", xScale(last.rank) + 8).attr("y", yScale(last.kum_andel))
+              .attr("dy", "0.35em")
+              .attr("font-family", "'IBM Plex Sans', sans-serif")
+              .attr("font-size", "11px").attr("font-weight", "600")
+              .attr("fill", "#555").text(focusedKey);
+          }
+        }
+      }
+
+      // Highlighted regioners cirklar vid crosshair
+      for (const v of values) {
+        const isFocused = v.key === focusedKey && !focusedIsGray;
+        hoverHighlights.append("circle")
+          .attr("cx", xPos).attr("cy", v.yPos)
+          .attr("r", isFocused ? 9 : 5).attr("fill", "none")
+          .attr("stroke", v.color)
+          .attr("stroke-width", isFocused ? 2 : 1.5)
+          .attr("stroke-opacity", isFocused ? 0.5 : 0.3);
+        hoverHighlights.append("circle")
+          .attr("cx", xPos).attr("cy", v.yPos)
+          .attr("r", isFocused ? 4 : 2.5).attr("fill", v.color)
+          .attr("fill-opacity", isFocused ? 1 : 0.6);
+      }
+    });
+
+  container.append("div").attr("class", "graf-caption")
+    .text("Källa: SCB tätorter 2023, befolkning 2024. Andel av regionens totalbefolkning.");
+
+  return container.node();
+}
+```
+
+```{ojs}
+createRankSizeChart()
+```
+
+I Halland svarar den största tätorten, Halmstad, för 21 procent av länets totalbefolkning. Det är en av de lägre andelarna bland Sveriges regioner; bara Dalarna (15 procent), Kalmar (17) och Norrbotten (20) har en lägre andel i sin största tätort. Jämför med Västmanland, där Västerås ensam rymmer 47 procent av regionens befolkning, eller Örebro, där Örebro tätort svarar för 42 procent. I dessa regioner dominerar en enda ort på ett sätt som saknar motsvarighet i Halland.
+
+Kurvan stiger dock förhållandevis brant i de följande stegen. Kungsbacka/Göteborg och Varberg bidrar med ytterligare 23 procentenheter, och vid rang 4 har Halland passerat 50 procent av totalbefolkningen. Att det krävs just fyra tätorter för att nå den nivån är typiskt för regioner med en flerkärnig struktur; i Örebro räcker det med två orter, i Västmanland med en enda. Mönstret illustrerar att Halland visserligen startar lågt, med en förhållandevis liten andel i den enskilt största orten, men att de fyra största tätorterna var och en har tillräckligt befolkningsunderlag för att tillsammans bära en väsentlig del av regionens samlade vikt.
+
+Lägger man samman de tio största tätorterna når Halland 64 procent, en medelhög andel nationellt sett som är jämförbar med Blekinge (65 procent), Kronoberg (64) och Södermanland (65). Regioner med starkt dominerande huvudorter, som Stockholm (87 procent) och Västmanland (77), ligger väsentligt högre. Mönstret bekräftar att Halland varken präglas av en enda dominerande ort eller av en extremt utspridd bebyggelsestruktur. Flera tätorter med substantiellt befolkningsunderlag kompletterar varandra, vilket skapar förutsättningar för den funktionella integration som diskuterades i föregående avsnitt.
+
+Hittills har vi dock bara tittat på hur befolkningen *fördelas* mellan tätorterna. Det säger ingenting om den absoluta storleken på de ingående orterna. Två regioner kan ha nästan identiska fördelningskurvor men helt olika förutsättningar: den ena med tätorter som var och en har tillräckligt befolkningsunderlag för specialiserade arbetsmarknader och servicefunktioner, den andra med orter som visserligen är jämnt fördelade men var för sig för små för att generera påtagliga täthetsfördelar.
+
+```{=html}
+<p class="figur-label">Figur 3: Tätorter per region efter befolkningsstorlek</p>
+```
+
+```{ojs}
+beeswarmFacet(tatorterBeeswarm, {
+  value: "befolkning",
+  label: "tatort",
+  facet: "region",
+  title: "Tätorter per region: befolkningsstorlek",
+  subtitle: "Alla tätorter med minst 3 000 invånare. Halland markerat.",
+  caption: "Källa: SCB tätorter 2023, befolkning 2024. Logaritmisk skala. Streckad linje = 30 000 invånare.",
+  highlight: ["Halland"],
+  logScale: true,
+  sort: "max",
+  vline: { value: 30000, label: "30 000" },
+  formatValue: d => d.toLocaleString("sv-SE"),
+  interactive: true,
+  logo: "logo_farg.svg"
+})
+```
+
+Figur 3 visar samtliga tätorter med minst 3 000 invånare, sorterade per region efter den största tätortens storlek. Gränsen vid 3 000 invånare är den vedertagna tröskeln i Sverige för att identifiera orter med tillräckligt befolkningsunderlag för grundläggande service som vårdcentral, grundskola och dagligvaruhandel. Den streckade linjen markerar 30 000 invånare. Storlekens betydelse för en orts funktionella kapacitet är en glidande skala, och det är svårt att definiera en exakt gräns för när en tätort blir "stor nog". I studier av amerikanska regioner har Mark Partridge och medförfattare dock visat att städer med minst 30 000 invånare synes nå upp till en viktig tröskel: tillväxt i sådana orter sprider positiva effekter upp till 160 kilometer i det omgivande landskapet. Ju större stad, desto större potential för agglomerationsfördelar i form av bredare arbetsmarknader, specialiserad service och kunskapsspillover.
+
+De tre storstadslänen, Stockholm, Västra Götaland och Skåne, har en helt annan tätortsstruktur än övriga regioner, med flera orter som passerar 100 000-strecket och ett brett fält av medelstora städer. Bland de regioner som saknar storstadstätorter framträder tydliga skillnader. Halland har fyra tätorter kring eller över 30 000-linjen: Halmstad (73 000), Kungsbacka/Göteborg (40 000), Varberg (39 000) och Falkenberg (strax under 30 000). Det är en ovanligt jämn fördelning av substantiella orter. Jönköping har visserligen en större huvudort (104 000), men näst största tätort, Värnamo, stannar vid 20 000; regionen har en enda ort över 30 000. Samma mönster återkommer i Örebro, Västmanland och Uppsala: en dominerande centralort, sedan ett brant fall.
+
+De regioner som i figur 2 uppvisade liknande polycentriska fördelningskurvor som Hallands avslöjar här sina olikheter i absoluta tal. Blekinge har visserligen en ort över 30 000 i Karlskrona (36 000), men den är substantiellt mindre än Halmstad och efter Karlskrona faller storlekarna snabbt: Karlshamn stannar vid 20 000, Ronneby vid 12 000. Kalmar har en liknande struktur med flera orter men där bara Kalmar tätort (43 000) passerar tröskeln; Västervik och Oskarshamn, de näst största, ligger kring 20 000. Kronoberg har en förhållandevis stor huvudort i Växjö (75 000) men saknar den bredd av medelstora orter som kännetecknar Halland; näst störst är Ljungby med 16 000.
+
+Hallands kombination av flera orter med tillräcklig massa, utspridda längs en sammanhängande infrastrukturkorridor, är ovanlig bland Sveriges regioner utanför storstadslänen. Därtill kommer den geografiska närheten till större städer utanför den egna regionen: Göteborg i norr och Helsingborg i söder ligger båda inom pendlingsavstånd från delar av länet, vilket ytterligare förstärker det funktionella underlaget. Det innebär att en stor del av länets befolkning har tillgång till inte bara de egna tätorternas arbetsmarknader och serviceutbud utan även till angränsande storstadsregioners. Hur gränsen mellan stad och land ser ut inom Halland, och vilken andel av befolkningen som faktiskt bor i dessa tätorter, är temat för nästa avsnitt.
+
+### Stad och land
+
+I de föregående avsnitten har vi studerat Hallands ortsstruktur genom tätorternas storlek och fördelning. Kommunala gränser och tätortsbefolkningar ger en viktig men förenklad bild. I verkligheten är övergången mellan stad och land sällan skarp; det handlar snarare om ett kontinuum från täta stadskärnor via förorter och stationsorter till jordbruksbygd och glesbygd. Vad som räknas som "stad" respektive "land" beror i hög grad på vilken definition man använder, och olika mått ger olika bilder av samma geografi.
+
+I detta avsnitt granskar vi Halland genom två etablerade klassificeringar som fångar olika aspekter av stad-land-dimensionen: SCB:s tätortsgrad och Nordregios nordiska urban-rurala typologi.
+
+#### Tätortsgraden
+
+Det mest etablerade och välkända måttet i svensk statistik är SCB:s *tätortsgrad*: andelen av en regions befolkning som bor i en statistisk tätort, det vill säga ett sammanhängande bebyggelseområde med minst 200 invånare. Måttet är enkelt och intuitivt, med en tidsserie som sträcker sig tillbaka till 1800-talet, men det är också grovt. Allt med minst 200 invånare räknas som "tätort", vilket innebär att en by med 250 invånare och en stad med 100 000 hamnar i samma kategori. Indelningen är binär: tätort eller inte tätort.
+
+```{=html}
+<p class="figur-label">Figur 4: Tätortsgrad per region</p>
+```
+
+```{ojs}
+lollipop(tatortsgrad, {
+  x: "region",
+  y: "tatortsgrad",
+  horizontal: true,
+  title: "Andel av befolkningen i tätort",
+  subtitle: "Tätortsgrad per region, 2024. Streckad linje = riksgenomsnitt.",
+  caption: "Källa: SCB tätorter 2023, befolkning 2024. Tätort = sammanhängande bebyggelse med minst 200 invånare.",
+  xLabel: "Andel (%)",
+  highlight: ["Halland"],
+  vline: { value: 87.9, label: "Rikssnitt" },
+  logo: "logo_farg.svg",
+  interactive: true
+})
+```
+
+Nationellt bor 88 procent av befolkningen i tätort. Halland ligger strax under riksgenomsnittet med en tätortsgrad på 86 procent, den sjätte högsta bland landets regioner. Stockholm toppar med 97 procent, följt av Skåne (91) och Västmanland (88). I botten ligger Gotland (65 procent) och Jämtland (73). Spridningen mellan regionerna är ändå betydande: mellan Stockholms 97 procent och Gotlands 65 procent skiljer det drygt 30 procentenheter. Värmland, Jämtland och Gotland, regioner med stora arealer och utspridd bebyggelse, ligger alla under 77 procent. Tätortsgraden bekräftar att Sverige i grunden är ett urbaniserat land, men variationen visar att det finns tydliga regionala skillnader i hur stor andel av befolkningen som bor utanför tätorter. Måttet har dock en grundläggande begränsning: det är binärt. Det säger ingenting om *vilken typ* av tätort befolkningen bor i, om det rör sig om en storstad eller ett samhälle med 300 invånare, och lika lite om vilken typ av landsbygd resten av befolkningen lever på, om det handlar om jordbruksbygd nära en stad eller avlägsen glesbygd. För att komma åt dessa skillnader behövs mer finfördelade klassificeringar.
+
+#### Nordregios urban-rurala typologi
+
+Nordregios nordiska urban-rurala typologi är en rutnätsbaserad klassificering som delar in territoriet i sju klasser baserat på befolkningstäthet, avståndsmått och marktäckedata, allt på 1×1 km-rutnivå. Det centrala med typologin är att den inte klassificerar kommuner utan enskilda rutnätsceller. En kommun kan därmed vara urban, periurban och rural samtidigt, vilket ofta är fallet i verkligheten. De sju klasserna bildar ett kontinuum från tät stadskärna (*inner urban*) via yttre stadsområden, periurbana zoner och stadsnära landsbygd till lokala centra, jordbrukslandskap (*rural heartland*) och glesbygd.
+
+```{=html}
+<p class="figur-label">Figur 5: Befolkningens fördelning på urban-rural typologi</p>
+```
+
+```{ojs}
+stapeldiagram(nordregio, {
+  x: "region",
+  y: "andel",
+  color: "typologi",
+  horizontal: true,
+  title: "Befolkningens fördelning på urban-rural typologi",
+  subtitle: "Andel av regionens befolkning per klass. Nordregios 7-gradiga typologi.",
+  caption: "Källa: Nordregio 2024, rutnätsbaserad klassificering (1×1 km). Befolkning 2022.",
+  xLabel: "Andel (%)",
+  colors: ["#1b0a3c", "#7b2d8e", "#0f7b3f", "#8cd211", "#ffc107", "#e8491a", "#f0d9a0"],
+  highlight: ["Halland"],
+  logo: "logo_farg.svg",
+  interactive: true
+})
+```
+
+```{=html}
+<p class="figur-label">Karta 2: Urban-rural typologi i Halland</p>
+```
+
+```{ojs}
+karta(nordregioKarta, {
+  layer: "rutor",
+  boundaries: "lan",
+  label: "typ",
+  colorBy: "typ",
+  colors: ["#1b0a3c", "#7b2d8e", "#0f7b3f", "#8cd211", "#ffc107", "#e8491a", "#f0d9a0"],
+  title: "Urban-rural typologi",
+  subtitle: "Nordregios klassificering, 1×1 km rutnät. Halland markerat.",
+  caption: "Källa: Nordregio 2024. Rutnätsbaserad klassificering (1 km²). Befolkningsdata 2022.",
+  highlight: ["Halland"],
+  zoomTo: true,
+  zoomPadding: 1.6,
+  overlay: tatorter,
+  overlayLabel: "name",
+  overlayPop: "population",
+  logo: "logo_farg.svg"
+})
+```
+
+Nordregios typologi ger en väsentligt mer nyanserad bild av Hallands geografi än tätortsgraden. Den mest slående iakttagelsen är att Halland har en förhållandevis låg andel *inner urban*, bara 31 procent, trots att regionen tillhör landets mest urbaniserade enligt tätortsgraden. Förklaringen ligger i de periurbana och yttre urbana zonerna. Hela 23 procent av befolkningen klassificeras som periurban och ytterligare 19 procent som *outer urban*. Lägger man samman de tre stadsanknutna kategorierna (inner urban, outer urban och periurban) bor 73 procent av Hallands befolkning i urbana eller urbannära miljöer. Det är i nivå med Skåne (79 procent) och Västra Götaland (75), men med en helt annan sammansättning: i Skåne bor 51 procent i inner urban, i Västra Götaland 49 procent, att jämföra med Hallands 31. Hallands urbanisering är med andra ord brett spridd snarare än koncentrerad till täta stadskärnor.
+
+Den periurbana andelen på 23 procent är en av de högsta i landet, jämförbar med Västernorrland (22 procent) och Skåne (19). Det speglar den polycentriska struktur som framträtt genom hela kapitlet: snarare än en enda dominerande stadskärna med omgivande glesbygd präglas Halland av ett pärlband av medelstora orter med breda övergångszoner däremellan. Bebyggelsen längs E6-korridoren bildar ett närmast sammanhängande band av stadsanknutna miljöer från Kungsbacka i norr till Halmstad i söder.
+
+Det är dock i de rurala kategorierna som Hallands profil blir riktigt utmärkande. Av de som bor utanför urbana och periurbana zoner återfinns merparten, 16 procent av totalbefolkningen, i kategorin *rural area close to urban*: landsbygd med god tillgänglighet till en stad. Det handlar om jordbruksbygd, kustsamhällen och spridd bebyggelse som visserligen inte klassificeras som urban men som ligger inom pendlingsavstånd till en tätort, med tillgång till arbetsmarknad, service och infrastruktur. Lägger man samman alla urbana och periurbana kategorier med den stadsnära landsbygden bor 89 procent av Hallands befolkning i miljöer med funktionell koppling till en stad. Bara 5 procent återfinns i *rural heartland*, jordbrukslandskap utan direkt urban koppling, och 0,3 procent i glesbygd. I absoluta tal rör det sig om knappt 1 000 personer i glesbygd, att jämföra med Norrbottens 42 000, Jämtlands 34 000 eller Västerbottens 48 000.
+
+Halland har med andra ord en utpräglat "rurban" karaktär: en geografi där landsbygden i hög grad är stadsnära och funktionellt integrerad med de urbana kärnorna. Det är ett mönster som avspeglar regionens höga befolkningstäthet. Med 63 invånare per kvadratkilometer, mer än dubbelt så mycket som riket i genomsnitt, finns det helt enkelt inte utrymme för stora avstånd mellan bebyggelse och service. Kontrasten mot de norrländska regionerna är slående: Jämtland har 26 procent av befolkningen i glesbygd, Norrbotten 17, Västerbotten 18. Men skillnaden framträder även mot närmare jämförelseregioner. Kronoberg, en sydsvensk region med lägre befolkningstäthet, har 20 procent i *rural heartland* och 3 procent i glesbygd; Kalmar har 23 respektive 4 procent. Halland har förvisso jordbruksbygd, inte minst på Hallandsåsens slättland och i Falkenbergs inland, men den utgör en väsentligt mindre andel av befolkningens boendemiljö än i dessa jämförelseregioner. Det är inte jordbruket som saknas, utan den demografiska tyngd som landsbygden bär i regioner med större avstånd och lägre täthet.
+
+Sammantaget bekräftar typologin en slutsats som kan vara överraskande givet Hallands rykte som kustidyll: det här är en urban region. Nio av tio hallänningar bor i miljöer som funktionellt hänger samman med en stad. Att urbaniseringen tar sig uttryck i periurbana zoner och yttre stadsområden snarare än i täta stadskärnor förändrar inte grundbilden. Halland har jordbruksbygd och skogsmark, men den avlägsna glesbygden, den som präglar stora delar av Sverige norr om Dalälven, saknas nästan helt. Den dominerande geografin är urban, om än av en utspridd och polycentrisk sort.
+
+### Var bor halländarna?
+
+De urbana typologierna ger en bild av *hur* stadsmässig en region är. Men för att förstå *var* människor faktiskt bor behöver vi gå ner till den finaste upplösningen: det enskilda 1×1 km-rutnätet. I kartan nedan representerar varje cirkel en kvadratkilometer, och cirkelns storlek avspeglar antalet invånare. Totalt omfattar Halland 5 836 rutor. Av dessa är 2 198 helt obebodda, främst skog och myrmark i det halländska inlandet. I motsatt ände finns 38 rutor med mer än 1 500 invånare per km², koncentrerade till stadskärnorna i Halmstad, Varberg och Kungsbacka.
+
+```{=html}
+<p class="figur-label">Karta 3: Befolkningstäthet i Halland</p>
+```
+
+```{ojs}
+karta(tathetHalland, {
+  layer: "rutor",
+  bubbles: "pop",
+  bubbleColor: [200, 56, 30],
+  bubbleOpacity: 0.3,
+  bubbleInteractive: true,
+  title: "Befolkningstäthet per km²",
+  subtitle: "Hallands län. Cirkelstorlek motsvarar antal invånare per 1×1 km ruta, 2022.",
+  caption: "Källa: Nordregio 2024, baserat på SCB befolkningsstatistik per 1 km-ruta.",
+  overlay: tatorter,
+  overlayLabel: "name",
+  overlayPop: "population",
+  logo: "logo_farg.svg"
+})
+```
+
+Kartan bekräftar den bild som vuxit fram genom kapitlet. Befolkningen i Halland koncentreras i ett närmast sammanhängande urbant band längs kusten och E6-korridoren, från Kungsbacka i norr till Halmstad i söder. De mest tätbefolkade rutorna återfinns i stadskärnorna, men utanför dessa präglas regionen av en bred zon med tiotals till hundratals invånare per km². Det är denna zon, inte stadskärnorna var för sig, som utgör Hallands verkliga stadsgeografi. Merparten av länets invånare bor i den. Halland är, sammanfattningsvis, en region med en genomgående urban karaktär: inte koncentrerad till en enda stor stad, men inte heller rural i någon meningsfull bemärkelse. Det är en utspridd, flerkärnig och infrastrukturellt sammanbunden stadsregion längs den halländska kusten.

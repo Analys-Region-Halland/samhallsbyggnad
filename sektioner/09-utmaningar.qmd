@@ -1,0 +1,111 @@
+# Utmaningar
+
+## Befolkning och byggande
+
+Hovra över en punkt för att se dess historiska utveckling. Hovra över årtalet i undertiteln för att välja år eller spela animationen.
+
+```{ojs}
+scatterplot(scatterData, {
+  x: "befolkning",
+  y: "byggande",
+  label: "kommun",
+  color: "län",
+  time: "år",
+  title: "Befolkning och bostadsbyggande",
+  subtitle: "Hallands kommuner, 1990–2024",
+  caption: "Källa: SCB. Hovra för trace, hovra på årtalet för tidskontroll.",
+  xLabel: "Befolkning",
+  yLabel: "Byggstarter per år",
+  formatX: d => (d / 1000).toFixed(0) + " k",
+  formatY: d => d.toLocaleString("sv-SE"),
+  filter: ["Halland"],
+  interactive: true,
+  logo: "logo_farg.svg"
+})
+```
+
+## Utvecklingsindex
+
+```{ojs}
+lollipop(lollipopData, {
+  x: "kommun",
+  y: "index",
+  title: "Utvecklingsindex per kommun",
+  subtitle: "Sammanvägt index 0-100",
+  yLabel: "Index",
+  logo: "logo_farg.svg",
+  interactive: true
+})
+```
+
+## Utvecklingsindex (horisontell lollipop)
+
+```{ojs}
+lollipop(lollipopData, {
+  x: "kommun",
+  y: "index",
+  horizontal: true,
+  title: "Utvecklingsindex per kommun",
+  subtitle: "Sammanvägt index 0-100",
+  xLabel: "Index",
+  logo: "logo_farg.svg",
+  interactive: true
+})
+```
+
+## Regional ranking
+
+```{ojs}
+stapeldiagram(rankingData, {
+  x: "kategori",
+  y: "poäng",
+  horizontal: true,
+  title: "Regional ranking",
+  subtitle: "Hallands placering nationellt (percentil)",
+  xLabel: "Poäng",
+  logo: "logo_farg.svg",
+  interactive: true
+})
+```
+
+## Byggande per kommun (gruppfilter-test)
+
+Alla kommuner visas i diagrammet men `filter: ["Halland"]` gör att bara Hallands kommuner är valbara i filtret. Klicka på en bar för att markera den.
+
+```{ojs}
+scatterLatest = scatterData.filter(d => d.år === 2024)
+
+lollipop(scatterLatest, {
+  x: "kommun",
+  y: "byggande",
+  color: "län",
+  horizontal: true,
+  title: "Byggstarter per kommun",
+  subtitle: "Alla kommuner, 2024",
+  caption: "Källa: Syntetisk data. Hallands kommuner markerade.",
+  xLabel: "Byggstarter",
+  logo: "logo_farg.svg",
+  interactive: true,
+  filter: ["Halland"]
+})
+```
+
+## Kommunranking över tid
+
+Hovra över årtalet i undertiteln för att välja tidpunkt eller spela animationen.
+
+```{ojs}
+stapeldiagram(rankingTimeSeries, {
+  x: "kommun",
+  y: "index",
+  time: "år",
+  horizontal: true,
+  title: "Utvecklingsindex över tid",
+  subtitle: "Hallands kommuner, 2010–2024",
+  caption: "Hovra på årtalet för tidskontroll.",
+  xLabel: "Index",
+  logo: "logo_farg.svg",
+  interactive: true,
+  highlight: ["Halmstad", "Kungsbacka"]
+})
+```
