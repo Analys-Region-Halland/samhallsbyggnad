@@ -21,3 +21,5 @@ data/processed/*.geojson
 # OS
 .DS_Store
 Thumbs.db
+
+/.quarto/

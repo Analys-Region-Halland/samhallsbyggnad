@@ -1,0 +1,1767 @@
+[
+  {
+    "tatort": "Karlskrona",
+    "region": "Blekinge",
+    "befolkning": 36410
+  },
+  {
+    "tatort": "Karlshamn",
+    "region": "Blekinge",
+    "befolkning": 19830
+  },
+  {
+    "tatort": "Ronneby",
+    "region": "Blekinge",
+    "befolkning": 12474
+  },
+  {
+    "tatort": "Sölvesborg",
+    "region": "Blekinge",
+    "befolkning": 8696
+  },
+  {
+    "tatort": "Olofström",
+    "region": "Blekinge",
+    "befolkning": 7629
+  },
+  {
+    "tatort": "Kallinge",
+    "region": "Blekinge",
+    "befolkning": 4536
+  },
+  {
+    "tatort": "Mörrum",
+    "region": "Blekinge",
+    "befolkning": 3858
+  },
+  {
+    "tatort": "Rödeby",
+    "region": "Blekinge",
+    "befolkning": 3450
+  },
+  {
+    "tatort": "Nättraby",
+    "region": "Blekinge",
+    "befolkning": 3326
+  },
+  {
+    "tatort": "Borlänge",
+    "region": "Dalarna",
+    "befolkning": 43943
+  },
+  {
+    "tatort": "Falun",
+    "region": "Dalarna",
+    "befolkning": 39880
+  },
+  {
+    "tatort": "Ludvika",
+    "region": "Dalarna",
+    "befolkning": 15851
+  },
+  {
+    "tatort": "Avesta",
+    "region": "Dalarna",
+    "befolkning": 15767
+  },
+  {
+    "tatort": "Mora",
+    "region": "Dalarna",
+    "befolkning": 12881
+  },
+  {
+    "tatort": "Hedemora",
+    "region": "Dalarna",
+    "befolkning": 7418
+  },
+  {
+    "tatort": "Leksand",
+    "region": "Dalarna",
+    "befolkning": 6553
+  },
+  {
+    "tatort": "Orsa",
+    "region": "Dalarna",
+    "befolkning": 5733
+  },
+  {
+    "tatort": "Rättvik",
+    "region": "Dalarna",
+    "befolkning": 5356
+  },
+  {
+    "tatort": "Smedjebacken",
+    "region": "Dalarna",
+    "befolkning": 5149
+  },
+  {
+    "tatort": "Malung",
+    "region": "Dalarna",
+    "befolkning": 4833
+  },
+  {
+    "tatort": "Säter",
+    "region": "Dalarna",
+    "befolkning": 4815
+  },
+  {
+    "tatort": "Visby",
+    "region": "Gotland",
+    "befolkning": 26221
+  },
+  {
+    "tatort": "Gävle",
+    "region": "Gävleborg",
+    "befolkning": 86757
+  },
+  {
+    "tatort": "Sandviken",
+    "region": "Gävleborg",
+    "befolkning": 24546
+  },
+  {
+    "tatort": "Hudiksvall",
+    "region": "Gävleborg",
+    "befolkning": 16777
+  },
+  {
+    "tatort": "Bollnäs",
+    "region": "Gävleborg",
+    "befolkning": 13805
+  },
+  {
+    "tatort": "Söderhamn",
+    "region": "Gävleborg",
+    "befolkning": 11871
+  },
+  {
+    "tatort": "Ljusdal",
+    "region": "Gävleborg",
+    "befolkning": 7128
+  },
+  {
+    "tatort": "Hofors",
+    "region": "Gävleborg",
+    "befolkning": 5944
+  },
+  {
+    "tatort": "Edsbyn",
+    "region": "Gävleborg",
+    "befolkning": 4165
+  },
+  {
+    "tatort": "Iggesund",
+    "region": "Gävleborg",
+    "befolkning": 3330
+  },
+  {
+    "tatort": "Halmstad",
+    "region": "Halland",
+    "befolkning": 73442
+  },
+  {
+    "tatort": "Kungsbacka (GBG)",
+    "region": "Halland",
+    "befolkning": 39913
+  },
+  {
+    "tatort": "Varberg",
+    "region": "Halland",
+    "befolkning": 39268
+  },
+  {
+    "tatort": "Falkenberg",
+    "region": "Halland",
+    "befolkning": 29907
+  },
+  {
+    "tatort": "Onsala",
+    "region": "Halland",
+    "befolkning": 12362
+  },
+  {
+    "tatort": "Laholm",
+    "region": "Halland",
+    "befolkning": 6767
+  },
+  {
+    "tatort": "Åsa",
+    "region": "Halland",
+    "befolkning": 6128
+  },
+  {
+    "tatort": "Mellbystrand",
+    "region": "Halland",
+    "befolkning": 4722
+  },
+  {
+    "tatort": "Oskarström",
+    "region": "Halland",
+    "befolkning": 4094
+  },
+  {
+    "tatort": "Vallda",
+    "region": "Halland",
+    "befolkning": 3989
+  },
+  {
+    "tatort": "Hyltebruk",
+    "region": "Halland",
+    "befolkning": 3854
+  },
+  {
+    "tatort": "Frillesås",
+    "region": "Halland",
+    "befolkning": 3837
+  },
+  {
+    "tatort": "Tvååker",
+    "region": "Halland",
+    "befolkning": 3226
+  },
+  {
+    "tatort": "Östersund",
+    "region": "Jämtland",
+    "befolkning": 54083
+  },
+  {
+    "tatort": "Åre",
+    "region": "Jämtland",
+    "befolkning": 3783
+  },
+  {
+    "tatort": "Strömsund",
+    "region": "Jämtland",
+    "befolkning": 3550
+  },
+  {
+    "tatort": "Jönköping",
+    "region": "Jönköping",
+    "befolkning": 103816
+  },
+  {
+    "tatort": "Värnamo",
+    "region": "Jönköping",
+    "befolkning": 20232
+  },
+  {
+    "tatort": "Nässjö",
+    "region": "Jönköping",
+    "befolkning": 18562
+  },
+  {
+    "tatort": "Tranås",
+    "region": "Jönköping",
+    "befolkning": 14470
+  },
+  {
+    "tatort": "Vetlanda",
+    "region": "Jönköping",
+    "befolkning": 13956
+  },
+  {
+    "tatort": "Eksjö",
+    "region": "Jönköping",
+    "befolkning": 11082
+  },
+  {
+    "tatort": "Gislaved",
+    "region": "Jönköping",
+    "befolkning": 9986
+  },
+  {
+    "tatort": "Habo",
+    "region": "Jönköping",
+    "befolkning": 9665
+  },
+  {
+    "tatort": "Bankeryd",
+    "region": "Jönköping",
+    "befolkning": 9027
+  },
+  {
+    "tatort": "Mullsjö",
+    "region": "Jönköping",
+    "befolkning": 5876
+  },
+  {
+    "tatort": "Vaggeryd",
+    "region": "Jönköping",
+    "befolkning": 5762
+  },
+  {
+    "tatort": "Sävsjö",
+    "region": "Jönköping",
+    "befolkning": 5599
+  },
+  {
+    "tatort": "Taberg",
+    "region": "Jönköping",
+    "befolkning": 5223
+  },
+  {
+    "tatort": "Anderstorp",
+    "region": "Jönköping",
+    "befolkning": 5019
+  },
+  {
+    "tatort": "Smålandsstenar",
+    "region": "Jönköping",
+    "befolkning": 4550
+  },
+  {
+    "tatort": "Skillingaryd",
+    "region": "Jönköping",
+    "befolkning": 4250
+  },
+  {
+    "tatort": "Gnosjö",
+    "region": "Jönköping",
+    "befolkning": 4155
+  },
+  {
+    "tatort": "Aneby",
+    "region": "Jönköping",
+    "befolkning": 3604
+  },
+  {
+    "tatort": "Tenhult",
+    "region": "Jönköping",
+    "befolkning": 3104
+  },
+  {
+    "tatort": "Kalmar",
+    "region": "Kalmar",
+    "befolkning": 42961
+  },
+  {
+    "tatort": "Västervik",
+    "region": "Kalmar",
+    "befolkning": 21658
+  },
+  {
+    "tatort": "Oskarshamn",
+    "region": "Kalmar",
+    "befolkning": 18830
+  },
+  {
+    "tatort": "Nybro",
+    "region": "Kalmar",
+    "befolkning": 13425
+  },
+  {
+    "tatort": "Vimmerby",
+    "region": "Kalmar",
+    "befolkning": 8115
+  },
+  {
+    "tatort": "Färjestaden",
+    "region": "Kalmar",
+    "befolkning": 6745
+  },
+  {
+    "tatort": "Lindsdal",
+    "region": "Kalmar",
+    "befolkning": 6145
+  },
+  {
+    "tatort": "Hultsfred",
+    "region": "Kalmar",
+    "befolkning": 5507
+  },
+  {
+    "tatort": "Mönsterås",
+    "region": "Kalmar",
+    "befolkning": 5117
+  },
+  {
+    "tatort": "Emmaboda",
+    "region": "Kalmar",
+    "befolkning": 4733
+  },
+  {
+    "tatort": "Borgholm",
+    "region": "Kalmar",
+    "befolkning": 4268
+  },
+  {
+    "tatort": "Smedby",
+    "region": "Kalmar",
+    "befolkning": 3716
+  },
+  {
+    "tatort": "Växjö",
+    "region": "Kronoberg",
+    "befolkning": 74922
+  },
+  {
+    "tatort": "Ljungby",
+    "region": "Kronoberg",
+    "befolkning": 16148
+  },
+  {
+    "tatort": "Älmhult",
+    "region": "Kronoberg",
+    "befolkning": 10855
+  },
+  {
+    "tatort": "Alvesta",
+    "region": "Kronoberg",
+    "befolkning": 9048
+  },
+  {
+    "tatort": "Markaryd",
+    "region": "Kronoberg",
+    "befolkning": 5042
+  },
+  {
+    "tatort": "Hovmantorp",
+    "region": "Kronoberg",
+    "befolkning": 3193
+  },
+  {
+    "tatort": "Tingsryd",
+    "region": "Kronoberg",
+    "befolkning": 3140
+  },
+  {
+    "tatort": "Luleå",
+    "region": "Norrbotten",
+    "befolkning": 49825
+  },
+  {
+    "tatort": "Piteå",
+    "region": "Norrbotten",
+    "befolkning": 23914
+  },
+  {
+    "tatort": "Kiruna",
+    "region": "Norrbotten",
+    "befolkning": 17288
+  },
+  {
+    "tatort": "Boden",
+    "region": "Norrbotten",
+    "befolkning": 16724
+  },
+  {
+    "tatort": "Gällivare",
+    "region": "Norrbotten",
+    "befolkning": 12357
+  },
+  {
+    "tatort": "Kalix",
+    "region": "Norrbotten",
+    "befolkning": 8128
+  },
+  {
+    "tatort": "Haparanda",
+    "region": "Norrbotten",
+    "befolkning": 6309
+  },
+  {
+    "tatort": "Älvsbyn",
+    "region": "Norrbotten",
+    "befolkning": 4871
+  },
+  {
+    "tatort": "Gammelstaden",
+    "region": "Norrbotten",
+    "befolkning": 4858
+  },
+  {
+    "tatort": "Arvidsjaur",
+    "region": "Norrbotten",
+    "befolkning": 4384
+  },
+  {
+    "tatort": "Bergnäset",
+    "region": "Norrbotten",
+    "befolkning": 3761
+  },
+  {
+    "tatort": "Sävast",
+    "region": "Norrbotten",
+    "befolkning": 3551
+  },
+  {
+    "tatort": "Södra Sunderbyn",
+    "region": "Norrbotten",
+    "befolkning": 3004
+  },
+  {
+    "tatort": "Malmö",
+    "region": "Skåne",
+    "befolkning": 342588
+  },
+  {
+    "tatort": "Helsingborg",
+    "region": "Skåne",
+    "befolkning": 116741
+  },
+  {
+    "tatort": "Lund",
+    "region": "Skåne",
+    "befolkning": 99723
+  },
+  {
+    "tatort": "Kristianstad",
+    "region": "Skåne",
+    "befolkning": 41108
+  },
+  {
+    "tatort": "Landskrona",
+    "region": "Skåne",
+    "befolkning": 34067
+  },
+  {
+    "tatort": "Trelleborg",
+    "region": "Skåne",
+    "befolkning": 31550
+  },
+  {
+    "tatort": "Ängelholm",
+    "region": "Skåne",
+    "befolkning": 31239
+  },
+  {
+    "tatort": "Ystad",
+    "region": "Skåne",
+    "befolkning": 21471
+  },
+  {
+    "tatort": "Eslöv",
+    "region": "Skåne",
+    "befolkning": 20523
+  },
+  {
+    "tatort": "Hässleholm",
+    "region": "Skåne",
+    "befolkning": 19931
+  },
+  {
+    "tatort": "Staffanstorp",
+    "region": "Skåne",
+    "befolkning": 17973
+  },
+  {
+    "tatort": "Höganäs",
+    "region": "Skåne",
+    "befolkning": 16429
+  },
+  {
+    "tatort": "Höllviken och Ljunghusen",
+    "region": "Skåne",
+    "befolkning": 15751
+  },
+  {
+    "tatort": "Bunkeflostrand",
+    "region": "Skåne",
+    "befolkning": 15514
+  },
+  {
+    "tatort": "Oxie",
+    "region": "Skåne",
+    "befolkning": 14217
+  },
+  {
+    "tatort": "Höör",
+    "region": "Skåne",
+    "befolkning": 14109
+  },
+  {
+    "tatort": "Lomma",
+    "region": "Skåne",
+    "befolkning": 13771
+  },
+  {
+    "tatort": "Svedala",
+    "region": "Skåne",
+    "befolkning": 13475
+  },
+  {
+    "tatort": "Bjuv",
+    "region": "Skåne",
+    "befolkning": 11193
+  },
+  {
+    "tatort": "Åhus",
+    "region": "Skåne",
+    "befolkning": 10805
+  },
+  {
+    "tatort": "Kävlinge",
+    "region": "Skåne",
+    "befolkning": 10492
+  },
+  {
+    "tatort": "Åstorp",
+    "region": "Skåne",
+    "befolkning": 10028
+  },
+  {
+    "tatort": "Bjärred",
+    "region": "Skåne",
+    "befolkning": 9814
+  },
+  {
+    "tatort": "Skurup",
+    "region": "Skåne",
+    "befolkning": 9395
+  },
+  {
+    "tatort": "Klippan",
+    "region": "Skåne",
+    "befolkning": 9039
+  },
+  {
+    "tatort": "Sjöbo",
+    "region": "Skåne",
+    "befolkning": 8510
+  },
+  {
+    "tatort": "Bromölla",
+    "region": "Skåne",
+    "befolkning": 7893
+  },
+  {
+    "tatort": "Osby",
+    "region": "Skåne",
+    "befolkning": 7622
+  },
+  {
+    "tatort": "Hörby",
+    "region": "Skåne",
+    "befolkning": 7595
+  },
+  {
+    "tatort": "Vellinge",
+    "region": "Skåne",
+    "befolkning": 7390
+  },
+  {
+    "tatort": "Skanör med Falsterbo",
+    "region": "Skåne",
+    "befolkning": 7202
+  },
+  {
+    "tatort": "Tomelilla",
+    "region": "Skåne",
+    "befolkning": 7192
+  },
+  {
+    "tatort": "Båstad",
+    "region": "Skåne",
+    "befolkning": 7080
+  },
+  {
+    "tatort": "Dalby",
+    "region": "Skåne",
+    "befolkning": 6930
+  },
+  {
+    "tatort": "Simrishamn",
+    "region": "Skåne",
+    "befolkning": 6862
+  },
+  {
+    "tatort": "Södra Sandby",
+    "region": "Skåne",
+    "befolkning": 6826
+  },
+  {
+    "tatort": "Löddeköpinge",
+    "region": "Skåne",
+    "befolkning": 6681
+  },
+  {
+    "tatort": "Rydebäck",
+    "region": "Skåne",
+    "befolkning": 6677
+  },
+  {
+    "tatort": "Åkarp",
+    "region": "Skåne",
+    "befolkning": 6428
+  },
+  {
+    "tatort": "Hjärup",
+    "region": "Skåne",
+    "befolkning": 5998
+  },
+  {
+    "tatort": "Perstorp",
+    "region": "Skåne",
+    "befolkning": 5884
+  },
+  {
+    "tatort": "Påarp",
+    "region": "Skåne",
+    "befolkning": 5844
+  },
+  {
+    "tatort": "Ödåkra",
+    "region": "Skåne",
+    "befolkning": 5740
+  },
+  {
+    "tatort": "Veberöd",
+    "region": "Skåne",
+    "befolkning": 5645
+  },
+  {
+    "tatort": "Örkelljunga",
+    "region": "Skåne",
+    "befolkning": 5476
+  },
+  {
+    "tatort": "Viken",
+    "region": "Skåne",
+    "befolkning": 5266
+  },
+  {
+    "tatort": "Bara",
+    "region": "Skåne",
+    "befolkning": 4732
+  },
+  {
+    "tatort": "Tyringe",
+    "region": "Skåne",
+    "befolkning": 4709
+  },
+  {
+    "tatort": "Furulund",
+    "region": "Skåne",
+    "befolkning": 4664
+  },
+  {
+    "tatort": "Hittarp",
+    "region": "Skåne",
+    "befolkning": 4560
+  },
+  {
+    "tatort": "Svalöv",
+    "region": "Skåne",
+    "befolkning": 4268
+  },
+  {
+    "tatort": "Tygelsjö",
+    "region": "Skåne",
+    "befolkning": 4173
+  },
+  {
+    "tatort": "Hofterup",
+    "region": "Skåne",
+    "befolkning": 4106
+  },
+  {
+    "tatort": "Vinslöv",
+    "region": "Skåne",
+    "befolkning": 4088
+  },
+  {
+    "tatort": "Häljarp",
+    "region": "Skåne",
+    "befolkning": 4018
+  },
+  {
+    "tatort": "Munka-Ljungby",
+    "region": "Skåne",
+    "befolkning": 3786
+  },
+  {
+    "tatort": "Hammar",
+    "region": "Skåne",
+    "befolkning": 3548
+  },
+  {
+    "tatort": "Tollarp",
+    "region": "Skåne",
+    "befolkning": 3440
+  },
+  {
+    "tatort": "Knislinge",
+    "region": "Skåne",
+    "befolkning": 3342
+  },
+  {
+    "tatort": "Ekeby",
+    "region": "Skåne",
+    "befolkning": 3338
+  },
+  {
+    "tatort": "Broby",
+    "region": "Skåne",
+    "befolkning": 3223
+  },
+  {
+    "tatort": "Genarp",
+    "region": "Skåne",
+    "befolkning": 3156
+  },
+  {
+    "tatort": "Stockholm",
+    "region": "Stockholm",
+    "befolkning": 1665184
+  },
+  {
+    "tatort": "Upplands Väsby och Sollentuna",
+    "region": "Stockholm",
+    "befolkning": 158464
+  },
+  {
+    "tatort": "Södertälje",
+    "region": "Stockholm",
+    "befolkning": 78687
+  },
+  {
+    "tatort": "Tumba",
+    "region": "Stockholm",
+    "befolkning": 46935
+  },
+  {
+    "tatort": "Lidingö",
+    "region": "Stockholm",
+    "befolkning": 44712
+  },
+  {
+    "tatort": "Åkersberga",
+    "region": "Stockholm",
+    "befolkning": 37891
+  },
+  {
+    "tatort": "Vallentuna",
+    "region": "Stockholm",
+    "befolkning": 33897
+  },
+  {
+    "tatort": "Västerhaninge",
+    "region": "Stockholm",
+    "befolkning": 32333
+  },
+  {
+    "tatort": "Märsta",
+    "region": "Stockholm",
+    "befolkning": 30453
+  },
+  {
+    "tatort": "Gustavsberg",
+    "region": "Stockholm",
+    "befolkning": 25118
+  },
+  {
+    "tatort": "Norrtälje",
+    "region": "Stockholm",
+    "befolkning": 24277
+  },
+  {
+    "tatort": "Kungsängen och Brunna",
+    "region": "Stockholm",
+    "befolkning": 16760
+  },
+  {
+    "tatort": "Nynäshamn",
+    "region": "Stockholm",
+    "befolkning": 16605
+  },
+  {
+    "tatort": "Ekerö",
+    "region": "Stockholm",
+    "befolkning": 12354
+  },
+  {
+    "tatort": "Sigtuna",
+    "region": "Stockholm",
+    "befolkning": 10425
+  },
+  {
+    "tatort": "Bro",
+    "region": "Stockholm",
+    "befolkning": 9438
+  },
+  {
+    "tatort": "Saltsjöbaden",
+    "region": "Stockholm",
+    "befolkning": 9364
+  },
+  {
+    "tatort": "Nykvarn",
+    "region": "Stockholm",
+    "befolkning": 8706
+  },
+  {
+    "tatort": "Fisksätra",
+    "region": "Stockholm",
+    "befolkning": 8053
+  },
+  {
+    "tatort": "Järna",
+    "region": "Stockholm",
+    "befolkning": 6139
+  },
+  {
+    "tatort": "Vaxholm",
+    "region": "Stockholm",
+    "befolkning": 6078
+  },
+  {
+    "tatort": "Rimbo",
+    "region": "Stockholm",
+    "befolkning": 5496
+  },
+  {
+    "tatort": "Hallstavik",
+    "region": "Stockholm",
+    "befolkning": 4476
+  },
+  {
+    "tatort": "Fågelvik, Brunn och Fagerholm",
+    "region": "Stockholm",
+    "befolkning": 4261
+  },
+  {
+    "tatort": "Ösmo",
+    "region": "Stockholm",
+    "befolkning": 3994
+  },
+  {
+    "tatort": "Stenhamra",
+    "region": "Stockholm",
+    "befolkning": 3747
+  },
+  {
+    "tatort": "Norra Riksten",
+    "region": "Stockholm",
+    "befolkning": 3696
+  },
+  {
+    "tatort": "Svinninge",
+    "region": "Stockholm",
+    "befolkning": 3377
+  },
+  {
+    "tatort": "Resarö",
+    "region": "Stockholm",
+    "befolkning": 3226
+  },
+  {
+    "tatort": "Eskilstuna",
+    "region": "Södermanland",
+    "befolkning": 70746
+  },
+  {
+    "tatort": "Nyköping",
+    "region": "Södermanland",
+    "befolkning": 39958
+  },
+  {
+    "tatort": "Katrineholm",
+    "region": "Södermanland",
+    "befolkning": 23890
+  },
+  {
+    "tatort": "Strängnäs",
+    "region": "Södermanland",
+    "befolkning": 15463
+  },
+  {
+    "tatort": "Oxelösund",
+    "region": "Södermanland",
+    "befolkning": 11407
+  },
+  {
+    "tatort": "Torshälla",
+    "region": "Södermanland",
+    "befolkning": 9126
+  },
+  {
+    "tatort": "Trosa",
+    "region": "Södermanland",
+    "befolkning": 7645
+  },
+  {
+    "tatort": "Gnesta",
+    "region": "Södermanland",
+    "befolkning": 6413
+  },
+  {
+    "tatort": "Flen",
+    "region": "Södermanland",
+    "befolkning": 6137
+  },
+  {
+    "tatort": "Skiftinge",
+    "region": "Södermanland",
+    "befolkning": 4743
+  },
+  {
+    "tatort": "Vingåker",
+    "region": "Södermanland",
+    "befolkning": 4455
+  },
+  {
+    "tatort": "Mariefred",
+    "region": "Södermanland",
+    "befolkning": 4277
+  },
+  {
+    "tatort": "Vagnhärad",
+    "region": "Södermanland",
+    "befolkning": 4099
+  },
+  {
+    "tatort": "Hällbybrunn",
+    "region": "Södermanland",
+    "befolkning": 3278
+  },
+  {
+    "tatort": "Abborrberget",
+    "region": "Södermanland",
+    "befolkning": 3146
+  },
+  {
+    "tatort": "Åkers styckebruk",
+    "region": "Södermanland",
+    "befolkning": 3037
+  },
+  {
+    "tatort": "Uppsala",
+    "region": "Uppsala",
+    "befolkning": 177163
+  },
+  {
+    "tatort": "Enköping",
+    "region": "Uppsala",
+    "befolkning": 26545
+  },
+  {
+    "tatort": "Bålsta",
+    "region": "Uppsala",
+    "befolkning": 16266
+  },
+  {
+    "tatort": "Knivsta",
+    "region": "Uppsala",
+    "befolkning": 10251
+  },
+  {
+    "tatort": "Sävja",
+    "region": "Uppsala",
+    "befolkning": 9620
+  },
+  {
+    "tatort": "Tierp",
+    "region": "Uppsala",
+    "befolkning": 6402
+  },
+  {
+    "tatort": "Skutskär",
+    "region": "Uppsala",
+    "befolkning": 6232
+  },
+  {
+    "tatort": "Storvreta",
+    "region": "Uppsala",
+    "befolkning": 6193
+  },
+  {
+    "tatort": "Alsike",
+    "region": "Uppsala",
+    "befolkning": 5341
+  },
+  {
+    "tatort": "Östhammar",
+    "region": "Uppsala",
+    "befolkning": 4982
+  },
+  {
+    "tatort": "Björklinge",
+    "region": "Uppsala",
+    "befolkning": 3421
+  },
+  {
+    "tatort": "Ultuna",
+    "region": "Uppsala",
+    "befolkning": 3290
+  },
+  {
+    "tatort": "Jälla",
+    "region": "Uppsala",
+    "befolkning": 3177
+  },
+  {
+    "tatort": "Karlstad",
+    "region": "Värmland",
+    "befolkning": 70489
+  },
+  {
+    "tatort": "Kristinehamn",
+    "region": "Värmland",
+    "befolkning": 18326
+  },
+  {
+    "tatort": "Skoghall",
+    "region": "Värmland",
+    "befolkning": 14645
+  },
+  {
+    "tatort": "Arvika",
+    "region": "Värmland",
+    "befolkning": 14121
+  },
+  {
+    "tatort": "Säffle",
+    "region": "Värmland",
+    "befolkning": 8742
+  },
+  {
+    "tatort": "Kil",
+    "region": "Värmland",
+    "befolkning": 8324
+  },
+  {
+    "tatort": "Forshaga",
+    "region": "Värmland",
+    "befolkning": 6429
+  },
+  {
+    "tatort": "Filipstad",
+    "region": "Värmland",
+    "befolkning": 5819
+  },
+  {
+    "tatort": "Skåre",
+    "region": "Värmland",
+    "befolkning": 5400
+  },
+  {
+    "tatort": "Sunne",
+    "region": "Värmland",
+    "befolkning": 5190
+  },
+  {
+    "tatort": "Grums",
+    "region": "Värmland",
+    "befolkning": 4974
+  },
+  {
+    "tatort": "Hagfors",
+    "region": "Värmland",
+    "befolkning": 4678
+  },
+  {
+    "tatort": "Torsby",
+    "region": "Värmland",
+    "befolkning": 4415
+  },
+  {
+    "tatort": "Årjäng",
+    "region": "Värmland",
+    "befolkning": 3316
+  },
+  {
+    "tatort": "Älvåker och Råtorp",
+    "region": "Värmland",
+    "befolkning": 3157
+  },
+  {
+    "tatort": "Umeå",
+    "region": "Västerbotten",
+    "befolkning": 95348
+  },
+  {
+    "tatort": "Skellefteå",
+    "region": "Västerbotten",
+    "befolkning": 39774
+  },
+  {
+    "tatort": "Lycksele",
+    "region": "Västerbotten",
+    "befolkning": 8518
+  },
+  {
+    "tatort": "Holmsund",
+    "region": "Västerbotten",
+    "befolkning": 6125
+  },
+  {
+    "tatort": "Vännäs",
+    "region": "Västerbotten",
+    "befolkning": 4653
+  },
+  {
+    "tatort": "Ursviken",
+    "region": "Västerbotten",
+    "befolkning": 4037
+  },
+  {
+    "tatort": "Skelleftehamn",
+    "region": "Västerbotten",
+    "befolkning": 3440
+  },
+  {
+    "tatort": "Vilhelmina",
+    "region": "Västerbotten",
+    "befolkning": 3201
+  },
+  {
+    "tatort": "Sävar",
+    "region": "Västerbotten",
+    "befolkning": 3053
+  },
+  {
+    "tatort": "Sundsvall och Timrå",
+    "region": "Västernorrland",
+    "befolkning": 70937
+  },
+  {
+    "tatort": "Örnsköldsvik",
+    "region": "Västernorrland",
+    "befolkning": 33420
+  },
+  {
+    "tatort": "Härnösand",
+    "region": "Västernorrland",
+    "befolkning": 18131
+  },
+  {
+    "tatort": "Sollefteå",
+    "region": "Västernorrland",
+    "befolkning": 8249
+  },
+  {
+    "tatort": "Vi",
+    "region": "Västernorrland",
+    "befolkning": 6741
+  },
+  {
+    "tatort": "Kramfors",
+    "region": "Västernorrland",
+    "befolkning": 6508
+  },
+  {
+    "tatort": "Kvissleby",
+    "region": "Västernorrland",
+    "befolkning": 5126
+  },
+  {
+    "tatort": "Matfors",
+    "region": "Västernorrland",
+    "befolkning": 3261
+  },
+  {
+    "tatort": "Västerås",
+    "region": "Västmanland",
+    "befolkning": 132512
+  },
+  {
+    "tatort": "Köping",
+    "region": "Västmanland",
+    "befolkning": 18357
+  },
+  {
+    "tatort": "Sala",
+    "region": "Västmanland",
+    "befolkning": 13686
+  },
+  {
+    "tatort": "Fagersta",
+    "region": "Västmanland",
+    "befolkning": 11649
+  },
+  {
+    "tatort": "Arboga",
+    "region": "Västmanland",
+    "befolkning": 10863
+  },
+  {
+    "tatort": "Hallstahammar",
+    "region": "Västmanland",
+    "befolkning": 10111
+  },
+  {
+    "tatort": "Surahammar",
+    "region": "Västmanland",
+    "befolkning": 6263
+  },
+  {
+    "tatort": "Kungsör",
+    "region": "Västmanland",
+    "befolkning": 6123
+  },
+  {
+    "tatort": "Norberg",
+    "region": "Västmanland",
+    "befolkning": 4334
+  },
+  {
+    "tatort": "Skultuna",
+    "region": "Västmanland",
+    "befolkning": 3209
+  },
+  {
+    "tatort": "Göteborg",
+    "region": "Västra Götaland",
+    "befolkning": 639734
+  },
+  {
+    "tatort": "Borås",
+    "region": "Västra Götaland",
+    "befolkning": 75834
+  },
+  {
+    "tatort": "Trollhättan",
+    "region": "Västra Götaland",
+    "befolkning": 49884
+  },
+  {
+    "tatort": "Nordöstra Göteborg",
+    "region": "Västra Götaland",
+    "befolkning": 48274
+  },
+  {
+    "tatort": "Skövde",
+    "region": "Västra Götaland",
+    "befolkning": 40579
+  },
+  {
+    "tatort": "Uddevalla",
+    "region": "Västra Götaland",
+    "befolkning": 35558
+  },
+  {
+    "tatort": "Kungälv",
+    "region": "Västra Götaland",
+    "befolkning": 29294
+  },
+  {
+    "tatort": "Lerum",
+    "region": "Västra Götaland",
+    "befolkning": 28680
+  },
+  {
+    "tatort": "Alingsås",
+    "region": "Västra Götaland",
+    "befolkning": 28319
+  },
+  {
+    "tatort": "Mölnlycke och Öjersjö",
+    "region": "Västra Götaland",
+    "befolkning": 25430
+  },
+  {
+    "tatort": "Vänersborg",
+    "region": "Västra Götaland",
+    "befolkning": 24841
+  },
+  {
+    "tatort": "Lidköping",
+    "region": "Västra Götaland",
+    "befolkning": 23530
+  },
+  {
+    "tatort": "Falköping",
+    "region": "Västra Götaland",
+    "befolkning": 17854
+  },
+  {
+    "tatort": "Mariestad",
+    "region": "Västra Götaland",
+    "befolkning": 16771
+  },
+  {
+    "tatort": "Kinna",
+    "region": "Västra Götaland",
+    "befolkning": 15436
+  },
+  {
+    "tatort": "Stenungsund",
+    "region": "Västra Götaland",
+    "befolkning": 14378
+  },
+  {
+    "tatort": "Ulricehamn",
+    "region": "Västra Götaland",
+    "befolkning": 11869
+  },
+  {
+    "tatort": "Nödinge-Nol",
+    "region": "Västra Götaland",
+    "befolkning": 11731
+  },
+  {
+    "tatort": "Skara",
+    "region": "Västra Götaland",
+    "befolkning": 11569
+  },
+  {
+    "tatort": "Landvetter",
+    "region": "Västra Götaland",
+    "befolkning": 9983
+  },
+  {
+    "tatort": "Hönö och Öckerö",
+    "region": "Västra Götaland",
+    "befolkning": 9037
+  },
+  {
+    "tatort": "Åmål",
+    "region": "Västra Götaland",
+    "befolkning": 8903
+  },
+  {
+    "tatort": "Tibro",
+    "region": "Västra Götaland",
+    "befolkning": 8588
+  },
+  {
+    "tatort": "Tidaholm",
+    "region": "Västra Götaland",
+    "befolkning": 8255
+  },
+  {
+    "tatort": "Strömstad",
+    "region": "Västra Götaland",
+    "befolkning": 7872
+  },
+  {
+    "tatort": "Lysekil",
+    "region": "Västra Götaland",
+    "befolkning": 7321
+  },
+  {
+    "tatort": "Gråbo",
+    "region": "Västra Götaland",
+    "befolkning": 6914
+  },
+  {
+    "tatort": "Älvängen",
+    "region": "Västra Götaland",
+    "befolkning": 6627
+  },
+  {
+    "tatort": "Surte",
+    "region": "Västra Götaland",
+    "befolkning": 6563
+  },
+  {
+    "tatort": "Hjo",
+    "region": "Västra Götaland",
+    "befolkning": 6467
+  },
+  {
+    "tatort": "Vårgårda",
+    "region": "Västra Götaland",
+    "befolkning": 6268
+  },
+  {
+    "tatort": "Fristad",
+    "region": "Västra Götaland",
+    "befolkning": 6176
+  },
+  {
+    "tatort": "Götene",
+    "region": "Västra Götaland",
+    "befolkning": 5205
+  },
+  {
+    "tatort": "Vargön",
+    "region": "Västra Götaland",
+    "befolkning": 4905
+  },
+  {
+    "tatort": "Smögen, Kungshamn och Väjern",
+    "region": "Västra Götaland",
+    "befolkning": 4900
+  },
+  {
+    "tatort": "Bollebygd",
+    "region": "Västra Götaland",
+    "befolkning": 4664
+  },
+  {
+    "tatort": "Töreboda",
+    "region": "Västra Götaland",
+    "befolkning": 4664
+  },
+  {
+    "tatort": "Lidköping norra",
+    "region": "Västra Götaland",
+    "befolkning": 4516
+  },
+  {
+    "tatort": "Vara",
+    "region": "Västra Götaland",
+    "befolkning": 4459
+  },
+  {
+    "tatort": "Herrljunga",
+    "region": "Västra Götaland",
+    "befolkning": 4166
+  },
+  {
+    "tatort": "Olofstorp",
+    "region": "Västra Götaland",
+    "befolkning": 4162
+  },
+  {
+    "tatort": "Munkedal",
+    "region": "Västra Götaland",
+    "befolkning": 4078
+  },
+  {
+    "tatort": "Ljungskile",
+    "region": "Västra Götaland",
+    "befolkning": 3985
+  },
+  {
+    "tatort": "Dalsjöfors",
+    "region": "Västra Götaland",
+    "befolkning": 3958
+  },
+  {
+    "tatort": "Skultorp",
+    "region": "Västra Götaland",
+    "befolkning": 3941
+  },
+  {
+    "tatort": "Mellerud",
+    "region": "Västra Götaland",
+    "befolkning": 3889
+  },
+  {
+    "tatort": "Sjömarken och Viared",
+    "region": "Västra Götaland",
+    "befolkning": 3887
+  },
+  {
+    "tatort": "Lilla Edet",
+    "region": "Västra Götaland",
+    "befolkning": 3883
+  },
+  {
+    "tatort": "Karlsborg",
+    "region": "Västra Götaland",
+    "befolkning": 3873
+  },
+  {
+    "tatort": "Svenljunga",
+    "region": "Västra Götaland",
+    "befolkning": 3715
+  },
+  {
+    "tatort": "Skärhamn",
+    "region": "Västra Götaland",
+    "befolkning": 3708
+  },
+  {
+    "tatort": "Sandared",
+    "region": "Västra Götaland",
+    "befolkning": 3644
+  },
+  {
+    "tatort": "Tranemo",
+    "region": "Västra Götaland",
+    "befolkning": 3471
+  },
+  {
+    "tatort": "Höviksnäs",
+    "region": "Västra Götaland",
+    "befolkning": 3455
+  },
+  {
+    "tatort": "Ingared",
+    "region": "Västra Götaland",
+    "befolkning": 3125
+  },
+  {
+    "tatort": "Hindås",
+    "region": "Västra Götaland",
+    "befolkning": 3103
+  },
+  {
+    "tatort": "Stora Höga",
+    "region": "Västra Götaland",
+    "befolkning": 3099
+  },
+  {
+    "tatort": "Bengtsfors",
+    "region": "Västra Götaland",
+    "befolkning": 3074
+  },
+  {
+    "tatort": "Grästorp",
+    "region": "Västra Götaland",
+    "befolkning": 3022
+  },
+  {
+    "tatort": "Örebro",
+    "region": "Örebro",
+    "befolkning": 129418
+  },
+  {
+    "tatort": "Karlskoga",
+    "region": "Örebro",
+    "befolkning": 27143
+  },
+  {
+    "tatort": "Kumla",
+    "region": "Örebro",
+    "befolkning": 18037
+  },
+  {
+    "tatort": "Lindesberg",
+    "region": "Örebro",
+    "befolkning": 9494
+  },
+  {
+    "tatort": "Hallsberg",
+    "region": "Örebro",
+    "befolkning": 8223
+  },
+  {
+    "tatort": "Degerfors",
+    "region": "Örebro",
+    "befolkning": 6984
+  },
+  {
+    "tatort": "Nora",
+    "region": "Örebro",
+    "befolkning": 6651
+  },
+  {
+    "tatort": "Askersund",
+    "region": "Örebro",
+    "befolkning": 4302
+  },
+  {
+    "tatort": "Hällefors",
+    "region": "Örebro",
+    "befolkning": 3989
+  },
+  {
+    "tatort": "Vintrosa",
+    "region": "Örebro",
+    "befolkning": 3146
+  },
+  {
+    "tatort": "Laxå",
+    "region": "Örebro",
+    "befolkning": 3133
+  },
+  {
+    "tatort": "Linköping",
+    "region": "Östergötland",
+    "befolkning": 117316
+  },
+  {
+    "tatort": "Norrköping",
+    "region": "Östergötland",
+    "befolkning": 97930
+  },
+  {
+    "tatort": "Motala",
+    "region": "Östergötland",
+    "befolkning": 31151
+  },
+  {
+    "tatort": "Mjölby",
+    "region": "Östergötland",
+    "befolkning": 14289
+  },
+  {
+    "tatort": "Finspång",
+    "region": "Östergötland",
+    "befolkning": 13163
+  },
+  {
+    "tatort": "Söderköping",
+    "region": "Östergötland",
+    "befolkning": 7562
+  },
+  {
+    "tatort": "Ljungsbro",
+    "region": "Östergötland",
+    "befolkning": 7210
+  },
+  {
+    "tatort": "Åby",
+    "region": "Östergötland",
+    "befolkning": 7125
+  },
+  {
+    "tatort": "Åtvidaberg",
+    "region": "Östergötland",
+    "befolkning": 6952
+  },
+  {
+    "tatort": "Vadstena",
+    "region": "Östergötland",
+    "befolkning": 5847
+  },
+  {
+    "tatort": "Lindö",
+    "region": "Östergötland",
+    "befolkning": 5358
+  },
+  {
+    "tatort": "Krokek",
+    "region": "Östergötland",
+    "befolkning": 5087
+  },
+  {
+    "tatort": "Malmslätt",
+    "region": "Östergötland",
+    "befolkning": 4868
+  },
+  {
+    "tatort": "Svärtinge",
+    "region": "Östergötland",
+    "befolkning": 4847
+  },
+  {
+    "tatort": "Mantorp",
+    "region": "Östergötland",
+    "befolkning": 4333
+  },
+  {
+    "tatort": "Skärblacka",
+    "region": "Östergötland",
+    "befolkning": 4008
+  },
+  {
+    "tatort": "Kisa",
+    "region": "Östergötland",
+    "befolkning": 3687
+  },
+  {
+    "tatort": "Sturefors",
+    "region": "Östergötland",
+    "befolkning": 3473
+  },
+  {
+    "tatort": "Boxholm",
+    "region": "Östergötland",
+    "befolkning": 3377
+  },
+  {
+    "tatort": "Skänninge",
+    "region": "Östergötland",
+    "befolkning": 3369
+  },
+  {
+    "tatort": "Tallboda",
+    "region": "Östergötland",
+    "befolkning": 3211
+  },
+  {
+    "tatort": "Linghem",
+    "region": "Östergötland",
+    "befolkning": 3167
+  },
+  {
+    "tatort": "Borensberg",
+    "region": "Östergötland",
+    "befolkning": 3120
+  }
+]

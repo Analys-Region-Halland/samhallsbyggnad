@@ -1037,7 +1037,7 @@ Halland har med andra ord en utpräglat "rurban" karaktär: en geografi där lan
 
 Sammantaget bekräftar typologin en slutsats som kan vara överraskande givet Hallands rykte som kustidyll: det här är en urban region. Nio av tio hallänningar bor i miljöer som funktionellt hänger samman med en stad. Att urbaniseringen tar sig uttryck i periurbana zoner och yttre stadsområden snarare än i täta stadskärnor förändrar inte grundbilden. Halland har jordbruksbygd och skogsmark, men den avlägsna glesbygden, den som präglar stora delar av Sverige norr om Dalälven, saknas nästan helt. Den dominerande geografin är urban, om än av en utspridd och polycentrisk sort.
 
-### Var bor halländarna?
+### Var bor hallänningarna?
 
 De urbana typologierna ger en bild av *hur* stadsmässig en region är. Men för att förstå *var* människor faktiskt bor behöver vi gå ner till den finaste upplösningen: det enskilda 1×1 km-rutnätet. I kartan nedan representerar varje cirkel en kvadratkilometer, och cirkelns storlek avspeglar antalet invånare. Totalt omfattar Halland 5 836 rutor. Av dessa är 2 198 helt obebodda, främst skog och myrmark i det halländska inlandet. I motsatt ände finns 38 rutor med mer än 1 500 invånare per km², koncentrerade till stadskärnorna i Halmstad, Varberg och Kungsbacka.
 
