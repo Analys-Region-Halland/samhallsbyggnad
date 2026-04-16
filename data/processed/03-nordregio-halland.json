@@ -1,0 +1,122 @@
+[
+  {
+    "typologi": "Innerstad",
+    "år": 2000,
+    "befolkning": 79787
+  },
+  {
+    "typologi": "Ytterstad",
+    "år": 2000,
+    "befolkning": 50777
+  },
+  {
+    "typologi": "Stadsnära",
+    "år": 2000,
+    "befolkning": 63889
+  },
+  {
+    "typologi": "Tätortsnära landsbygd",
+    "år": 2000,
+    "befolkning": 49354
+  },
+  {
+    "typologi": "Lokalt centrum",
+    "år": 2000,
+    "befolkning": 12192
+  },
+  {
+    "typologi": "Landsbygd",
+    "år": 2000,
+    "befolkning": 16979
+  },
+  {
+    "typologi": "Gles landsbygd",
+    "år": 2000,
+    "befolkning": 1108
+  },
+  {
+    "typologi": "Utanför klassificering",
+    "år": 2000,
+    "befolkning": 911
+  },
+  {
+    "typologi": "Innerstad",
+    "år": 2010,
+    "befolkning": 87506
+  },
+  {
+    "typologi": "Ytterstad",
+    "år": 2010,
+    "befolkning": 57189
+  },
+  {
+    "typologi": "Stadsnära",
+    "år": 2010,
+    "befolkning": 71930
+  },
+  {
+    "typologi": "Tätortsnära landsbygd",
+    "år": 2010,
+    "befolkning": 51007
+  },
+  {
+    "typologi": "Lokalt centrum",
+    "år": 2010,
+    "befolkning": 14073
+  },
+  {
+    "typologi": "Landsbygd",
+    "år": 2010,
+    "befolkning": 16446
+  },
+  {
+    "typologi": "Gles landsbygd",
+    "år": 2010,
+    "befolkning": 965
+  },
+  {
+    "typologi": "Utanför klassificering",
+    "år": 2010,
+    "befolkning": 367
+  },
+  {
+    "typologi": "Innerstad",
+    "år": 2024,
+    "befolkning": 103358
+  },
+  {
+    "typologi": "Ytterstad",
+    "år": 2024,
+    "befolkning": 68328
+  },
+  {
+    "typologi": "Stadsnära",
+    "år": 2024,
+    "befolkning": 81869
+  },
+  {
+    "typologi": "Tätortsnära landsbygd",
+    "år": 2024,
+    "befolkning": 56869
+  },
+  {
+    "typologi": "Lokalt centrum",
+    "år": 2024,
+    "befolkning": 16482
+  },
+  {
+    "typologi": "Landsbygd",
+    "år": 2024,
+    "befolkning": 16359
+  },
+  {
+    "typologi": "Gles landsbygd",
+    "år": 2024,
+    "befolkning": 940
+  },
+  {
+    "typologi": "Utanför klassificering",
+    "år": 2024,
+    "befolkning": 872
+  }
+]

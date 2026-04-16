@@ -1,1 +1,1 @@
-Sitemap: https://robinkronoberg.github.io/samhallsbyggnad/sitemap.xml
+Sitemap: https://Analys-Region-Halland.github.io/samhallsbyggnad/sitemap.xml

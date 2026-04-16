@@ -1,0 +1,7526 @@
+[
+  {
+    "år": 1969,
+    "region": "Stockholm",
+    "befolkning": 1453754,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Stockholm",
+    "befolkning": 1477990,
+    "index": 101.7
+  },
+  {
+    "år": 1971,
+    "region": "Stockholm",
+    "befolkning": 1486648,
+    "index": 102.3
+  },
+  {
+    "år": 1972,
+    "region": "Stockholm",
+    "befolkning": 1485655,
+    "index": 102.2
+  },
+  {
+    "år": 1973,
+    "region": "Stockholm",
+    "befolkning": 1485587,
+    "index": 102.2
+  },
+  {
+    "år": 1974,
+    "region": "Stockholm",
+    "befolkning": 1489144,
+    "index": 102.4
+  },
+  {
+    "år": 1975,
+    "region": "Stockholm",
+    "befolkning": 1493546,
+    "index": 102.7
+  },
+  {
+    "år": 1976,
+    "region": "Stockholm",
+    "befolkning": 1500868,
+    "index": 103.2
+  },
+  {
+    "år": 1977,
+    "region": "Stockholm",
+    "befolkning": 1512179,
+    "index": 104
+  },
+  {
+    "år": 1978,
+    "region": "Stockholm",
+    "befolkning": 1519114,
+    "index": 104.5
+  },
+  {
+    "år": 1979,
+    "region": "Stockholm",
+    "befolkning": 1524266,
+    "index": 104.9
+  },
+  {
+    "år": 1980,
+    "region": "Stockholm",
+    "befolkning": 1528200,
+    "index": 105.1
+  },
+  {
+    "år": 1981,
+    "region": "Stockholm",
+    "befolkning": 1535539,
+    "index": 105.6
+  },
+  {
+    "år": 1982,
+    "region": "Stockholm",
+    "befolkning": 1544454,
+    "index": 106.2
+  },
+  {
+    "år": 1983,
+    "region": "Stockholm",
+    "befolkning": 1551165,
+    "index": 106.7
+  },
+  {
+    "år": 1984,
+    "region": "Stockholm",
+    "befolkning": 1562490,
+    "index": 107.5
+  },
+  {
+    "år": 1985,
+    "region": "Stockholm",
+    "befolkning": 1578299,
+    "index": 108.6
+  },
+  {
+    "år": 1986,
+    "region": "Stockholm",
+    "befolkning": 1593333,
+    "index": 109.6
+  },
+  {
+    "år": 1987,
+    "region": "Stockholm",
+    "befolkning": 1606157,
+    "index": 110.5
+  },
+  {
+    "år": 1988,
+    "region": "Stockholm",
+    "befolkning": 1617038,
+    "index": 111.2
+  },
+  {
+    "år": 1989,
+    "region": "Stockholm",
+    "befolkning": 1629631,
+    "index": 112.1
+  },
+  {
+    "år": 1990,
+    "region": "Stockholm",
+    "befolkning": 1641669,
+    "index": 112.9
+  },
+  {
+    "år": 1991,
+    "region": "Stockholm",
+    "befolkning": 1654511,
+    "index": 113.8
+  },
+  {
+    "år": 1992,
+    "region": "Stockholm",
+    "befolkning": 1669840,
+    "index": 114.9
+  },
+  {
+    "år": 1993,
+    "region": "Stockholm",
+    "befolkning": 1686230,
+    "index": 116
+  },
+  {
+    "år": 1994,
+    "region": "Stockholm",
+    "befolkning": 1708502,
+    "index": 117.5
+  },
+  {
+    "år": 1995,
+    "region": "Stockholm",
+    "befolkning": 1725756,
+    "index": 118.7
+  },
+  {
+    "år": 1996,
+    "region": "Stockholm",
+    "befolkning": 1744330,
+    "index": 120
+  },
+  {
+    "år": 1997,
+    "region": "Stockholm",
+    "befolkning": 1762924,
+    "index": 121.3
+  },
+  {
+    "år": 1998,
+    "region": "Stockholm",
+    "befolkning": 1783440,
+    "index": 122.7
+  },
+  {
+    "år": 1999,
+    "region": "Stockholm",
+    "befolkning": 1803377,
+    "index": 124
+  },
+  {
+    "år": 2000,
+    "region": "Stockholm",
+    "befolkning": 1823210,
+    "index": 125.4
+  },
+  {
+    "år": 2001,
+    "region": "Stockholm",
+    "befolkning": 1838882,
+    "index": 126.5
+  },
+  {
+    "år": 2002,
+    "region": "Stockholm",
+    "befolkning": 1850467,
+    "index": 127.3
+  },
+  {
+    "år": 2003,
+    "region": "Stockholm",
+    "befolkning": 1860872,
+    "index": 128
+  },
+  {
+    "år": 2004,
+    "region": "Stockholm",
+    "befolkning": 1872900,
+    "index": 128.8
+  },
+  {
+    "år": 2005,
+    "region": "Stockholm",
+    "befolkning": 1889945,
+    "index": 130
+  },
+  {
+    "år": 2006,
+    "region": "Stockholm",
+    "befolkning": 1918104,
+    "index": 131.9
+  },
+  {
+    "år": 2007,
+    "region": "Stockholm",
+    "befolkning": 1949516,
+    "index": 134.1
+  },
+  {
+    "år": 2008,
+    "region": "Stockholm",
+    "befolkning": 1981263,
+    "index": 136.3
+  },
+  {
+    "år": 2009,
+    "region": "Stockholm",
+    "befolkning": 2019182,
+    "index": 138.9
+  },
+  {
+    "år": 2010,
+    "region": "Stockholm",
+    "befolkning": 2054343,
+    "index": 141.3
+  },
+  {
+    "år": 2011,
+    "region": "Stockholm",
+    "befolkning": 2091473,
+    "index": 143.9
+  },
+  {
+    "år": 2012,
+    "region": "Stockholm",
+    "befolkning": 2127006,
+    "index": 146.3
+  },
+  {
+    "år": 2013,
+    "region": "Stockholm",
+    "befolkning": 2163042,
+    "index": 148.8
+  },
+  {
+    "år": 2014,
+    "region": "Stockholm",
+    "befolkning": 2198044,
+    "index": 151.2
+  },
+  {
+    "år": 2015,
+    "region": "Stockholm",
+    "befolkning": 2231439,
+    "index": 153.5
+  },
+  {
+    "år": 2016,
+    "region": "Stockholm",
+    "befolkning": 2269060,
+    "index": 156.1
+  },
+  {
+    "år": 2017,
+    "region": "Stockholm",
+    "befolkning": 2308143,
+    "index": 158.8
+  },
+  {
+    "år": 2018,
+    "region": "Stockholm",
+    "befolkning": 2344124,
+    "index": 161.2
+  },
+  {
+    "år": 2019,
+    "region": "Stockholm",
+    "befolkning": 2377081,
+    "index": 163.5
+  },
+  {
+    "år": 2020,
+    "region": "Stockholm",
+    "befolkning": 2391990,
+    "index": 164.5
+  },
+  {
+    "år": 2021,
+    "region": "Stockholm",
+    "befolkning": 2415139,
+    "index": 166.1
+  },
+  {
+    "år": 2022,
+    "region": "Stockholm",
+    "befolkning": 2440027,
+    "index": 167.8
+  },
+  {
+    "år": 2023,
+    "region": "Stockholm",
+    "befolkning": 2454821,
+    "index": 168.9
+  },
+  {
+    "år": 2024,
+    "region": "Stockholm",
+    "befolkning": 2473307,
+    "index": 170.1
+  },
+  {
+    "år": 2025,
+    "region": "Stockholm",
+    "befolkning": 2486251,
+    "index": 171
+  },
+  {
+    "år": 1969,
+    "region": "Uppsala",
+    "befolkning": 213733,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Uppsala",
+    "befolkning": 217740,
+    "index": 101.9
+  },
+  {
+    "år": 1971,
+    "region": "Uppsala",
+    "befolkning": 220916,
+    "index": 103.4
+  },
+  {
+    "år": 1972,
+    "region": "Uppsala",
+    "befolkning": 223776,
+    "index": 104.7
+  },
+  {
+    "år": 1973,
+    "region": "Uppsala",
+    "befolkning": 226502,
+    "index": 106
+  },
+  {
+    "år": 1974,
+    "region": "Uppsala",
+    "befolkning": 228680,
+    "index": 107
+  },
+  {
+    "år": 1975,
+    "region": "Uppsala",
+    "befolkning": 230028,
+    "index": 107.6
+  },
+  {
+    "år": 1976,
+    "region": "Uppsala",
+    "befolkning": 233115,
+    "index": 109.1
+  },
+  {
+    "år": 1977,
+    "region": "Uppsala",
+    "befolkning": 236091,
+    "index": 110.5
+  },
+  {
+    "år": 1978,
+    "region": "Uppsala",
+    "befolkning": 239090,
+    "index": 111.9
+  },
+  {
+    "år": 1979,
+    "region": "Uppsala",
+    "befolkning": 241722,
+    "index": 113.1
+  },
+  {
+    "år": 1980,
+    "region": "Uppsala",
+    "befolkning": 243585,
+    "index": 114
+  },
+  {
+    "år": 1981,
+    "region": "Uppsala",
+    "befolkning": 245398,
+    "index": 114.8
+  },
+  {
+    "år": 1982,
+    "region": "Uppsala",
+    "befolkning": 247068,
+    "index": 115.6
+  },
+  {
+    "år": 1983,
+    "region": "Uppsala",
+    "befolkning": 248103,
+    "index": 116.1
+  },
+  {
+    "år": 1984,
+    "region": "Uppsala",
+    "befolkning": 249712,
+    "index": 116.8
+  },
+  {
+    "år": 1985,
+    "region": "Uppsala",
+    "befolkning": 251852,
+    "index": 117.8
+  },
+  {
+    "år": 1986,
+    "region": "Uppsala",
+    "befolkning": 254938,
+    "index": 119.3
+  },
+  {
+    "år": 1987,
+    "region": "Uppsala",
+    "befolkning": 257739,
+    "index": 120.6
+  },
+  {
+    "år": 1988,
+    "region": "Uppsala",
+    "befolkning": 260476,
+    "index": 121.9
+  },
+  {
+    "år": 1989,
+    "region": "Uppsala",
+    "befolkning": 264738,
+    "index": 123.9
+  },
+  {
+    "år": 1990,
+    "region": "Uppsala",
+    "befolkning": 268835,
+    "index": 125.8
+  },
+  {
+    "år": 1991,
+    "region": "Uppsala",
+    "befolkning": 273918,
+    "index": 128.2
+  },
+  {
+    "år": 1992,
+    "region": "Uppsala",
+    "befolkning": 278610,
+    "index": 130.4
+  },
+  {
+    "år": 1993,
+    "region": "Uppsala",
+    "befolkning": 283006,
+    "index": 132.4
+  },
+  {
+    "år": 1994,
+    "region": "Uppsala",
+    "befolkning": 286642,
+    "index": 134.1
+  },
+  {
+    "år": 1995,
+    "region": "Uppsala",
+    "befolkning": 288475,
+    "index": 135
+  },
+  {
+    "år": 1996,
+    "region": "Uppsala",
+    "befolkning": 289153,
+    "index": 135.3
+  },
+  {
+    "år": 1997,
+    "region": "Uppsala",
+    "befolkning": 290473,
+    "index": 135.9
+  },
+  {
+    "år": 1998,
+    "region": "Uppsala",
+    "befolkning": 291413,
+    "index": 136.3
+  },
+  {
+    "år": 1999,
+    "region": "Uppsala",
+    "befolkning": 292415,
+    "index": 136.8
+  },
+  {
+    "år": 2000,
+    "region": "Uppsala",
+    "befolkning": 294196,
+    "index": 137.6
+  },
+  {
+    "år": 2001,
+    "region": "Uppsala",
+    "befolkning": 296627,
+    "index": 138.8
+  },
+  {
+    "år": 2002,
+    "region": "Uppsala",
+    "befolkning": 298655,
+    "index": 139.7
+  },
+  {
+    "år": 2003,
+    "region": "Uppsala",
+    "befolkning": 300495,
+    "index": 140.6
+  },
+  {
+    "år": 2004,
+    "region": "Uppsala",
+    "befolkning": 302564,
+    "index": 141.6
+  },
+  {
+    "år": 2005,
+    "region": "Uppsala",
+    "befolkning": 304367,
+    "index": 142.4
+  },
+  {
+    "år": 2006,
+    "region": "Uppsala",
+    "befolkning": 319925,
+    "index": 149.7
+  },
+  {
+    "år": 2007,
+    "region": "Uppsala",
+    "befolkning": 323270,
+    "index": 151.2
+  },
+  {
+    "år": 2008,
+    "region": "Uppsala",
+    "befolkning": 327188,
+    "index": 153.1
+  },
+  {
+    "år": 2009,
+    "region": "Uppsala",
+    "befolkning": 331898,
+    "index": 155.3
+  },
+  {
+    "år": 2010,
+    "region": "Uppsala",
+    "befolkning": 335882,
+    "index": 157.2
+  },
+  {
+    "år": 2011,
+    "region": "Uppsala",
+    "befolkning": 338630,
+    "index": 158.4
+  },
+  {
+    "år": 2012,
+    "region": "Uppsala",
+    "befolkning": 341977,
+    "index": 160
+  },
+  {
+    "år": 2013,
+    "region": "Uppsala",
+    "befolkning": 345481,
+    "index": 161.6
+  },
+  {
+    "år": 2014,
+    "region": "Uppsala",
+    "befolkning": 348942,
+    "index": 163.3
+  },
+  {
+    "år": 2015,
+    "region": "Uppsala",
+    "befolkning": 354164,
+    "index": 165.7
+  },
+  {
+    "år": 2016,
+    "region": "Uppsala",
+    "befolkning": 361373,
+    "index": 169.1
+  },
+  {
+    "år": 2017,
+    "region": "Uppsala",
+    "befolkning": 368971,
+    "index": 172.6
+  },
+  {
+    "år": 2018,
+    "region": "Uppsala",
+    "befolkning": 376354,
+    "index": 176.1
+  },
+  {
+    "år": 2019,
+    "region": "Uppsala",
+    "befolkning": 383713,
+    "index": 179.5
+  },
+  {
+    "år": 2020,
+    "region": "Uppsala",
+    "befolkning": 388394,
+    "index": 181.7
+  },
+  {
+    "år": 2021,
+    "region": "Uppsala",
+    "befolkning": 395026,
+    "index": 184.8
+  },
+  {
+    "år": 2022,
+    "region": "Uppsala",
+    "befolkning": 400682,
+    "index": 187.5
+  },
+  {
+    "år": 2023,
+    "region": "Uppsala",
+    "befolkning": 404589,
+    "index": 189.3
+  },
+  {
+    "år": 2024,
+    "region": "Uppsala",
+    "befolkning": 407912,
+    "index": 190.9
+  },
+  {
+    "år": 2025,
+    "region": "Uppsala",
+    "befolkning": 410575,
+    "index": 192.1
+  },
+  {
+    "år": 1969,
+    "region": "Södermanland",
+    "befolkning": 245343,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Södermanland",
+    "befolkning": 248412,
+    "index": 101.3
+  },
+  {
+    "år": 1971,
+    "region": "Södermanland",
+    "befolkning": 248696,
+    "index": 101.4
+  },
+  {
+    "år": 1972,
+    "region": "Södermanland",
+    "befolkning": 248551,
+    "index": 101.3
+  },
+  {
+    "år": 1973,
+    "region": "Södermanland",
+    "befolkning": 249184,
+    "index": 101.6
+  },
+  {
+    "år": 1974,
+    "region": "Södermanland",
+    "befolkning": 250727,
+    "index": 102.2
+  },
+  {
+    "år": 1975,
+    "region": "Södermanland",
+    "befolkning": 251913,
+    "index": 102.7
+  },
+  {
+    "år": 1976,
+    "region": "Södermanland",
+    "befolkning": 251996,
+    "index": 102.7
+  },
+  {
+    "år": 1977,
+    "region": "Södermanland",
+    "befolkning": 251933,
+    "index": 102.7
+  },
+  {
+    "år": 1978,
+    "region": "Södermanland",
+    "befolkning": 252067,
+    "index": 102.7
+  },
+  {
+    "år": 1979,
+    "region": "Södermanland",
+    "befolkning": 252026,
+    "index": 102.7
+  },
+  {
+    "år": 1980,
+    "region": "Södermanland",
+    "befolkning": 252536,
+    "index": 102.9
+  },
+  {
+    "år": 1981,
+    "region": "Södermanland",
+    "befolkning": 252191,
+    "index": 102.8
+  },
+  {
+    "år": 1982,
+    "region": "Södermanland",
+    "befolkning": 251610,
+    "index": 102.6
+  },
+  {
+    "år": 1983,
+    "region": "Södermanland",
+    "befolkning": 251000,
+    "index": 102.3
+  },
+  {
+    "år": 1984,
+    "region": "Södermanland",
+    "befolkning": 250515,
+    "index": 102.1
+  },
+  {
+    "år": 1985,
+    "region": "Södermanland",
+    "befolkning": 249701,
+    "index": 101.8
+  },
+  {
+    "år": 1986,
+    "region": "Södermanland",
+    "befolkning": 249479,
+    "index": 101.7
+  },
+  {
+    "år": 1987,
+    "region": "Södermanland",
+    "befolkning": 250073,
+    "index": 101.9
+  },
+  {
+    "år": 1988,
+    "region": "Södermanland",
+    "befolkning": 251423,
+    "index": 102.5
+  },
+  {
+    "år": 1989,
+    "region": "Södermanland",
+    "befolkning": 253363,
+    "index": 103.3
+  },
+  {
+    "år": 1990,
+    "region": "Södermanland",
+    "befolkning": 255636,
+    "index": 104.2
+  },
+  {
+    "år": 1991,
+    "region": "Södermanland",
+    "befolkning": 256818,
+    "index": 104.7
+  },
+  {
+    "år": 1992,
+    "region": "Södermanland",
+    "befolkning": 257858,
+    "index": 105.1
+  },
+  {
+    "år": 1993,
+    "region": "Södermanland",
+    "befolkning": 259199,
+    "index": 105.6
+  },
+  {
+    "år": 1994,
+    "region": "Södermanland",
+    "befolkning": 259793,
+    "index": 105.9
+  },
+  {
+    "år": 1995,
+    "region": "Södermanland",
+    "befolkning": 258700,
+    "index": 105.4
+  },
+  {
+    "år": 1996,
+    "region": "Södermanland",
+    "befolkning": 257383,
+    "index": 104.9
+  },
+  {
+    "år": 1997,
+    "region": "Södermanland",
+    "befolkning": 256870,
+    "index": 104.7
+  },
+  {
+    "år": 1998,
+    "region": "Södermanland",
+    "befolkning": 256269,
+    "index": 104.5
+  },
+  {
+    "år": 1999,
+    "region": "Södermanland",
+    "befolkning": 255890,
+    "index": 104.3
+  },
+  {
+    "år": 2000,
+    "region": "Södermanland",
+    "befolkning": 256033,
+    "index": 104.4
+  },
+  {
+    "år": 2001,
+    "region": "Södermanland",
+    "befolkning": 257220,
+    "index": 104.8
+  },
+  {
+    "år": 2002,
+    "region": "Södermanland",
+    "befolkning": 259006,
+    "index": 105.6
+  },
+  {
+    "år": 2003,
+    "region": "Södermanland",
+    "befolkning": 260380,
+    "index": 106.1
+  },
+  {
+    "år": 2004,
+    "region": "Södermanland",
+    "befolkning": 261070,
+    "index": 106.4
+  },
+  {
+    "år": 2005,
+    "region": "Södermanland",
+    "befolkning": 261895,
+    "index": 106.7
+  },
+  {
+    "år": 2006,
+    "region": "Södermanland",
+    "befolkning": 263099,
+    "index": 107.2
+  },
+  {
+    "år": 2007,
+    "region": "Södermanland",
+    "befolkning": 265190,
+    "index": 108.1
+  },
+  {
+    "år": 2008,
+    "region": "Södermanland",
+    "befolkning": 267524,
+    "index": 109
+  },
+  {
+    "år": 2009,
+    "region": "Södermanland",
+    "befolkning": 269053,
+    "index": 109.7
+  },
+  {
+    "år": 2010,
+    "region": "Södermanland",
+    "befolkning": 270738,
+    "index": 110.4
+  },
+  {
+    "år": 2011,
+    "region": "Södermanland",
+    "befolkning": 272563,
+    "index": 111.1
+  },
+  {
+    "år": 2012,
+    "region": "Södermanland",
+    "befolkning": 274723,
+    "index": 112
+  },
+  {
+    "år": 2013,
+    "region": "Södermanland",
+    "befolkning": 277569,
+    "index": 113.1
+  },
+  {
+    "år": 2014,
+    "region": "Södermanland",
+    "befolkning": 280666,
+    "index": 114.4
+  },
+  {
+    "år": 2015,
+    "region": "Södermanland",
+    "befolkning": 283712,
+    "index": 115.6
+  },
+  {
+    "år": 2016,
+    "region": "Södermanland",
+    "befolkning": 288097,
+    "index": 117.4
+  },
+  {
+    "år": 2017,
+    "region": "Södermanland",
+    "befolkning": 291341,
+    "index": 118.7
+  },
+  {
+    "år": 2018,
+    "region": "Södermanland",
+    "befolkning": 294695,
+    "index": 120.1
+  },
+  {
+    "år": 2019,
+    "region": "Södermanland",
+    "befolkning": 297540,
+    "index": 121.3
+  },
+  {
+    "år": 2020,
+    "region": "Södermanland",
+    "befolkning": 299401,
+    "index": 122
+  },
+  {
+    "år": 2021,
+    "region": "Södermanland",
+    "befolkning": 301801,
+    "index": 123
+  },
+  {
+    "år": 2022,
+    "region": "Södermanland",
+    "befolkning": 302566,
+    "index": 123.3
+  },
+  {
+    "år": 2023,
+    "region": "Södermanland",
+    "befolkning": 301944,
+    "index": 123.1
+  },
+  {
+    "år": 2024,
+    "region": "Södermanland",
+    "befolkning": 301542,
+    "index": 122.9
+  },
+  {
+    "år": 2025,
+    "region": "Södermanland",
+    "befolkning": 300440,
+    "index": 122.5
+  },
+  {
+    "år": 1969,
+    "region": "Östergötland",
+    "befolkning": 378437,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Östergötland",
+    "befolkning": 382675,
+    "index": 101.1
+  },
+  {
+    "år": 1971,
+    "region": "Östergötland",
+    "befolkning": 384025,
+    "index": 101.5
+  },
+  {
+    "år": 1972,
+    "region": "Östergötland",
+    "befolkning": 385103,
+    "index": 101.8
+  },
+  {
+    "år": 1973,
+    "region": "Östergötland",
+    "befolkning": 385808,
+    "index": 101.9
+  },
+  {
+    "år": 1974,
+    "region": "Östergötland",
+    "befolkning": 386012,
+    "index": 102
+  },
+  {
+    "år": 1975,
+    "region": "Östergötland",
+    "befolkning": 387088,
+    "index": 102.3
+  },
+  {
+    "år": 1976,
+    "region": "Östergötland",
+    "befolkning": 389431,
+    "index": 102.9
+  },
+  {
+    "år": 1977,
+    "region": "Östergötland",
+    "befolkning": 391337,
+    "index": 103.4
+  },
+  {
+    "år": 1978,
+    "region": "Östergötland",
+    "befolkning": 392057,
+    "index": 103.6
+  },
+  {
+    "år": 1979,
+    "region": "Östergötland",
+    "befolkning": 392390,
+    "index": 103.7
+  },
+  {
+    "år": 1980,
+    "region": "Östergötland",
+    "befolkning": 392789,
+    "index": 103.8
+  },
+  {
+    "år": 1981,
+    "region": "Östergötland",
+    "befolkning": 392694,
+    "index": 103.8
+  },
+  {
+    "år": 1982,
+    "region": "Östergötland",
+    "befolkning": 392214,
+    "index": 103.6
+  },
+  {
+    "år": 1983,
+    "region": "Östergötland",
+    "befolkning": 392310,
+    "index": 103.7
+  },
+  {
+    "år": 1984,
+    "region": "Östergötland",
+    "befolkning": 392887,
+    "index": 103.8
+  },
+  {
+    "år": 1985,
+    "region": "Östergötland",
+    "befolkning": 393585,
+    "index": 104
+  },
+  {
+    "år": 1986,
+    "region": "Östergötland",
+    "befolkning": 394753,
+    "index": 104.3
+  },
+  {
+    "år": 1987,
+    "region": "Östergötland",
+    "befolkning": 395580,
+    "index": 104.5
+  },
+  {
+    "år": 1988,
+    "region": "Östergötland",
+    "befolkning": 396919,
+    "index": 104.9
+  },
+  {
+    "år": 1989,
+    "region": "Östergötland",
+    "befolkning": 399506,
+    "index": 105.6
+  },
+  {
+    "år": 1990,
+    "region": "Östergötland",
+    "befolkning": 403011,
+    "index": 106.5
+  },
+  {
+    "år": 1991,
+    "region": "Östergötland",
+    "befolkning": 406100,
+    "index": 107.3
+  },
+  {
+    "år": 1992,
+    "region": "Östergötland",
+    "befolkning": 408268,
+    "index": 107.9
+  },
+  {
+    "år": 1993,
+    "region": "Östergötland",
+    "befolkning": 411212,
+    "index": 108.7
+  },
+  {
+    "år": 1994,
+    "region": "Östergötland",
+    "befolkning": 415603,
+    "index": 109.8
+  },
+  {
+    "år": 1995,
+    "region": "Östergötland",
+    "befolkning": 416443,
+    "index": 110
+  },
+  {
+    "år": 1996,
+    "region": "Östergötland",
+    "befolkning": 415659,
+    "index": 109.8
+  },
+  {
+    "år": 1997,
+    "region": "Östergötland",
+    "befolkning": 414360,
+    "index": 109.5
+  },
+  {
+    "år": 1998,
+    "region": "Östergötland",
+    "befolkning": 412411,
+    "index": 109
+  },
+  {
+    "år": 1999,
+    "region": "Östergötland",
+    "befolkning": 411320,
+    "index": 108.7
+  },
+  {
+    "år": 2000,
+    "region": "Östergötland",
+    "befolkning": 411345,
+    "index": 108.7
+  },
+  {
+    "år": 2001,
+    "region": "Östergötland",
+    "befolkning": 412363,
+    "index": 109
+  },
+  {
+    "år": 2002,
+    "region": "Östergötland",
+    "befolkning": 413438,
+    "index": 109.2
+  },
+  {
+    "år": 2003,
+    "region": "Östergötland",
+    "befolkning": 414897,
+    "index": 109.6
+  },
+  {
+    "år": 2004,
+    "region": "Östergötland",
+    "befolkning": 415990,
+    "index": 109.9
+  },
+  {
+    "år": 2005,
+    "region": "Östergötland",
+    "befolkning": 416303,
+    "index": 110
+  },
+  {
+    "år": 2006,
+    "region": "Östergötland",
+    "befolkning": 417966,
+    "index": 110.4
+  },
+  {
+    "år": 2007,
+    "region": "Östergötland",
+    "befolkning": 420809,
+    "index": 111.2
+  },
+  {
+    "år": 2008,
+    "region": "Östergötland",
+    "befolkning": 423169,
+    "index": 111.8
+  },
+  {
+    "år": 2009,
+    "region": "Östergötland",
+    "befolkning": 427106,
+    "index": 112.9
+  },
+  {
+    "år": 2010,
+    "region": "Östergötland",
+    "befolkning": 429642,
+    "index": 113.5
+  },
+  {
+    "år": 2011,
+    "region": "Östergötland",
+    "befolkning": 431075,
+    "index": 113.9
+  },
+  {
+    "år": 2012,
+    "region": "Östergötland",
+    "befolkning": 433784,
+    "index": 114.6
+  },
+  {
+    "år": 2013,
+    "region": "Östergötland",
+    "befolkning": 437848,
+    "index": 115.7
+  },
+  {
+    "år": 2014,
+    "region": "Östergötland",
+    "befolkning": 442105,
+    "index": 116.8
+  },
+  {
+    "år": 2015,
+    "region": "Östergötland",
+    "befolkning": 445661,
+    "index": 117.8
+  },
+  {
+    "år": 2016,
+    "region": "Östergötland",
+    "befolkning": 452105,
+    "index": 119.5
+  },
+  {
+    "år": 2017,
+    "region": "Östergötland",
+    "befolkning": 457496,
+    "index": 120.9
+  },
+  {
+    "år": 2018,
+    "region": "Östergötland",
+    "befolkning": 461583,
+    "index": 122
+  },
+  {
+    "år": 2019,
+    "region": "Östergötland",
+    "befolkning": 465495,
+    "index": 123
+  },
+  {
+    "år": 2020,
+    "region": "Östergötland",
+    "befolkning": 467158,
+    "index": 123.4
+  },
+  {
+    "år": 2021,
+    "region": "Östergötland",
+    "befolkning": 469704,
+    "index": 124.1
+  },
+  {
+    "år": 2022,
+    "region": "Östergötland",
+    "befolkning": 471912,
+    "index": 124.7
+  },
+  {
+    "år": 2023,
+    "region": "Östergötland",
+    "befolkning": 472298,
+    "index": 124.8
+  },
+  {
+    "år": 2024,
+    "region": "Östergötland",
+    "befolkning": 472446,
+    "index": 124.8
+  },
+  {
+    "år": 2025,
+    "region": "Östergötland",
+    "befolkning": 472529,
+    "index": 124.9
+  },
+  {
+    "år": 1969,
+    "region": "Jönköping",
+    "befolkning": 306998,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Jönköping",
+    "befolkning": 309279,
+    "index": 100.7
+  },
+  {
+    "år": 1971,
+    "region": "Jönköping",
+    "befolkning": 309454,
+    "index": 100.8
+  },
+  {
+    "år": 1972,
+    "region": "Jönköping",
+    "befolkning": 310638,
+    "index": 101.2
+  },
+  {
+    "år": 1973,
+    "region": "Jönköping",
+    "befolkning": 311339,
+    "index": 101.4
+  },
+  {
+    "år": 1974,
+    "region": "Jönköping",
+    "befolkning": 313048,
+    "index": 102
+  },
+  {
+    "år": 1975,
+    "region": "Jönköping",
+    "befolkning": 313758,
+    "index": 102.2
+  },
+  {
+    "år": 1976,
+    "region": "Jönköping",
+    "befolkning": 314493,
+    "index": 102.4
+  },
+  {
+    "år": 1977,
+    "region": "Jönköping",
+    "befolkning": 315853,
+    "index": 102.9
+  },
+  {
+    "år": 1978,
+    "region": "Jönköping",
+    "befolkning": 315865,
+    "index": 102.9
+  },
+  {
+    "år": 1979,
+    "region": "Jönköping",
+    "befolkning": 316631,
+    "index": 103.1
+  },
+  {
+    "år": 1980,
+    "region": "Jönköping",
+    "befolkning": 317759,
+    "index": 103.5
+  },
+  {
+    "år": 1981,
+    "region": "Jönköping",
+    "befolkning": 317513,
+    "index": 103.4
+  },
+  {
+    "år": 1982,
+    "region": "Jönköping",
+    "befolkning": 316731,
+    "index": 103.2
+  },
+  {
+    "år": 1983,
+    "region": "Jönköping",
+    "befolkning": 316502,
+    "index": 103.1
+  },
+  {
+    "år": 1984,
+    "region": "Jönköping",
+    "befolkning": 316490,
+    "index": 103.1
+  },
+  {
+    "år": 1985,
+    "region": "Jönköping",
+    "befolkning": 316525,
+    "index": 103.1
+  },
+  {
+    "år": 1986,
+    "region": "Jönköping",
+    "befolkning": 317212,
+    "index": 103.3
+  },
+  {
+    "år": 1987,
+    "region": "Jönköping",
+    "befolkning": 318404,
+    "index": 103.7
+  },
+  {
+    "år": 1988,
+    "region": "Jönköping",
+    "befolkning": 320239,
+    "index": 104.3
+  },
+  {
+    "år": 1989,
+    "region": "Jönköping",
+    "befolkning": 323065,
+    "index": 105.2
+  },
+  {
+    "år": 1990,
+    "region": "Jönköping",
+    "befolkning": 325163,
+    "index": 105.9
+  },
+  {
+    "år": 1991,
+    "region": "Jönköping",
+    "befolkning": 326653,
+    "index": 106.4
+  },
+  {
+    "år": 1992,
+    "region": "Jönköping",
+    "befolkning": 326852,
+    "index": 106.5
+  },
+  {
+    "år": 1993,
+    "region": "Jönköping",
+    "befolkning": 327920,
+    "index": 106.8
+  },
+  {
+    "år": 1994,
+    "region": "Jönköping",
+    "befolkning": 329406,
+    "index": 107.3
+  },
+  {
+    "år": 1995,
+    "region": "Jönköping",
+    "befolkning": 329595,
+    "index": 107.4
+  },
+  {
+    "år": 1996,
+    "region": "Jönköping",
+    "befolkning": 328726,
+    "index": 107.1
+  },
+  {
+    "år": 1997,
+    "region": "Jönköping",
+    "befolkning": 328068,
+    "index": 106.9
+  },
+  {
+    "år": 1998,
+    "region": "Jönköping",
+    "befolkning": 328059,
+    "index": 106.9
+  },
+  {
+    "år": 1999,
+    "region": "Jönköping",
+    "befolkning": 327266,
+    "index": 106.6
+  },
+  {
+    "år": 2000,
+    "region": "Jönköping",
+    "befolkning": 327829,
+    "index": 106.8
+  },
+  {
+    "år": 2001,
+    "region": "Jönköping",
+    "befolkning": 327824,
+    "index": 106.8
+  },
+  {
+    "år": 2002,
+    "region": "Jönköping",
+    "befolkning": 327971,
+    "index": 106.8
+  },
+  {
+    "år": 2003,
+    "region": "Jönköping",
+    "befolkning": 328659,
+    "index": 107.1
+  },
+  {
+    "år": 2004,
+    "region": "Jönköping",
+    "befolkning": 329297,
+    "index": 107.3
+  },
+  {
+    "år": 2005,
+    "region": "Jönköping",
+    "befolkning": 330179,
+    "index": 107.6
+  },
+  {
+    "år": 2006,
+    "region": "Jönköping",
+    "befolkning": 331539,
+    "index": 108
+  },
+  {
+    "år": 2007,
+    "region": "Jönköping",
+    "befolkning": 333610,
+    "index": 108.7
+  },
+  {
+    "år": 2008,
+    "region": "Jönköping",
+    "befolkning": 335246,
+    "index": 109.2
+  },
+  {
+    "år": 2009,
+    "region": "Jönköping",
+    "befolkning": 336044,
+    "index": 109.5
+  },
+  {
+    "år": 2010,
+    "region": "Jönköping",
+    "befolkning": 336866,
+    "index": 109.7
+  },
+  {
+    "år": 2011,
+    "region": "Jönköping",
+    "befolkning": 337896,
+    "index": 110.1
+  },
+  {
+    "år": 2012,
+    "region": "Jönköping",
+    "befolkning": 339116,
+    "index": 110.5
+  },
+  {
+    "år": 2013,
+    "region": "Jönköping",
+    "befolkning": 341235,
+    "index": 111.2
+  },
+  {
+    "år": 2014,
+    "region": "Jönköping",
+    "befolkning": 344262,
+    "index": 112.1
+  },
+  {
+    "år": 2015,
+    "region": "Jönköping",
+    "befolkning": 347837,
+    "index": 113.3
+  },
+  {
+    "år": 2016,
+    "region": "Jönköping",
+    "befolkning": 352735,
+    "index": 114.9
+  },
+  {
+    "år": 2017,
+    "region": "Jönköping",
+    "befolkning": 357237,
+    "index": 116.4
+  },
+  {
+    "år": 2018,
+    "region": "Jönköping",
+    "befolkning": 360825,
+    "index": 117.5
+  },
+  {
+    "år": 2019,
+    "region": "Jönköping",
+    "befolkning": 363599,
+    "index": 118.4
+  },
+  {
+    "år": 2020,
+    "region": "Jönköping",
+    "befolkning": 365010,
+    "index": 118.9
+  },
+  {
+    "år": 2021,
+    "region": "Jönköping",
+    "befolkning": 367064,
+    "index": 119.6
+  },
+  {
+    "år": 2022,
+    "region": "Jönköping",
+    "befolkning": 369113,
+    "index": 120.2
+  },
+  {
+    "år": 2023,
+    "region": "Jönköping",
+    "befolkning": 368856,
+    "index": 120.1
+  },
+  {
+    "år": 2024,
+    "region": "Jönköping",
+    "befolkning": 370009,
+    "index": 120.5
+  },
+  {
+    "år": 2025,
+    "region": "Jönköping",
+    "befolkning": 369722,
+    "index": 120.4
+  },
+  {
+    "år": 1969,
+    "region": "Kronoberg",
+    "befolkning": 164953,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Kronoberg",
+    "befolkning": 166734,
+    "index": 101.1
+  },
+  {
+    "år": 1971,
+    "region": "Kronoberg",
+    "befolkning": 167331,
+    "index": 101.4
+  },
+  {
+    "år": 1972,
+    "region": "Kronoberg",
+    "befolkning": 167429,
+    "index": 101.5
+  },
+  {
+    "år": 1973,
+    "region": "Kronoberg",
+    "befolkning": 168199,
+    "index": 102
+  },
+  {
+    "år": 1974,
+    "region": "Kronoberg",
+    "befolkning": 168826,
+    "index": 102.3
+  },
+  {
+    "år": 1975,
+    "region": "Kronoberg",
+    "befolkning": 169438,
+    "index": 102.7
+  },
+  {
+    "år": 1976,
+    "region": "Kronoberg",
+    "befolkning": 170319,
+    "index": 103.3
+  },
+  {
+    "år": 1977,
+    "region": "Kronoberg",
+    "befolkning": 171073,
+    "index": 103.7
+  },
+  {
+    "år": 1978,
+    "region": "Kronoberg",
+    "befolkning": 171434,
+    "index": 103.9
+  },
+  {
+    "år": 1979,
+    "region": "Kronoberg",
+    "befolkning": 172401,
+    "index": 104.5
+  },
+  {
+    "år": 1980,
+    "region": "Kronoberg",
+    "befolkning": 173691,
+    "index": 105.3
+  },
+  {
+    "år": 1981,
+    "region": "Kronoberg",
+    "befolkning": 174169,
+    "index": 105.6
+  },
+  {
+    "år": 1982,
+    "region": "Kronoberg",
+    "befolkning": 174021,
+    "index": 105.5
+  },
+  {
+    "år": 1983,
+    "region": "Kronoberg",
+    "befolkning": 174319,
+    "index": 105.7
+  },
+  {
+    "år": 1984,
+    "region": "Kronoberg",
+    "befolkning": 174265,
+    "index": 105.6
+  },
+  {
+    "år": 1985,
+    "region": "Kronoberg",
+    "befolkning": 173972,
+    "index": 105.5
+  },
+  {
+    "år": 1986,
+    "region": "Kronoberg",
+    "befolkning": 173853,
+    "index": 105.4
+  },
+  {
+    "år": 1987,
+    "region": "Kronoberg",
+    "befolkning": 174116,
+    "index": 105.6
+  },
+  {
+    "år": 1988,
+    "region": "Kronoberg",
+    "befolkning": 175427,
+    "index": 106.3
+  },
+  {
+    "år": 1989,
+    "region": "Kronoberg",
+    "befolkning": 176589,
+    "index": 107.1
+  },
+  {
+    "år": 1990,
+    "region": "Kronoberg",
+    "befolkning": 177882,
+    "index": 107.8
+  },
+  {
+    "år": 1991,
+    "region": "Kronoberg",
+    "befolkning": 178612,
+    "index": 108.3
+  },
+  {
+    "år": 1992,
+    "region": "Kronoberg",
+    "befolkning": 178961,
+    "index": 108.5
+  },
+  {
+    "år": 1993,
+    "region": "Kronoberg",
+    "befolkning": 179649,
+    "index": 108.9
+  },
+  {
+    "år": 1994,
+    "region": "Kronoberg",
+    "befolkning": 180747,
+    "index": 109.6
+  },
+  {
+    "år": 1995,
+    "region": "Kronoberg",
+    "befolkning": 180377,
+    "index": 109.4
+  },
+  {
+    "år": 1996,
+    "region": "Kronoberg",
+    "befolkning": 179655,
+    "index": 108.9
+  },
+  {
+    "år": 1997,
+    "region": "Kronoberg",
+    "befolkning": 179021,
+    "index": 108.5
+  },
+  {
+    "år": 1998,
+    "region": "Kronoberg",
+    "befolkning": 178078,
+    "index": 108
+  },
+  {
+    "år": 1999,
+    "region": "Kronoberg",
+    "befolkning": 177149,
+    "index": 107.4
+  },
+  {
+    "år": 2000,
+    "region": "Kronoberg",
+    "befolkning": 176639,
+    "index": 107.1
+  },
+  {
+    "år": 2001,
+    "region": "Kronoberg",
+    "befolkning": 176582,
+    "index": 107
+  },
+  {
+    "år": 2002,
+    "region": "Kronoberg",
+    "befolkning": 176978,
+    "index": 107.3
+  },
+  {
+    "år": 2003,
+    "region": "Kronoberg",
+    "befolkning": 177448,
+    "index": 107.6
+  },
+  {
+    "år": 2004,
+    "region": "Kronoberg",
+    "befolkning": 178285,
+    "index": 108.1
+  },
+  {
+    "år": 2005,
+    "region": "Kronoberg",
+    "befolkning": 178443,
+    "index": 108.2
+  },
+  {
+    "år": 2006,
+    "region": "Kronoberg",
+    "befolkning": 179635,
+    "index": 108.9
+  },
+  {
+    "år": 2007,
+    "region": "Kronoberg",
+    "befolkning": 180787,
+    "index": 109.6
+  },
+  {
+    "år": 2008,
+    "region": "Kronoberg",
+    "befolkning": 182224,
+    "index": 110.5
+  },
+  {
+    "år": 2009,
+    "region": "Kronoberg",
+    "befolkning": 183162,
+    "index": 111
+  },
+  {
+    "år": 2010,
+    "region": "Kronoberg",
+    "befolkning": 183940,
+    "index": 111.5
+  },
+  {
+    "år": 2011,
+    "region": "Kronoberg",
+    "befolkning": 184654,
+    "index": 111.9
+  },
+  {
+    "år": 2012,
+    "region": "Kronoberg",
+    "befolkning": 185887,
+    "index": 112.7
+  },
+  {
+    "år": 2013,
+    "region": "Kronoberg",
+    "befolkning": 187156,
+    "index": 113.5
+  },
+  {
+    "år": 2014,
+    "region": "Kronoberg",
+    "befolkning": 189128,
+    "index": 114.7
+  },
+  {
+    "år": 2015,
+    "region": "Kronoberg",
+    "befolkning": 191369,
+    "index": 116
+  },
+  {
+    "år": 2016,
+    "region": "Kronoberg",
+    "befolkning": 194628,
+    "index": 118
+  },
+  {
+    "år": 2017,
+    "region": "Kronoberg",
+    "befolkning": 197519,
+    "index": 119.7
+  },
+  {
+    "år": 2018,
+    "region": "Kronoberg",
+    "befolkning": 199886,
+    "index": 121.2
+  },
+  {
+    "år": 2019,
+    "region": "Kronoberg",
+    "befolkning": 201469,
+    "index": 122.1
+  },
+  {
+    "år": 2020,
+    "region": "Kronoberg",
+    "befolkning": 202263,
+    "index": 122.6
+  },
+  {
+    "år": 2021,
+    "region": "Kronoberg",
+    "befolkning": 203340,
+    "index": 123.3
+  },
+  {
+    "år": 2022,
+    "region": "Kronoberg",
+    "befolkning": 204335,
+    "index": 123.9
+  },
+  {
+    "år": 2023,
+    "region": "Kronoberg",
+    "befolkning": 203686,
+    "index": 123.5
+  },
+  {
+    "år": 2024,
+    "region": "Kronoberg",
+    "befolkning": 203351,
+    "index": 123.3
+  },
+  {
+    "år": 2025,
+    "region": "Kronoberg",
+    "befolkning": 203121,
+    "index": 123.1
+  },
+  {
+    "år": 1969,
+    "region": "Kalmar",
+    "befolkning": 240298,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Kalmar",
+    "befolkning": 241024,
+    "index": 100.3
+  },
+  {
+    "år": 1971,
+    "region": "Kalmar",
+    "befolkning": 240651,
+    "index": 100.1
+  },
+  {
+    "år": 1972,
+    "region": "Kalmar",
+    "befolkning": 240180,
+    "index": 100
+  },
+  {
+    "år": 1973,
+    "region": "Kalmar",
+    "befolkning": 240087,
+    "index": 99.9
+  },
+  {
+    "år": 1974,
+    "region": "Kalmar",
+    "befolkning": 240395,
+    "index": 100
+  },
+  {
+    "år": 1975,
+    "region": "Kalmar",
+    "befolkning": 240724,
+    "index": 100.2
+  },
+  {
+    "år": 1976,
+    "region": "Kalmar",
+    "befolkning": 240969,
+    "index": 100.3
+  },
+  {
+    "år": 1977,
+    "region": "Kalmar",
+    "befolkning": 241537,
+    "index": 100.5
+  },
+  {
+    "år": 1978,
+    "region": "Kalmar",
+    "befolkning": 241340,
+    "index": 100.4
+  },
+  {
+    "år": 1979,
+    "region": "Kalmar",
+    "befolkning": 241448,
+    "index": 100.5
+  },
+  {
+    "år": 1980,
+    "region": "Kalmar",
+    "befolkning": 241581,
+    "index": 100.5
+  },
+  {
+    "år": 1981,
+    "region": "Kalmar",
+    "befolkning": 241098,
+    "index": 100.3
+  },
+  {
+    "år": 1982,
+    "region": "Kalmar",
+    "befolkning": 240823,
+    "index": 100.2
+  },
+  {
+    "år": 1983,
+    "region": "Kalmar",
+    "befolkning": 240134,
+    "index": 99.9
+  },
+  {
+    "år": 1984,
+    "region": "Kalmar",
+    "befolkning": 239380,
+    "index": 99.6
+  },
+  {
+    "år": 1985,
+    "region": "Kalmar",
+    "befolkning": 238176,
+    "index": 99.1
+  },
+  {
+    "år": 1986,
+    "region": "Kalmar",
+    "befolkning": 237417,
+    "index": 98.8
+  },
+  {
+    "år": 1987,
+    "region": "Kalmar",
+    "befolkning": 237356,
+    "index": 98.8
+  },
+  {
+    "år": 1988,
+    "region": "Kalmar",
+    "befolkning": 237781,
+    "index": 99
+  },
+  {
+    "år": 1989,
+    "region": "Kalmar",
+    "befolkning": 239564,
+    "index": 99.7
+  },
+  {
+    "år": 1990,
+    "region": "Kalmar",
+    "befolkning": 241102,
+    "index": 100.3
+  },
+  {
+    "år": 1991,
+    "region": "Kalmar",
+    "befolkning": 241883,
+    "index": 100.7
+  },
+  {
+    "år": 1992,
+    "region": "Kalmar",
+    "befolkning": 241912,
+    "index": 100.7
+  },
+  {
+    "år": 1993,
+    "region": "Kalmar",
+    "befolkning": 242528,
+    "index": 100.9
+  },
+  {
+    "år": 1994,
+    "region": "Kalmar",
+    "befolkning": 244057,
+    "index": 101.6
+  },
+  {
+    "år": 1995,
+    "region": "Kalmar",
+    "befolkning": 243372,
+    "index": 101.3
+  },
+  {
+    "år": 1996,
+    "region": "Kalmar",
+    "befolkning": 241896,
+    "index": 100.7
+  },
+  {
+    "år": 1997,
+    "region": "Kalmar",
+    "befolkning": 240160,
+    "index": 99.9
+  },
+  {
+    "år": 1998,
+    "region": "Kalmar",
+    "befolkning": 238104,
+    "index": 99.1
+  },
+  {
+    "år": 1999,
+    "region": "Kalmar",
+    "befolkning": 236501,
+    "index": 98.4
+  },
+  {
+    "år": 2000,
+    "region": "Kalmar",
+    "befolkning": 235391,
+    "index": 98
+  },
+  {
+    "år": 2001,
+    "region": "Kalmar",
+    "befolkning": 234697,
+    "index": 97.7
+  },
+  {
+    "år": 2002,
+    "region": "Kalmar",
+    "befolkning": 234627,
+    "index": 97.6
+  },
+  {
+    "år": 2003,
+    "region": "Kalmar",
+    "befolkning": 234886,
+    "index": 97.7
+  },
+  {
+    "år": 2004,
+    "region": "Kalmar",
+    "befolkning": 234496,
+    "index": 97.6
+  },
+  {
+    "år": 2005,
+    "region": "Kalmar",
+    "befolkning": 233944,
+    "index": 97.4
+  },
+  {
+    "år": 2006,
+    "region": "Kalmar",
+    "befolkning": 233776,
+    "index": 97.3
+  },
+  {
+    "år": 2007,
+    "region": "Kalmar",
+    "befolkning": 233834,
+    "index": 97.3
+  },
+  {
+    "år": 2008,
+    "region": "Kalmar",
+    "befolkning": 233397,
+    "index": 97.1
+  },
+  {
+    "år": 2009,
+    "region": "Kalmar",
+    "befolkning": 233639,
+    "index": 97.2
+  },
+  {
+    "år": 2010,
+    "region": "Kalmar",
+    "befolkning": 233536,
+    "index": 97.2
+  },
+  {
+    "år": 2011,
+    "region": "Kalmar",
+    "befolkning": 233090,
+    "index": 97
+  },
+  {
+    "år": 2012,
+    "region": "Kalmar",
+    "befolkning": 233548,
+    "index": 97.2
+  },
+  {
+    "år": 2013,
+    "region": "Kalmar",
+    "befolkning": 233874,
+    "index": 97.3
+  },
+  {
+    "år": 2014,
+    "region": "Kalmar",
+    "befolkning": 235598,
+    "index": 98
+  },
+  {
+    "år": 2015,
+    "region": "Kalmar",
+    "befolkning": 237679,
+    "index": 98.9
+  },
+  {
+    "år": 2016,
+    "region": "Kalmar",
+    "befolkning": 242301,
+    "index": 100.8
+  },
+  {
+    "år": 2017,
+    "region": "Kalmar",
+    "befolkning": 243536,
+    "index": 101.3
+  },
+  {
+    "år": 2018,
+    "region": "Kalmar",
+    "befolkning": 244670,
+    "index": 101.8
+  },
+  {
+    "år": 2019,
+    "region": "Kalmar",
+    "befolkning": 245446,
+    "index": 102.1
+  },
+  {
+    "år": 2020,
+    "region": "Kalmar",
+    "befolkning": 246010,
+    "index": 102.4
+  },
+  {
+    "år": 2021,
+    "region": "Kalmar",
+    "befolkning": 247175,
+    "index": 102.9
+  },
+  {
+    "år": 2022,
+    "region": "Kalmar",
+    "befolkning": 247711,
+    "index": 103.1
+  },
+  {
+    "år": 2023,
+    "region": "Kalmar",
+    "befolkning": 246667,
+    "index": 102.7
+  },
+  {
+    "år": 2024,
+    "region": "Kalmar",
+    "befolkning": 246352,
+    "index": 102.5
+  },
+  {
+    "år": 2025,
+    "region": "Kalmar",
+    "befolkning": 245477,
+    "index": 102.2
+  },
+  {
+    "år": 1969,
+    "region": "Gotland",
+    "befolkning": 53977,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Gotland",
+    "befolkning": 53722,
+    "index": 99.5
+  },
+  {
+    "år": 1971,
+    "region": "Gotland",
+    "befolkning": 53720,
+    "index": 99.5
+  },
+  {
+    "år": 1972,
+    "region": "Gotland",
+    "befolkning": 53805,
+    "index": 99.7
+  },
+  {
+    "år": 1973,
+    "region": "Gotland",
+    "befolkning": 53950,
+    "index": 99.9
+  },
+  {
+    "år": 1974,
+    "region": "Gotland",
+    "befolkning": 54174,
+    "index": 100.4
+  },
+  {
+    "år": 1975,
+    "region": "Gotland",
+    "befolkning": 54400,
+    "index": 100.8
+  },
+  {
+    "år": 1976,
+    "region": "Gotland",
+    "befolkning": 54621,
+    "index": 101.2
+  },
+  {
+    "år": 1977,
+    "region": "Gotland",
+    "befolkning": 54791,
+    "index": 101.5
+  },
+  {
+    "år": 1978,
+    "region": "Gotland",
+    "befolkning": 54935,
+    "index": 101.8
+  },
+  {
+    "år": 1979,
+    "region": "Gotland",
+    "befolkning": 55261,
+    "index": 102.4
+  },
+  {
+    "år": 1980,
+    "region": "Gotland",
+    "befolkning": 55346,
+    "index": 102.5
+  },
+  {
+    "år": 1981,
+    "region": "Gotland",
+    "befolkning": 55623,
+    "index": 103
+  },
+  {
+    "år": 1982,
+    "region": "Gotland",
+    "befolkning": 55897,
+    "index": 103.6
+  },
+  {
+    "år": 1983,
+    "region": "Gotland",
+    "befolkning": 55987,
+    "index": 103.7
+  },
+  {
+    "år": 1984,
+    "region": "Gotland",
+    "befolkning": 56203,
+    "index": 104.1
+  },
+  {
+    "år": 1985,
+    "region": "Gotland",
+    "befolkning": 56144,
+    "index": 104
+  },
+  {
+    "år": 1986,
+    "region": "Gotland",
+    "befolkning": 56174,
+    "index": 104.1
+  },
+  {
+    "år": 1987,
+    "region": "Gotland",
+    "befolkning": 56269,
+    "index": 104.2
+  },
+  {
+    "år": 1988,
+    "region": "Gotland",
+    "befolkning": 56383,
+    "index": 104.5
+  },
+  {
+    "år": 1989,
+    "region": "Gotland",
+    "befolkning": 56840,
+    "index": 105.3
+  },
+  {
+    "år": 1990,
+    "region": "Gotland",
+    "befolkning": 57108,
+    "index": 105.8
+  },
+  {
+    "år": 1991,
+    "region": "Gotland",
+    "befolkning": 57383,
+    "index": 106.3
+  },
+  {
+    "år": 1992,
+    "region": "Gotland",
+    "befolkning": 57578,
+    "index": 106.7
+  },
+  {
+    "år": 1993,
+    "region": "Gotland",
+    "befolkning": 57751,
+    "index": 107
+  },
+  {
+    "år": 1994,
+    "region": "Gotland",
+    "befolkning": 58237,
+    "index": 107.9
+  },
+  {
+    "år": 1995,
+    "region": "Gotland",
+    "befolkning": 58120,
+    "index": 107.7
+  },
+  {
+    "år": 1996,
+    "region": "Gotland",
+    "befolkning": 57971,
+    "index": 107.4
+  },
+  {
+    "år": 1997,
+    "region": "Gotland",
+    "befolkning": 57791,
+    "index": 107.1
+  },
+  {
+    "år": 1998,
+    "region": "Gotland",
+    "befolkning": 57643,
+    "index": 106.8
+  },
+  {
+    "år": 1999,
+    "region": "Gotland",
+    "befolkning": 57428,
+    "index": 106.4
+  },
+  {
+    "år": 2000,
+    "region": "Gotland",
+    "befolkning": 57313,
+    "index": 106.2
+  },
+  {
+    "år": 2001,
+    "region": "Gotland",
+    "befolkning": 57412,
+    "index": 106.4
+  },
+  {
+    "år": 2002,
+    "region": "Gotland",
+    "befolkning": 57381,
+    "index": 106.3
+  },
+  {
+    "år": 2003,
+    "region": "Gotland",
+    "befolkning": 57535,
+    "index": 106.6
+  },
+  {
+    "år": 2004,
+    "region": "Gotland",
+    "befolkning": 57661,
+    "index": 106.8
+  },
+  {
+    "år": 2005,
+    "region": "Gotland",
+    "befolkning": 57488,
+    "index": 106.5
+  },
+  {
+    "år": 2006,
+    "region": "Gotland",
+    "befolkning": 57297,
+    "index": 106.2
+  },
+  {
+    "år": 2007,
+    "region": "Gotland",
+    "befolkning": 57122,
+    "index": 105.8
+  },
+  {
+    "år": 2008,
+    "region": "Gotland",
+    "befolkning": 57004,
+    "index": 105.6
+  },
+  {
+    "år": 2009,
+    "region": "Gotland",
+    "befolkning": 57221,
+    "index": 106
+  },
+  {
+    "år": 2010,
+    "region": "Gotland",
+    "befolkning": 57269,
+    "index": 106.1
+  },
+  {
+    "år": 2011,
+    "region": "Gotland",
+    "befolkning": 57308,
+    "index": 106.2
+  },
+  {
+    "år": 2012,
+    "region": "Gotland",
+    "befolkning": 57241,
+    "index": 106
+  },
+  {
+    "år": 2013,
+    "region": "Gotland",
+    "befolkning": 57161,
+    "index": 105.9
+  },
+  {
+    "år": 2014,
+    "region": "Gotland",
+    "befolkning": 57255,
+    "index": 106.1
+  },
+  {
+    "år": 2015,
+    "region": "Gotland",
+    "befolkning": 57391,
+    "index": 106.3
+  },
+  {
+    "år": 2016,
+    "region": "Gotland",
+    "befolkning": 58003,
+    "index": 107.5
+  },
+  {
+    "år": 2017,
+    "region": "Gotland",
+    "befolkning": 58595,
+    "index": 108.6
+  },
+  {
+    "år": 2018,
+    "region": "Gotland",
+    "befolkning": 59249,
+    "index": 109.8
+  },
+  {
+    "år": 2019,
+    "region": "Gotland",
+    "befolkning": 59686,
+    "index": 110.6
+  },
+  {
+    "år": 2020,
+    "region": "Gotland",
+    "befolkning": 60124,
+    "index": 111.4
+  },
+  {
+    "år": 2021,
+    "region": "Gotland",
+    "befolkning": 61001,
+    "index": 113
+  },
+  {
+    "år": 2022,
+    "region": "Gotland",
+    "befolkning": 61173,
+    "index": 113.3
+  },
+  {
+    "år": 2023,
+    "region": "Gotland",
+    "befolkning": 61029,
+    "index": 113.1
+  },
+  {
+    "år": 2024,
+    "region": "Gotland",
+    "befolkning": 60971,
+    "index": 113
+  },
+  {
+    "år": 2025,
+    "region": "Gotland",
+    "befolkning": 60852,
+    "index": 112.7
+  },
+  {
+    "år": 1969,
+    "region": "Blekinge",
+    "befolkning": 152373,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Blekinge",
+    "befolkning": 153585,
+    "index": 100.8
+  },
+  {
+    "år": 1971,
+    "region": "Blekinge",
+    "befolkning": 153960,
+    "index": 101
+  },
+  {
+    "år": 1972,
+    "region": "Blekinge",
+    "befolkning": 154638,
+    "index": 101.5
+  },
+  {
+    "år": 1973,
+    "region": "Blekinge",
+    "befolkning": 154634,
+    "index": 101.5
+  },
+  {
+    "år": 1974,
+    "region": "Blekinge",
+    "befolkning": 155144,
+    "index": 101.8
+  },
+  {
+    "år": 1975,
+    "region": "Blekinge",
+    "befolkning": 155336,
+    "index": 101.9
+  },
+  {
+    "år": 1976,
+    "region": "Blekinge",
+    "befolkning": 154962,
+    "index": 101.7
+  },
+  {
+    "år": 1977,
+    "region": "Blekinge",
+    "befolkning": 154565,
+    "index": 101.4
+  },
+  {
+    "år": 1978,
+    "region": "Blekinge",
+    "befolkning": 154368,
+    "index": 101.3
+  },
+  {
+    "år": 1979,
+    "region": "Blekinge",
+    "befolkning": 154135,
+    "index": 101.2
+  },
+  {
+    "år": 1980,
+    "region": "Blekinge",
+    "befolkning": 153542,
+    "index": 100.8
+  },
+  {
+    "år": 1981,
+    "region": "Blekinge",
+    "befolkning": 152628,
+    "index": 100.2
+  },
+  {
+    "år": 1982,
+    "region": "Blekinge",
+    "befolkning": 152091,
+    "index": 99.8
+  },
+  {
+    "år": 1983,
+    "region": "Blekinge",
+    "befolkning": 151884,
+    "index": 99.7
+  },
+  {
+    "år": 1984,
+    "region": "Blekinge",
+    "befolkning": 151652,
+    "index": 99.5
+  },
+  {
+    "år": 1985,
+    "region": "Blekinge",
+    "befolkning": 150959,
+    "index": 99.1
+  },
+  {
+    "år": 1986,
+    "region": "Blekinge",
+    "befolkning": 150258,
+    "index": 98.6
+  },
+  {
+    "år": 1987,
+    "region": "Blekinge",
+    "befolkning": 149600,
+    "index": 98.2
+  },
+  {
+    "år": 1988,
+    "region": "Blekinge",
+    "befolkning": 149544,
+    "index": 98.1
+  },
+  {
+    "år": 1989,
+    "region": "Blekinge",
+    "befolkning": 149960,
+    "index": 98.4
+  },
+  {
+    "år": 1990,
+    "region": "Blekinge",
+    "befolkning": 150564,
+    "index": 98.8
+  },
+  {
+    "år": 1991,
+    "region": "Blekinge",
+    "befolkning": 151168,
+    "index": 99.2
+  },
+  {
+    "år": 1992,
+    "region": "Blekinge",
+    "befolkning": 151266,
+    "index": 99.3
+  },
+  {
+    "år": 1993,
+    "region": "Blekinge",
+    "befolkning": 151853,
+    "index": 99.7
+  },
+  {
+    "år": 1994,
+    "region": "Blekinge",
+    "befolkning": 153016,
+    "index": 100.4
+  },
+  {
+    "år": 1995,
+    "region": "Blekinge",
+    "befolkning": 152737,
+    "index": 100.2
+  },
+  {
+    "år": 1996,
+    "region": "Blekinge",
+    "befolkning": 151972,
+    "index": 99.7
+  },
+  {
+    "år": 1997,
+    "region": "Blekinge",
+    "befolkning": 151692,
+    "index": 99.6
+  },
+  {
+    "år": 1998,
+    "region": "Blekinge",
+    "befolkning": 151414,
+    "index": 99.4
+  },
+  {
+    "år": 1999,
+    "region": "Blekinge",
+    "befolkning": 150625,
+    "index": 98.9
+  },
+  {
+    "år": 2000,
+    "region": "Blekinge",
+    "befolkning": 150392,
+    "index": 98.7
+  },
+  {
+    "år": 2001,
+    "region": "Blekinge",
+    "befolkning": 150017,
+    "index": 98.5
+  },
+  {
+    "år": 2002,
+    "region": "Blekinge",
+    "befolkning": 149875,
+    "index": 98.4
+  },
+  {
+    "år": 2003,
+    "region": "Blekinge",
+    "befolkning": 149889,
+    "index": 98.4
+  },
+  {
+    "år": 2004,
+    "region": "Blekinge",
+    "befolkning": 150335,
+    "index": 98.7
+  },
+  {
+    "år": 2005,
+    "region": "Blekinge",
+    "befolkning": 150696,
+    "index": 98.9
+  },
+  {
+    "år": 2006,
+    "region": "Blekinge",
+    "befolkning": 151436,
+    "index": 99.4
+  },
+  {
+    "år": 2007,
+    "region": "Blekinge",
+    "befolkning": 151900,
+    "index": 99.7
+  },
+  {
+    "år": 2008,
+    "region": "Blekinge",
+    "befolkning": 152259,
+    "index": 99.9
+  },
+  {
+    "år": 2009,
+    "region": "Blekinge",
+    "befolkning": 152591,
+    "index": 100.1
+  },
+  {
+    "år": 2010,
+    "region": "Blekinge",
+    "befolkning": 153227,
+    "index": 100.6
+  },
+  {
+    "år": 2011,
+    "region": "Blekinge",
+    "befolkning": 152979,
+    "index": 100.4
+  },
+  {
+    "år": 2012,
+    "region": "Blekinge",
+    "befolkning": 152315,
+    "index": 100
+  },
+  {
+    "år": 2013,
+    "region": "Blekinge",
+    "befolkning": 152757,
+    "index": 100.3
+  },
+  {
+    "år": 2014,
+    "region": "Blekinge",
+    "befolkning": 154157,
+    "index": 101.2
+  },
+  {
+    "år": 2015,
+    "region": "Blekinge",
+    "befolkning": 156253,
+    "index": 102.5
+  },
+  {
+    "år": 2016,
+    "region": "Blekinge",
+    "befolkning": 158453,
+    "index": 104
+  },
+  {
+    "år": 2017,
+    "region": "Blekinge",
+    "befolkning": 159371,
+    "index": 104.6
+  },
+  {
+    "år": 2018,
+    "region": "Blekinge",
+    "befolkning": 159684,
+    "index": 104.8
+  },
+  {
+    "år": 2019,
+    "region": "Blekinge",
+    "befolkning": 159606,
+    "index": 104.7
+  },
+  {
+    "år": 2020,
+    "region": "Blekinge",
+    "befolkning": 159056,
+    "index": 104.4
+  },
+  {
+    "år": 2021,
+    "region": "Blekinge",
+    "befolkning": 158937,
+    "index": 104.3
+  },
+  {
+    "år": 2022,
+    "region": "Blekinge",
+    "befolkning": 158740,
+    "index": 104.2
+  },
+  {
+    "år": 2023,
+    "region": "Blekinge",
+    "befolkning": 157973,
+    "index": 103.7
+  },
+  {
+    "år": 2024,
+    "region": "Blekinge",
+    "befolkning": 157223,
+    "index": 103.2
+  },
+  {
+    "år": 2025,
+    "region": "Blekinge",
+    "befolkning": 156616,
+    "index": 102.8
+  },
+  {
+    "år": 1969,
+    "region": "Skåne",
+    "befolkning": 971809,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Skåne",
+    "befolkning": 983753,
+    "index": 101.2
+  },
+  {
+    "år": 1971,
+    "region": "Skåne",
+    "befolkning": 991355,
+    "index": 102
+  },
+  {
+    "år": 1972,
+    "region": "Skåne",
+    "befolkning": 996197,
+    "index": 102.5
+  },
+  {
+    "år": 1973,
+    "region": "Skåne",
+    "befolkning": 999947,
+    "index": 102.9
+  },
+  {
+    "år": 1974,
+    "region": "Skåne",
+    "befolkning": 1007685,
+    "index": 103.7
+  },
+  {
+    "år": 1975,
+    "region": "Skåne",
+    "befolkning": 1012083,
+    "index": 104.1
+  },
+  {
+    "år": 1976,
+    "region": "Skåne",
+    "befolkning": 1013623,
+    "index": 104.3
+  },
+  {
+    "år": 1977,
+    "region": "Skåne",
+    "befolkning": 1017504,
+    "index": 104.7
+  },
+  {
+    "år": 1978,
+    "region": "Skåne",
+    "befolkning": 1019721,
+    "index": 104.9
+  },
+  {
+    "år": 1979,
+    "region": "Skåne",
+    "befolkning": 1022050,
+    "index": 105.2
+  },
+  {
+    "år": 1980,
+    "region": "Skåne",
+    "befolkning": 1023479,
+    "index": 105.3
+  },
+  {
+    "år": 1981,
+    "region": "Skåne",
+    "befolkning": 1023630,
+    "index": 105.3
+  },
+  {
+    "år": 1982,
+    "region": "Skåne",
+    "befolkning": 1024635,
+    "index": 105.4
+  },
+  {
+    "år": 1983,
+    "region": "Skåne",
+    "befolkning": 1025814,
+    "index": 105.6
+  },
+  {
+    "år": 1984,
+    "region": "Skåne",
+    "befolkning": 1027470,
+    "index": 105.7
+  },
+  {
+    "år": 1985,
+    "region": "Skåne",
+    "befolkning": 1030494,
+    "index": 106
+  },
+  {
+    "år": 1986,
+    "region": "Skåne",
+    "befolkning": 1033684,
+    "index": 106.4
+  },
+  {
+    "år": 1987,
+    "region": "Skåne",
+    "befolkning": 1039550,
+    "index": 107
+  },
+  {
+    "år": 1988,
+    "region": "Skåne",
+    "befolkning": 1047167,
+    "index": 107.8
+  },
+  {
+    "år": 1989,
+    "region": "Skåne",
+    "befolkning": 1058015,
+    "index": 108.9
+  },
+  {
+    "år": 1990,
+    "region": "Skåne",
+    "befolkning": 1068587,
+    "index": 110
+  },
+  {
+    "år": 1991,
+    "region": "Skåne",
+    "befolkning": 1078225,
+    "index": 111
+  },
+  {
+    "år": 1992,
+    "region": "Skåne",
+    "befolkning": 1086689,
+    "index": 111.8
+  },
+  {
+    "år": 1993,
+    "region": "Skåne",
+    "befolkning": 1093367,
+    "index": 112.5
+  },
+  {
+    "år": 1994,
+    "region": "Skåne",
+    "befolkning": 1105986,
+    "index": 113.8
+  },
+  {
+    "år": 1995,
+    "region": "Skåne",
+    "befolkning": 1111731,
+    "index": 114.4
+  },
+  {
+    "år": 1996,
+    "region": "Skåne",
+    "befolkning": 1114368,
+    "index": 114.7
+  },
+  {
+    "år": 1997,
+    "region": "Skåne",
+    "befolkning": 1116603,
+    "index": 114.9
+  },
+  {
+    "år": 1998,
+    "region": "Skåne",
+    "befolkning": 1120426,
+    "index": 115.3
+  },
+  {
+    "år": 1999,
+    "region": "Skåne",
+    "befolkning": 1123786,
+    "index": 115.6
+  },
+  {
+    "år": 2000,
+    "region": "Skåne",
+    "befolkning": 1129424,
+    "index": 116.2
+  },
+  {
+    "år": 2001,
+    "region": "Skåne",
+    "befolkning": 1136571,
+    "index": 117
+  },
+  {
+    "år": 2002,
+    "region": "Skåne",
+    "befolkning": 1145090,
+    "index": 117.8
+  },
+  {
+    "år": 2003,
+    "region": "Skåne",
+    "befolkning": 1152697,
+    "index": 118.6
+  },
+  {
+    "år": 2004,
+    "region": "Skåne",
+    "befolkning": 1160919,
+    "index": 119.5
+  },
+  {
+    "år": 2005,
+    "region": "Skåne",
+    "befolkning": 1169464,
+    "index": 120.3
+  },
+  {
+    "år": 2006,
+    "region": "Skåne",
+    "befolkning": 1184500,
+    "index": 121.9
+  },
+  {
+    "år": 2007,
+    "region": "Skåne",
+    "befolkning": 1199357,
+    "index": 123.4
+  },
+  {
+    "år": 2008,
+    "region": "Skåne",
+    "befolkning": 1214758,
+    "index": 125
+  },
+  {
+    "år": 2009,
+    "region": "Skåne",
+    "befolkning": 1231062,
+    "index": 126.7
+  },
+  {
+    "år": 2010,
+    "region": "Skåne",
+    "befolkning": 1243329,
+    "index": 127.9
+  },
+  {
+    "år": 2011,
+    "region": "Skåne",
+    "befolkning": 1252933,
+    "index": 128.9
+  },
+  {
+    "år": 2012,
+    "region": "Skåne",
+    "befolkning": 1263088,
+    "index": 130
+  },
+  {
+    "år": 2013,
+    "region": "Skåne",
+    "befolkning": 1274069,
+    "index": 131.1
+  },
+  {
+    "år": 2014,
+    "region": "Skåne",
+    "befolkning": 1288908,
+    "index": 132.6
+  },
+  {
+    "år": 2015,
+    "region": "Skåne",
+    "befolkning": 1303627,
+    "index": 134.1
+  },
+  {
+    "år": 2016,
+    "region": "Skåne",
+    "befolkning": 1324565,
+    "index": 136.3
+  },
+  {
+    "år": 2017,
+    "region": "Skåne",
+    "befolkning": 1344689,
+    "index": 138.4
+  },
+  {
+    "år": 2018,
+    "region": "Skåne",
+    "befolkning": 1362164,
+    "index": 140.2
+  },
+  {
+    "år": 2019,
+    "region": "Skåne",
+    "befolkning": 1377827,
+    "index": 141.8
+  },
+  {
+    "år": 2020,
+    "region": "Skåne",
+    "befolkning": 1389336,
+    "index": 143
+  },
+  {
+    "år": 2021,
+    "region": "Skåne",
+    "befolkning": 1402425,
+    "index": 144.3
+  },
+  {
+    "år": 2022,
+    "region": "Skåne",
+    "befolkning": 1414324,
+    "index": 145.5
+  },
+  {
+    "år": 2023,
+    "region": "Skåne",
+    "befolkning": 1421781,
+    "index": 146.3
+  },
+  {
+    "år": 2024,
+    "region": "Skåne",
+    "befolkning": 1428626,
+    "index": 147
+  },
+  {
+    "år": 2025,
+    "region": "Skåne",
+    "befolkning": 1433083,
+    "index": 147.5
+  },
+  {
+    "år": 1969,
+    "region": "Halland",
+    "befolkning": 195546,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Halland",
+    "befolkning": 200055,
+    "index": 102.3
+  },
+  {
+    "år": 1971,
+    "region": "Halland",
+    "befolkning": 203848,
+    "index": 104.2
+  },
+  {
+    "år": 1972,
+    "region": "Halland",
+    "befolkning": 208276,
+    "index": 106.5
+  },
+  {
+    "år": 1973,
+    "region": "Halland",
+    "befolkning": 212490,
+    "index": 108.7
+  },
+  {
+    "år": 1974,
+    "region": "Halland",
+    "befolkning": 216318,
+    "index": 110.6
+  },
+  {
+    "år": 1975,
+    "region": "Halland",
+    "befolkning": 219780,
+    "index": 112.4
+  },
+  {
+    "år": 1976,
+    "region": "Halland",
+    "befolkning": 222985,
+    "index": 114
+  },
+  {
+    "år": 1977,
+    "region": "Halland",
+    "befolkning": 225032,
+    "index": 115.1
+  },
+  {
+    "år": 1978,
+    "region": "Halland",
+    "befolkning": 227175,
+    "index": 116.2
+  },
+  {
+    "år": 1979,
+    "region": "Halland",
+    "befolkning": 229211,
+    "index": 117.2
+  },
+  {
+    "år": 1980,
+    "region": "Halland",
+    "befolkning": 230924,
+    "index": 118.1
+  },
+  {
+    "år": 1981,
+    "region": "Halland",
+    "befolkning": 232715,
+    "index": 119
+  },
+  {
+    "år": 1982,
+    "region": "Halland",
+    "befolkning": 234339,
+    "index": 119.8
+  },
+  {
+    "år": 1983,
+    "region": "Halland",
+    "befolkning": 236319,
+    "index": 120.9
+  },
+  {
+    "år": 1984,
+    "region": "Halland",
+    "befolkning": 238347,
+    "index": 121.9
+  },
+  {
+    "år": 1985,
+    "region": "Halland",
+    "befolkning": 240063,
+    "index": 122.8
+  },
+  {
+    "år": 1986,
+    "region": "Halland",
+    "befolkning": 242250,
+    "index": 123.9
+  },
+  {
+    "år": 1987,
+    "region": "Halland",
+    "befolkning": 244377,
+    "index": 125
+  },
+  {
+    "år": 1988,
+    "region": "Halland",
+    "befolkning": 247417,
+    "index": 126.5
+  },
+  {
+    "år": 1989,
+    "region": "Halland",
+    "befolkning": 250959,
+    "index": 128.3
+  },
+  {
+    "år": 1990,
+    "region": "Halland",
+    "befolkning": 254725,
+    "index": 130.3
+  },
+  {
+    "år": 1991,
+    "region": "Halland",
+    "befolkning": 257874,
+    "index": 131.9
+  },
+  {
+    "år": 1992,
+    "region": "Halland",
+    "befolkning": 261172,
+    "index": 133.6
+  },
+  {
+    "år": 1993,
+    "region": "Halland",
+    "befolkning": 264607,
+    "index": 135.3
+  },
+  {
+    "år": 1994,
+    "region": "Halland",
+    "befolkning": 268067,
+    "index": 137.1
+  },
+  {
+    "år": 1995,
+    "region": "Halland",
+    "befolkning": 269338,
+    "index": 137.7
+  },
+  {
+    "år": 1996,
+    "region": "Halland",
+    "befolkning": 270060,
+    "index": 138.1
+  },
+  {
+    "år": 1997,
+    "region": "Halland",
+    "befolkning": 271325,
+    "index": 138.8
+  },
+  {
+    "år": 1998,
+    "region": "Halland",
+    "befolkning": 272539,
+    "index": 139.4
+  },
+  {
+    "år": 1999,
+    "region": "Halland",
+    "befolkning": 273537,
+    "index": 139.9
+  },
+  {
+    "år": 2000,
+    "region": "Halland",
+    "befolkning": 275004,
+    "index": 140.6
+  },
+  {
+    "år": 2001,
+    "region": "Halland",
+    "befolkning": 276653,
+    "index": 141.5
+  },
+  {
+    "år": 2002,
+    "region": "Halland",
+    "befolkning": 278551,
+    "index": 142.4
+  },
+  {
+    "år": 2003,
+    "region": "Halland",
+    "befolkning": 281322,
+    "index": 143.9
+  },
+  {
+    "år": 2004,
+    "region": "Halland",
+    "befolkning": 283788,
+    "index": 145.1
+  },
+  {
+    "år": 2005,
+    "region": "Halland",
+    "befolkning": 285868,
+    "index": 146.2
+  },
+  {
+    "år": 2006,
+    "region": "Halland",
+    "befolkning": 288859,
+    "index": 147.7
+  },
+  {
+    "år": 2007,
+    "region": "Halland",
+    "befolkning": 291393,
+    "index": 149
+  },
+  {
+    "år": 2008,
+    "region": "Halland",
+    "befolkning": 293572,
+    "index": 150.1
+  },
+  {
+    "år": 2009,
+    "region": "Halland",
+    "befolkning": 296825,
+    "index": 151.8
+  },
+  {
+    "år": 2010,
+    "region": "Halland",
+    "befolkning": 299484,
+    "index": 153.2
+  },
+  {
+    "år": 2011,
+    "region": "Halland",
+    "befolkning": 301724,
+    "index": 154.3
+  },
+  {
+    "år": 2012,
+    "region": "Halland",
+    "befolkning": 304116,
+    "index": 155.5
+  },
+  {
+    "år": 2013,
+    "region": "Halland",
+    "befolkning": 306840,
+    "index": 156.9
+  },
+  {
+    "år": 2014,
+    "region": "Halland",
+    "befolkning": 310665,
+    "index": 158.9
+  },
+  {
+    "år": 2015,
+    "region": "Halland",
+    "befolkning": 314784,
+    "index": 161
+  },
+  {
+    "år": 2016,
+    "region": "Halland",
+    "befolkning": 320333,
+    "index": 163.8
+  },
+  {
+    "år": 2017,
+    "region": "Halland",
+    "befolkning": 324825,
+    "index": 166.1
+  },
+  {
+    "år": 2018,
+    "region": "Halland",
+    "befolkning": 329352,
+    "index": 168.4
+  },
+  {
+    "år": 2019,
+    "region": "Halland",
+    "befolkning": 333848,
+    "index": 170.7
+  },
+  {
+    "år": 2020,
+    "region": "Halland",
+    "befolkning": 336748,
+    "index": 172.2
+  },
+  {
+    "år": 2021,
+    "region": "Halland",
+    "befolkning": 340243,
+    "index": 174
+  },
+  {
+    "år": 2022,
+    "region": "Halland",
+    "befolkning": 342805,
+    "index": 175.3
+  },
+  {
+    "år": 2023,
+    "region": "Halland",
+    "befolkning": 343746,
+    "index": 175.8
+  },
+  {
+    "år": 2024,
+    "region": "Halland",
+    "befolkning": 345074,
+    "index": 176.5
+  },
+  {
+    "år": 2025,
+    "region": "Halland",
+    "befolkning": 346090,
+    "index": 177
+  },
+  {
+    "år": 1969,
+    "region": "Västra Götaland",
+    "befolkning": 1349898,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Västra Götaland",
+    "befolkning": 1366708,
+    "index": 101.2
+  },
+  {
+    "år": 1971,
+    "region": "Västra Götaland",
+    "befolkning": 1373088,
+    "index": 101.7
+  },
+  {
+    "år": 1972,
+    "region": "Västra Götaland",
+    "befolkning": 1374869,
+    "index": 101.8
+  },
+  {
+    "år": 1973,
+    "region": "Västra Götaland",
+    "befolkning": 1376948,
+    "index": 102
+  },
+  {
+    "år": 1974,
+    "region": "Västra Götaland",
+    "befolkning": 1380332,
+    "index": 102.3
+  },
+  {
+    "år": 1975,
+    "region": "Västra Götaland",
+    "befolkning": 1384484,
+    "index": 102.6
+  },
+  {
+    "år": 1976,
+    "region": "Västra Götaland",
+    "befolkning": 1386501,
+    "index": 102.7
+  },
+  {
+    "år": 1977,
+    "region": "Västra Götaland",
+    "befolkning": 1389139,
+    "index": 102.9
+  },
+  {
+    "år": 1978,
+    "region": "Västra Götaland",
+    "befolkning": 1390181,
+    "index": 103
+  },
+  {
+    "år": 1979,
+    "region": "Västra Götaland",
+    "befolkning": 1392028,
+    "index": 103.1
+  },
+  {
+    "år": 1980,
+    "region": "Västra Götaland",
+    "befolkning": 1391774,
+    "index": 103.1
+  },
+  {
+    "år": 1981,
+    "region": "Västra Götaland",
+    "befolkning": 1390805,
+    "index": 103
+  },
+  {
+    "år": 1982,
+    "region": "Västra Götaland",
+    "befolkning": 1390269,
+    "index": 103
+  },
+  {
+    "år": 1983,
+    "region": "Västra Götaland",
+    "befolkning": 1390152,
+    "index": 103
+  },
+  {
+    "år": 1984,
+    "region": "Västra Götaland",
+    "befolkning": 1393219,
+    "index": 103.2
+  },
+  {
+    "år": 1985,
+    "region": "Västra Götaland",
+    "befolkning": 1397122,
+    "index": 103.5
+  },
+  {
+    "år": 1986,
+    "region": "Västra Götaland",
+    "befolkning": 1403503,
+    "index": 104
+  },
+  {
+    "år": 1987,
+    "region": "Västra Götaland",
+    "befolkning": 1411372,
+    "index": 104.6
+  },
+  {
+    "år": 1988,
+    "region": "Västra Götaland",
+    "befolkning": 1418954,
+    "index": 105.1
+  },
+  {
+    "år": 1989,
+    "region": "Västra Götaland",
+    "befolkning": 1431259,
+    "index": 106
+  },
+  {
+    "år": 1990,
+    "region": "Västra Götaland",
+    "befolkning": 1441293,
+    "index": 106.8
+  },
+  {
+    "år": 1991,
+    "region": "Västra Götaland",
+    "befolkning": 1448056,
+    "index": 107.3
+  },
+  {
+    "år": 1992,
+    "region": "Västra Götaland",
+    "befolkning": 1455645,
+    "index": 107.8
+  },
+  {
+    "år": 1993,
+    "region": "Västra Götaland",
+    "befolkning": 1464073,
+    "index": 108.5
+  },
+  {
+    "år": 1994,
+    "region": "Västra Götaland",
+    "befolkning": 1477370,
+    "index": 109.4
+  },
+  {
+    "år": 1995,
+    "region": "Västra Götaland",
+    "befolkning": 1482501,
+    "index": 109.8
+  },
+  {
+    "år": 1996,
+    "region": "Västra Götaland",
+    "befolkning": 1485014,
+    "index": 110
+  },
+  {
+    "år": 1997,
+    "region": "Västra Götaland",
+    "befolkning": 1485611,
+    "index": 110.1
+  },
+  {
+    "år": 1998,
+    "region": "Västra Götaland",
+    "befolkning": 1486918,
+    "index": 110.2
+  },
+  {
+    "år": 1999,
+    "region": "Västra Götaland",
+    "befolkning": 1488709,
+    "index": 110.3
+  },
+  {
+    "år": 2000,
+    "region": "Västra Götaland",
+    "befolkning": 1494641,
+    "index": 110.7
+  },
+  {
+    "år": 2001,
+    "region": "Västra Götaland",
+    "befolkning": 1500857,
+    "index": 111.2
+  },
+  {
+    "år": 2002,
+    "region": "Västra Götaland",
+    "befolkning": 1508230,
+    "index": 111.7
+  },
+  {
+    "år": 2003,
+    "region": "Västra Götaland",
+    "befolkning": 1514992,
+    "index": 112.2
+  },
+  {
+    "år": 2004,
+    "region": "Västra Götaland",
+    "befolkning": 1521895,
+    "index": 112.7
+  },
+  {
+    "år": 2005,
+    "region": "Västra Götaland",
+    "befolkning": 1528455,
+    "index": 113.2
+  },
+  {
+    "år": 2006,
+    "region": "Västra Götaland",
+    "befolkning": 1538284,
+    "index": 114
+  },
+  {
+    "år": 2007,
+    "region": "Västra Götaland",
+    "befolkning": 1547298,
+    "index": 114.6
+  },
+  {
+    "år": 2008,
+    "region": "Västra Götaland",
+    "befolkning": 1558130,
+    "index": 115.4
+  },
+  {
+    "år": 2009,
+    "region": "Västra Götaland",
+    "befolkning": 1569458,
+    "index": 116.3
+  },
+  {
+    "år": 2010,
+    "region": "Västra Götaland",
+    "befolkning": 1580297,
+    "index": 117.1
+  },
+  {
+    "år": 2011,
+    "region": "Västra Götaland",
+    "befolkning": 1590604,
+    "index": 117.8
+  },
+  {
+    "år": 2012,
+    "region": "Västra Götaland",
+    "befolkning": 1600447,
+    "index": 118.6
+  },
+  {
+    "år": 2013,
+    "region": "Västra Götaland",
+    "befolkning": 1615084,
+    "index": 119.6
+  },
+  {
+    "år": 2014,
+    "region": "Västra Götaland",
+    "befolkning": 1632012,
+    "index": 120.9
+  },
+  {
+    "år": 2015,
+    "region": "Västra Götaland",
+    "befolkning": 1648682,
+    "index": 122.1
+  },
+  {
+    "år": 2016,
+    "region": "Västra Götaland",
+    "befolkning": 1671783,
+    "index": 123.8
+  },
+  {
+    "år": 2017,
+    "region": "Västra Götaland",
+    "befolkning": 1690782,
+    "index": 125.3
+  },
+  {
+    "år": 2018,
+    "region": "Västra Götaland",
+    "befolkning": 1709814,
+    "index": 126.7
+  },
+  {
+    "år": 2019,
+    "region": "Västra Götaland",
+    "befolkning": 1725881,
+    "index": 127.9
+  },
+  {
+    "år": 2020,
+    "region": "Västra Götaland",
+    "befolkning": 1734443,
+    "index": 128.5
+  },
+  {
+    "år": 2021,
+    "region": "Västra Götaland",
+    "befolkning": 1744859,
+    "index": 129.3
+  },
+  {
+    "år": 2022,
+    "region": "Västra Götaland",
+    "befolkning": 1758656,
+    "index": 130.3
+  },
+  {
+    "år": 2023,
+    "region": "Västra Götaland",
+    "befolkning": 1767016,
+    "index": 130.9
+  },
+  {
+    "år": 2024,
+    "region": "Västra Götaland",
+    "befolkning": 1772821,
+    "index": 131.3
+  },
+  {
+    "år": 2025,
+    "region": "Västra Götaland",
+    "befolkning": 1777803,
+    "index": 131.7
+  },
+  {
+    "år": 1969,
+    "region": "Värmland",
+    "befolkning": 284039,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Värmland",
+    "befolkning": 284686,
+    "index": 100.2
+  },
+  {
+    "år": 1971,
+    "region": "Värmland",
+    "befolkning": 284246,
+    "index": 100.1
+  },
+  {
+    "år": 1972,
+    "region": "Värmland",
+    "befolkning": 283677,
+    "index": 99.9
+  },
+  {
+    "år": 1973,
+    "region": "Värmland",
+    "befolkning": 283246,
+    "index": 99.7
+  },
+  {
+    "år": 1974,
+    "region": "Värmland",
+    "befolkning": 283476,
+    "index": 99.8
+  },
+  {
+    "år": 1975,
+    "region": "Värmland",
+    "befolkning": 284249,
+    "index": 100.1
+  },
+  {
+    "år": 1976,
+    "region": "Värmland",
+    "befolkning": 284529,
+    "index": 100.2
+  },
+  {
+    "år": 1977,
+    "region": "Värmland",
+    "befolkning": 284708,
+    "index": 100.2
+  },
+  {
+    "år": 1978,
+    "region": "Värmland",
+    "befolkning": 284892,
+    "index": 100.3
+  },
+  {
+    "år": 1979,
+    "region": "Värmland",
+    "befolkning": 284615,
+    "index": 100.2
+  },
+  {
+    "år": 1980,
+    "region": "Värmland",
+    "befolkning": 284070,
+    "index": 100
+  },
+  {
+    "år": 1981,
+    "region": "Värmland",
+    "befolkning": 283175,
+    "index": 99.7
+  },
+  {
+    "år": 1982,
+    "region": "Värmland",
+    "befolkning": 282115,
+    "index": 99.3
+  },
+  {
+    "år": 1983,
+    "region": "Värmland",
+    "befolkning": 281205,
+    "index": 99
+  },
+  {
+    "år": 1984,
+    "region": "Värmland",
+    "befolkning": 280499,
+    "index": 98.8
+  },
+  {
+    "år": 1985,
+    "region": "Värmland",
+    "befolkning": 279183,
+    "index": 98.3
+  },
+  {
+    "år": 1986,
+    "region": "Värmland",
+    "befolkning": 278861,
+    "index": 98.2
+  },
+  {
+    "år": 1987,
+    "region": "Värmland",
+    "befolkning": 279402,
+    "index": 98.4
+  },
+  {
+    "år": 1988,
+    "region": "Värmland",
+    "befolkning": 280694,
+    "index": 98.8
+  },
+  {
+    "år": 1989,
+    "region": "Värmland",
+    "befolkning": 282375,
+    "index": 99.4
+  },
+  {
+    "år": 1990,
+    "region": "Värmland",
+    "befolkning": 283110,
+    "index": 99.7
+  },
+  {
+    "år": 1991,
+    "region": "Värmland",
+    "befolkning": 284187,
+    "index": 100.1
+  },
+  {
+    "år": 1992,
+    "region": "Värmland",
+    "befolkning": 284691,
+    "index": 100.2
+  },
+  {
+    "år": 1993,
+    "region": "Värmland",
+    "befolkning": 285220,
+    "index": 100.4
+  },
+  {
+    "år": 1994,
+    "region": "Värmland",
+    "befolkning": 285498,
+    "index": 100.5
+  },
+  {
+    "år": 1995,
+    "region": "Värmland",
+    "befolkning": 284011,
+    "index": 100
+  },
+  {
+    "år": 1996,
+    "region": "Värmland",
+    "befolkning": 282147,
+    "index": 99.3
+  },
+  {
+    "år": 1997,
+    "region": "Värmland",
+    "befolkning": 280178,
+    "index": 98.6
+  },
+  {
+    "år": 1998,
+    "region": "Värmland",
+    "befolkning": 278313,
+    "index": 98
+  },
+  {
+    "år": 1999,
+    "region": "Värmland",
+    "befolkning": 276600,
+    "index": 97.4
+  },
+  {
+    "år": 2000,
+    "region": "Värmland",
+    "befolkning": 275003,
+    "index": 96.8
+  },
+  {
+    "år": 2001,
+    "region": "Värmland",
+    "befolkning": 273933,
+    "index": 96.4
+  },
+  {
+    "år": 2002,
+    "region": "Värmland",
+    "befolkning": 273419,
+    "index": 96.3
+  },
+  {
+    "år": 2003,
+    "region": "Värmland",
+    "befolkning": 273563,
+    "index": 96.3
+  },
+  {
+    "år": 2004,
+    "region": "Värmland",
+    "befolkning": 273547,
+    "index": 96.3
+  },
+  {
+    "år": 2005,
+    "region": "Värmland",
+    "befolkning": 273288,
+    "index": 96.2
+  },
+  {
+    "år": 2006,
+    "region": "Värmland",
+    "befolkning": 273489,
+    "index": 96.3
+  },
+  {
+    "år": 2007,
+    "region": "Värmland",
+    "befolkning": 273826,
+    "index": 96.4
+  },
+  {
+    "år": 2008,
+    "region": "Värmland",
+    "befolkning": 273374,
+    "index": 96.2
+  },
+  {
+    "år": 2009,
+    "region": "Värmland",
+    "befolkning": 273257,
+    "index": 96.2
+  },
+  {
+    "år": 2010,
+    "region": "Värmland",
+    "befolkning": 273265,
+    "index": 96.2
+  },
+  {
+    "år": 2011,
+    "region": "Värmland",
+    "befolkning": 272736,
+    "index": 96
+  },
+  {
+    "år": 2012,
+    "region": "Värmland",
+    "befolkning": 273080,
+    "index": 96.1
+  },
+  {
+    "år": 2013,
+    "region": "Värmland",
+    "befolkning": 273815,
+    "index": 96.4
+  },
+  {
+    "år": 2014,
+    "region": "Värmland",
+    "befolkning": 274691,
+    "index": 96.7
+  },
+  {
+    "år": 2015,
+    "region": "Värmland",
+    "befolkning": 275904,
+    "index": 97.1
+  },
+  {
+    "år": 2016,
+    "region": "Värmland",
+    "befolkning": 279334,
+    "index": 98.3
+  },
+  {
+    "år": 2017,
+    "region": "Värmland",
+    "befolkning": 280399,
+    "index": 98.7
+  },
+  {
+    "år": 2018,
+    "region": "Värmland",
+    "befolkning": 281482,
+    "index": 99.1
+  },
+  {
+    "år": 2019,
+    "region": "Värmland",
+    "befolkning": 282414,
+    "index": 99.4
+  },
+  {
+    "år": 2020,
+    "region": "Värmland",
+    "befolkning": 282885,
+    "index": 99.6
+  },
+  {
+    "år": 2021,
+    "region": "Värmland",
+    "befolkning": 283196,
+    "index": 99.7
+  },
+  {
+    "år": 2022,
+    "region": "Värmland",
+    "befolkning": 283976,
+    "index": 100
+  },
+  {
+    "år": 2023,
+    "region": "Värmland",
+    "befolkning": 283548,
+    "index": 99.8
+  },
+  {
+    "år": 2024,
+    "region": "Värmland",
+    "befolkning": 283384,
+    "index": 99.8
+  },
+  {
+    "år": 2025,
+    "region": "Värmland",
+    "befolkning": 283037,
+    "index": 99.6
+  },
+  {
+    "år": 1969,
+    "region": "Örebro",
+    "befolkning": 273787,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Örebro",
+    "befolkning": 275490,
+    "index": 100.6
+  },
+  {
+    "år": 1971,
+    "region": "Örebro",
+    "befolkning": 275202,
+    "index": 100.5
+  },
+  {
+    "år": 1972,
+    "region": "Örebro",
+    "befolkning": 274230,
+    "index": 100.2
+  },
+  {
+    "år": 1973,
+    "region": "Örebro",
+    "befolkning": 273561,
+    "index": 99.9
+  },
+  {
+    "år": 1974,
+    "region": "Örebro",
+    "befolkning": 273604,
+    "index": 99.9
+  },
+  {
+    "år": 1975,
+    "region": "Örebro",
+    "befolkning": 273923,
+    "index": 100
+  },
+  {
+    "år": 1976,
+    "region": "Örebro",
+    "befolkning": 273819,
+    "index": 100
+  },
+  {
+    "år": 1977,
+    "region": "Örebro",
+    "befolkning": 274207,
+    "index": 100.2
+  },
+  {
+    "år": 1978,
+    "region": "Örebro",
+    "befolkning": 274268,
+    "index": 100.2
+  },
+  {
+    "år": 1979,
+    "region": "Örebro",
+    "befolkning": 274223,
+    "index": 100.2
+  },
+  {
+    "år": 1980,
+    "region": "Örebro",
+    "befolkning": 274356,
+    "index": 100.2
+  },
+  {
+    "år": 1981,
+    "region": "Örebro",
+    "befolkning": 273712,
+    "index": 100
+  },
+  {
+    "år": 1982,
+    "region": "Örebro",
+    "befolkning": 273128,
+    "index": 99.8
+  },
+  {
+    "år": 1983,
+    "region": "Örebro",
+    "befolkning": 272138,
+    "index": 99.4
+  },
+  {
+    "år": 1984,
+    "region": "Örebro",
+    "befolkning": 270961,
+    "index": 99
+  },
+  {
+    "år": 1985,
+    "region": "Örebro",
+    "befolkning": 270211,
+    "index": 98.7
+  },
+  {
+    "år": 1986,
+    "region": "Örebro",
+    "befolkning": 269620,
+    "index": 98.5
+  },
+  {
+    "år": 1987,
+    "region": "Örebro",
+    "befolkning": 269341,
+    "index": 98.4
+  },
+  {
+    "år": 1988,
+    "region": "Örebro",
+    "befolkning": 270031,
+    "index": 98.6
+  },
+  {
+    "år": 1989,
+    "region": "Örebro",
+    "befolkning": 271523,
+    "index": 99.2
+  },
+  {
+    "år": 1990,
+    "region": "Örebro",
+    "befolkning": 272513,
+    "index": 99.5
+  },
+  {
+    "år": 1991,
+    "region": "Örebro",
+    "befolkning": 273608,
+    "index": 99.9
+  },
+  {
+    "år": 1992,
+    "region": "Örebro",
+    "befolkning": 274325,
+    "index": 100.2
+  },
+  {
+    "år": 1993,
+    "region": "Örebro",
+    "befolkning": 275532,
+    "index": 100.6
+  },
+  {
+    "år": 1994,
+    "region": "Örebro",
+    "befolkning": 276828,
+    "index": 101.1
+  },
+  {
+    "år": 1995,
+    "region": "Örebro",
+    "befolkning": 276417,
+    "index": 101
+  },
+  {
+    "år": 1996,
+    "region": "Örebro",
+    "befolkning": 275855,
+    "index": 100.8
+  },
+  {
+    "år": 1997,
+    "region": "Örebro",
+    "befolkning": 275163,
+    "index": 100.5
+  },
+  {
+    "år": 1998,
+    "region": "Örebro",
+    "befolkning": 274584,
+    "index": 100.3
+  },
+  {
+    "år": 1999,
+    "region": "Örebro",
+    "befolkning": 273822,
+    "index": 100
+  },
+  {
+    "år": 2000,
+    "region": "Örebro",
+    "befolkning": 273615,
+    "index": 99.9
+  },
+  {
+    "år": 2001,
+    "region": "Örebro",
+    "befolkning": 273137,
+    "index": 99.8
+  },
+  {
+    "år": 2002,
+    "region": "Örebro",
+    "befolkning": 273412,
+    "index": 99.9
+  },
+  {
+    "år": 2003,
+    "region": "Örebro",
+    "befolkning": 273935,
+    "index": 100.1
+  },
+  {
+    "år": 2004,
+    "region": "Örebro",
+    "befolkning": 273920,
+    "index": 100
+  },
+  {
+    "år": 2005,
+    "region": "Örebro",
+    "befolkning": 274121,
+    "index": 100.1
+  },
+  {
+    "år": 2006,
+    "region": "Örebro",
+    "befolkning": 275030,
+    "index": 100.5
+  },
+  {
+    "år": 2007,
+    "region": "Örebro",
+    "befolkning": 276067,
+    "index": 100.8
+  },
+  {
+    "år": 2008,
+    "region": "Örebro",
+    "befolkning": 277732,
+    "index": 101.4
+  },
+  {
+    "år": 2009,
+    "region": "Örebro",
+    "befolkning": 278882,
+    "index": 101.9
+  },
+  {
+    "år": 2010,
+    "region": "Örebro",
+    "befolkning": 280230,
+    "index": 102.4
+  },
+  {
+    "år": 2011,
+    "region": "Örebro",
+    "befolkning": 281572,
+    "index": 102.8
+  },
+  {
+    "år": 2012,
+    "region": "Örebro",
+    "befolkning": 283113,
+    "index": 103.4
+  },
+  {
+    "år": 2013,
+    "region": "Örebro",
+    "befolkning": 285395,
+    "index": 104.2
+  },
+  {
+    "år": 2014,
+    "region": "Örebro",
+    "befolkning": 288150,
+    "index": 105.2
+  },
+  {
+    "år": 2015,
+    "region": "Örebro",
+    "befolkning": 291012,
+    "index": 106.3
+  },
+  {
+    "år": 2016,
+    "region": "Örebro",
+    "befolkning": 294941,
+    "index": 107.7
+  },
+  {
+    "år": 2017,
+    "region": "Örebro",
+    "befolkning": 298907,
+    "index": 109.2
+  },
+  {
+    "år": 2018,
+    "region": "Örebro",
+    "befolkning": 302252,
+    "index": 110.4
+  },
+  {
+    "år": 2019,
+    "region": "Örebro",
+    "befolkning": 304805,
+    "index": 111.3
+  },
+  {
+    "år": 2020,
+    "region": "Örebro",
+    "befolkning": 305643,
+    "index": 111.6
+  },
+  {
+    "år": 2021,
+    "region": "Örebro",
+    "befolkning": 306792,
+    "index": 112.1
+  },
+  {
+    "år": 2022,
+    "region": "Örebro",
+    "befolkning": 307772,
+    "index": 112.4
+  },
+  {
+    "år": 2023,
+    "region": "Örebro",
+    "befolkning": 308116,
+    "index": 112.5
+  },
+  {
+    "år": 2024,
+    "region": "Örebro",
+    "befolkning": 308375,
+    "index": 112.6
+  },
+  {
+    "år": 2025,
+    "region": "Örebro",
+    "befolkning": 308357,
+    "index": 112.6
+  },
+  {
+    "år": 1969,
+    "region": "Västmanland",
+    "befolkning": 258792,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Västmanland",
+    "befolkning": 261592,
+    "index": 101.1
+  },
+  {
+    "år": 1971,
+    "region": "Västmanland",
+    "befolkning": 262692,
+    "index": 101.5
+  },
+  {
+    "år": 1972,
+    "region": "Västmanland",
+    "befolkning": 261173,
+    "index": 100.9
+  },
+  {
+    "år": 1973,
+    "region": "Västmanland",
+    "befolkning": 260074,
+    "index": 100.5
+  },
+  {
+    "år": 1974,
+    "region": "Västmanland",
+    "befolkning": 260132,
+    "index": 100.5
+  },
+  {
+    "år": 1975,
+    "region": "Västmanland",
+    "befolkning": 259921,
+    "index": 100.4
+  },
+  {
+    "år": 1976,
+    "region": "Västmanland",
+    "befolkning": 260164,
+    "index": 100.5
+  },
+  {
+    "år": 1977,
+    "region": "Västmanland",
+    "befolkning": 260330,
+    "index": 100.6
+  },
+  {
+    "år": 1978,
+    "region": "Västmanland",
+    "befolkning": 259692,
+    "index": 100.3
+  },
+  {
+    "år": 1979,
+    "region": "Västmanland",
+    "befolkning": 259670,
+    "index": 100.3
+  },
+  {
+    "år": 1980,
+    "region": "Västmanland",
+    "befolkning": 259538,
+    "index": 100.3
+  },
+  {
+    "år": 1981,
+    "region": "Västmanland",
+    "befolkning": 258566,
+    "index": 99.9
+  },
+  {
+    "år": 1982,
+    "region": "Västmanland",
+    "befolkning": 257783,
+    "index": 99.6
+  },
+  {
+    "år": 1983,
+    "region": "Västmanland",
+    "befolkning": 256976,
+    "index": 99.3
+  },
+  {
+    "år": 1984,
+    "region": "Västmanland",
+    "befolkning": 255691,
+    "index": 98.8
+  },
+  {
+    "år": 1985,
+    "region": "Västmanland",
+    "befolkning": 254761,
+    "index": 98.4
+  },
+  {
+    "år": 1986,
+    "region": "Västmanland",
+    "befolkning": 254423,
+    "index": 98.3
+  },
+  {
+    "år": 1987,
+    "region": "Västmanland",
+    "befolkning": 254253,
+    "index": 98.2
+  },
+  {
+    "år": 1988,
+    "region": "Västmanland",
+    "befolkning": 254847,
+    "index": 98.5
+  },
+  {
+    "år": 1989,
+    "region": "Västmanland",
+    "befolkning": 256510,
+    "index": 99.1
+  },
+  {
+    "år": 1990,
+    "region": "Västmanland",
+    "befolkning": 258487,
+    "index": 99.9
+  },
+  {
+    "år": 1991,
+    "region": "Västmanland",
+    "befolkning": 259438,
+    "index": 100.2
+  },
+  {
+    "år": 1992,
+    "region": "Västmanland",
+    "befolkning": 260096,
+    "index": 100.5
+  },
+  {
+    "år": 1993,
+    "region": "Västmanland",
+    "befolkning": 260932,
+    "index": 100.8
+  },
+  {
+    "år": 1994,
+    "region": "Västmanland",
+    "befolkning": 261753,
+    "index": 101.1
+  },
+  {
+    "år": 1995,
+    "region": "Västmanland",
+    "befolkning": 261101,
+    "index": 100.9
+  },
+  {
+    "år": 1996,
+    "region": "Västmanland",
+    "befolkning": 259987,
+    "index": 100.5
+  },
+  {
+    "år": 1997,
+    "region": "Västmanland",
+    "befolkning": 258541,
+    "index": 99.9
+  },
+  {
+    "år": 1998,
+    "region": "Västmanland",
+    "befolkning": 257661,
+    "index": 99.6
+  },
+  {
+    "år": 1999,
+    "region": "Västmanland",
+    "befolkning": 256901,
+    "index": 99.3
+  },
+  {
+    "år": 2000,
+    "region": "Västmanland",
+    "befolkning": 256889,
+    "index": 99.3
+  },
+  {
+    "år": 2001,
+    "region": "Västmanland",
+    "befolkning": 257957,
+    "index": 99.7
+  },
+  {
+    "år": 2002,
+    "region": "Västmanland",
+    "befolkning": 258912,
+    "index": 100
+  },
+  {
+    "år": 2003,
+    "region": "Västmanland",
+    "befolkning": 260134,
+    "index": 100.5
+  },
+  {
+    "år": 2004,
+    "region": "Västmanland",
+    "befolkning": 261005,
+    "index": 100.9
+  },
+  {
+    "år": 2005,
+    "region": "Västmanland",
+    "befolkning": 261391,
+    "index": 101
+  },
+  {
+    "år": 2006,
+    "region": "Västmanland",
+    "befolkning": 248489,
+    "index": 96
+  },
+  {
+    "år": 2007,
+    "region": "Västmanland",
+    "befolkning": 249193,
+    "index": 96.3
+  },
+  {
+    "år": 2008,
+    "region": "Västmanland",
+    "befolkning": 249974,
+    "index": 96.6
+  },
+  {
+    "år": 2009,
+    "region": "Västmanland",
+    "befolkning": 251353,
+    "index": 97.1
+  },
+  {
+    "år": 2010,
+    "region": "Västmanland",
+    "befolkning": 252756,
+    "index": 97.7
+  },
+  {
+    "år": 2011,
+    "region": "Västmanland",
+    "befolkning": 254257,
+    "index": 98.2
+  },
+  {
+    "år": 2012,
+    "region": "Västmanland",
+    "befolkning": 256224,
+    "index": 99
+  },
+  {
+    "år": 2013,
+    "region": "Västmanland",
+    "befolkning": 259054,
+    "index": 100.1
+  },
+  {
+    "år": 2014,
+    "region": "Västmanland",
+    "befolkning": 261703,
+    "index": 101.1
+  },
+  {
+    "år": 2015,
+    "region": "Västmanland",
+    "befolkning": 264276,
+    "index": 102.1
+  },
+  {
+    "år": 2016,
+    "region": "Västmanland",
+    "befolkning": 267629,
+    "index": 103.4
+  },
+  {
+    "år": 2017,
+    "region": "Västmanland",
+    "befolkning": 271095,
+    "index": 104.8
+  },
+  {
+    "år": 2018,
+    "region": "Västmanland",
+    "befolkning": 273929,
+    "index": 105.8
+  },
+  {
+    "år": 2019,
+    "region": "Västmanland",
+    "befolkning": 275845,
+    "index": 106.6
+  },
+  {
+    "år": 2020,
+    "region": "Västmanland",
+    "befolkning": 277141,
+    "index": 107.1
+  },
+  {
+    "år": 2021,
+    "region": "Västmanland",
+    "befolkning": 278967,
+    "index": 107.8
+  },
+  {
+    "år": 2022,
+    "region": "Västmanland",
+    "befolkning": 280713,
+    "index": 108.5
+  },
+  {
+    "år": 2023,
+    "region": "Västmanland",
+    "befolkning": 280813,
+    "index": 108.5
+  },
+  {
+    "år": 2024,
+    "region": "Västmanland",
+    "befolkning": 281158,
+    "index": 108.6
+  },
+  {
+    "år": 2025,
+    "region": "Västmanland",
+    "befolkning": 280756,
+    "index": 108.5
+  },
+  {
+    "år": 1969,
+    "region": "Dalarna",
+    "befolkning": 278087,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Dalarna",
+    "befolkning": 277056,
+    "index": 99.6
+  },
+  {
+    "år": 1971,
+    "region": "Dalarna",
+    "befolkning": 277284,
+    "index": 99.7
+  },
+  {
+    "år": 1972,
+    "region": "Dalarna",
+    "befolkning": 277453,
+    "index": 99.8
+  },
+  {
+    "år": 1973,
+    "region": "Dalarna",
+    "befolkning": 278104,
+    "index": 100
+  },
+  {
+    "år": 1974,
+    "region": "Dalarna",
+    "befolkning": 279159,
+    "index": 100.4
+  },
+  {
+    "år": 1975,
+    "region": "Dalarna",
+    "befolkning": 281109,
+    "index": 101.1
+  },
+  {
+    "år": 1976,
+    "region": "Dalarna",
+    "befolkning": 283350,
+    "index": 101.9
+  },
+  {
+    "år": 1977,
+    "region": "Dalarna",
+    "befolkning": 284034,
+    "index": 102.1
+  },
+  {
+    "år": 1978,
+    "region": "Dalarna",
+    "befolkning": 284490,
+    "index": 102.3
+  },
+  {
+    "år": 1979,
+    "region": "Dalarna",
+    "befolkning": 285545,
+    "index": 102.7
+  },
+  {
+    "år": 1980,
+    "region": "Dalarna",
+    "befolkning": 286968,
+    "index": 103.2
+  },
+  {
+    "år": 1981,
+    "region": "Dalarna",
+    "befolkning": 286482,
+    "index": 103
+  },
+  {
+    "år": 1982,
+    "region": "Dalarna",
+    "befolkning": 286278,
+    "index": 102.9
+  },
+  {
+    "år": 1983,
+    "region": "Dalarna",
+    "befolkning": 285610,
+    "index": 102.7
+  },
+  {
+    "år": 1984,
+    "region": "Dalarna",
+    "befolkning": 285113,
+    "index": 102.5
+  },
+  {
+    "år": 1985,
+    "region": "Dalarna",
+    "befolkning": 283880,
+    "index": 102.1
+  },
+  {
+    "år": 1986,
+    "region": "Dalarna",
+    "befolkning": 283191,
+    "index": 101.8
+  },
+  {
+    "år": 1987,
+    "region": "Dalarna",
+    "befolkning": 283330,
+    "index": 101.9
+  },
+  {
+    "år": 1988,
+    "region": "Dalarna",
+    "befolkning": 284407,
+    "index": 102.3
+  },
+  {
+    "år": 1989,
+    "region": "Dalarna",
+    "befolkning": 286667,
+    "index": 103.1
+  },
+  {
+    "år": 1990,
+    "region": "Dalarna",
+    "befolkning": 289067,
+    "index": 103.9
+  },
+  {
+    "år": 1991,
+    "region": "Dalarna",
+    "befolkning": 290388,
+    "index": 104.4
+  },
+  {
+    "år": 1992,
+    "region": "Dalarna",
+    "befolkning": 290245,
+    "index": 104.4
+  },
+  {
+    "år": 1993,
+    "region": "Dalarna",
+    "befolkning": 290515,
+    "index": 104.5
+  },
+  {
+    "år": 1994,
+    "region": "Dalarna",
+    "befolkning": 291203,
+    "index": 104.7
+  },
+  {
+    "år": 1995,
+    "region": "Dalarna",
+    "befolkning": 289956,
+    "index": 104.3
+  },
+  {
+    "år": 1996,
+    "region": "Dalarna",
+    "befolkning": 288171,
+    "index": 103.6
+  },
+  {
+    "år": 1997,
+    "region": "Dalarna",
+    "befolkning": 285232,
+    "index": 102.6
+  },
+  {
+    "år": 1998,
+    "region": "Dalarna",
+    "befolkning": 282898,
+    "index": 101.7
+  },
+  {
+    "år": 1999,
+    "region": "Dalarna",
+    "befolkning": 280575,
+    "index": 100.9
+  },
+  {
+    "år": 2000,
+    "region": "Dalarna",
+    "befolkning": 278259,
+    "index": 100.1
+  },
+  {
+    "år": 2001,
+    "region": "Dalarna",
+    "befolkning": 277010,
+    "index": 99.6
+  },
+  {
+    "år": 2002,
+    "region": "Dalarna",
+    "befolkning": 276636,
+    "index": 99.5
+  },
+  {
+    "år": 2003,
+    "region": "Dalarna",
+    "befolkning": 276520,
+    "index": 99.4
+  },
+  {
+    "år": 2004,
+    "region": "Dalarna",
+    "befolkning": 276042,
+    "index": 99.3
+  },
+  {
+    "år": 2005,
+    "region": "Dalarna",
+    "befolkning": 275755,
+    "index": 99.2
+  },
+  {
+    "år": 2006,
+    "region": "Dalarna",
+    "befolkning": 275711,
+    "index": 99.1
+  },
+  {
+    "år": 2007,
+    "region": "Dalarna",
+    "befolkning": 275618,
+    "index": 99.1
+  },
+  {
+    "år": 2008,
+    "region": "Dalarna",
+    "befolkning": 275867,
+    "index": 99.2
+  },
+  {
+    "år": 2009,
+    "region": "Dalarna",
+    "befolkning": 276454,
+    "index": 99.4
+  },
+  {
+    "år": 2010,
+    "region": "Dalarna",
+    "befolkning": 277047,
+    "index": 99.6
+  },
+  {
+    "år": 2011,
+    "region": "Dalarna",
+    "befolkning": 276565,
+    "index": 99.5
+  },
+  {
+    "år": 2012,
+    "region": "Dalarna",
+    "befolkning": 276555,
+    "index": 99.4
+  },
+  {
+    "år": 2013,
+    "region": "Dalarna",
+    "befolkning": 277349,
+    "index": 99.7
+  },
+  {
+    "år": 2014,
+    "region": "Dalarna",
+    "befolkning": 278903,
+    "index": 100.3
+  },
+  {
+    "år": 2015,
+    "region": "Dalarna",
+    "befolkning": 281028,
+    "index": 101.1
+  },
+  {
+    "år": 2016,
+    "region": "Dalarna",
+    "befolkning": 284531,
+    "index": 102.3
+  },
+  {
+    "år": 2017,
+    "region": "Dalarna",
+    "befolkning": 286165,
+    "index": 102.9
+  },
+  {
+    "år": 2018,
+    "region": "Dalarna",
+    "befolkning": 287191,
+    "index": 103.3
+  },
+  {
+    "år": 2019,
+    "region": "Dalarna",
+    "befolkning": 287966,
+    "index": 103.6
+  },
+  {
+    "år": 2020,
+    "region": "Dalarna",
+    "befolkning": 287676,
+    "index": 103.4
+  },
+  {
+    "år": 2021,
+    "region": "Dalarna",
+    "befolkning": 288387,
+    "index": 103.7
+  },
+  {
+    "år": 2022,
+    "region": "Dalarna",
+    "befolkning": 288310,
+    "index": 103.7
+  },
+  {
+    "år": 2023,
+    "region": "Dalarna",
+    "befolkning": 287253,
+    "index": 103.3
+  },
+  {
+    "år": 2024,
+    "region": "Dalarna",
+    "befolkning": 286546,
+    "index": 103
+  },
+  {
+    "år": 2025,
+    "region": "Dalarna",
+    "befolkning": 286043,
+    "index": 102.9
+  },
+  {
+    "år": 1969,
+    "region": "Gävleborg",
+    "befolkning": 292762,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Gävleborg",
+    "befolkning": 293456,
+    "index": 100.2
+  },
+  {
+    "år": 1971,
+    "region": "Gävleborg",
+    "befolkning": 293601,
+    "index": 100.3
+  },
+  {
+    "år": 1972,
+    "region": "Gävleborg",
+    "befolkning": 292922,
+    "index": 100.1
+  },
+  {
+    "år": 1973,
+    "region": "Gävleborg",
+    "befolkning": 292021,
+    "index": 99.7
+  },
+  {
+    "år": 1974,
+    "region": "Gävleborg",
+    "befolkning": 292760,
+    "index": 100
+  },
+  {
+    "år": 1975,
+    "region": "Gävleborg",
+    "befolkning": 294412,
+    "index": 100.6
+  },
+  {
+    "år": 1976,
+    "region": "Gävleborg",
+    "befolkning": 294627,
+    "index": 100.6
+  },
+  {
+    "år": 1977,
+    "region": "Gävleborg",
+    "befolkning": 294412,
+    "index": 100.6
+  },
+  {
+    "år": 1978,
+    "region": "Gävleborg",
+    "befolkning": 294288,
+    "index": 100.5
+  },
+  {
+    "år": 1979,
+    "region": "Gävleborg",
+    "befolkning": 293959,
+    "index": 100.4
+  },
+  {
+    "år": 1980,
+    "region": "Gävleborg",
+    "befolkning": 294020,
+    "index": 100.4
+  },
+  {
+    "år": 1981,
+    "region": "Gävleborg",
+    "befolkning": 293657,
+    "index": 100.3
+  },
+  {
+    "år": 1982,
+    "region": "Gävleborg",
+    "befolkning": 292723,
+    "index": 100
+  },
+  {
+    "år": 1983,
+    "region": "Gävleborg",
+    "befolkning": 291497,
+    "index": 99.6
+  },
+  {
+    "år": 1984,
+    "region": "Gävleborg",
+    "befolkning": 290533,
+    "index": 99.2
+  },
+  {
+    "år": 1985,
+    "region": "Gävleborg",
+    "befolkning": 289153,
+    "index": 98.8
+  },
+  {
+    "år": 1986,
+    "region": "Gävleborg",
+    "befolkning": 287691,
+    "index": 98.3
+  },
+  {
+    "år": 1987,
+    "region": "Gävleborg",
+    "befolkning": 286907,
+    "index": 98
+  },
+  {
+    "år": 1988,
+    "region": "Gävleborg",
+    "befolkning": 287004,
+    "index": 98
+  },
+  {
+    "år": 1989,
+    "region": "Gävleborg",
+    "befolkning": 288223,
+    "index": 98.4
+  },
+  {
+    "år": 1990,
+    "region": "Gävleborg",
+    "befolkning": 289294,
+    "index": 98.8
+  },
+  {
+    "år": 1991,
+    "region": "Gävleborg",
+    "befolkning": 289339,
+    "index": 98.8
+  },
+  {
+    "år": 1992,
+    "region": "Gävleborg",
+    "befolkning": 289190,
+    "index": 98.8
+  },
+  {
+    "år": 1993,
+    "region": "Gävleborg",
+    "befolkning": 289612,
+    "index": 98.9
+  },
+  {
+    "år": 1994,
+    "region": "Gävleborg",
+    "befolkning": 289654,
+    "index": 98.9
+  },
+  {
+    "år": 1995,
+    "region": "Gävleborg",
+    "befolkning": 288509,
+    "index": 98.5
+  },
+  {
+    "år": 1996,
+    "region": "Gävleborg",
+    "befolkning": 286789,
+    "index": 98
+  },
+  {
+    "år": 1997,
+    "region": "Gävleborg",
+    "befolkning": 284636,
+    "index": 97.2
+  },
+  {
+    "år": 1998,
+    "region": "Gävleborg",
+    "befolkning": 282226,
+    "index": 96.4
+  },
+  {
+    "år": 1999,
+    "region": "Gävleborg",
+    "befolkning": 280717,
+    "index": 95.9
+  },
+  {
+    "år": 2000,
+    "region": "Gävleborg",
+    "befolkning": 279262,
+    "index": 95.4
+  },
+  {
+    "år": 2001,
+    "region": "Gävleborg",
+    "befolkning": 278171,
+    "index": 95
+  },
+  {
+    "år": 2002,
+    "region": "Gävleborg",
+    "befolkning": 277012,
+    "index": 94.6
+  },
+  {
+    "år": 2003,
+    "region": "Gävleborg",
+    "befolkning": 276866,
+    "index": 94.6
+  },
+  {
+    "år": 2004,
+    "region": "Gävleborg",
+    "befolkning": 276599,
+    "index": 94.5
+  },
+  {
+    "år": 2005,
+    "region": "Gävleborg",
+    "befolkning": 275994,
+    "index": 94.3
+  },
+  {
+    "år": 2006,
+    "region": "Gävleborg",
+    "befolkning": 275653,
+    "index": 94.2
+  },
+  {
+    "år": 2007,
+    "region": "Gävleborg",
+    "befolkning": 275556,
+    "index": 94.1
+  },
+  {
+    "år": 2008,
+    "region": "Gävleborg",
+    "befolkning": 275908,
+    "index": 94.2
+  },
+  {
+    "år": 2009,
+    "region": "Gävleborg",
+    "befolkning": 276220,
+    "index": 94.3
+  },
+  {
+    "år": 2010,
+    "region": "Gävleborg",
+    "befolkning": 276508,
+    "index": 94.4
+  },
+  {
+    "år": 2011,
+    "region": "Gävleborg",
+    "befolkning": 276130,
+    "index": 94.3
+  },
+  {
+    "år": 2012,
+    "region": "Gävleborg",
+    "befolkning": 276637,
+    "index": 94.5
+  },
+  {
+    "år": 2013,
+    "region": "Gävleborg",
+    "befolkning": 277970,
+    "index": 94.9
+  },
+  {
+    "år": 2014,
+    "region": "Gävleborg",
+    "befolkning": 279991,
+    "index": 95.6
+  },
+  {
+    "år": 2015,
+    "region": "Gävleborg",
+    "befolkning": 281815,
+    "index": 96.3
+  },
+  {
+    "år": 2016,
+    "region": "Gävleborg",
+    "befolkning": 284586,
+    "index": 97.2
+  },
+  {
+    "år": 2017,
+    "region": "Gävleborg",
+    "befolkning": 285637,
+    "index": 97.6
+  },
+  {
+    "år": 2018,
+    "region": "Gävleborg",
+    "befolkning": 286547,
+    "index": 97.9
+  },
+  {
+    "år": 2019,
+    "region": "Gävleborg",
+    "befolkning": 287382,
+    "index": 98.2
+  },
+  {
+    "år": 2020,
+    "region": "Gävleborg",
+    "befolkning": 287502,
+    "index": 98.2
+  },
+  {
+    "år": 2021,
+    "region": "Gävleborg",
+    "befolkning": 287767,
+    "index": 98.3
+  },
+  {
+    "år": 2022,
+    "region": "Gävleborg",
+    "befolkning": 287334,
+    "index": 98.1
+  },
+  {
+    "år": 2023,
+    "region": "Gävleborg",
+    "befolkning": 285642,
+    "index": 97.6
+  },
+  {
+    "år": 2024,
+    "region": "Gävleborg",
+    "befolkning": 284558,
+    "index": 97.2
+  },
+  {
+    "år": 2025,
+    "region": "Gävleborg",
+    "befolkning": 283452,
+    "index": 96.8
+  },
+  {
+    "år": 1969,
+    "region": "Västernorrland",
+    "befolkning": 267359,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Västernorrland",
+    "befolkning": 267403,
+    "index": 100
+  },
+  {
+    "år": 1971,
+    "region": "Västernorrland",
+    "befolkning": 267682,
+    "index": 100.1
+  },
+  {
+    "år": 1972,
+    "region": "Västernorrland",
+    "befolkning": 267620,
+    "index": 100.1
+  },
+  {
+    "år": 1973,
+    "region": "Västernorrland",
+    "befolkning": 267273,
+    "index": 100
+  },
+  {
+    "år": 1974,
+    "region": "Västernorrland",
+    "befolkning": 267608,
+    "index": 100.1
+  },
+  {
+    "år": 1975,
+    "region": "Västernorrland",
+    "befolkning": 268034,
+    "index": 100.3
+  },
+  {
+    "år": 1976,
+    "region": "Västernorrland",
+    "befolkning": 268237,
+    "index": 100.3
+  },
+  {
+    "år": 1977,
+    "region": "Västernorrland",
+    "befolkning": 268357,
+    "index": 100.4
+  },
+  {
+    "år": 1978,
+    "region": "Västernorrland",
+    "befolkning": 268110,
+    "index": 100.3
+  },
+  {
+    "år": 1979,
+    "region": "Västernorrland",
+    "befolkning": 267895,
+    "index": 100.2
+  },
+  {
+    "år": 1980,
+    "region": "Västernorrland",
+    "befolkning": 267935,
+    "index": 100.2
+  },
+  {
+    "år": 1981,
+    "region": "Västernorrland",
+    "befolkning": 267115,
+    "index": 99.9
+  },
+  {
+    "år": 1982,
+    "region": "Västernorrland",
+    "befolkning": 266038,
+    "index": 99.5
+  },
+  {
+    "år": 1983,
+    "region": "Västernorrland",
+    "befolkning": 264803,
+    "index": 99
+  },
+  {
+    "år": 1984,
+    "region": "Västernorrland",
+    "befolkning": 263598,
+    "index": 98.6
+  },
+  {
+    "år": 1985,
+    "region": "Västernorrland",
+    "befolkning": 262314,
+    "index": 98.1
+  },
+  {
+    "år": 1986,
+    "region": "Västernorrland",
+    "befolkning": 261089,
+    "index": 97.7
+  },
+  {
+    "år": 1987,
+    "region": "Västernorrland",
+    "befolkning": 260332,
+    "index": 97.4
+  },
+  {
+    "år": 1988,
+    "region": "Västernorrland",
+    "befolkning": 259964,
+    "index": 97.2
+  },
+  {
+    "år": 1989,
+    "region": "Västernorrland",
+    "befolkning": 260488,
+    "index": 97.4
+  },
+  {
+    "år": 1990,
+    "region": "Västernorrland",
+    "befolkning": 261155,
+    "index": 97.7
+  },
+  {
+    "år": 1991,
+    "region": "Västernorrland",
+    "befolkning": 261280,
+    "index": 97.7
+  },
+  {
+    "år": 1992,
+    "region": "Västernorrland",
+    "befolkning": 260829,
+    "index": 97.6
+  },
+  {
+    "år": 1993,
+    "region": "Västernorrland",
+    "befolkning": 260567,
+    "index": 97.5
+  },
+  {
+    "år": 1994,
+    "region": "Västernorrland",
+    "befolkning": 260295,
+    "index": 97.4
+  },
+  {
+    "år": 1995,
+    "region": "Västernorrland",
+    "befolkning": 258290,
+    "index": 96.6
+  },
+  {
+    "år": 1996,
+    "region": "Västernorrland",
+    "befolkning": 256587,
+    "index": 96
+  },
+  {
+    "år": 1997,
+    "region": "Västernorrland",
+    "befolkning": 254354,
+    "index": 95.1
+  },
+  {
+    "år": 1998,
+    "region": "Västernorrland",
+    "befolkning": 251884,
+    "index": 94.2
+  },
+  {
+    "år": 1999,
+    "region": "Västernorrland",
+    "befolkning": 249299,
+    "index": 93.2
+  },
+  {
+    "år": 2000,
+    "region": "Västernorrland",
+    "befolkning": 246903,
+    "index": 92.3
+  },
+  {
+    "år": 2001,
+    "region": "Västernorrland",
+    "befolkning": 245078,
+    "index": 91.7
+  },
+  {
+    "år": 2002,
+    "region": "Västernorrland",
+    "befolkning": 244319,
+    "index": 91.4
+  },
+  {
+    "år": 2003,
+    "region": "Västernorrland",
+    "befolkning": 244105,
+    "index": 91.3
+  },
+  {
+    "år": 2004,
+    "region": "Västernorrland",
+    "befolkning": 244195,
+    "index": 91.3
+  },
+  {
+    "år": 2005,
+    "region": "Västernorrland",
+    "befolkning": 243736,
+    "index": 91.2
+  },
+  {
+    "år": 2006,
+    "region": "Västernorrland",
+    "befolkning": 243978,
+    "index": 91.3
+  },
+  {
+    "år": 2007,
+    "region": "Västernorrland",
+    "befolkning": 243449,
+    "index": 91.1
+  },
+  {
+    "år": 2008,
+    "region": "Västernorrland",
+    "befolkning": 243372,
+    "index": 91
+  },
+  {
+    "år": 2009,
+    "region": "Västernorrland",
+    "befolkning": 243042,
+    "index": 90.9
+  },
+  {
+    "år": 2010,
+    "region": "Västernorrland",
+    "befolkning": 242625,
+    "index": 90.7
+  },
+  {
+    "år": 2011,
+    "region": "Västernorrland",
+    "befolkning": 242155,
+    "index": 90.6
+  },
+  {
+    "år": 2012,
+    "region": "Västernorrland",
+    "befolkning": 241981,
+    "index": 90.5
+  },
+  {
+    "år": 2013,
+    "region": "Västernorrland",
+    "befolkning": 242156,
+    "index": 90.6
+  },
+  {
+    "år": 2014,
+    "region": "Västernorrland",
+    "befolkning": 243061,
+    "index": 90.9
+  },
+  {
+    "år": 2015,
+    "region": "Västernorrland",
+    "befolkning": 243897,
+    "index": 91.2
+  },
+  {
+    "år": 2016,
+    "region": "Västernorrland",
+    "befolkning": 245572,
+    "index": 91.9
+  },
+  {
+    "år": 2017,
+    "region": "Västernorrland",
+    "befolkning": 245968,
+    "index": 92
+  },
+  {
+    "år": 2018,
+    "region": "Västernorrland",
+    "befolkning": 245453,
+    "index": 91.8
+  },
+  {
+    "år": 2019,
+    "region": "Västernorrland",
+    "befolkning": 245347,
+    "index": 91.8
+  },
+  {
+    "år": 2020,
+    "region": "Västernorrland",
+    "befolkning": 244554,
+    "index": 91.5
+  },
+  {
+    "år": 2021,
+    "region": "Västernorrland",
+    "befolkning": 244193,
+    "index": 91.3
+  },
+  {
+    "år": 2022,
+    "region": "Västernorrland",
+    "befolkning": 243265,
+    "index": 91
+  },
+  {
+    "år": 2023,
+    "region": "Västernorrland",
+    "befolkning": 242148,
+    "index": 90.6
+  },
+  {
+    "år": 2024,
+    "region": "Västernorrland",
+    "befolkning": 241458,
+    "index": 90.3
+  },
+  {
+    "år": 2025,
+    "region": "Västernorrland",
+    "befolkning": 240640,
+    "index": 90
+  },
+  {
+    "år": 1969,
+    "region": "Jämtland",
+    "befolkning": 132436,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Jämtland",
+    "befolkning": 131289,
+    "index": 99.1
+  },
+  {
+    "år": 1971,
+    "region": "Jämtland",
+    "befolkning": 131832,
+    "index": 99.5
+  },
+  {
+    "år": 1972,
+    "region": "Jämtland",
+    "befolkning": 132252,
+    "index": 99.9
+  },
+  {
+    "år": 1973,
+    "region": "Jämtland",
+    "befolkning": 132542,
+    "index": 100.1
+  },
+  {
+    "år": 1974,
+    "region": "Jämtland",
+    "befolkning": 133044,
+    "index": 100.5
+  },
+  {
+    "år": 1975,
+    "region": "Jämtland",
+    "befolkning": 133433,
+    "index": 100.8
+  },
+  {
+    "år": 1976,
+    "region": "Jämtland",
+    "befolkning": 133752,
+    "index": 101
+  },
+  {
+    "år": 1977,
+    "region": "Jämtland",
+    "befolkning": 134189,
+    "index": 101.3
+  },
+  {
+    "år": 1978,
+    "region": "Jämtland",
+    "befolkning": 134420,
+    "index": 101.5
+  },
+  {
+    "år": 1979,
+    "region": "Jämtland",
+    "befolkning": 134653,
+    "index": 101.7
+  },
+  {
+    "år": 1980,
+    "region": "Jämtland",
+    "befolkning": 134934,
+    "index": 101.9
+  },
+  {
+    "år": 1981,
+    "region": "Jämtland",
+    "befolkning": 134945,
+    "index": 101.9
+  },
+  {
+    "år": 1982,
+    "region": "Jämtland",
+    "befolkning": 134865,
+    "index": 101.8
+  },
+  {
+    "år": 1983,
+    "region": "Jämtland",
+    "befolkning": 134946,
+    "index": 101.9
+  },
+  {
+    "år": 1984,
+    "region": "Jämtland",
+    "befolkning": 134731,
+    "index": 101.7
+  },
+  {
+    "år": 1985,
+    "region": "Jämtland",
+    "befolkning": 134190,
+    "index": 101.3
+  },
+  {
+    "år": 1986,
+    "region": "Jämtland",
+    "befolkning": 133543,
+    "index": 100.8
+  },
+  {
+    "år": 1987,
+    "region": "Jämtland",
+    "befolkning": 133389,
+    "index": 100.7
+  },
+  {
+    "år": 1988,
+    "region": "Jämtland",
+    "befolkning": 134116,
+    "index": 101.3
+  },
+  {
+    "år": 1989,
+    "region": "Jämtland",
+    "befolkning": 134789,
+    "index": 101.8
+  },
+  {
+    "år": 1990,
+    "region": "Jämtland",
+    "befolkning": 135726,
+    "index": 102.5
+  },
+  {
+    "år": 1991,
+    "region": "Jämtland",
+    "befolkning": 136009,
+    "index": 102.7
+  },
+  {
+    "år": 1992,
+    "region": "Jämtland",
+    "befolkning": 135910,
+    "index": 102.6
+  },
+  {
+    "år": 1993,
+    "region": "Jämtland",
+    "befolkning": 136073,
+    "index": 102.7
+  },
+  {
+    "år": 1994,
+    "region": "Jämtland",
+    "befolkning": 136301,
+    "index": 102.9
+  },
+  {
+    "år": 1995,
+    "region": "Jämtland",
+    "befolkning": 135584,
+    "index": 102.4
+  },
+  {
+    "år": 1996,
+    "region": "Jämtland",
+    "befolkning": 134561,
+    "index": 101.6
+  },
+  {
+    "år": 1997,
+    "region": "Jämtland",
+    "befolkning": 133143,
+    "index": 100.5
+  },
+  {
+    "år": 1998,
+    "region": "Jämtland",
+    "befolkning": 131766,
+    "index": 99.5
+  },
+  {
+    "år": 1999,
+    "region": "Jämtland",
+    "befolkning": 130705,
+    "index": 98.7
+  },
+  {
+    "år": 2000,
+    "region": "Jämtland",
+    "befolkning": 129566,
+    "index": 97.8
+  },
+  {
+    "år": 2001,
+    "region": "Jämtland",
+    "befolkning": 128586,
+    "index": 97.1
+  },
+  {
+    "år": 2002,
+    "region": "Jämtland",
+    "befolkning": 127947,
+    "index": 96.6
+  },
+  {
+    "år": 2003,
+    "region": "Jämtland",
+    "befolkning": 127645,
+    "index": 96.4
+  },
+  {
+    "år": 2004,
+    "region": "Jämtland",
+    "befolkning": 127424,
+    "index": 96.2
+  },
+  {
+    "år": 2005,
+    "region": "Jämtland",
+    "befolkning": 127028,
+    "index": 95.9
+  },
+  {
+    "år": 2006,
+    "region": "Jämtland",
+    "befolkning": 127020,
+    "index": 95.9
+  },
+  {
+    "år": 2007,
+    "region": "Jämtland",
+    "befolkning": 126937,
+    "index": 95.8
+  },
+  {
+    "år": 2008,
+    "region": "Jämtland",
+    "befolkning": 126897,
+    "index": 95.8
+  },
+  {
+    "år": 2009,
+    "region": "Jämtland",
+    "befolkning": 126666,
+    "index": 95.6
+  },
+  {
+    "år": 2010,
+    "region": "Jämtland",
+    "befolkning": 126691,
+    "index": 95.7
+  },
+  {
+    "år": 2011,
+    "region": "Jämtland",
+    "befolkning": 126299,
+    "index": 95.4
+  },
+  {
+    "år": 2012,
+    "region": "Jämtland",
+    "befolkning": 126201,
+    "index": 95.3
+  },
+  {
+    "år": 2013,
+    "region": "Jämtland",
+    "befolkning": 126461,
+    "index": 95.5
+  },
+  {
+    "år": 2014,
+    "region": "Jämtland",
+    "befolkning": 126765,
+    "index": 95.7
+  },
+  {
+    "år": 2015,
+    "region": "Jämtland",
+    "befolkning": 127376,
+    "index": 96.2
+  },
+  {
+    "år": 2016,
+    "region": "Jämtland",
+    "befolkning": 128673,
+    "index": 97.2
+  },
+  {
+    "år": 2017,
+    "region": "Jämtland",
+    "befolkning": 129806,
+    "index": 98
+  },
+  {
+    "år": 2018,
+    "region": "Jämtland",
+    "befolkning": 130280,
+    "index": 98.4
+  },
+  {
+    "år": 2019,
+    "region": "Jämtland",
+    "befolkning": 130810,
+    "index": 98.8
+  },
+  {
+    "år": 2020,
+    "region": "Jämtland",
+    "befolkning": 131155,
+    "index": 99
+  },
+  {
+    "år": 2021,
+    "region": "Jämtland",
+    "befolkning": 132054,
+    "index": 99.7
+  },
+  {
+    "år": 2022,
+    "region": "Jämtland",
+    "befolkning": 132670,
+    "index": 100.2
+  },
+  {
+    "år": 2023,
+    "region": "Jämtland",
+    "befolkning": 132572,
+    "index": 100.1
+  },
+  {
+    "år": 2024,
+    "region": "Jämtland",
+    "befolkning": 132839,
+    "index": 100.3
+  },
+  {
+    "år": 2025,
+    "region": "Jämtland",
+    "befolkning": 132736,
+    "index": 100.2
+  },
+  {
+    "år": 1969,
+    "region": "Västerbotten",
+    "befolkning": 233543,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Västerbotten",
+    "befolkning": 233133,
+    "index": 99.8
+  },
+  {
+    "år": 1971,
+    "region": "Västerbotten",
+    "befolkning": 232856,
+    "index": 99.7
+  },
+  {
+    "år": 1972,
+    "region": "Västerbotten",
+    "befolkning": 233353,
+    "index": 99.9
+  },
+  {
+    "år": 1973,
+    "region": "Västerbotten",
+    "befolkning": 233865,
+    "index": 100.1
+  },
+  {
+    "år": 1974,
+    "region": "Västerbotten",
+    "befolkning": 234875,
+    "index": 100.6
+  },
+  {
+    "år": 1975,
+    "region": "Västerbotten",
+    "befolkning": 236397,
+    "index": 101.2
+  },
+  {
+    "år": 1976,
+    "region": "Västerbotten",
+    "befolkning": 237705,
+    "index": 101.8
+  },
+  {
+    "år": 1977,
+    "region": "Västerbotten",
+    "befolkning": 239247,
+    "index": 102.4
+  },
+  {
+    "år": 1978,
+    "region": "Västerbotten",
+    "befolkning": 240601,
+    "index": 103
+  },
+  {
+    "år": 1979,
+    "region": "Västerbotten",
+    "befolkning": 241898,
+    "index": 103.6
+  },
+  {
+    "år": 1980,
+    "region": "Västerbotten",
+    "befolkning": 243856,
+    "index": 104.4
+  },
+  {
+    "år": 1981,
+    "region": "Västerbotten",
+    "befolkning": 244789,
+    "index": 104.8
+  },
+  {
+    "år": 1982,
+    "region": "Västerbotten",
+    "befolkning": 245055,
+    "index": 104.9
+  },
+  {
+    "år": 1983,
+    "region": "Västerbotten",
+    "befolkning": 245252,
+    "index": 105
+  },
+  {
+    "år": 1984,
+    "region": "Västerbotten",
+    "befolkning": 245181,
+    "index": 105
+  },
+  {
+    "år": 1985,
+    "region": "Västerbotten",
+    "befolkning": 245255,
+    "index": 105
+  },
+  {
+    "år": 1986,
+    "region": "Västerbotten",
+    "befolkning": 245204,
+    "index": 105
+  },
+  {
+    "år": 1987,
+    "region": "Västerbotten",
+    "befolkning": 245703,
+    "index": 105.2
+  },
+  {
+    "år": 1988,
+    "region": "Västerbotten",
+    "befolkning": 247521,
+    "index": 106
+  },
+  {
+    "år": 1989,
+    "region": "Västerbotten",
+    "befolkning": 250134,
+    "index": 107.1
+  },
+  {
+    "år": 1990,
+    "region": "Västerbotten",
+    "befolkning": 251968,
+    "index": 107.9
+  },
+  {
+    "år": 1991,
+    "region": "Västerbotten",
+    "befolkning": 253835,
+    "index": 108.7
+  },
+  {
+    "år": 1992,
+    "region": "Västerbotten",
+    "befolkning": 255987,
+    "index": 109.6
+  },
+  {
+    "år": 1993,
+    "region": "Västerbotten",
+    "befolkning": 258171,
+    "index": 110.5
+  },
+  {
+    "år": 1994,
+    "region": "Västerbotten",
+    "befolkning": 259775,
+    "index": 111.2
+  },
+  {
+    "år": 1995,
+    "region": "Västerbotten",
+    "befolkning": 260472,
+    "index": 111.5
+  },
+  {
+    "år": 1996,
+    "region": "Västerbotten",
+    "befolkning": 259895,
+    "index": 111.3
+  },
+  {
+    "år": 1997,
+    "region": "Västerbotten",
+    "befolkning": 259163,
+    "index": 111
+  },
+  {
+    "år": 1998,
+    "region": "Västerbotten",
+    "befolkning": 257803,
+    "index": 110.4
+  },
+  {
+    "år": 1999,
+    "region": "Västerbotten",
+    "befolkning": 256710,
+    "index": 109.9
+  },
+  {
+    "år": 2000,
+    "region": "Västerbotten",
+    "befolkning": 255640,
+    "index": 109.5
+  },
+  {
+    "år": 2001,
+    "region": "Västerbotten",
+    "befolkning": 254818,
+    "index": 109.1
+  },
+  {
+    "år": 2002,
+    "region": "Västerbotten",
+    "befolkning": 255230,
+    "index": 109.3
+  },
+  {
+    "år": 2003,
+    "region": "Västerbotten",
+    "befolkning": 255956,
+    "index": 109.6
+  },
+  {
+    "år": 2004,
+    "region": "Västerbotten",
+    "befolkning": 256875,
+    "index": 110
+  },
+  {
+    "år": 2005,
+    "region": "Västerbotten",
+    "befolkning": 257652,
+    "index": 110.3
+  },
+  {
+    "år": 2006,
+    "region": "Västerbotten",
+    "befolkning": 257581,
+    "index": 110.3
+  },
+  {
+    "år": 2007,
+    "region": "Västerbotten",
+    "befolkning": 257593,
+    "index": 110.3
+  },
+  {
+    "år": 2008,
+    "region": "Västerbotten",
+    "befolkning": 257812,
+    "index": 110.4
+  },
+  {
+    "år": 2009,
+    "region": "Västerbotten",
+    "befolkning": 258548,
+    "index": 110.7
+  },
+  {
+    "år": 2010,
+    "region": "Västerbotten",
+    "befolkning": 259286,
+    "index": 111
+  },
+  {
+    "år": 2011,
+    "region": "Västerbotten",
+    "befolkning": 259667,
+    "index": 111.2
+  },
+  {
+    "år": 2012,
+    "region": "Västerbotten",
+    "befolkning": 260217,
+    "index": 111.4
+  },
+  {
+    "år": 2013,
+    "region": "Västerbotten",
+    "befolkning": 261112,
+    "index": 111.8
+  },
+  {
+    "år": 2014,
+    "region": "Västerbotten",
+    "befolkning": 262362,
+    "index": 112.3
+  },
+  {
+    "år": 2015,
+    "region": "Västerbotten",
+    "befolkning": 263378,
+    "index": 112.8
+  },
+  {
+    "år": 2016,
+    "region": "Västerbotten",
+    "befolkning": 265881,
+    "index": 113.8
+  },
+  {
+    "år": 2017,
+    "region": "Västerbotten",
+    "befolkning": 268465,
+    "index": 115
+  },
+  {
+    "år": 2018,
+    "region": "Västerbotten",
+    "befolkning": 270154,
+    "index": 115.7
+  },
+  {
+    "år": 2019,
+    "region": "Västerbotten",
+    "befolkning": 271736,
+    "index": 116.4
+  },
+  {
+    "år": 2020,
+    "region": "Västerbotten",
+    "befolkning": 273192,
+    "index": 117
+  },
+  {
+    "år": 2021,
+    "region": "Västerbotten",
+    "befolkning": 274563,
+    "index": 117.6
+  },
+  {
+    "år": 2022,
+    "region": "Västerbotten",
+    "befolkning": 276295,
+    "index": 118.3
+  },
+  {
+    "år": 2023,
+    "region": "Västerbotten",
+    "befolkning": 278729,
+    "index": 119.3
+  },
+  {
+    "år": 2024,
+    "region": "Västerbotten",
+    "befolkning": 281138,
+    "index": 120.4
+  },
+  {
+    "år": 2025,
+    "region": "Västerbotten",
+    "befolkning": 279028,
+    "index": 119.5
+  },
+  {
+    "år": 1969,
+    "region": "Norrbotten",
+    "befolkning": 256346,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Norrbotten",
+    "befolkning": 255360,
+    "index": 99.6
+  },
+  {
+    "år": 1971,
+    "region": "Norrbotten",
+    "befolkning": 256078,
+    "index": 99.9
+  },
+  {
+    "år": 1972,
+    "region": "Norrbotten",
+    "befolkning": 257332,
+    "index": 100.4
+  },
+  {
+    "år": 1973,
+    "region": "Norrbotten",
+    "befolkning": 259067,
+    "index": 101.1
+  },
+  {
+    "år": 1974,
+    "region": "Norrbotten",
+    "befolkning": 261548,
+    "index": 102
+  },
+  {
+    "år": 1975,
+    "region": "Norrbotten",
+    "befolkning": 264386,
+    "index": 103.1
+  },
+  {
+    "år": 1976,
+    "region": "Norrbotten",
+    "befolkning": 266113,
+    "index": 103.8
+  },
+  {
+    "år": 1977,
+    "region": "Norrbotten",
+    "befolkning": 266598,
+    "index": 104
+  },
+  {
+    "år": 1978,
+    "region": "Norrbotten",
+    "befolkning": 266329,
+    "index": 103.9
+  },
+  {
+    "år": 1979,
+    "region": "Norrbotten",
+    "befolkning": 266983,
+    "index": 104.1
+  },
+  {
+    "år": 1980,
+    "region": "Norrbotten",
+    "befolkning": 267054,
+    "index": 104.2
+  },
+  {
+    "år": 1981,
+    "region": "Norrbotten",
+    "befolkning": 266589,
+    "index": 104
+  },
+  {
+    "år": 1982,
+    "region": "Norrbotten",
+    "befolkning": 265347,
+    "index": 103.5
+  },
+  {
+    "år": 1983,
+    "region": "Norrbotten",
+    "befolkning": 264457,
+    "index": 103.2
+  },
+  {
+    "år": 1984,
+    "region": "Norrbotten",
+    "befolkning": 263684,
+    "index": 102.9
+  },
+  {
+    "år": 1985,
+    "region": "Norrbotten",
+    "befolkning": 262300,
+    "index": 102.3
+  },
+  {
+    "år": 1986,
+    "region": "Norrbotten",
+    "befolkning": 261039,
+    "index": 101.8
+  },
+  {
+    "år": 1987,
+    "region": "Norrbotten",
+    "befolkning": 260833,
+    "index": 101.8
+  },
+  {
+    "år": 1988,
+    "region": "Norrbotten",
+    "befolkning": 261536,
+    "index": 102
+  },
+  {
+    "år": 1989,
+    "region": "Norrbotten",
+    "befolkning": 262838,
+    "index": 102.5
+  },
+  {
+    "år": 1990,
+    "region": "Norrbotten",
+    "befolkning": 263735,
+    "index": 102.9
+  },
+  {
+    "år": 1991,
+    "region": "Norrbotten",
+    "befolkning": 264834,
+    "index": 103.3
+  },
+  {
+    "år": 1992,
+    "region": "Norrbotten",
+    "befolkning": 266089,
+    "index": 103.8
+  },
+  {
+    "år": 1993,
+    "region": "Norrbotten",
+    "befolkning": 267092,
+    "index": 104.2
+  },
+  {
+    "år": 1994,
+    "region": "Norrbotten",
+    "befolkning": 267648,
+    "index": 104.4
+  },
+  {
+    "år": 1995,
+    "region": "Norrbotten",
+    "befolkning": 266011,
+    "index": 103.8
+  },
+  {
+    "år": 1996,
+    "region": "Norrbotten",
+    "befolkning": 264320,
+    "index": 103.1
+  },
+  {
+    "år": 1997,
+    "region": "Norrbotten",
+    "befolkning": 262317,
+    "index": 102.3
+  },
+  {
+    "år": 1998,
+    "region": "Norrbotten",
+    "befolkning": 260473,
+    "index": 101.6
+  },
+  {
+    "år": 1999,
+    "region": "Norrbotten",
+    "befolkning": 258094,
+    "index": 100.7
+  },
+  {
+    "år": 2000,
+    "region": "Norrbotten",
+    "befolkning": 256238,
+    "index": 100
+  },
+  {
+    "år": 2001,
+    "region": "Norrbotten",
+    "befolkning": 254733,
+    "index": 99.4
+  },
+  {
+    "år": 2002,
+    "region": "Norrbotten",
+    "befolkning": 253632,
+    "index": 98.9
+  },
+  {
+    "år": 2003,
+    "region": "Norrbotten",
+    "befolkning": 252874,
+    "index": 98.6
+  },
+  {
+    "år": 2004,
+    "region": "Norrbotten",
+    "befolkning": 252585,
+    "index": 98.5
+  },
+  {
+    "år": 2005,
+    "region": "Norrbotten",
+    "befolkning": 251740,
+    "index": 98.2
+  },
+  {
+    "år": 2006,
+    "region": "Norrbotten",
+    "befolkning": 251886,
+    "index": 98.3
+  },
+  {
+    "år": 2007,
+    "region": "Norrbotten",
+    "befolkning": 250602,
+    "index": 97.8
+  },
+  {
+    "år": 2008,
+    "region": "Norrbotten",
+    "befolkning": 249677,
+    "index": 97.4
+  },
+  {
+    "år": 2009,
+    "region": "Norrbotten",
+    "befolkning": 249019,
+    "index": 97.1
+  },
+  {
+    "år": 2010,
+    "region": "Norrbotten",
+    "befolkning": 248609,
+    "index": 97
+  },
+  {
+    "år": 2011,
+    "region": "Norrbotten",
+    "befolkning": 248545,
+    "index": 97
+  },
+  {
+    "år": 2012,
+    "region": "Norrbotten",
+    "befolkning": 248637,
+    "index": 97
+  },
+  {
+    "år": 2013,
+    "region": "Norrbotten",
+    "befolkning": 249436,
+    "index": 97.3
+  },
+  {
+    "år": 2014,
+    "region": "Norrbotten",
+    "befolkning": 249987,
+    "index": 97.5
+  },
+  {
+    "år": 2015,
+    "region": "Norrbotten",
+    "befolkning": 249733,
+    "index": 97.4
+  },
+  {
+    "år": 2016,
+    "region": "Norrbotten",
+    "befolkning": 250570,
+    "index": 97.7
+  },
+  {
+    "år": 2017,
+    "region": "Norrbotten",
+    "befolkning": 251295,
+    "index": 98
+  },
+  {
+    "år": 2018,
+    "region": "Norrbotten",
+    "befolkning": 250497,
+    "index": 97.7
+  },
+  {
+    "år": 2019,
+    "region": "Norrbotten",
+    "befolkning": 250093,
+    "index": 97.6
+  },
+  {
+    "år": 2020,
+    "region": "Norrbotten",
+    "befolkning": 249614,
+    "index": 97.4
+  },
+  {
+    "år": 2021,
+    "region": "Norrbotten",
+    "befolkning": 249693,
+    "index": 97.4
+  },
+  {
+    "år": 2022,
+    "region": "Norrbotten",
+    "befolkning": 249177,
+    "index": 97.2
+  },
+  {
+    "år": 2023,
+    "region": "Norrbotten",
+    "befolkning": 248480,
+    "index": 96.9
+  },
+  {
+    "år": 2024,
+    "region": "Norrbotten",
+    "befolkning": 248620,
+    "index": 97
+  },
+  {
+    "år": 2025,
+    "region": "Norrbotten",
+    "befolkning": 248927,
+    "index": 97.1
+  },
+  {
+    "år": 1969,
+    "region": "Riket",
+    "befolkning": 8004270,
+    "index": 100
+  },
+  {
+    "år": 1970,
+    "region": "Riket",
+    "befolkning": 8081142,
+    "index": 101
+  },
+  {
+    "år": 1971,
+    "region": "Riket",
+    "befolkning": 8115165,
+    "index": 101.4
+  },
+  {
+    "år": 1972,
+    "region": "Riket",
+    "befolkning": 8129129,
+    "index": 101.6
+  },
+  {
+    "år": 1973,
+    "region": "Riket",
+    "befolkning": 8144428,
+    "index": 101.8
+  },
+  {
+    "år": 1974,
+    "region": "Riket",
+    "befolkning": 8176691,
+    "index": 102.2
+  },
+  {
+    "år": 1975,
+    "region": "Riket",
+    "befolkning": 8208442,
+    "index": 102.6
+  },
+  {
+    "år": 1976,
+    "region": "Riket",
+    "befolkning": 8236179,
+    "index": 102.9
+  },
+  {
+    "år": 1977,
+    "region": "Riket",
+    "befolkning": 8267116,
+    "index": 103.3
+  },
+  {
+    "år": 1978,
+    "region": "Riket",
+    "befolkning": 8284437,
+    "index": 103.5
+  },
+  {
+    "år": 1979,
+    "region": "Riket",
+    "befolkning": 8303010,
+    "index": 103.7
+  },
+  {
+    "år": 1980,
+    "region": "Riket",
+    "befolkning": 8317937,
+    "index": 103.9
+  },
+  {
+    "år": 1981,
+    "region": "Riket",
+    "befolkning": 8323033,
+    "index": 104
+  },
+  {
+    "år": 1982,
+    "region": "Riket",
+    "befolkning": 8327484,
+    "index": 104
+  },
+  {
+    "år": 1983,
+    "region": "Riket",
+    "befolkning": 8330573,
+    "index": 104.1
+  },
+  {
+    "år": 1984,
+    "region": "Riket",
+    "befolkning": 8342621,
+    "index": 104.2
+  },
+  {
+    "år": 1985,
+    "region": "Riket",
+    "befolkning": 8358139,
+    "index": 104.4
+  },
+  {
+    "år": 1986,
+    "region": "Riket",
+    "befolkning": 8381515,
+    "index": 104.7
+  },
+  {
+    "år": 1987,
+    "region": "Riket",
+    "befolkning": 8414083,
+    "index": 105.1
+  },
+  {
+    "år": 1988,
+    "region": "Riket",
+    "befolkning": 8458888,
+    "index": 105.7
+  },
+  {
+    "år": 1989,
+    "region": "Riket",
+    "befolkning": 8527036,
+    "index": 106.5
+  },
+  {
+    "år": 1990,
+    "region": "Riket",
+    "befolkning": 8590630,
+    "index": 107.3
+  },
+  {
+    "år": 1991,
+    "region": "Riket",
+    "befolkning": 8644119,
+    "index": 108
+  },
+  {
+    "år": 1992,
+    "region": "Riket",
+    "befolkning": 8692013,
+    "index": 108.6
+  },
+  {
+    "år": 1993,
+    "region": "Riket",
+    "befolkning": 8745109,
+    "index": 109.3
+  },
+  {
+    "år": 1994,
+    "region": "Riket",
+    "befolkning": 8816381,
+    "index": 110.1
+  },
+  {
+    "år": 1995,
+    "region": "Riket",
+    "befolkning": 8837496,
+    "index": 110.4
+  },
+  {
+    "år": 1996,
+    "region": "Riket",
+    "befolkning": 8844499,
+    "index": 110.5
+  },
+  {
+    "år": 1997,
+    "region": "Riket",
+    "befolkning": 8847625,
+    "index": 110.5
+  },
+  {
+    "år": 1998,
+    "region": "Riket",
+    "befolkning": 8854322,
+    "index": 110.6
+  },
+  {
+    "år": 1999,
+    "region": "Riket",
+    "befolkning": 8861426,
+    "index": 110.7
+  },
+  {
+    "år": 2000,
+    "region": "Riket",
+    "befolkning": 8882792,
+    "index": 111
+  },
+  {
+    "år": 2001,
+    "region": "Riket",
+    "befolkning": 8909128,
+    "index": 111.3
+  },
+  {
+    "år": 2002,
+    "region": "Riket",
+    "befolkning": 8940788,
+    "index": 111.7
+  },
+  {
+    "år": 2003,
+    "region": "Riket",
+    "befolkning": 8975670,
+    "index": 112.1
+  },
+  {
+    "år": 2004,
+    "region": "Riket",
+    "befolkning": 9011392,
+    "index": 112.6
+  },
+  {
+    "år": 2005,
+    "region": "Riket",
+    "befolkning": 9047752,
+    "index": 113
+  },
+  {
+    "år": 2006,
+    "region": "Riket",
+    "befolkning": 9113257,
+    "index": 113.9
+  },
+  {
+    "år": 2007,
+    "region": "Riket",
+    "befolkning": 9182927,
+    "index": 114.7
+  },
+  {
+    "år": 2008,
+    "region": "Riket",
+    "befolkning": 9256347,
+    "index": 115.6
+  },
+  {
+    "år": 2009,
+    "region": "Riket",
+    "befolkning": 9340682,
+    "index": 116.7
+  },
+  {
+    "år": 2010,
+    "region": "Riket",
+    "befolkning": 9415570,
+    "index": 117.6
+  },
+  {
+    "år": 2011,
+    "region": "Riket",
+    "befolkning": 9482855,
+    "index": 118.5
+  },
+  {
+    "år": 2012,
+    "region": "Riket",
+    "befolkning": 9555893,
+    "index": 119.4
+  },
+  {
+    "år": 2013,
+    "region": "Riket",
+    "befolkning": 9644864,
+    "index": 120.5
+  },
+  {
+    "år": 2014,
+    "region": "Riket",
+    "befolkning": 9747355,
+    "index": 121.8
+  },
+  {
+    "år": 2015,
+    "region": "Riket",
+    "befolkning": 9851017,
+    "index": 123.1
+  },
+  {
+    "år": 2016,
+    "region": "Riket",
+    "befolkning": 9995153,
+    "index": 124.9
+  },
+  {
+    "år": 2017,
+    "region": "Riket",
+    "befolkning": 10120242,
+    "index": 126.4
+  },
+  {
+    "år": 2018,
+    "region": "Riket",
+    "befolkning": 10230185,
+    "index": 127.8
+  },
+  {
+    "år": 2019,
+    "region": "Riket",
+    "befolkning": 10327589,
+    "index": 129
+  },
+  {
+    "år": 2020,
+    "region": "Riket",
+    "befolkning": 10379295,
+    "index": 129.7
+  },
+  {
+    "år": 2021,
+    "region": "Riket",
+    "befolkning": 10452326,
+    "index": 130.6
+  },
+  {
+    "år": 2022,
+    "region": "Riket",
+    "befolkning": 10521556,
+    "index": 131.4
+  },
+  {
+    "år": 2023,
+    "region": "Riket",
+    "befolkning": 10551707,
+    "index": 131.8
+  },
+  {
+    "år": 2024,
+    "region": "Riket",
+    "befolkning": 10587710,
+    "index": 132.3
+  },
+  {
+    "år": 2025,
+    "region": "Riket",
+    "befolkning": 10605535,
+    "index": 132.5
+  }
+]

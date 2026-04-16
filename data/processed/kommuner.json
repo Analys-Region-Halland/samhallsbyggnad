@@ -1,8 +1,26 @@
 [
-  {"kommun": "Halmstad", "befolkning": 104420, "förändring": 1.8},
-  {"kommun": "Varberg", "befolkning": 67800, "förändring": 2.1},
-  {"kommun": "Falkenberg", "befolkning": 46200, "förändring": 1.2},
-  {"kommun": "Kungsbacka", "befolkning": 84500, "förändring": 1.5},
-  {"kommun": "Laholm", "befolkning": 26100, "förändring": 0.8},
-  {"kommun": "Hylte", "befolkning": 10200, "förändring": -0.3}
+  {
+    "kommun": "Hylte",
+    "befolkning": 10094
+  },
+  {
+    "kommun": "Halmstad",
+    "befolkning": 106315
+  },
+  {
+    "kommun": "Laholm",
+    "befolkning": 26565
+  },
+  {
+    "kommun": "Falkenberg",
+    "befolkning": 47321
+  },
+  {
+    "kommun": "Varberg",
+    "befolkning": 69460
+  },
+  {
+    "kommun": "Kungsbacka",
+    "befolkning": 86332
+  }
 ]

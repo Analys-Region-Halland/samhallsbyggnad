@@ -1,0 +1,38 @@
+[
+  {
+    "år": 2000,
+    "del": "Inland",
+    "befolkning": 73906,
+    "andel": 27
+  },
+  {
+    "år": 2000,
+    "del": "Kust",
+    "befolkning": 200197,
+    "andel": 73
+  },
+  {
+    "år": 2010,
+    "del": "Inland",
+    "befolkning": 75325,
+    "andel": 25.2
+  },
+  {
+    "år": 2010,
+    "del": "Kust",
+    "befolkning": 223817,
+    "andel": 74.8
+  },
+  {
+    "år": 2024,
+    "del": "Inland",
+    "befolkning": 80127,
+    "andel": 23.3
+  },
+  {
+    "år": 2024,
+    "del": "Kust",
+    "befolkning": 264104,
+    "andel": 76.7
+  }
+]

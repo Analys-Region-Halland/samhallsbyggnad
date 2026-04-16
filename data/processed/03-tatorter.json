@@ -1,0 +1,1676 @@
+[
+  {
+    "år": 2000,
+    "tatort": "Bergagård",
+    "kommun": "Falkenberg",
+    "befolkning": 436
+  },
+  {
+    "år": 2000,
+    "tatort": "Falkenberg",
+    "kommun": "Falkenberg",
+    "befolkning": 22071
+  },
+  {
+    "år": 2000,
+    "tatort": "Fegen",
+    "kommun": "Falkenberg",
+    "befolkning": 179
+  },
+  {
+    "år": 2000,
+    "tatort": "Glommen",
+    "kommun": "Falkenberg",
+    "befolkning": 839
+  },
+  {
+    "år": 2000,
+    "tatort": "Heberg",
+    "kommun": "Falkenberg",
+    "befolkning": 419
+  },
+  {
+    "år": 2000,
+    "tatort": "Köinge",
+    "kommun": "Falkenberg",
+    "befolkning": 148
+  },
+  {
+    "år": 2000,
+    "tatort": "Långasand och Ugglarp",
+    "kommun": "Falkenberg",
+    "befolkning": 238
+  },
+  {
+    "år": 2000,
+    "tatort": "Långås",
+    "kommun": "Falkenberg",
+    "befolkning": 505
+  },
+  {
+    "år": 2000,
+    "tatort": "Morup",
+    "kommun": "Falkenberg",
+    "befolkning": 235
+  },
+  {
+    "år": 2000,
+    "tatort": "Olofsbo",
+    "kommun": "Falkenberg",
+    "befolkning": 141
+  },
+  {
+    "år": 2000,
+    "tatort": "Slöinge",
+    "kommun": "Falkenberg",
+    "befolkning": 882
+  },
+  {
+    "år": 2000,
+    "tatort": "Ullared",
+    "kommun": "Falkenberg",
+    "befolkning": 773
+  },
+  {
+    "år": 2000,
+    "tatort": "Vessigebro",
+    "kommun": "Falkenberg",
+    "befolkning": 691
+  },
+  {
+    "år": 2000,
+    "tatort": "Vinberg",
+    "kommun": "Falkenberg",
+    "befolkning": 565
+  },
+  {
+    "år": 2000,
+    "tatort": "Älvsered",
+    "kommun": "Falkenberg",
+    "befolkning": 413
+  },
+  {
+    "år": 2000,
+    "tatort": "Ätran",
+    "kommun": "Falkenberg",
+    "befolkning": 393
+  },
+  {
+    "år": 2000,
+    "tatort": "Årstad",
+    "kommun": "Falkenberg",
+    "befolkning": 209
+  },
+  {
+    "år": 2000,
+    "tatort": "Eldsberga",
+    "kommun": "Halmstad",
+    "befolkning": 639
+  },
+  {
+    "år": 2000,
+    "tatort": "Frösakull",
+    "kommun": "Halmstad",
+    "befolkning": 1919
+  },
+  {
+    "år": 2000,
+    "tatort": "Getinge",
+    "kommun": "Halmstad",
+    "befolkning": 1774
+  },
+  {
+    "år": 2000,
+    "tatort": "Gullbrandstorp",
+    "kommun": "Halmstad",
+    "befolkning": 1454
+  },
+  {
+    "år": 2000,
+    "tatort": "Gullbranna",
+    "kommun": "Halmstad",
+    "befolkning": 692
+  },
+  {
+    "år": 2000,
+    "tatort": "Halmstad",
+    "kommun": "Halmstad",
+    "befolkning": 55843
+  },
+  {
+    "år": 2000,
+    "tatort": "Harplinge",
+    "kommun": "Halmstad",
+    "befolkning": 1457
+  },
+  {
+    "år": 2000,
+    "tatort": "Haverdal",
+    "kommun": "Halmstad",
+    "befolkning": 1497
+  },
+  {
+    "år": 2000,
+    "tatort": "Holm",
+    "kommun": "Halmstad",
+    "befolkning": 455
+  },
+  {
+    "år": 2000,
+    "tatort": "Kvibille",
+    "kommun": "Halmstad",
+    "befolkning": 869
+  },
+  {
+    "år": 2000,
+    "tatort": "Laxvik",
+    "kommun": "Halmstad",
+    "befolkning": 416
+  },
+  {
+    "år": 2000,
+    "tatort": "Oskarström",
+    "kommun": "Halmstad",
+    "befolkning": 3628
+  },
+  {
+    "år": 2000,
+    "tatort": "Sennan",
+    "kommun": "Halmstad",
+    "befolkning": 361
+  },
+  {
+    "år": 2000,
+    "tatort": "Simlångsdalen",
+    "kommun": "Halmstad",
+    "befolkning": 601
+  },
+  {
+    "år": 2000,
+    "tatort": "Skedala",
+    "kommun": "Halmstad",
+    "befolkning": 356
+  },
+  {
+    "år": 2000,
+    "tatort": "Steninge",
+    "kommun": "Halmstad",
+    "befolkning": 868
+  },
+  {
+    "år": 2000,
+    "tatort": "Trönninge",
+    "kommun": "Halmstad",
+    "befolkning": 1375
+  },
+  {
+    "år": 2000,
+    "tatort": "Villshärad",
+    "kommun": "Halmstad",
+    "befolkning": 662
+  },
+  {
+    "år": 2000,
+    "tatort": "Åled",
+    "kommun": "Halmstad",
+    "befolkning": 1466
+  },
+  {
+    "år": 2000,
+    "tatort": "Hyltebruk",
+    "kommun": "Hylte",
+    "befolkning": 3506
+  },
+  {
+    "år": 2000,
+    "tatort": "Kinnared",
+    "kommun": "Hylte",
+    "befolkning": 301
+  },
+  {
+    "år": 2000,
+    "tatort": "Landeryd",
+    "kommun": "Hylte",
+    "befolkning": 379
+  },
+  {
+    "år": 2000,
+    "tatort": "Rydöbruk",
+    "kommun": "Hylte",
+    "befolkning": 307
+  },
+  {
+    "år": 2000,
+    "tatort": "Torup",
+    "kommun": "Hylte",
+    "befolkning": 1131
+  },
+  {
+    "år": 2000,
+    "tatort": "Unnaryd",
+    "kommun": "Hylte",
+    "befolkning": 725
+  },
+  {
+    "år": 2000,
+    "tatort": "Buerås",
+    "kommun": "Kungsbacka",
+    "befolkning": 599
+  },
+  {
+    "år": 2000,
+    "tatort": "Dala",
+    "kommun": "Kungsbacka",
+    "befolkning": 53
+  },
+  {
+    "år": 2000,
+    "tatort": "Fjärås kyrkby",
+    "kommun": "Kungsbacka",
+    "befolkning": 2132
+  },
+  {
+    "år": 2000,
+    "tatort": "Fjärås station",
+    "kommun": "Kungsbacka",
+    "befolkning": 138
+  },
+  {
+    "år": 2000,
+    "tatort": "Frillesås",
+    "kommun": "Kungsbacka",
+    "befolkning": 2141
+  },
+  {
+    "år": 2000,
+    "tatort": "Halla Heberg",
+    "kommun": "Kungsbacka",
+    "befolkning": 1335
+  },
+  {
+    "år": 2000,
+    "tatort": "Hjälm",
+    "kommun": "Kungsbacka",
+    "befolkning": 238
+  },
+  {
+    "år": 2000,
+    "tatort": "Kläppa",
+    "kommun": "Kungsbacka",
+    "befolkning": 432
+  },
+  {
+    "år": 2000,
+    "tatort": "Kungsbacka (GBG)",
+    "kommun": "Kungsbacka",
+    "befolkning": 29149
+  },
+  {
+    "år": 2000,
+    "tatort": "Onsala",
+    "kommun": "Kungsbacka",
+    "befolkning": 10470
+  },
+  {
+    "år": 2000,
+    "tatort": "Röda holme",
+    "kommun": "Kungsbacka",
+    "befolkning": 376
+  },
+  {
+    "år": 2000,
+    "tatort": "Vallda",
+    "kommun": "Kungsbacka",
+    "befolkning": 2924
+  },
+  {
+    "år": 2000,
+    "tatort": "Västra Hagen",
+    "kommun": "Kungsbacka",
+    "befolkning": 861
+  },
+  {
+    "år": 2000,
+    "tatort": "Västra Hanhals",
+    "kommun": "Kungsbacka",
+    "befolkning": 184
+  },
+  {
+    "år": 2000,
+    "tatort": "Åsa",
+    "kommun": "Kungsbacka",
+    "befolkning": 4228
+  },
+  {
+    "år": 2000,
+    "tatort": "Östra Hanhals och Torkelstorp",
+    "kommun": "Kungsbacka",
+    "befolkning": 164
+  },
+  {
+    "år": 2000,
+    "tatort": "Genevad",
+    "kommun": "Laholm",
+    "befolkning": 595
+  },
+  {
+    "år": 2000,
+    "tatort": "Hasslöv",
+    "kommun": "Laholm",
+    "befolkning": 236
+  },
+  {
+    "år": 2000,
+    "tatort": "Hishult",
+    "kommun": "Laholm",
+    "befolkning": 324
+  },
+  {
+    "år": 2000,
+    "tatort": "Knäred",
+    "kommun": "Laholm",
+    "befolkning": 1095
+  },
+  {
+    "år": 2000,
+    "tatort": "Laholm",
+    "kommun": "Laholm",
+    "befolkning": 5594
+  },
+  {
+    "år": 2000,
+    "tatort": "Lilla Tjärby",
+    "kommun": "Laholm",
+    "befolkning": 881
+  },
+  {
+    "år": 2000,
+    "tatort": "Mellbystrand",
+    "kommun": "Laholm",
+    "befolkning": 2474
+  },
+  {
+    "år": 2000,
+    "tatort": "Ränneslöv",
+    "kommun": "Laholm",
+    "befolkning": 401
+  },
+  {
+    "år": 2000,
+    "tatort": "Skottorp",
+    "kommun": "Laholm",
+    "befolkning": 443
+  },
+  {
+    "år": 2000,
+    "tatort": "Vallberga",
+    "kommun": "Laholm",
+    "befolkning": 614
+  },
+  {
+    "år": 2000,
+    "tatort": "Veinge",
+    "kommun": "Laholm",
+    "befolkning": 1234
+  },
+  {
+    "år": 2000,
+    "tatort": "Våxtorp",
+    "kommun": "Laholm",
+    "befolkning": 938
+  },
+  {
+    "år": 2000,
+    "tatort": "Ysby",
+    "kommun": "Laholm",
+    "befolkning": 235
+  },
+  {
+    "år": 2000,
+    "tatort": "Landsbygd",
+    "kommun": "Landsbygd",
+    "befolkning": 52275
+  },
+  {
+    "år": 2000,
+    "tatort": "Bläshammar och Trönningenäs",
+    "kommun": "Varberg",
+    "befolkning": 260
+  },
+  {
+    "år": 2000,
+    "tatort": "Bua",
+    "kommun": "Varberg",
+    "befolkning": 1685
+  },
+  {
+    "år": 2000,
+    "tatort": "Getterön",
+    "kommun": "Varberg",
+    "befolkning": 227
+  },
+  {
+    "år": 2000,
+    "tatort": "Himle",
+    "kommun": "Varberg",
+    "befolkning": 252
+  },
+  {
+    "år": 2000,
+    "tatort": "Hunnestad",
+    "kommun": "Varberg",
+    "befolkning": 249
+  },
+  {
+    "år": 2000,
+    "tatort": "Kungsäter",
+    "kommun": "Varberg",
+    "befolkning": 347
+  },
+  {
+    "år": 2000,
+    "tatort": "Moarna",
+    "kommun": "Varberg",
+    "befolkning": 71
+  },
+  {
+    "år": 2000,
+    "tatort": "Nordvära och Källstorp",
+    "kommun": "Varberg",
+    "befolkning": 166
+  },
+  {
+    "år": 2000,
+    "tatort": "Ringhals, Skällåkra och Lingome",
+    "kommun": "Varberg",
+    "befolkning": 152
+  },
+  {
+    "år": 2000,
+    "tatort": "Rolfstorp",
+    "kommun": "Varberg",
+    "befolkning": 508
+  },
+  {
+    "år": 2000,
+    "tatort": "Skällinge",
+    "kommun": "Varberg",
+    "befolkning": 595
+  },
+  {
+    "år": 2000,
+    "tatort": "Tofta",
+    "kommun": "Varberg",
+    "befolkning": 371
+  },
+  {
+    "år": 2000,
+    "tatort": "Torpa",
+    "kommun": "Varberg",
+    "befolkning": 157
+  },
+  {
+    "år": 2000,
+    "tatort": "Tvååker",
+    "kommun": "Varberg",
+    "befolkning": 2348
+  },
+  {
+    "år": 2000,
+    "tatort": "Tångaberg",
+    "kommun": "Varberg",
+    "befolkning": 641
+  },
+  {
+    "år": 2000,
+    "tatort": "Valinge",
+    "kommun": "Varberg",
+    "befolkning": 178
+  },
+  {
+    "år": 2000,
+    "tatort": "Varberg",
+    "kommun": "Varberg",
+    "befolkning": 28634
+  },
+  {
+    "år": 2000,
+    "tatort": "Veddige",
+    "kommun": "Varberg",
+    "befolkning": 2123
+  },
+  {
+    "år": 2000,
+    "tatort": "Väröbacka",
+    "kommun": "Varberg",
+    "befolkning": 565
+  },
+  {
+    "år": 2000,
+    "tatort": "Årnäs",
+    "kommun": "Varberg",
+    "befolkning": 438
+  },
+  {
+    "år": 2000,
+    "tatort": "Åsby",
+    "kommun": "Varberg",
+    "befolkning": 449
+  },
+  {
+    "år": 2010,
+    "tatort": "Bergagård",
+    "kommun": "Falkenberg",
+    "befolkning": 410
+  },
+  {
+    "år": 2010,
+    "tatort": "Falkenberg",
+    "kommun": "Falkenberg",
+    "befolkning": 24178
+  },
+  {
+    "år": 2010,
+    "tatort": "Fegen",
+    "kommun": "Falkenberg",
+    "befolkning": 188
+  },
+  {
+    "år": 2010,
+    "tatort": "Glommen",
+    "kommun": "Falkenberg",
+    "befolkning": 968
+  },
+  {
+    "år": 2010,
+    "tatort": "Heberg",
+    "kommun": "Falkenberg",
+    "befolkning": 430
+  },
+  {
+    "år": 2010,
+    "tatort": "Köinge",
+    "kommun": "Falkenberg",
+    "befolkning": 155
+  },
+  {
+    "år": 2010,
+    "tatort": "Långasand och Ugglarp",
+    "kommun": "Falkenberg",
+    "befolkning": 330
+  },
+  {
+    "år": 2010,
+    "tatort": "Långås",
+    "kommun": "Falkenberg",
+    "befolkning": 505
+  },
+  {
+    "år": 2010,
+    "tatort": "Morup",
+    "kommun": "Falkenberg",
+    "befolkning": 252
+  },
+  {
+    "år": 2010,
+    "tatort": "Olofsbo",
+    "kommun": "Falkenberg",
+    "befolkning": 190
+  },
+  {
+    "år": 2010,
+    "tatort": "Slöinge",
+    "kommun": "Falkenberg",
+    "befolkning": 913
+  },
+  {
+    "år": 2010,
+    "tatort": "Ullared",
+    "kommun": "Falkenberg",
+    "befolkning": 781
+  },
+  {
+    "år": 2010,
+    "tatort": "Vessigebro",
+    "kommun": "Falkenberg",
+    "befolkning": 703
+  },
+  {
+    "år": 2010,
+    "tatort": "Vinberg",
+    "kommun": "Falkenberg",
+    "befolkning": 585
+  },
+  {
+    "år": 2010,
+    "tatort": "Älvsered",
+    "kommun": "Falkenberg",
+    "befolkning": 400
+  },
+  {
+    "år": 2010,
+    "tatort": "Ätran",
+    "kommun": "Falkenberg",
+    "befolkning": 397
+  },
+  {
+    "år": 2010,
+    "tatort": "Årstad",
+    "kommun": "Falkenberg",
+    "befolkning": 246
+  },
+  {
+    "år": 2010,
+    "tatort": "Eldsberga",
+    "kommun": "Halmstad",
+    "befolkning": 681
+  },
+  {
+    "år": 2010,
+    "tatort": "Frösakull",
+    "kommun": "Halmstad",
+    "befolkning": 2098
+  },
+  {
+    "år": 2010,
+    "tatort": "Getinge",
+    "kommun": "Halmstad",
+    "befolkning": 1776
+  },
+  {
+    "år": 2010,
+    "tatort": "Gullbrandstorp",
+    "kommun": "Halmstad",
+    "befolkning": 1548
+  },
+  {
+    "år": 2010,
+    "tatort": "Gullbranna",
+    "kommun": "Halmstad",
+    "befolkning": 647
+  },
+  {
+    "år": 2010,
+    "tatort": "Halmstad",
+    "kommun": "Halmstad",
+    "befolkning": 61322
+  },
+  {
+    "år": 2010,
+    "tatort": "Harplinge",
+    "kommun": "Halmstad",
+    "befolkning": 1433
+  },
+  {
+    "år": 2010,
+    "tatort": "Haverdal",
+    "kommun": "Halmstad",
+    "befolkning": 1628
+  },
+  {
+    "år": 2010,
+    "tatort": "Holm",
+    "kommun": "Halmstad",
+    "befolkning": 557
+  },
+  {
+    "år": 2010,
+    "tatort": "Kvibille",
+    "kommun": "Halmstad",
+    "befolkning": 942
+  },
+  {
+    "år": 2010,
+    "tatort": "Laxvik",
+    "kommun": "Halmstad",
+    "befolkning": 454
+  },
+  {
+    "år": 2010,
+    "tatort": "Oskarström",
+    "kommun": "Halmstad",
+    "befolkning": 3807
+  },
+  {
+    "år": 2010,
+    "tatort": "Sennan",
+    "kommun": "Halmstad",
+    "befolkning": 333
+  },
+  {
+    "år": 2010,
+    "tatort": "Simlångsdalen",
+    "kommun": "Halmstad",
+    "befolkning": 612
+  },
+  {
+    "år": 2010,
+    "tatort": "Skedala",
+    "kommun": "Halmstad",
+    "befolkning": 358
+  },
+  {
+    "år": 2010,
+    "tatort": "Steninge",
+    "kommun": "Halmstad",
+    "befolkning": 972
+  },
+  {
+    "år": 2010,
+    "tatort": "Trönninge",
+    "kommun": "Halmstad",
+    "befolkning": 1418
+  },
+  {
+    "år": 2010,
+    "tatort": "Villshärad",
+    "kommun": "Halmstad",
+    "befolkning": 693
+  },
+  {
+    "år": 2010,
+    "tatort": "Åled",
+    "kommun": "Halmstad",
+    "befolkning": 1564
+  },
+  {
+    "år": 2010,
+    "tatort": "Hyltebruk",
+    "kommun": "Hylte",
+    "befolkning": 3562
+  },
+  {
+    "år": 2010,
+    "tatort": "Kinnared",
+    "kommun": "Hylte",
+    "befolkning": 284
+  },
+  {
+    "år": 2010,
+    "tatort": "Landeryd",
+    "kommun": "Hylte",
+    "befolkning": 358
+  },
+  {
+    "år": 2010,
+    "tatort": "Rydöbruk",
+    "kommun": "Hylte",
+    "befolkning": 319
+  },
+  {
+    "år": 2010,
+    "tatort": "Torup",
+    "kommun": "Hylte",
+    "befolkning": 1110
+  },
+  {
+    "år": 2010,
+    "tatort": "Unnaryd",
+    "kommun": "Hylte",
+    "befolkning": 704
+  },
+  {
+    "år": 2010,
+    "tatort": "Buerås",
+    "kommun": "Kungsbacka",
+    "befolkning": 754
+  },
+  {
+    "år": 2010,
+    "tatort": "Dala",
+    "kommun": "Kungsbacka",
+    "befolkning": 92
+  },
+  {
+    "år": 2010,
+    "tatort": "Fjärås kyrkby",
+    "kommun": "Kungsbacka",
+    "befolkning": 2407
+  },
+  {
+    "år": 2010,
+    "tatort": "Fjärås station",
+    "kommun": "Kungsbacka",
+    "befolkning": 169
+  },
+  {
+    "år": 2010,
+    "tatort": "Frillesås",
+    "kommun": "Kungsbacka",
+    "befolkning": 2668
+  },
+  {
+    "år": 2010,
+    "tatort": "Halla Heberg",
+    "kommun": "Kungsbacka",
+    "befolkning": 1625
+  },
+  {
+    "år": 2010,
+    "tatort": "Hjälm",
+    "kommun": "Kungsbacka",
+    "befolkning": 226
+  },
+  {
+    "år": 2010,
+    "tatort": "Kläppa",
+    "kommun": "Kungsbacka",
+    "befolkning": 516
+  },
+  {
+    "år": 2010,
+    "tatort": "Kungsbacka (GBG)",
+    "kommun": "Kungsbacka",
+    "befolkning": 32701
+  },
+  {
+    "år": 2010,
+    "tatort": "Onsala",
+    "kommun": "Kungsbacka",
+    "befolkning": 11977
+  },
+  {
+    "år": 2010,
+    "tatort": "Röda holme",
+    "kommun": "Kungsbacka",
+    "befolkning": 562
+  },
+  {
+    "år": 2010,
+    "tatort": "Vallda",
+    "kommun": "Kungsbacka",
+    "befolkning": 3379
+  },
+  {
+    "år": 2010,
+    "tatort": "Västra Hagen",
+    "kommun": "Kungsbacka",
+    "befolkning": 1144
+  },
+  {
+    "år": 2010,
+    "tatort": "Västra Hanhals",
+    "kommun": "Kungsbacka",
+    "befolkning": 210
+  },
+  {
+    "år": 2010,
+    "tatort": "Åsa",
+    "kommun": "Kungsbacka",
+    "befolkning": 5215
+  },
+  {
+    "år": 2010,
+    "tatort": "Östra Hanhals och Torkelstorp",
+    "kommun": "Kungsbacka",
+    "befolkning": 225
+  },
+  {
+    "år": 2010,
+    "tatort": "Genevad",
+    "kommun": "Laholm",
+    "befolkning": 547
+  },
+  {
+    "år": 2010,
+    "tatort": "Hasslöv",
+    "kommun": "Laholm",
+    "befolkning": 214
+  },
+  {
+    "år": 2010,
+    "tatort": "Hishult",
+    "kommun": "Laholm",
+    "befolkning": 307
+  },
+  {
+    "år": 2010,
+    "tatort": "Knäred",
+    "kommun": "Laholm",
+    "befolkning": 1062
+  },
+  {
+    "år": 2010,
+    "tatort": "Laholm",
+    "kommun": "Laholm",
+    "befolkning": 6110
+  },
+  {
+    "år": 2010,
+    "tatort": "Lilla Tjärby",
+    "kommun": "Laholm",
+    "befolkning": 891
+  },
+  {
+    "år": 2010,
+    "tatort": "Mellbystrand",
+    "kommun": "Laholm",
+    "befolkning": 3034
+  },
+  {
+    "år": 2010,
+    "tatort": "Ränneslöv",
+    "kommun": "Laholm",
+    "befolkning": 375
+  },
+  {
+    "år": 2010,
+    "tatort": "Skottorp",
+    "kommun": "Laholm",
+    "befolkning": 469
+  },
+  {
+    "år": 2010,
+    "tatort": "Vallberga",
+    "kommun": "Laholm",
+    "befolkning": 608
+  },
+  {
+    "år": 2010,
+    "tatort": "Veinge",
+    "kommun": "Laholm",
+    "befolkning": 1251
+  },
+  {
+    "år": 2010,
+    "tatort": "Våxtorp",
+    "kommun": "Laholm",
+    "befolkning": 936
+  },
+  {
+    "år": 2010,
+    "tatort": "Ysby",
+    "kommun": "Laholm",
+    "befolkning": 250
+  },
+  {
+    "år": 2010,
+    "tatort": "Landsbygd",
+    "kommun": "Landsbygd",
+    "befolkning": 53393
+  },
+  {
+    "år": 2010,
+    "tatort": "Bläshammar och Trönningenäs",
+    "kommun": "Varberg",
+    "befolkning": 412
+  },
+  {
+    "år": 2010,
+    "tatort": "Bua",
+    "kommun": "Varberg",
+    "befolkning": 1784
+  },
+  {
+    "år": 2010,
+    "tatort": "Getterön",
+    "kommun": "Varberg",
+    "befolkning": 299
+  },
+  {
+    "år": 2010,
+    "tatort": "Himle",
+    "kommun": "Varberg",
+    "befolkning": 242
+  },
+  {
+    "år": 2010,
+    "tatort": "Hunnestad",
+    "kommun": "Varberg",
+    "befolkning": 241
+  },
+  {
+    "år": 2010,
+    "tatort": "Kungsäter",
+    "kommun": "Varberg",
+    "befolkning": 331
+  },
+  {
+    "år": 2010,
+    "tatort": "Moarna",
+    "kommun": "Varberg",
+    "befolkning": 111
+  },
+  {
+    "år": 2010,
+    "tatort": "Nordvära och Källstorp",
+    "kommun": "Varberg",
+    "befolkning": 186
+  },
+  {
+    "år": 2010,
+    "tatort": "Ringhals, Skällåkra och Lingome",
+    "kommun": "Varberg",
+    "befolkning": 165
+  },
+  {
+    "år": 2010,
+    "tatort": "Rolfstorp",
+    "kommun": "Varberg",
+    "befolkning": 496
+  },
+  {
+    "år": 2010,
+    "tatort": "Skällinge",
+    "kommun": "Varberg",
+    "befolkning": 599
+  },
+  {
+    "år": 2010,
+    "tatort": "Tofta",
+    "kommun": "Varberg",
+    "befolkning": 436
+  },
+  {
+    "år": 2010,
+    "tatort": "Torpa",
+    "kommun": "Varberg",
+    "befolkning": 168
+  },
+  {
+    "år": 2010,
+    "tatort": "Tvååker",
+    "kommun": "Varberg",
+    "befolkning": 2529
+  },
+  {
+    "år": 2010,
+    "tatort": "Tångaberg",
+    "kommun": "Varberg",
+    "befolkning": 861
+  },
+  {
+    "år": 2010,
+    "tatort": "Valinge",
+    "kommun": "Varberg",
+    "befolkning": 164
+  },
+  {
+    "år": 2010,
+    "tatort": "Varberg",
+    "kommun": "Varberg",
+    "befolkning": 32638
+  },
+  {
+    "år": 2010,
+    "tatort": "Veddige",
+    "kommun": "Varberg",
+    "befolkning": 2026
+  },
+  {
+    "år": 2010,
+    "tatort": "Väröbacka",
+    "kommun": "Varberg",
+    "befolkning": 649
+  },
+  {
+    "år": 2010,
+    "tatort": "Årnäs",
+    "kommun": "Varberg",
+    "befolkning": 592
+  },
+  {
+    "år": 2010,
+    "tatort": "Åsby",
+    "kommun": "Varberg",
+    "befolkning": 426
+  },
+  {
+    "år": 2024,
+    "tatort": "Bergagård",
+    "kommun": "Falkenberg",
+    "befolkning": 402
+  },
+  {
+    "år": 2024,
+    "tatort": "Falkenberg",
+    "kommun": "Falkenberg",
+    "befolkning": 29370
+  },
+  {
+    "år": 2024,
+    "tatort": "Fegen",
+    "kommun": "Falkenberg",
+    "befolkning": 196
+  },
+  {
+    "år": 2024,
+    "tatort": "Glommen",
+    "kommun": "Falkenberg",
+    "befolkning": 1262
+  },
+  {
+    "år": 2024,
+    "tatort": "Heberg",
+    "kommun": "Falkenberg",
+    "befolkning": 432
+  },
+  {
+    "år": 2024,
+    "tatort": "Köinge",
+    "kommun": "Falkenberg",
+    "befolkning": 180
+  },
+  {
+    "år": 2024,
+    "tatort": "Långasand och Ugglarp",
+    "kommun": "Falkenberg",
+    "befolkning": 470
+  },
+  {
+    "år": 2024,
+    "tatort": "Långås",
+    "kommun": "Falkenberg",
+    "befolkning": 539
+  },
+  {
+    "år": 2024,
+    "tatort": "Morup",
+    "kommun": "Falkenberg",
+    "befolkning": 319
+  },
+  {
+    "år": 2024,
+    "tatort": "Olofsbo",
+    "kommun": "Falkenberg",
+    "befolkning": 206
+  },
+  {
+    "år": 2024,
+    "tatort": "Slöinge",
+    "kommun": "Falkenberg",
+    "befolkning": 1021
+  },
+  {
+    "år": 2024,
+    "tatort": "Ullared",
+    "kommun": "Falkenberg",
+    "befolkning": 824
+  },
+  {
+    "år": 2024,
+    "tatort": "Vessigebro",
+    "kommun": "Falkenberg",
+    "befolkning": 798
+  },
+  {
+    "år": 2024,
+    "tatort": "Vinberg",
+    "kommun": "Falkenberg",
+    "befolkning": 606
+  },
+  {
+    "år": 2024,
+    "tatort": "Älvsered",
+    "kommun": "Falkenberg",
+    "befolkning": 403
+  },
+  {
+    "år": 2024,
+    "tatort": "Ätran",
+    "kommun": "Falkenberg",
+    "befolkning": 387
+  },
+  {
+    "år": 2024,
+    "tatort": "Årstad",
+    "kommun": "Falkenberg",
+    "befolkning": 224
+  },
+  {
+    "år": 2024,
+    "tatort": "Eldsberga",
+    "kommun": "Halmstad",
+    "befolkning": 698
+  },
+  {
+    "år": 2024,
+    "tatort": "Frösakull",
+    "kommun": "Halmstad",
+    "befolkning": 2597
+  },
+  {
+    "år": 2024,
+    "tatort": "Getinge",
+    "kommun": "Halmstad",
+    "befolkning": 1997
+  },
+  {
+    "år": 2024,
+    "tatort": "Gullbrandstorp",
+    "kommun": "Halmstad",
+    "befolkning": 1796
+  },
+  {
+    "år": 2024,
+    "tatort": "Gullbranna",
+    "kommun": "Halmstad",
+    "befolkning": 578
+  },
+  {
+    "år": 2024,
+    "tatort": "Halmstad",
+    "kommun": "Halmstad",
+    "befolkning": 72476
+  },
+  {
+    "år": 2024,
+    "tatort": "Harplinge",
+    "kommun": "Halmstad",
+    "befolkning": 1627
+  },
+  {
+    "år": 2024,
+    "tatort": "Haverdal",
+    "kommun": "Halmstad",
+    "befolkning": 1867
+  },
+  {
+    "år": 2024,
+    "tatort": "Holm",
+    "kommun": "Halmstad",
+    "befolkning": 740
+  },
+  {
+    "år": 2024,
+    "tatort": "Kvibille",
+    "kommun": "Halmstad",
+    "befolkning": 964
+  },
+  {
+    "år": 2024,
+    "tatort": "Laxvik",
+    "kommun": "Halmstad",
+    "befolkning": 438
+  },
+  {
+    "år": 2024,
+    "tatort": "Oskarström",
+    "kommun": "Halmstad",
+    "befolkning": 3891
+  },
+  {
+    "år": 2024,
+    "tatort": "Sennan",
+    "kommun": "Halmstad",
+    "befolkning": 327
+  },
+  {
+    "år": 2024,
+    "tatort": "Simlångsdalen",
+    "kommun": "Halmstad",
+    "befolkning": 656
+  },
+  {
+    "år": 2024,
+    "tatort": "Skedala",
+    "kommun": "Halmstad",
+    "befolkning": 459
+  },
+  {
+    "år": 2024,
+    "tatort": "Steninge",
+    "kommun": "Halmstad",
+    "befolkning": 1114
+  },
+  {
+    "år": 2024,
+    "tatort": "Trönninge",
+    "kommun": "Halmstad",
+    "befolkning": 1579
+  },
+  {
+    "år": 2024,
+    "tatort": "Villshärad",
+    "kommun": "Halmstad",
+    "befolkning": 655
+  },
+  {
+    "år": 2024,
+    "tatort": "Åled",
+    "kommun": "Halmstad",
+    "befolkning": 1802
+  },
+  {
+    "år": 2024,
+    "tatort": "Hyltebruk",
+    "kommun": "Hylte",
+    "befolkning": 3694
+  },
+  {
+    "år": 2024,
+    "tatort": "Kinnared",
+    "kommun": "Hylte",
+    "befolkning": 281
+  },
+  {
+    "år": 2024,
+    "tatort": "Landeryd",
+    "kommun": "Hylte",
+    "befolkning": 338
+  },
+  {
+    "år": 2024,
+    "tatort": "Rydöbruk",
+    "kommun": "Hylte",
+    "befolkning": 322
+  },
+  {
+    "år": 2024,
+    "tatort": "Torup",
+    "kommun": "Hylte",
+    "befolkning": 1213
+  },
+  {
+    "år": 2024,
+    "tatort": "Unnaryd",
+    "kommun": "Hylte",
+    "befolkning": 656
+  },
+  {
+    "år": 2024,
+    "tatort": "Buerås",
+    "kommun": "Kungsbacka",
+    "befolkning": 818
+  },
+  {
+    "år": 2024,
+    "tatort": "Dala",
+    "kommun": "Kungsbacka",
+    "befolkning": 175
+  },
+  {
+    "år": 2024,
+    "tatort": "Fjärås kyrkby",
+    "kommun": "Kungsbacka",
+    "befolkning": 2709
+  },
+  {
+    "år": 2024,
+    "tatort": "Fjärås station",
+    "kommun": "Kungsbacka",
+    "befolkning": 183
+  },
+  {
+    "år": 2024,
+    "tatort": "Frillesås",
+    "kommun": "Kungsbacka",
+    "befolkning": 3643
+  },
+  {
+    "år": 2024,
+    "tatort": "Halla Heberg",
+    "kommun": "Kungsbacka",
+    "befolkning": 1732
+  },
+  {
+    "år": 2024,
+    "tatort": "Hjälm",
+    "kommun": "Kungsbacka",
+    "befolkning": 246
+  },
+  {
+    "år": 2024,
+    "tatort": "Kläppa",
+    "kommun": "Kungsbacka",
+    "befolkning": 675
+  },
+  {
+    "år": 2024,
+    "tatort": "Kungsbacka (GBG)",
+    "kommun": "Kungsbacka",
+    "befolkning": 38815
+  },
+  {
+    "år": 2024,
+    "tatort": "Onsala",
+    "kommun": "Kungsbacka",
+    "befolkning": 11909
+  },
+  {
+    "år": 2024,
+    "tatort": "Röda holme",
+    "kommun": "Kungsbacka",
+    "befolkning": 623
+  },
+  {
+    "år": 2024,
+    "tatort": "Vallda",
+    "kommun": "Kungsbacka",
+    "befolkning": 3788
+  },
+  {
+    "år": 2024,
+    "tatort": "Västra Hagen",
+    "kommun": "Kungsbacka",
+    "befolkning": 1335
+  },
+  {
+    "år": 2024,
+    "tatort": "Västra Hanhals",
+    "kommun": "Kungsbacka",
+    "befolkning": 208
+  },
+  {
+    "år": 2024,
+    "tatort": "Åsa",
+    "kommun": "Kungsbacka",
+    "befolkning": 6003
+  },
+  {
+    "år": 2024,
+    "tatort": "Östra Hanhals och Torkelstorp",
+    "kommun": "Kungsbacka",
+    "befolkning": 268
+  },
+  {
+    "år": 2024,
+    "tatort": "Genevad",
+    "kommun": "Laholm",
+    "befolkning": 641
+  },
+  {
+    "år": 2024,
+    "tatort": "Hasslöv",
+    "kommun": "Laholm",
+    "befolkning": 230
+  },
+  {
+    "år": 2024,
+    "tatort": "Hishult",
+    "kommun": "Laholm",
+    "befolkning": 304
+  },
+  {
+    "år": 2024,
+    "tatort": "Knäred",
+    "kommun": "Laholm",
+    "befolkning": 1119
+  },
+  {
+    "år": 2024,
+    "tatort": "Laholm",
+    "kommun": "Laholm",
+    "befolkning": 6633
+  },
+  {
+    "år": 2024,
+    "tatort": "Lilla Tjärby",
+    "kommun": "Laholm",
+    "befolkning": 1082
+  },
+  {
+    "år": 2024,
+    "tatort": "Mellbystrand",
+    "kommun": "Laholm",
+    "befolkning": 4604
+  },
+  {
+    "år": 2024,
+    "tatort": "Ränneslöv",
+    "kommun": "Laholm",
+    "befolkning": 389
+  },
+  {
+    "år": 2024,
+    "tatort": "Skottorp",
+    "kommun": "Laholm",
+    "befolkning": 572
+  },
+  {
+    "år": 2024,
+    "tatort": "Vallberga",
+    "kommun": "Laholm",
+    "befolkning": 705
+  },
+  {
+    "år": 2024,
+    "tatort": "Veinge",
+    "kommun": "Laholm",
+    "befolkning": 1354
+  },
+  {
+    "år": 2024,
+    "tatort": "Våxtorp",
+    "kommun": "Laholm",
+    "befolkning": 1050
+  },
+  {
+    "år": 2024,
+    "tatort": "Ysby",
+    "kommun": "Laholm",
+    "befolkning": 272
+  },
+  {
+    "år": 2024,
+    "tatort": "Landsbygd",
+    "kommun": "Landsbygd",
+    "befolkning": 58540
+  },
+  {
+    "år": 2024,
+    "tatort": "Bläshammar och Trönningenäs",
+    "kommun": "Varberg",
+    "befolkning": 1267
+  },
+  {
+    "år": 2024,
+    "tatort": "Bua",
+    "kommun": "Varberg",
+    "befolkning": 1944
+  },
+  {
+    "år": 2024,
+    "tatort": "Getterön",
+    "kommun": "Varberg",
+    "befolkning": 309
+  },
+  {
+    "år": 2024,
+    "tatort": "Himle",
+    "kommun": "Varberg",
+    "befolkning": 285
+  },
+  {
+    "år": 2024,
+    "tatort": "Hunnestad",
+    "kommun": "Varberg",
+    "befolkning": 245
+  },
+  {
+    "år": 2024,
+    "tatort": "Kungsäter",
+    "kommun": "Varberg",
+    "befolkning": 384
+  },
+  {
+    "år": 2024,
+    "tatort": "Moarna",
+    "kommun": "Varberg",
+    "befolkning": 132
+  },
+  {
+    "år": 2024,
+    "tatort": "Nordvära och Källstorp",
+    "kommun": "Varberg",
+    "befolkning": 222
+  },
+  {
+    "år": 2024,
+    "tatort": "Ringhals, Skällåkra och Lingome",
+    "kommun": "Varberg",
+    "befolkning": 195
+  },
+  {
+    "år": 2024,
+    "tatort": "Rolfstorp",
+    "kommun": "Varberg",
+    "befolkning": 556
+  },
+  {
+    "år": 2024,
+    "tatort": "Skällinge",
+    "kommun": "Varberg",
+    "befolkning": 607
+  },
+  {
+    "år": 2024,
+    "tatort": "Tofta",
+    "kommun": "Varberg",
+    "befolkning": 415
+  },
+  {
+    "år": 2024,
+    "tatort": "Torpa",
+    "kommun": "Varberg",
+    "befolkning": 216
+  },
+  {
+    "år": 2024,
+    "tatort": "Tvååker",
+    "kommun": "Varberg",
+    "befolkning": 3131
+  },
+  {
+    "år": 2024,
+    "tatort": "Tångaberg",
+    "kommun": "Varberg",
+    "befolkning": 1073
+  },
+  {
+    "år": 2024,
+    "tatort": "Valinge",
+    "kommun": "Varberg",
+    "befolkning": 200
+  },
+  {
+    "år": 2024,
+    "tatort": "Varberg",
+    "kommun": "Varberg",
+    "befolkning": 38627
+  },
+  {
+    "år": 2024,
+    "tatort": "Veddige",
+    "kommun": "Varberg",
+    "befolkning": 2229
+  },
+  {
+    "år": 2024,
+    "tatort": "Väröbacka",
+    "kommun": "Varberg",
+    "befolkning": 778
+  },
+  {
+    "år": 2024,
+    "tatort": "Årnäs",
+    "kommun": "Varberg",
+    "befolkning": 722
+  },
+  {
+    "år": 2024,
+    "tatort": "Åsby",
+    "kommun": "Varberg",
+    "befolkning": 511
+  }
+]

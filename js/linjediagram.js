@@ -73,7 +73,7 @@ function niceScaleFromZero(dataMax, targetTicks = 5) {
   return { min: 0, max: scaleMax, interval, ticks };
 }
 
-export function linjediagram(data, {
+export function linjediagram(initialData, {
   x = "år",
   y = "värde",
   color = null,
@@ -99,8 +99,22 @@ export function linjediagram(data, {
   logo = null,   // Sökväg till logotyp (visas i övre högra hörnet)
   showGrid = true,  // Visa subtila gridlinjer på y-axeln
   interactive = false,  // Aktivera interaktiv kontrollpanel
-  maxHighlights = 6  // Max antal highlightade serier (för läsbarhet)
+  maxHighlights = 6,  // Max antal highlightade serier (för läsbarhet)
+  rescaleY = false,  // Omskalera y-axeln baserat på synliga/highlighted serier
+  measures = null  // [{key, label, description?, data, yLabel?, yMin?, hline?, formatY?}]
 } = {}) {
+
+  // Mutable state (stödjer measures-byte)
+  let data = measures ? measures[0].data : initialData;
+  let currentMeasureIdx = 0;
+  if (measures) {
+    const m = measures[0];
+    if (m.formatY) formatY = m.formatY;
+    if (m.yMin !== undefined) yMin = m.yMin;
+    if (m.hline !== undefined) hline = m.hline;
+    if (m.yLabel) yLabel = m.yLabel;
+    if (m.subtitle) subtitle = m.subtitle;
+  }
 
   // Dimensioner - tydlig breakout-effekt
   const autoWidth = width || 780;
@@ -129,12 +143,14 @@ export function linjediagram(data, {
   // ==========================================================================
   // TIDSINTERVALL-KONTROLL I UNDERTITELN
   // ==========================================================================
-  const allXValues = [...new Set(data.map(d => d[x]))].sort((a, b) => a - b);
+  let allXValues = [...new Set(data.map(d => d[x]))].sort((a, b) => a - b);
   let currentStartYear = allXValues[0];
   let currentEndYear = allXValues[allXValues.length - 1];
   const hasTimeRange = allXValues.length > 1;
   let timeRangeControl = null;
   let updateChartRange = null;  // Definieras senare
+  let subtitleTextSpan = null;
+  let measurePanel = null;
 
   if (subtitle || hasTimeRange) {
     // Inject CSS för tidskontroll (delad med andra grafer)
@@ -143,10 +159,10 @@ export function linjediagram(data, {
       styles.id = "graf-time-control-styles";
       styles.textContent = `
         .graf-subtitle-wrapper {
-          display: flex;
-          align-items: baseline;
-          gap: 0;
-          flex-wrap: wrap;
+          font-family: 'IBM Plex Sans', sans-serif;
+          font-size: 14px;
+          color: #666;
+          line-height: 1.4;
         }
         .graf-subtitle-text {
           font-family: 'IBM Plex Sans', sans-serif;
@@ -182,23 +198,24 @@ export function linjediagram(data, {
         .graf-time-panel {
           display: none;
           position: absolute;
-          top: 50%;
-          left: 100%;
-          transform: translateY(-50%);
-          margin-left: 8px;
-          padding: 8px 12px;
+          top: 100%;
+          left: 0;
+          margin-top: 4px;
+          padding: 5px 8px;
           background: #fff;
           border: 1px solid #1a1a1a;
+          border-radius: 3px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.1);
           z-index: 100;
           white-space: nowrap;
         }
         .graf-time-control.expanded .graf-time-panel {
           display: flex;
           align-items: center;
-          gap: 10px;
+          gap: 6px;
         }
         .graf-time-slider {
-          width: 80px;
+          width: 70px;
           height: 4px;
           -webkit-appearance: none;
           appearance: none;
@@ -228,8 +245,8 @@ export function linjediagram(data, {
           box-shadow: 0 1px 3px rgba(0,0,0,0.3);
         }
         .graf-time-play-btn {
-          width: 24px;
-          height: 24px;
+          width: 20px;
+          height: 20px;
           border: none;
           background: #1a1a1a;
           border-radius: 3px;
@@ -258,8 +275,106 @@ export function linjediagram(data, {
       document.head.appendChild(styles);
     }
 
+    // Inject CSS för measure-väljare (en gång)
+    if (measures && measures.length > 1 && !document.getElementById("graf-measure-styles")) {
+      const mStyles = document.createElement("style");
+      mStyles.id = "graf-measure-styles";
+      mStyles.textContent = `
+        .graf-measure-control {
+          display: inline;
+          position: relative;
+          user-select: none;
+        }
+        .graf-measure-label {
+          cursor: pointer;
+          font-weight: 600;
+          color: #1a1a1a;
+          text-decoration: underline;
+          text-decoration-style: dotted;
+          text-decoration-color: #bbb;
+          text-underline-offset: 2px;
+          transition: text-decoration-color 0.15s;
+        }
+        .graf-measure-label:hover {
+          text-decoration-color: #00664D;
+          text-decoration-style: solid;
+        }
+        .graf-measure-panel {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          margin-top: 4px;
+          background: #fff;
+          border: 1px solid #1a1a1a;
+          z-index: 100;
+          white-space: nowrap;
+          padding: 4px 0;
+          min-width: 140px;
+        }
+        .graf-measure-control.expanded .graf-measure-panel {
+          display: block;
+        }
+        .graf-measure-option {
+          display: block;
+          padding: 5px 14px;
+          font-size: 13px;
+          cursor: pointer;
+          font-family: 'IBM Plex Sans', sans-serif;
+          color: #555;
+          transition: background 0.1s;
+        }
+        .graf-measure-option:hover {
+          background: #f0f0f0;
+          color: #1a1a1a;
+        }
+        .graf-measure-option.active {
+          font-weight: 600;
+          color: #1a1a1a;
+        }
+      `;
+      document.head.appendChild(mStyles);
+    }
+
     const subtitleWrapper = header.append("div")
       .attr("class", "graf-subtitle-wrapper");
+
+    // Measure-väljare i subtiteln
+    if (measures && measures.length > 1) {
+      const measureControl = subtitleWrapper.append("span")
+        .attr("class", "graf-measure-control");
+
+      const measureLabel = measureControl.append("span")
+        .attr("class", "graf-subtitle-text graf-measure-label")
+        .text(measures[currentMeasureIdx].label);
+
+      measurePanel = measureControl.append("div")
+        .attr("class", "graf-measure-panel");
+
+      measures.forEach((m, i) => {
+        measurePanel.append("div")
+          .attr("class", `graf-measure-option${i === currentMeasureIdx ? " active" : ""}`)
+          .text(m.filterLabel || m.label)
+          .on("click", () => {
+            switchMeasure(i);
+            measureLabel.text(measures[currentMeasureIdx].label);
+            measurePanel.selectAll(".graf-measure-option")
+              .each(function(d, j) { d3.select(this).classed("active", j === i); });
+            measureControl.classed("expanded", false);
+          });
+      });
+
+      // Hover expand/collapse
+      let mTimeout;
+      measureControl.on("mouseenter", () => {
+        clearTimeout(mTimeout);
+        measureControl.classed("expanded", true);
+      });
+      measureControl.on("mouseleave", () => {
+        clearTimeout(mTimeout);
+        mTimeout = setTimeout(() => measureControl.classed("expanded", false), 200);
+      });
+    }
 
     if (hasTimeRange && subtitle) {
       // Dela upp subtitle för att ersätta årtalsspan
@@ -269,9 +384,12 @@ export function linjediagram(data, {
         const [, prefix, startYear, endYear, suffix] = yearRangeMatch;
         const cleanPrefix = prefix.replace(/[,\s]+$/, '');
 
-        subtitleWrapper.append("span")
-          .attr("class", "graf-subtitle-text")
-          .text(cleanPrefix);
+        // Om measures → label är hela titeltexten, skippa description
+        if (!measures) {
+          subtitleTextSpan = subtitleWrapper.append("span")
+            .attr("class", "graf-subtitle-text")
+            .text(cleanPrefix);
+        }
 
         timeRangeControl = subtitleWrapper.append("span")
           .attr("class", "graf-time-control");
@@ -280,7 +398,7 @@ export function linjediagram(data, {
           .attr("class", "graf-time-trigger");
 
         trigger.append("span")
-          .text("\u00A0(");
+          .text(measures ? ",\u00A0" : "\u00A0(");
 
         trigger.append("span")
           .attr("class", "graf-time-year graf-time-start")
@@ -294,7 +412,7 @@ export function linjediagram(data, {
           .text(currentEndYear);
 
         trigger.append("span")
-          .text(")");
+          .text(measures ? "" : ")");
 
         const panel = timeRangeControl.append("div")
           .attr("class", "graf-time-panel");
@@ -394,11 +512,11 @@ export function linjediagram(data, {
   }
 
   // Gruppera data (behövs före selektor-skapande)
-  const groups = color
+  let groups = color
     ? d3.group(data, d => d[color])
     : new Map([["_all", data]]);
 
-  const allKeys = [...groups.keys()];
+  let allKeys = [...groups.keys()];
 
   // FilterState via filterUtils (groupField: null → flat lista av serienamn)
   const filterState = color
@@ -437,7 +555,7 @@ export function linjediagram(data, {
       allItems: allKeys,
       colorScale,
       triggerText: "Jämför regioner \u203a",
-      onUpdate: () => updateChart(),
+      onUpdate: () => { rescaleYAxis(true); updateChart(); },
       onItemHover: (item) => {
         const hoverColor = isHighlighted(item) ? colorScale(item) : "#555";
         linesGroup.selectAll("path").each(function() {
@@ -719,7 +837,8 @@ export function linjediagram(data, {
   }
 
   // Y-axel - OWID-stil: bara tick-labels, ingen axellinje
-  svg.append("g")
+  const yAxisGroup = svg.append("g")
+    .attr("class", "y-axis")
     .attr("transform", `translate(${axisLeft},0)`)
     .call(yAxis)
     .call(g => g.select(".domain").remove())  // Ta bort y-axellinjen
@@ -731,24 +850,23 @@ export function linjediagram(data, {
       .attr("font-size", "12px")
       .attr("font-family", "'IBM Plex Sans', sans-serif"));
 
-  if (yLabel) {
-    svg.append("text")
-      .attr("x", axisLeft)
-      .attr("y", marginTop - 14)
-      .attr("text-anchor", "start")
-      .attr("font-family", "'IBM Plex Sans', sans-serif")
-      .attr("font-size", "11px")
-      .attr("font-weight", "600")
-      .attr("fill", "#555")
-      .text(yLabel);
-  }
+  const yLabelEl = svg.append("text")
+    .attr("x", axisLeft)
+    .attr("y", marginTop - 14)
+    .attr("text-anchor", "start")
+    .attr("font-family", "'IBM Plex Sans', sans-serif")
+    .attr("font-size", "11px")
+    .attr("font-weight", "600")
+    .attr("fill", "#555")
+    .text(yLabel || "")
+    .style("display", yLabel ? null : "none");
 
   // ==========================================================================
   // GRIDLINJER (OWID-stil) - subtila streckade horisontella linjer
   // ==========================================================================
-  if (showGrid) {
-    const gridGroup = svg.insert("g", ":first-child").attr("class", "grid-lines");
+  const gridGroup = svg.insert("g", ":first-child").attr("class", "grid-lines");
 
+  if (showGrid) {
     yNice.ticks.forEach(tickVal => {
       const tickY = yScale(tickVal);
       gridGroup.append("line")
@@ -773,18 +891,22 @@ export function linjediagram(data, {
   // REFERENSLINJER (hline/vline) - ritas först så de hamnar under data
   // ==========================================================================
 
-  // Horisontell referenslinje - mer distinkt än gridlinjer
-  if (hline !== null) {
+  // Horisontell referenslinje - i grupp för enkel uppdatering vid measure-byte
+  const hlineGroup = svg.append("g").attr("class", "hline-group");
+
+  function renderHline() {
+    hlineGroup.selectAll("*").remove();
+    if (hline === null) return;
+
     const hlineConfig = typeof hline === "number"
       ? { value: hline }
       : hline;
 
     const hlineY = yScale(hlineConfig.value);
     const hlineColor = hlineConfig.color || "#1a1a1a";
-    const hlineDashed = hlineConfig.dashed === true;  // Default: solid
+    const hlineDashed = hlineConfig.dashed === true;
 
-    // Rita linjen - tjockare och mer synlig än grid
-    svg.append("line")
+    hlineGroup.append("line")
       .attr("class", "reference-line hline")
       .attr("x1", axisLeft)
       .attr("x2", autoWidth - marginRight)
@@ -795,9 +917,8 @@ export function linjediagram(data, {
       .attr("stroke-dasharray", hlineDashed ? "6,4" : "none")
       .attr("stroke-opacity", 0.5);
 
-    // Etikett om den finns - placerad elegant vid linjens slut
     if (hlineConfig.label) {
-      svg.append("text")
+      hlineGroup.append("text")
         .attr("class", "reference-label")
         .attr("x", autoWidth - marginRight + 6)
         .attr("y", hlineY)
@@ -810,6 +931,7 @@ export function linjediagram(data, {
         .text(hlineConfig.label);
     }
   }
+  renderHline();
 
   // Vertikal referenslinje
   if (vline !== null) {
@@ -848,22 +970,184 @@ export function linjediagram(data, {
   }
 
   // ==========================================================================
+  // SWITCH MEASURE (om measures är aktiverat)
+  // ==========================================================================
+  function switchMeasure(idx) {
+    if (!measures || idx === currentMeasureIdx || idx < 0 || idx >= measures.length) return;
+    currentMeasureIdx = idx;
+    const m = measures[idx];
+
+    // Uppdatera mutable state
+    data = m.data;
+    if (m.formatY) formatY = m.formatY;
+    if (m.yMin !== undefined) yMin = m.yMin;
+    if (m.hline !== undefined) hline = m.hline;
+    if (m.yLabel) yLabel = m.yLabel;
+
+    // Beräkna om grupper
+    groups = color
+      ? d3.group(data, d => d[color])
+      : new Map([["_all", data]]);
+    allKeys = [...groups.keys()];
+
+    // Beräkna om x-intervall
+    allXValues = [...new Set(data.map(d => d[x]))].sort((a, b) => a - b);
+    currentStartYear = Math.max(currentStartYear, allXValues[0]);
+    currentEndYear = Math.min(currentEndYear, allXValues[allXValues.length - 1]);
+
+    // Beräkna om y-skala
+    const newMax = d3.max(data, d => d[y]);
+    const newMin = d3.min(data, d => d[y]);
+    if (yMin === "auto") {
+      yNice = niceScaleRange(newMin, newMax, 5);
+    } else if (typeof yMin === "number") {
+      yNice = niceScaleRange(yMin, newMax, 5);
+    } else {
+      yNice = niceScaleFromZero(newMax, 5);
+    }
+    yScale.domain([yNice.min, yNice.max]);
+
+    // Uppdatera y-axel med transition
+    const newYAxis = d3.axisLeft(yScale)
+      .tickFormat(formatY)
+      .tickValues(yNice.ticks);
+    yAxisGroup.transition().duration(400)
+      .call(newYAxis)
+      .call(g => g.select(".domain").remove())
+      .call(g => g.selectAll(".tick line").remove())
+      .call(g => g.selectAll(".tick text")
+        .attr("x", -8).attr("text-anchor", "end")
+        .attr("fill", "#666").attr("font-size", "12px")
+        .attr("font-family", "'IBM Plex Sans', sans-serif"));
+
+    // Uppdatera gridlinjer
+    gridGroup.selectAll("*").remove();
+    if (showGrid) {
+      yNice.ticks.forEach(tickVal => {
+        gridGroup.append("line")
+          .attr("x1", axisLeft).attr("x2", autoWidth - marginRight)
+          .attr("y1", yScale(tickVal)).attr("y2", yScale(tickVal))
+          .attr("stroke", "#e0e0e0").attr("stroke-width", 1)
+          .attr("stroke-dasharray", "12,6");
+      });
+    }
+
+    // Uppdatera hline
+    renderHline();
+
+    // Uppdatera y-label
+    if (yLabelEl) {
+      yLabelEl.text(yLabel || "").style("display", yLabel ? null : "none");
+    }
+
+    // Rita om linjer
+    updateChart();
+  }
+
+  // ==========================================================================
   // GRUPPER FÖR LINJER OCH ETIKETTER (för uppdatering)
   // ==========================================================================
   const linesGroup = svg.append("g").attr("class", "lines-group");
   const labelsGroup = svg.append("g").attr("class", "line-labels");
 
   // ==========================================================================
+  // RESCALE Y-AXEL (om rescaleY är aktiverat)
+  // ==========================================================================
+  function rescaleYAxis(force = false) {
+    if (!rescaleY && !force) return;
+
+    // Samla data från synliga serier (exkludera dolda) inom aktuellt tidsintervall
+    // Vid force (hide/unhide): inkludera ALLA icke-dolda linjer (även grå bakgrund)
+    // Vid vanlig rescale: bara highlighted om sådana finns
+    const hidden = filterState ? filterState.getHidden() : [];
+    const hiddenSet = new Set(hidden);
+    const hl = filterState ? filterState.getHighlight() : null;
+    let visibleData;
+
+    if (force || !hl || hl.length === 0) {
+      // Alla synliga (exkl dolda) - säkerställer att grå bakgrundslinjer inte klipps
+      visibleData = data.filter(d =>
+        !hiddenSet.has(d[color]) && d[x] >= currentStartYear && d[x] <= currentEndYear
+      );
+    } else {
+      // Bara highlighted serier (exkl dolda)
+      const hlSet = new Set(hl);
+      visibleData = data.filter(d =>
+        hlSet.has(d[color]) && !hiddenSet.has(d[color]) && d[x] >= currentStartYear && d[x] <= currentEndYear
+      );
+    }
+
+    if (visibleData.length === 0) return;
+
+    const newMax = d3.max(visibleData, d => d[y]);
+    const newMin = d3.min(visibleData, d => d[y]);
+
+    let newYNice;
+    if (yMin === "auto") {
+      newYNice = niceScaleRange(newMin, newMax, 5);
+    } else if (typeof yMin === "number") {
+      newYNice = niceScaleRange(yMin, newMax, 5);
+    } else {
+      newYNice = niceScaleFromZero(newMax, 5);
+    }
+
+    yNice = newYNice;
+    yScale.domain([yNice.min, yNice.max]);
+
+    // Uppdatera y-axel med transition
+    const newYAxis = d3.axisLeft(yScale)
+      .tickFormat(formatY)
+      .tickValues(yNice.ticks);
+
+    yAxisGroup
+      .transition().duration(400)
+      .call(newYAxis)
+      .call(g => g.select(".domain").remove())
+      .call(g => g.selectAll(".tick line").remove())
+      .call(g => g.selectAll(".tick text")
+        .attr("x", -8)
+        .attr("text-anchor", "end")
+        .attr("fill", "#666")
+        .attr("font-size", "12px")
+        .attr("font-family", "'IBM Plex Sans', sans-serif"));
+
+    // Uppdatera gridlinjer
+    gridGroup.selectAll("*").remove();
+    if (showGrid) {
+      yNice.ticks.forEach(tickVal => {
+        const tickY = yScale(tickVal);
+        gridGroup.append("line")
+          .attr("x1", axisLeft)
+          .attr("x2", autoWidth - marginRight)
+          .attr("y1", tickY)
+          .attr("y2", tickY)
+          .attr("stroke", "#e0e0e0")
+          .attr("stroke-width", 1)
+          .attr("stroke-dasharray", "12,6");
+      });
+    }
+
+    // Uppdatera hline-position
+    renderHline();
+  }
+
+  // ==========================================================================
   // UPPDATERINGSFUNKTION - Ritar om linjer och etiketter
   // ==========================================================================
   function updateChart() {
+    // Omskalera y-axeln baserat på synliga serier
+    rescaleYAxis();
+
     // Rensa befintliga linjer och etiketter
     linesGroup.selectAll("*").remove();
     labelsGroup.selectAll("*").remove();
 
-    // Rita bakgrundslinjer (ej highlighted) först - filtrerade efter tidsintervall
+    const allEndpoints = [];
+
+    // Rita bakgrundslinjer (ej highlighted, ej dolda) först
     for (const [key, values] of groups) {
       if (isHighlighted(key)) continue;
+      if (filterState && filterState.isHidden(key)) continue;
 
       const sortedValues = [...values]
         .filter(d => d[x] >= currentStartYear && d[x] <= currentEndYear)
@@ -882,11 +1166,10 @@ export function linjediagram(data, {
         .attr("d", line);
     }
 
-    // Rita highlighted linjer ovanpå - filtrerade efter tidsintervall
-    const highlightedEndpoints = [];
-
+    // Rita highlighted linjer ovanpå (ej dolda)
     for (const [key, values] of groups) {
       if (!isHighlighted(key)) continue;
+      if (filterState && filterState.isHidden(key)) continue;
 
       const sortedValues = [...values]
         .filter(d => d[x] >= currentStartYear && d[x] <= currentEndYear)
@@ -916,8 +1199,7 @@ export function linjediagram(data, {
         .attr("r", 4)
         .attr("fill", lineColor);
 
-      // Spara endpoint för etiketter
-      highlightedEndpoints.push({
+      allEndpoints.push({
         key,
         xPos: xScale(lastPoint[x]),
         yPos: yScale(lastPoint[y]),
@@ -927,18 +1209,18 @@ export function linjediagram(data, {
     }
 
     // Direktetiketter - OWID-stil med eleganta connector-linjer
-    if (highlightedEndpoints.length > 0) {
+    if (allEndpoints.length > 0) {
       const labelFontSize = 12;
       const minSpacing = 18;
 
       // Sortera efter y-position (pixel)
-      highlightedEndpoints.sort((a, b) => a.yPos - b.yPos);
+      allEndpoints.sort((a, b) => a.yPos - b.yPos);
 
       // Beräkna optimala etikett-positioner med kollisionshantering
       const chartTop = marginTop + 8;
       const chartBottom = height - marginBottom - 8;
 
-      const labelPositions = highlightedEndpoints.map(ep => ({
+      const labelPositions = allEndpoints.map(ep => ({
         ...ep,
         labelY: ep.yPos,
         idealY: ep.yPos
@@ -1003,12 +1285,14 @@ export function linjediagram(data, {
             .attr("stroke-opacity", 0.35);
         }
 
-        labelsGroup.append("text")
+        const labelText = labelsGroup.append("text")
           .attr("x", labelX)
           .attr("y", lp.labelY)
           .attr("dy", "0.35em")
+          .attr("font-family", "'IBM Plex Sans', sans-serif");
+
+        labelText.append("tspan")
           .attr("font-size", `${labelFontSize}px`)
-          .attr("font-family", "'IBM Plex Sans', sans-serif")
           .attr("font-weight", 500)
           .attr("fill", lp.color)
           .text(lp.key);
@@ -1057,9 +1341,12 @@ export function linjediagram(data, {
     linesGroup.selectAll("*").remove();
     labelsGroup.selectAll("*").remove();
 
-    // Rita bakgrundslinjer (ej highlighted) först - filtrerade
+    const allEndpoints = [];
+
+    // Rita bakgrundslinjer (ej highlighted, ej dolda) först
     for (const [key, values] of groups) {
       if (isHighlighted(key)) continue;
+      if (filterState && filterState.isHidden(key)) continue;
 
       const sortedValues = [...values]
         .filter(d => d[x] >= currentStartYear && d[x] <= currentEndYear)
@@ -1078,11 +1365,10 @@ export function linjediagram(data, {
         .attr("d", line);
     }
 
-    // Rita highlighted linjer ovanpå - filtrerade
-    const highlightedEndpoints = [];
-
+    // Rita highlighted linjer ovanpå (ej dolda)
     for (const [key, values] of groups) {
       if (!isHighlighted(key)) continue;
+      if (filterState && filterState.isHidden(key)) continue;
 
       const sortedValues = [...values]
         .filter(d => d[x] >= currentStartYear && d[x] <= currentEndYear)
@@ -1092,7 +1378,6 @@ export function linjediagram(data, {
 
       const lineColor = colorScale(key);
 
-      // Linje
       linesGroup.append("path")
         .datum(sortedValues)
         .attr("class", "line-highlight")
@@ -1102,7 +1387,6 @@ export function linjediagram(data, {
         .attr("stroke-width", 2)
         .attr("d", line);
 
-      // Endast sista punkten som cirkel
       const lastPoint = sortedValues[sortedValues.length - 1];
       linesGroup.append("circle")
         .attr("class", "endpoint")
@@ -1112,8 +1396,7 @@ export function linjediagram(data, {
         .attr("r", 4)
         .attr("fill", lineColor);
 
-      // Spara endpoint för etiketter
-      highlightedEndpoints.push({
+      allEndpoints.push({
         key,
         xPos: xScale(lastPoint[x]),
         yPos: yScale(lastPoint[y]),
@@ -1123,21 +1406,20 @@ export function linjediagram(data, {
     }
 
     // Direktetiketter med kollisionshantering
-    if (highlightedEndpoints.length > 0) {
+    if (allEndpoints.length > 0) {
       const labelFontSize = 12;
       const minSpacing = 18;
       const chartTop = marginTop + 8;
       const chartBottom = height - marginBottom - 8;
 
-      highlightedEndpoints.sort((a, b) => a.yPos - b.yPos);
+      allEndpoints.sort((a, b) => a.yPos - b.yPos);
 
-      const labelPositions = highlightedEndpoints.map(ep => ({
+      const labelPositions = allEndpoints.map(ep => ({
         ...ep,
         labelY: ep.yPos,
         idealY: ep.yPos
       }));
 
-      // Relaxation
       for (let iteration = 0; iteration < 20; iteration++) {
         let moved = false;
         for (let i = 0; i < labelPositions.length; i++) {
@@ -1189,12 +1471,14 @@ export function linjediagram(data, {
             .attr("stroke-opacity", 0.35);
         }
 
-        labelsGroup.append("text")
+        const labelText = labelsGroup.append("text")
           .attr("x", labelX)
           .attr("y", lp.labelY)
           .attr("dy", "0.35em")
+          .attr("font-family", "'IBM Plex Sans', sans-serif");
+
+        labelText.append("tspan")
           .attr("font-size", `${labelFontSize}px`)
-          .attr("font-family", "'IBM Plex Sans', sans-serif")
           .attr("font-weight", 500)
           .attr("fill", lp.color)
           .text(lp.key);
@@ -1280,9 +1564,10 @@ export function linjediagram(data, {
       const xPos = xScale(closestX);
       crosshair.attr("x1", xPos).attr("x2", xPos);
 
-      // Samla ALLA serier för att hitta närmaste (inkl grå)
+      // Samla ALLA serier för att hitta närmaste (inkl grå, exkl dolda)
       const allValues = [];
       for (const [key, groupData] of groups) {
+        if (filterState && filterState.isHidden(key)) continue;
         const point = groupData.find(d => d[x] === closestX);
         if (point) {
           allValues.push({
@@ -1408,7 +1693,7 @@ export function linjediagram(data, {
       // Highlight-cirklar och etikett vid slutet för fokuserad linje
       highlights.selectAll("*").remove();
 
-      // Hjälpfunktion för att visa etikett vid linjens slut (inom nuvarande tidsintervall)
+      // Hjälpfunktion: visa etikett vid linjens slut
       function showEndLabel(key, color) {
         const groupData = groups.get(key);
         if (!groupData) return;
@@ -1420,24 +1705,15 @@ export function linjediagram(data, {
         const endX = xScale(lastPoint[x]);
         const endY = yScale(lastPoint[y]);
 
-        // Slutpunkt
         highlights.append("circle")
-          .attr("cx", endX)
-          .attr("cy", endY)
-          .attr("r", 5)
-          .attr("fill", color)
-          .style("pointer-events", "none");
+          .attr("cx", endX).attr("cy", endY).attr("r", 5)
+          .attr("fill", color).style("pointer-events", "none");
 
-        // Etikett
         highlights.append("text")
-          .attr("x", endX + 8)
-          .attr("y", endY)
-          .attr("dy", "0.35em")
+          .attr("x", endX + 8).attr("y", endY).attr("dy", "0.35em")
           .attr("font-family", "'IBM Plex Sans', sans-serif")
-          .attr("font-size", "11px")
-          .attr("font-weight", "600")
-          .attr("fill", color)
-          .text(key)
+          .attr("font-size", "11px").attr("font-weight", "600")
+          .attr("fill", color).text(key)
           .style("pointer-events", "none");
       }
 
@@ -1445,24 +1721,15 @@ export function linjediagram(data, {
       if (focusedIsGray && focusedKey) {
         const grayItem = allValues.find(v => v.key === focusedKey);
         if (grayItem) {
-          // Ring vid crosshair
           highlights.append("circle")
-            .attr("cx", xPos)
-            .attr("cy", grayItem.yPos)
-            .attr("r", 8)
-            .attr("fill", "none")
-            .attr("stroke", "#555")
-            .attr("stroke-width", 2)
-            .attr("stroke-opacity", 0.5)
+            .attr("cx", xPos).attr("cy", grayItem.yPos).attr("r", 8)
+            .attr("fill", "none").attr("stroke", "#555")
+            .attr("stroke-width", 2).attr("stroke-opacity", 0.5)
             .style("pointer-events", "none");
           highlights.append("circle")
-            .attr("cx", xPos)
-            .attr("cy", grayItem.yPos)
-            .attr("r", 4)
-            .attr("fill", "#555")
-            .style("pointer-events", "none");
+            .attr("cx", xPos).attr("cy", grayItem.yPos).attr("r", 4)
+            .attr("fill", "#555").style("pointer-events", "none");
 
-          // Etikett vid slutet
           showEndLabel(focusedKey, "#555");
         }
       }
