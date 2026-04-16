@@ -49,6 +49,13 @@ tathetHalland = FileAttachment("data/processed/02-tathet-halland.topojson").json
 tatorter = FileAttachment("data/processed/tatorter.topojson").json()
 befolkning = FileAttachment("data/processed/befolkning.json").json()
 kommuner = FileAttachment("data/processed/kommuner.json").json()
+befutvRegioner = FileAttachment("data/processed/03-befutv-regioner.json").json()
+befutvKommuner = FileAttachment("data/processed/03-befutv-kommuner.json").json()
+befutvAllaKommuner = FileAttachment("data/processed/03-befutv-alla-kommuner.json").json()
+kustInland = FileAttachment("data/processed/03-kust-inland.json").json()
+tatorterHalland = FileAttachment("data/processed/03-tatorter.json").json()
+nordregioHalland = FileAttachment("data/processed/03-nordregio-halland.json").json()
+tatorterKarta = FileAttachment("data/processed/03-tatorter-karta.topojson").json()
 byggande = FileAttachment("data/processed/byggande.json").json()
 bestand_raw = FileAttachment("data/processed/bestand.json").json()
 
@@ -169,67 +176,6 @@ rankingTimeSeries = {
 }
 
 // =============================================================================
-// BEFOLKNINGSUTVECKLING - Indexerad data 2000-2024 (index 100 = år 2000)
-// Syntetisk data baserad på verkliga trender för Sveriges 21 regioner + Riket
-// =============================================================================
-
-befolkningIndex = {
-  // Tillväxttrender per region (slutvärde år 2024, index 100 = år 2000)
-  const regionTrends = {
-    "Stockholm": 128,      // Stark tillväxt
-    "Uppsala": 124,        // Stark tillväxt
-    "Skåne": 122,          // Stark tillväxt
-    "Halland": 121,        // Stark tillväxt
-    "Västra Götaland": 115,// God tillväxt
-    "Östergötland": 111,   // Måttlig tillväxt
-    "Jönköping": 109,      // Måttlig tillväxt
-    "Kronoberg": 108,      // Måttlig tillväxt
-    "Södermanland": 108,   // Måttlig tillväxt
-    "Örebro": 107,         // Måttlig tillväxt
-    "Västmanland": 106,    // Svag tillväxt
-    "Gotland": 104,        // Nästan oförändrad
-    "Västerbotten": 103,   // Nästan oförändrad
-    "Kalmar": 99,          // Svag nedgång
-    "Blekinge": 98,        // Nedgång
-    "Jämtland": 97,        // Nedgång
-    "Värmland": 96,        // Nedgång
-    "Dalarna": 95,         // Nedgång
-    "Gävleborg": 94,       // Nedgång
-    "Norrbotten": 93,      // Nedgång
-    "Västernorrland": 91,  // Stark nedgång
-    "Riket": 118           // Nationellt genomsnitt
-  };
-
-  // Generera årlig data 2000-2024 med realistisk kurva
-  const years = d3.range(2000, 2025);
-  const data = [];
-
-  for (const [region, endValue] of Object.entries(regionTrends)) {
-    const growthRate = (endValue - 100) / 24;  // Linjär bas
-
-    years.forEach((year, i) => {
-      // Lägg till lite variation och S-kurva
-      const progress = i / 24;
-      const sCurve = progress < 0.5
-        ? 2 * progress * progress
-        : 1 - Math.pow(-2 * progress + 2, 2) / 2;
-
-      // Kombination av linjär och S-kurva med lite brus
-      const noise = (Math.sin(year * 0.7 + region.length) * 0.5);
-      const value = 100 + (endValue - 100) * (0.7 * progress + 0.3 * sCurve) + noise;
-
-      data.push({
-        år: year,
-        index: Math.round(value * 10) / 10,
-        region: region
-      });
-    });
-  }
-
-  return data;
-}
-
-// =============================================================================
 // KOMMUNDATA - Riktig SCB-data (290 kommuner + Sverige-snitt)
 // =============================================================================
 beeswarmKommuner = FileAttachment("data/processed/03-beeswarm-kommuner.json").json()
@@ -238,5 +184,11 @@ beeswarmKommuner = FileAttachment("data/processed/03-beeswarm-kommuner.json").js
 {{< include sektioner/01-bakgrund.qmd >}}
 
 {{< include sektioner/02-oversikt.qmd >}}
+
+{{< include sektioner/03-befolkning.qmd >}}
+
+{{< include sektioner/05-infrastruktur.qmd >}}
+
+{{< include sektioner/04-funktionell-geografi.qmd >}}
 
 <!-- {{< include sektioner/99-grafer.qmd >}} -->

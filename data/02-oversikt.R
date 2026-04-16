@@ -50,9 +50,10 @@ if (length(gbg_idx) > 0) {
   message("   Splittrar Göteborg...")
   gbg_feat <- tatorter[gbg_idx, ]
 
-  # Hallands gräns (dissolve av hallandskommuner, matchad CRS)
-  halland_komm <- st_transform(kommuner[kommuner$LnKod == "13", ], st_crs(tatorter))
-  halland_union <- st_union(halland_komm)
+  # Hallands länsgräns (Översiktskartan, mer exakt än kommun-dissolve)
+  lan_shp <- st_read(file.path(shape_dir, "Oversiktskartan_Lan_Sverige.shp"), quiet = TRUE)
+  halland_poly <- st_transform(lan_shp[lan_shp$lanskod == "13", ], st_crs(tatorter))
+  halland_union <- st_union(halland_poly)
 
   # Klipp ut Hallands-delen
   kungsbacka_part <- st_intersection(gbg_feat, halland_union)

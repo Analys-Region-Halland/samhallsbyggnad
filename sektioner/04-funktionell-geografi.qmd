@@ -1,0 +1,127 @@
+## Den funktionella geografin
+
+Hallands sex kommuner utgör den administrativa indelningen, men arbetsmarknaden följer en annan geografi. Varje dag korsar tusentals pendlare kommungränser på väg till jobb, skola och service. De mönster som uppstår beskriver en funktionell geografi som sällan sammanfaller med de politiska gränserna: vilka orter som graviterar mot vilka kärnor, vilka stråk som bär de tunga flödena och vilka kopplingar som binder samman regionen med omvärlden.
+
+Att kartlägga denna geografi är centralt för den fysiska planeringen. Bostäder, transportinfrastruktur och serviceförsörjning dimensioneras i förhållande till faktiska rörelsemönster, inte till administrativa gränser. Hur väl ett område fungerar som arbetsmarknadsregion beror inte på vilken kommun det tillhör utan på hur människor faktiskt rör sig.
+
+### Varför inte befintliga regionindelningar?
+
+Den etablerade metoden för att beskriva funktionella arbetsmarknadsregioner i Sverige är SCB:s lokala arbetsmarknader (LA-regioner). Indelningen bygger på pendlingsflöden mellan kommuner och har fördelen att den är rikstäckande, standardiserad och uppdateras regelbundet. Den har dock egenskaper som begränsar dess användbarhet i regional fysisk planering.
+
+Den mest grundläggande begränsningen är att LA-regionerna använder kommunen som minsta analysenhet. En kommun klassas som tillhörande en viss arbetsmarknadsregion baserat på sina sammanlagda pendlingsflöden, vilket innebär att all intern variation försvinner. Kungsbacka kommun tilldelas exempelvis en enda regiontillhörighet, trots att pendlingsmönstren för invånarna i Kungsbacka tätort, Onsala och Åsa kan skilja sig markant.
+
+Tilldelningen är dessutom exklusiv: varje kommun tillhör en och bara en arbetsmarknadsregion. I verkligheten har många orter betydande pendlingsrelationer till flera kärnor. En kommun i gränslandet mellan två starka arbetsmarknader tvingas in i en av dem, och de andra kopplingarna osynliggörs. För en region som Halland, belägen mellan Göteborg och de skånska arbetsmarknaderna, innebär detta att viktiga relationer faller bort ur bilden.
+
+Slutligen är den relativa tilldelningslogiken dåligt lämpad för att fånga volymrelationer. Att den kommun som har störst andel utpendling till en viss kärna "tillhör" den säger ingenting om absoluta flöden. Tio procent av en liten kommuns arbetskraft kan räcka för att tilldela kommunen till en viss arbetsmarknadsregion, men de tusentals pendlare som i absoluta tal rör sig mellan större orter längs samma stråk förblir osynliga.
+
+### Tätorten som byggsten
+
+I den analys som presenteras här används i stället tätorten som minsta enhet. SCB:s tätortsdefinition ger en betydligt högre geografisk upplösning än kommunen: Hallands 6 kommuner rymmer mer än 70 tätorter. Det innebär att pendlingsmönstren kan beskrivas ort för ort, vilket fångar den variation som döljs i kommunaggregaten.
+
+Upplösningen gör det också möjligt att tillåta överlappande tillhörigheter. En tätort kan tillhöra flera arbetsmarknadsregioner samtidigt om dess invånare pendlar till mer än en kärna i tillräcklig omfattning. Det är inte en teknisk egendomlighet utan en återspegling av verkligheten: många orter har genuint delade arbetsmarknadsrelationer, och en indelning som tvingar fram ett entydigt val förlorar information som är relevant för planeringen.
+
+### Länkning och kärnor
+
+Indelningen vilar på en enda mekanism: pendlingslänken. Om minst tio procent av en tätorts förvärvsarbetande invånare pendlar till en annan ort uppstår en länk. Tröskeln är andelsbaserad: det avgörande är inte hur många personer som pendlar utan hur stor del av ortens arbetskraft som riktas mot en given destination.
+
+En ort med femtio förvärvsarbetande invånare där fem pendlar till Halmstad är länkad till Halmstad. Att tio procent av arbetskraften riktas mot Halmstad är funktionellt betydelsefullt för orten, oavsett att fem pendlare i absoluta tal är en blygsam siffra. Samma ort kan samtidigt vara länkad till flera destinationer, och gör det i praktiken ofta. Indelningen tvingar inte fram något entydigt val utan tillåter överlappande tillhörigheter.
+
+Ur dessa länkar växer kärnorna fram av sig själva. En tätort som andra orter är länkade till, dit folk faktiskt pendlar, blir per definition ett centrum för en egen tätortsregion. Det finns inget storlekskrav, ingen tröskel för antal jobb eller invånare. Kärnstatusen är en konsekvens av att orten fyller en funktion för omgivande orters arbetskraftsförsörjning.
+
+Hierarkin uppstår genom samma logik. Om ett centrum i sin tur har en länk till en annan, större ort, det vill säga om tillräcklig andel av dess egen arbetskraft pendlar dit, ingår centrumet också i den ortens region. Kedjan kan fortsätta uppåt: en liten kärna med eget omland som samtidigt är länkad till en mellanstor kärna som i sin tur är länkad till en storstadskärna. Varje ort kan vara centrum på en nivå och underordnad på en annan. Resultatet är inte en förutbestämd hierarki utan en struktur som växer underifrån, formad av de pendlingsmönster som faktiskt finns i data.
+
+I Halland ger metoden tio tätortsregioner. Halmstad utgör den största, med ett omland som sträcker sig från kusten inåt land. Varberg, Falkenberg och Kungsbacka fungerar som egna regionala centra. Mindre orter som Laholm, Ullared och Hyltebruk bildar tätortsregioner med mer begränsade omland. Vissa zoner sträcker sig över länsgränsen. Orter i norra Halland vars arbetskraft i hög grad riktas mot Göteborg ingår i en zon med kärna utanför länet. Indelningen avspeglar inte administrativa beslut utan framväxta funktionella mönster.
+
+### Från tillhörighet till volym: utomregionala kopplingar
+
+Den andelsbaserade indelningen ger en högupplöst bild av funktionella tillhörigheter, men den har en inneboende svaghet: den fångar inte volym. En relation där tre procent av en stor orts arbetskraft pendlar till en annan stor ort kan i absoluta tal representera hundratals pendlare och ett trafikflöde som påverkar infrastrukturdimensioneringen. Ändå faller relationen under den andelsbaserade tröskeln och syns inte i regionindelningen.
+
+Denna lucka är särskilt påtaglig för kopplingar mellan starka kärnor. Relationen mellan Halmstad och Göteborg, eller mellan Varberg och Kungsbacka, drivs av stora absoluta flöden som är avgörande för stråkplaneringen men som utgör en förhållandevis liten andel av respektive orts totala arbetskraft.
+
+Analysen kompletterar därför den andelsbaserade tätortsregionindelningen med en volymbaserad kartläggning av utomregionala kopplingar. Logiken är en annan: i stället för att fråga hur beroende en enskild ort är av en viss kärna frågar vi hur mycket pendling en hel tätortsregion genererar till en extern destination.
+
+Alla pendlingsflöden från samtliga orter inom en tätortsregion till en given extern ort summeras. Om det sammanlagda flödet, summerat i båda riktningarna, uppgår till minst 100 pendlare klassas relationen som en reell utomregional koppling. Tröskeln är medvetet volymbaserad, inte andelsbaserad, eftersom syftet är ett annat: att identifiera de relationer som faktiskt belastar infrastrukturen och binder samman den regionala arbetsmarknaden med det storregionala systemet.
+
+Aggregeringen är central. Enskilda tätorters pendlingsflöden till en avlägsen destination når sällan tröskeln var för sig, men summerade ger de en bild av hur hela arbetsmarknadsregionen relaterar till omvärlden. Det är inte den enskilda pendlarens val som är intressant utan det samlade mönstret.
+
+### Pendlingen på vägnätet
+
+En siffra som säger att 400 personer pendlar mellan Varberg och Göteborg beskriver en relation men inte ett stråk. Samma 400 pendlare belastar vägavsnitt, passerar genom mellankommuner och bidrar till ackumulerade flöden som överlagras med andra orters pendling. För att synliggöra denna rumsliga dimension routas varje pendlingsrelation på det faktiska vägnätet.
+
+Ruttningen utgår från OpenStreetMap:s bilvägnät och använder en hierarkisk profil som starkt gynnar överordnade vägar, där motorvägar och riksvägar prioriteras framför sekundära och tertiära vägar. Varje pendlingspar (ursprungsort till destinationsort) routas längs snabbaste bilvägen, och antalet pendlare ackumuleras segment för segment. Resultatet är en bild av hur pendlingsflödena fysiskt fördelar sig i landskapet: vilka vägsträckor som bär de tyngsta flödena, var stråk sammanfaller och var de divergerar.
+
+Metoden gör det möjligt att se sådant som en ren flödesmatris inte visar. E6 genom Halland bär inte bara den lokala pendlingen utan fungerar som en regional pulsåder där flöden från flera tätortsregioner överlagras. En vägsträcka som i sig inte förbinder två stora orter kan ändå visa höga ackumulerade flöden om den utgör en gemensam passage för pendlare från flera håll. Det är denna ackumulerade bild som är relevant för infrastrukturplaneringen.
+
+### Tio tätortsregioner
+
+Metoden identifierar tio tätortsregioner i Halland. Tillsammans omfattar de 91 tätorter och drygt 127 000 förvärvsarbetande invånare (sysselsatt nattbefolkning). Regionerna varierar kraftigt i storlek, från Halmstads zon med 36 länkade orter till Ringhals med två.
+
+Halmstad är den överlägset dominerande arbetsmarknadsregionen. Tätorten Halmstad har en dagbefolkning på nära 42 700 sysselsatta, vilket innebär ett nettoinflöde om drygt 6 600 personer varje arbetsdag. Zonen sträcker sig långt utanför kommunens gränser och innefattar större delen av Laholms tätorter samt enskilda orter i Falkenberg och Hylte. Laholm tätort är i sig ett eget centrum med tio länkade orter, men kärnan är samtidigt länkad till Halmstad (19,2 procent av nattbefolkningen pendlar dit) och ingår därmed också i Halmstads region. Det är ett tydligt exempel på hur hierarkin fungerar: Laholm betjänar sitt lokala omland men är själv funktionellt beroende av Halmstad.
+
+Varberg och Falkenberg bildar var sin region med starka interna kopplingar. Varberg tätort har en närmast perfekt balans mellan dag- och nattbefolkning (20 096 respektive 20 093 sysselsatta), vilket tyder på en arbetsmarknad som i hög grad försörjer sig själv. Varbergs zon omfattar 24 tätorter. Falkenberg har en viss nettoutpendling (dagbefolkning 13 172, nattbefolkning 14 821) och en zon med 14 orter. Ullared utgör en egen liten tätortsregion med fem länkade orter, men kärnan är samtidigt länkad till Falkenberg.
+
+Den kanske mest anmärkningsvärda strukturen återfinns i norra Halland. Kungsbacka tätort, med drygt 20 800 förvärvsarbetande invånare, har ett kraftigt nettoutflöde: dagbefolkningen (17 000) understiger nattbefolkningen med nästan 3 800 personer. Nästan 46 procent av hallandsdelens Göteborgstätort pendlar till Göteborgs tätort, och bland Kungsbackas övriga orter ligger Göteborgsandelen genomgående mellan 27 och 47 procent. Kungsbacka bildar ett eget centrum med 16 länkade orter, men kärnan är i sin tur starkt länkad till Göteborg. Göteborgs tätortsregion omfattar därmed i praktiken hela Kungsbacka kommun och delar av norra Varberg. Med sin dagbefolkning på över 408 000 utgör Göteborg en gravitationskraft som sträcker sig långt in i Halland.
+
+I inlandet bildar Hyltebruk en egen region med fem länkade orter, medan Smålandsstenar (i Gislaveds kommun, utanför Halland) attraherar orter i östra Hylte. Ringhals kärnkraftverk skapar en liten men distinkt tätortsregion genom sin koncentrerade dagbefolkning (1 717 sysselsatta på en ort med 250 invånare).
+
+Av de 91 tätorterna har 42 pendlingslänkar till mer än en kärna. Det innebär att nästan hälften av länets orter befinner sig i överlappande influensområden. Mönstret är särskilt tydligt i Kungsbacka kommun, där samtliga orter tillhör både Göteborgs och Kungsbackas zon, och i gränszonen mellan Laholm och Halmstad, där de flesta orter har dubbla tillhörigheter.
+
+### Pendlingsflöden och strukturella mönster
+
+Den totala pendlingen från halländska tätorter uppgår till nära 172 000 relationer. Av dessa stannar 136 000 inom länet. Resterande drygt 36 000 riktas utåt, varav den helt dominerande andelen (27 300) går till Västra Götaland och i praktiken till Göteborgs arbetsmarknad. Pendlingen till Skåne uppgår till 3 700 personer, och till Jönköpings län knappt 1 000.
+
+Flödena kan delas in i tre strukturellt olika kategorier som var och en driver trafik och infrastrukturbelastning på olika sätt.
+
+Den volymmässigt största kategorin är omlandspendlingen till kärnorna. Sammanlagt pendlar nära 38 600 personer från omlandsorter till någon av länets kärnor. Det är denna kategori som formar tätortsregionerna inifrån: de dagliga flödena från Oskarström, Getinge, Harplinge och Haverdal till Halmstad (med andelar som ofta överstiger 50 procent av arbetskraften), från Träslövsläge och Tvååker till Varberg, från Glommen och Skrea till Falkenberg. Halmstads totala inpendling uppgår ensam till 17 600 personer, varav en stor del kommer från orter utanför den egna kommunen.
+
+Den andra kategorin är den direkta pendlingen mellan kärnorna. Sammanlagt rör sig drygt 10 000 pendlare mellan Hallands tätortscentra. Det är flöden som i andelsbaserad mening inte räcker för att skapa länktillhörighet (de utgör några enstaka procent av respektive kärnas arbetskraft) men som i absoluta tal är betydande och volymdrivande i trafiksystemet. Längs kustaxeln pendlar 1 600 personer mellan Halmstad och Falkenberg, 1 400 mellan Falkenberg och Varberg, och 2 700 mellan Varberg och Kungsbacka. Dessa kärna-till-kärna-flöden överlagras med omlandspendlingen och skapar de tunga stråk som syns på E6.
+
+Den starkaste enskilda relationen mellan två kärnor inom Halland är Varberg-Kungsbacka, med 2 700 pendlare i båda riktningarna summerat. Halmstad och Varberg utbyter 788 pendlare, trots att det geografiska avståndet är betydligt mindre än till Göteborg. Flödet Halmstad-Falkenberg (1 637 pendlare) och Falkenberg-Varberg (1 437) understryker att kustaxeln fungerar som ett sammanhängande arbetsmarknadsstråk, inte som isolerade lokala marknader.
+
+Den tredje kategorin är de storregionala kopplingarna, framför allt till Göteborg. Enbart från Kungsbackas 16 tätorter pendlar drygt 13 000 personer till Göteborgsregionen. Lägger man till Varbergs Göteborgspendling (2 244), Halmstads (1 010) och Falkenbergs (699) uppgår den samlade flödesvolymen från halländska kärnor till Göteborg till över 17 000 pendlare. Det gör Göteborgsrelationen till den volymmässigt helt dominerande i länet.
+
+Pendlingen söderut till Skåne är volymmässigt betydligt mindre men funktionellt viktig, inte minst i stråkplaneringsperspektiv. Från Halland pendlar 3 700 personer till skånska tätorter, med Helsingborg (661), Malmö (648) och Båstad (541) som de tre största destinationerna. Omvänt pendlar 2 900 skåningar till Halland. Flödena är särskilt koncentrerade i södra Halland: Halmstad skickar 275 pendlare till Malmö och 250 till Helsingborg, medan Laholm har en påtaglig koppling till Båstad (73 pendlare). Dessa volymer är för små för att forma tätortsregioner men stora nog för att motivera infrastrukturinvesteringar och utgör den fysiska grunden för diskussioner om regionförstoring söderut.
+
+### Den interaktiva kartan
+
+Kartan nedan sammanfattar denna funktionella geografi visuellt. I standardvyn visas alla ackumulerade pendlingsflöden projicerade på vägnätet, där tjockleken på varje segment motsvarar det totala antalet pendlare som traverserar det. Tätortsregionernas zoner framträder som färgade områden.
+
+Kartan har tre interaktionsnivåer. Genom att klicka på en zon eller välja en region i panelen (synlig i helskärmsläge) isoleras zonens egna flöden med en anpassad skala, och panelen redovisar befolkning, egenförsörjningsgrad, inomregionala kopplingar och utomregionala relationer. Genom att klicka på en enskild ort visas den ortens specifika pendlingsrutter till varje partner, med bredd proportionell mot flödets storlek. Vid hovring över ett vägsegment visas de fem största bidragande pendlingsparen med riktning och volym. Helskärmsläget ger tillgång till den fullständiga panelen med narrativ text om varje region.
+
+```{=html}
+<div style="position: relative; width: 100%; margin: 1.5rem 0;">
+  <div style="position: relative; border: 1px solid #ccc; border-radius: 6px; overflow: hidden; background: #f8f9f7;">
+    <iframe
+      id="zonkarta-iframe"
+      src="zonkarta/karta-zoner.html?embed"
+      style="width: 100%; height: 620px; border: none; display: block;"
+      loading="lazy"
+      allow="fullscreen"
+      allowfullscreen
+      title="Hallands tätortsregioner och pendlingsflöden"
+    ></iframe>
+    <button
+      onclick="(function(){
+        var iframe = document.getElementById('zonkarta-iframe');
+        if (iframe.requestFullscreen) iframe.requestFullscreen();
+        else if (iframe.webkitRequestFullscreen) iframe.webkitRequestFullscreen();
+      })()"
+      style="
+        position: absolute; top: 10px; right: 10px; z-index: 10;
+        background: rgba(255,255,255,0.92); border: 1px solid #ccc;
+        border-radius: 4px; padding: 6px 14px; cursor: pointer;
+        font-family: 'IBM Plex Sans', system-ui, sans-serif;
+        font-size: 13px; color: #1a1a1a; letter-spacing: 0.02em;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+        transition: background 0.15s;
+      "
+      onmouseover="this.style.background='rgba(255,255,255,1)'"
+      onmouseout="this.style.background='rgba(255,255,255,0.92)'"
+      title="Visa kartan i helskärm"
+    >&#x26F6; Helskärm</button>
+  </div>
+  <p style="font-size: 12px; color: #555; margin-top: 6px; text-align: right;">
+    Källa: SCB RAMS 2024, pendling tätort-till-tätort. Vägnät: OpenStreetMap.
+  </p>
+</div>
+```

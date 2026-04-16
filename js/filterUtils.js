@@ -65,14 +65,34 @@ export function createFilterState(data, { itemField, groupField = null, filter =
     currentHighlight = [...filterSet];
   }
 
+  // Dolda items (helt borttagna från grafen)
+  const hiddenSet = new Set();
+
   return {
     groupMap,
     filterSet,
 
     isHighlighted(item) {
+      if (hiddenSet.has(item)) return false;
       if (filterSet && !filterSet.includes(item)) return false;
       if (!currentHighlight || currentHighlight.length === 0) return true;
       return currentHighlight.includes(item);
+    },
+
+    isHidden(item) {
+      return hiddenSet.has(item);
+    },
+
+    hide(item) {
+      hiddenSet.add(item);
+    },
+
+    unhide(item) {
+      hiddenSet.delete(item);
+    },
+
+    getHidden() {
+      return [...hiddenSet];
     },
 
     toggle(item) {
@@ -204,11 +224,67 @@ export function injectSelectorCSS() {
       font-weight: 600;
       color: #1a1a1a;
     }
+    .graf-selector-option.hidden .opt-dot {
+      background: transparent !important;
+      border-color: #ccc !important;
+      border-style: dashed;
+    }
+    .graf-selector-option.hidden .opt-name {
+      text-decoration: line-through;
+      color: #aaa !important;
+      font-weight: 400 !important;
+    }
+    .graf-selector-option.hidden .opt-restore {
+      font-size: 9px;
+      color: #aaa;
+      margin-left: 2px;
+    }
+    .graf-selector-option .opt-remove {
+      margin-left: 2px;
+      font-size: 10px;
+      color: #bbb;
+      cursor: pointer;
+      flex-shrink: 0;
+      line-height: 1;
+      opacity: 0;
+      transition: opacity 0.15s;
+    }
+    .graf-selector-option:hover .opt-remove {
+      opacity: 1;
+    }
+    .graf-selector-option .opt-remove:hover {
+      color: #666;
+    }
     .graf-selector-columns {
       column-gap: 20px;
     }
     .graf-selector-columns .graf-selector-option {
       break-inside: avoid;
+    }
+    .graf-selector-hidden-row {
+      margin-top: 3px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 10px;
+      color: #999;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2px 8px;
+    }
+    .graf-selector-hidden-row .hidden-label {
+      color: #bbb;
+      font-size: 9px;
+      letter-spacing: 0.02em;
+    }
+    .graf-selector-hidden-row .hidden-item {
+      cursor: pointer;
+      color: #999;
+      text-decoration: line-through;
+      transition: color 0.1s;
+    }
+    .graf-selector-hidden-row .hidden-item:hover {
+      color: #333;
+      text-decoration: none;
     }
   `;
   document.head.appendChild(styles);
@@ -253,6 +329,11 @@ export function createSelectorPanel(header, {
 
   const grid = selectorPanel.append("div")
     .attr("class", "graf-selector-grid");
+
+  // Separat rad för dolda items (utanför panelen, alltid synlig)
+  const hiddenRow = selector.append("div")
+    .attr("class", "graf-selector-hidden-row")
+    .style("display", "none");
 
   // Hover for expand/collapse
   let hoverTimeout = null;
@@ -306,32 +387,35 @@ export function createSelectorPanel(header, {
           .style("row-gap", "1px");
 
         groupMembers.forEach(item => {
-          const selected = filterState.isHighlighted(item);
+          const hidden = filterState.isHidden(item);
+          const selected = !hidden && filterState.isHighlighted(item);
           const catColor = colorScale(groupName);
 
           const opt = subGrid.append("span")
-            .attr("class", `graf-selector-option ${selected ? "selected" : ""}`)
+            .attr("class", `graf-selector-option ${selected ? "selected" : ""} ${hidden ? "hidden" : ""}`)
             .style("color", catColor)
             .on("click", (event) => {
               event.stopPropagation();
-              const hl = filterState.getHighlight();
-              const selectable = filterState.filterSet || allItems;
-              const allOn = !hl || selectable.every(i => hl.includes(i));
-              if (allOn) {
-                // Alla markerade → välj bara denna
-                if (hl) hl.forEach(c => { if (c !== item) filterState.toggle(c); });
-                if (!filterState.isHighlighted(item) || !filterState.getHighlight()) filterState.toggle(item);
+              if (hidden) {
+                filterState.unhide(item);
               } else {
-                // Några markerade → toggla (lägg till/ta bort)
-                filterState.toggle(item);
+                const hl = filterState.getHighlight();
+                const selectable = filterState.filterSet || allItems;
+                const allOn = !hl || selectable.every(i => hl.includes(i));
+                if (allOn) {
+                  if (hl) hl.forEach(c => { if (c !== item) filterState.toggle(c); });
+                  if (!filterState.isHighlighted(item) || !filterState.getHighlight()) filterState.toggle(item);
+                } else {
+                  filterState.toggle(item);
+                }
               }
               onUpdate();
             });
 
-          if (onItemHover) {
+          if (onItemHover && !hidden) {
             opt.on("mouseenter", (event) => onItemHover(item, event));
           }
-          if (onItemLeave) {
+          if (onItemLeave && !hidden) {
             opt.on("mouseleave", (event) => onItemLeave(item, event));
           }
 
@@ -342,6 +426,21 @@ export function createSelectorPanel(header, {
           opt.append("span")
             .attr("class", "opt-name")
             .text(item);
+
+          if (hidden) {
+            opt.append("span")
+              .attr("class", "opt-restore")
+              .text("↩");
+          } else {
+            opt.append("span")
+              .attr("class", "opt-remove")
+              .text("×")
+              .on("click", (event) => {
+                event.stopPropagation();
+                filterState.hide(item);
+                onUpdate();
+              });
+          }
         });
       }
     } else {
@@ -354,22 +453,28 @@ export function createSelectorPanel(header, {
         : grid;
 
       allItems.forEach(item => {
-        const selected = filterState.isHighlighted(item);
+        const hidden = filterState.isHidden(item);
+        const selected = !hidden && filterState.isHighlighted(item);
         const catColor = colorScale(item);
 
         const opt = target.append("span")
-          .attr("class", `graf-selector-option ${selected ? "selected" : ""}`)
+          .attr("class", `graf-selector-option ${selected ? "selected" : ""} ${hidden ? "hidden" : ""}`)
           .style("color", catColor)
           .on("click", (event) => {
             event.stopPropagation();
-            filterState.toggle(item);
+            if (hidden) {
+              // Klick på dold → visa igen
+              filterState.unhide(item);
+            } else {
+              filterState.toggle(item);
+            }
             onUpdate();
           });
 
-        if (onItemHover) {
+        if (onItemHover && !hidden) {
           opt.on("mouseenter", (event) => onItemHover(item, event));
         }
-        if (onItemLeave) {
+        if (onItemLeave && !hidden) {
           opt.on("mouseleave", (event) => onItemLeave(item, event));
         }
 
@@ -380,7 +485,46 @@ export function createSelectorPanel(header, {
         opt.append("span")
           .attr("class", "opt-name")
           .text(item);
+
+        if (hidden) {
+          // Restore-indikator för dolda items
+          opt.append("span")
+            .attr("class", "opt-restore")
+            .text("↩");
+        } else {
+          // X-knapp för att dölja (synlig vid hover)
+          opt.append("span")
+            .attr("class", "opt-remove")
+            .text("×")
+            .on("click", (event) => {
+              event.stopPropagation();
+              filterState.hide(item);
+              onUpdate();
+            });
+        }
       });
+    }
+
+    // Bygg dolda-rad (utanför panelen, alltid synlig)
+    hiddenRow.selectAll("*").remove();
+    const allHidden = filterState.getHidden();
+    if (allHidden.length > 0) {
+      hiddenRow.style("display", null);
+      hiddenRow.append("span")
+        .attr("class", "hidden-label")
+        .text("Dolda:");
+      for (const item of allHidden) {
+        hiddenRow.append("span")
+          .attr("class", "hidden-item")
+          .text(item + " ↩")
+          .on("click", (event) => {
+            event.stopPropagation();
+            filterState.unhide(item);
+            onUpdate();
+          });
+      }
+    } else {
+      hiddenRow.style("display", "none");
     }
   }
 

@@ -10,6 +10,7 @@ export function beeswarmFacet(data, {
   value = "värde",
   label = "namn",
   facet = "region",
+  size = null,
   width = null,
   rowHeight = 38,
   title = null,
@@ -166,16 +167,31 @@ export function beeswarmFacet(data, {
   // ================================================================
   const valueExtent = d3.extent(data, d => d[value]);
 
+  // Välj skala: symlog för blandad pos/neg data med stor skevhet
+  const hasNeg = valueExtent[0] < 0;
+  const skewRatio = hasNeg ? valueExtent[1] / Math.abs(valueExtent[0]) : 0;
+  const useSymlog = !logScale && hasNeg && skewRatio > 20;
+
   const xScale = logScale
     ? d3.scaleLog()
         .domain([Math.max(1, valueExtent[0] * 0.75), valueExtent[1] * 1.15])
         .range([marginLeft, autoWidth - marginRight])
-    : d3.scaleLinear()
-        .domain([0, valueExtent[1] * 1.05])
-        .range([marginLeft, autoWidth - marginRight]);
+    : useSymlog
+      ? d3.scaleSymlog()
+          .domain([valueExtent[0] * 1.15, valueExtent[1] * 1.05])
+          .range([marginLeft, autoWidth - marginRight])
+          .constant(Math.abs(valueExtent[0]) * 2)
+      : d3.scaleLinear()
+          .domain([
+            hasNeg ? valueExtent[0] * 1.15 : 0,
+            valueExtent[1] * 1.05
+          ])
+          .range([marginLeft, autoWidth - marginRight]);
 
+  const sizeField = size || value;
+  const sizeExtent = d3.extent(data, d => d[sizeField]);
   const radiusScale = d3.scaleSqrt()
-    .domain(valueExtent)
+    .domain(sizeExtent)
     .range([minRadius, maxRadius]);
 
   // ================================================================
@@ -188,7 +204,7 @@ export function beeswarmFacet(data, {
       ...d,
       x: xScale(d[value]),
       y: fl.centerY,
-      r: radiusScale(d[value])
+      r: radiusScale(d[sizeField])
     }));
 
     const sim = d3.forceSimulation(nodes)
@@ -541,7 +557,7 @@ export function beeswarmFacet(data, {
           + `<span style="opacity:0.2;margin-right:6px">\u2502</span>`
           + `<span style="opacity:0.6;margin-right:6px">${closest[facet]}</span>`
           + `<span style="opacity:0.2;margin-right:6px">\u2502</span>`
-          + `<b>${formatValue(closest[value])}</b></span>`
+          + `<b>${formatValue(closest[value], closest)}</b></span>`
         );
       } else {
         highlightRing.style("opacity", 0);

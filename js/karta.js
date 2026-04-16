@@ -70,9 +70,11 @@ export function karta(geodata, {
 
   // Proportionella cirklar (bubblekarta)
   bubbles = null,                     // Feature-property för cirkelstorlek
+  bubbleSource = null,                // TopoJSON-objekt för bubbeldata (default: layer)
   bubbleColor = [220, 60, 40],        // RGB-array
   bubbleOpacity = 0.35,               // Opacitet i cirkelns centrum
   bubbleInteractive = false,          // Aktiverar histogram, sliders, aggregation
+  bubbleLabels = false,               // Visa etiketter på de största bubblorna
   // Standard
   altText = null,
   info = null,
@@ -103,6 +105,11 @@ export function karta(geodata, {
 
   // Mesh-källa: använd kommuner-lager för gränser när colorBy/bubbles är aktivt
   const meshSource = (colorBy || bubbles) && geodata.objects.kommuner ? "kommuner" : layer;
+
+  // Bubble data source: separate layer or main features
+  const bubbleFeatures = bubbles && bubbleSource && geodata.objects[bubbleSource]
+    ? topojson.feature(geodata, geodata.objects[bubbleSource]).features
+    : features;
 
   // Länsgränser: använd separat lager om det finns, annars derivera från kommuner
   const boundaryMesh = (() => {
@@ -1250,18 +1257,36 @@ export function karta(geodata, {
         bubbleLayer = mapGroup.append("g").attr("class", "bubble-layer");
         renderBubbles();
       } else {
-        // Static mode: inline rendering (original code)
-        const sampleBounds = path.bounds(features[0]);
-        const cellSize = Math.max(
-          sampleBounds[1][0] - sampleBounds[0][0],
-          sampleBounds[1][1] - sampleBounds[0][1]
-        );
-        const maxR = cellSize * 0.45;
-        const maxVal = d3.max(features, f => f.properties[bubbles] || 0);
+        // Static mode: inline rendering
+        const bFeats = bubbleFeatures;
+        let maxR, strokeW;
+
+        if (bubbleSource) {
+          // Non-grid features: size relative to map extent
+          const allBounds = path.bounds({type: "FeatureCollection", features: bFeats});
+          const mapSpan = Math.min(
+            allBounds[1][0] - allBounds[0][0],
+            allBounds[1][1] - allBounds[0][1]
+          );
+          maxR = mapSpan * 0.055;
+          strokeW = 1;
+        } else {
+          // Grid features: size relative to cell size
+          const sampleBounds = path.bounds(bFeats[0]);
+          const cellSize = Math.max(
+            sampleBounds[1][0] - sampleBounds[0][0],
+            sampleBounds[1][1] - sampleBounds[0][1]
+          );
+          maxR = cellSize * 0.45;
+          strokeW = cellSize * 0.015;
+        }
+
+        const maxVal = d3.max(bFeats, f => f.properties[bubbles] || 0);
         const radiusScale = d3.scaleSqrt().domain([0, maxVal]).range([0, maxR]);
         const opacityScale = d3.scaleLinear().domain([0, maxVal]).range([0.25, 0.85]);
+        const minR = bubbleSource ? 2 : maxR * 0.09;
 
-        const bubbleData = features
+        const bubbleData = bFeats
           .filter(f => (f.properties[bubbles] || 0) > 0)
           .map(f => {
             const c = path.centroid(f);
@@ -1276,28 +1301,56 @@ export function karta(geodata, {
           .join("circle")
           .attr("class", "bubble")
           .attr("cx", d => d.cx).attr("cy", d => d.cy)
-          .attr("r", d => Math.max(cellSize * 0.04, radiusScale(d.value)))
+          .attr("r", d => Math.max(minR, radiusScale(d.value)))
           .attr("fill", `rgb(${bc})`)
           .attr("fill-opacity", d => opacityScale(d.value))
           .attr("stroke", `rgb(${bc})`)
-          .attr("stroke-width", cellSize * 0.015)
+          .attr("stroke-width", strokeW)
           .attr("stroke-opacity", d => opacityScale(d.value) * 0.4)
           .style("cursor", "pointer")
           .on("mouseenter", function(event, d) {
             d3.select(this)
               .attr("fill-opacity", Math.min(opacityScale(d.value) + 0.25, 1))
               .attr("stroke-opacity", 0.9)
-              .attr("stroke-width", cellSize * 0.04);
-            const pop = d.value.toLocaleString("sv-SE");
-            valueDisplay.html(`<b>${pop}</b> inv/km\u00b2`);
+              .attr("stroke-width", strokeW * 2.5);
+            const name = d.feature ? (d.feature.properties[label] || "") : "";
+            const formatted = formatValue(d.value, d.feature);
+            valueDisplay.html(
+              name
+                ? `<b>${name}</b> <span style="opacity:0.35;margin:0 4px">\u2502</span> ${formatted}`
+                : `<b>${formatted}</b>`
+            );
           })
           .on("mouseleave", function(event, d) {
             d3.select(this)
               .attr("fill-opacity", opacityScale(d.value))
               .attr("stroke-opacity", opacityScale(d.value) * 0.4)
-              .attr("stroke-width", cellSize * 0.015);
+              .attr("stroke-width", strokeW);
             valueDisplay.html("<span style='opacity:0.35'>Peka p\u00e5 kartan</span>");
           });
+
+        // Labels for largest bubbles
+        if (bubbleLabels) {
+          const sortedDesc = [...bubbleData].sort((a, b) => b.value - a.value);
+          const labelData = sortedDesc.slice(0, Math.min(8, Math.ceil(bubbleData.length * 0.1)));
+          mapGroup.selectAll(".bubble-label")
+            .data(labelData)
+            .join("text")
+            .attr("class", "bubble-label")
+            .attr("x", d => d.cx)
+            .attr("y", d => d.cy - Math.max(minR, radiusScale(d.value)) - 3)
+            .attr("text-anchor", "middle")
+            .attr("font-family", "'IBM Plex Sans', system-ui, sans-serif")
+            .attr("font-size", "9px")
+            .attr("font-weight", 600)
+            .attr("fill", "#2c2826")
+            .attr("stroke", "rgba(255,255,255,0.88)")
+            .attr("stroke-width", 3)
+            .attr("stroke-linejoin", "round")
+            .attr("paint-order", "stroke")
+            .style("pointer-events", "none")
+            .text(d => d.feature.properties[label] || "");
+        }
       }
 
     } else {
@@ -1965,17 +2018,36 @@ export function karta(geodata, {
       bubbleLegendGroup = svg.append("g").attr("class", "bubble-legend");
       updateBubbleLegend();
     } else {
-      // Static legend (original code)
-      const sampleBounds = path.bounds(features[0]);
-      const cellSizeLg = Math.max(
-        sampleBounds[1][0] - sampleBounds[0][0],
-        sampleBounds[1][1] - sampleBounds[0][1]
-      );
-      const maxRLg = cellSizeLg * 0.45;
-      const maxValLg = d3.max(features, f => f.properties[bubbles] || 0);
+      // Static legend
+      const bFeats = bubbleFeatures;
+      let maxRLg;
+      if (bubbleSource) {
+        const allBounds = path.bounds({type: "FeatureCollection", features: bFeats});
+        const mapSpan = Math.min(
+          allBounds[1][0] - allBounds[0][0],
+          allBounds[1][1] - allBounds[0][1]
+        );
+        maxRLg = mapSpan * 0.055;
+      } else {
+        const sampleBounds = path.bounds(bFeats[0]);
+        const cellSizeLg = Math.max(
+          sampleBounds[1][0] - sampleBounds[0][0],
+          sampleBounds[1][1] - sampleBounds[0][1]
+        );
+        maxRLg = cellSizeLg * 0.45;
+      }
+      const maxValLg = d3.max(bFeats, f => f.properties[bubbles] || 0);
       const rScaleLg = d3.scaleSqrt().domain([0, maxValLg]).range([0, maxRLg]);
 
-      const refs = [100, 1000, 5000].filter(v => v <= maxValLg);
+      // Pick reference values from data range
+      const magnitude = Math.pow(10, Math.floor(Math.log10(maxValLg)));
+      const defaultRefs = [1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000]
+        .map(v => v * (magnitude >= 1000 ? 1 : 1))
+        .filter(v => v > 0 && v <= maxValLg);
+      const refs = defaultRefs.length > 3
+        ? [defaultRefs[0], defaultRefs[Math.floor(defaultRefs.length / 2)], defaultRefs[defaultRefs.length - 1]]
+        : defaultRefs.length > 0 ? defaultRefs : [Math.round(maxValLg)];
+
       const maxRefR = rScaleLg(refs[refs.length - 1]);
       const lgW = maxRefR * 2 + 70;
       const lgH = maxRefR * 2 + 36;
@@ -1994,12 +2066,13 @@ export function karta(geodata, {
         .attr("stroke", "#e0ddd8")
         .attr("stroke-width", 0.5);
 
+      const legendTitle = unit ? unit.toUpperCase() : "ANTAL";
       lgGroup.append("text")
         .attr("x", 0).attr("y", 6)
         .attr("font-family", "'IBM Plex Sans', sans-serif")
         .attr("font-size", "8.5px").attr("font-weight", 600)
         .attr("fill", "#999").attr("letter-spacing", "0.08em")
-        .text("INV/KM\u00b2");
+        .text(legendTitle);
 
       const circleX = maxRefR + 2;
       const circleBaseY = lgH - 4;

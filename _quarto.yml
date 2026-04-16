@@ -1,5 +1,11 @@
 project:
   type: website
+  resources:
+    - zonkarta/**
+  render:
+    - "*.qmd"
+    - "sektioner/*.qmd"
+    - "!zonkarta/"
 
 website:
   title: "Samhällsbyggnad i Halland"

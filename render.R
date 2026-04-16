@@ -8,4 +8,4 @@ try(quarto::quarto_preview_stop(), silent = TRUE)
 Sys.sleep(1)
 
 # Preview (väljer automatiskt ledig port)
-quarto::quarto_preview("rapport.qmd", browse = TRUE)
+quarto::quarto_preview("index.qmd", browse = TRUE)

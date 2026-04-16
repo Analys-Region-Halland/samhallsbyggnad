@@ -217,7 +217,7 @@ Detta kapitel syftar till att rama in Halland som region utifrån ett geografisk
       <span class="insight-carousel__number">01</span>
       <div class="insight-carousel__body">
         <h3 class="insight-carousel__title">Korridoren</h3>
-        <p class="insight-carousel__text">E6 och Västkustbanan binder samman Halland med Göteborg i norr och Öresundsregionen i söder. Det ger länet en tillgänglighet som vida överstiger vad den egna befolkningen på 345 000 invånare annars skulle motivera.</p>
+        <p class="insight-carousel__text">E6 och Västkustbanan binder samman Halland med Göteborg i norr och Öresundsregionen i söder. Det ger länet en tillgänglighet som vida överstiger vad den egna befolkningen på 346 000 invånare annars skulle motivera.</p>
       </div>
     </div>
 
@@ -326,7 +326,7 @@ Detta kapitel syftar till att rama in Halland som region utifrån ett geografisk
 
 ## Halland: en flerkärnig och tät region
 
-Halland är en av Sveriges 21 regioner och sträcker sig längs västkusten mellan Göteborg i norr och nordvästra Skåne i söder. Med drygt 345 000 invånare (2024) utgör länet knappt 3,3 procent av landets befolkning, fördelad på en landareal om cirka 5 450 kvadratkilometer, motsvarande 1,3 procent av Sveriges yta. Proportionerna säger något om regionens karaktär: Halland rymmer en förhållandevis stor andel av befolkningen på en liten del av landytan, i ett land som ur ett europeiskt perspektiv tillhör de allra största men också de mest glesbefolkade, med i genomsnitt knappt 26 invånare per kvadratkilometer.
+Halland är en av Sveriges 21 regioner och sträcker sig längs västkusten mellan Göteborg i norr och nordvästra Skåne i söder. Med drygt 346 000 invånare (2025) utgör länet knappt 3,3 procent av landets befolkning, fördelad på en landareal om cirka 5 450 kvadratkilometer, motsvarande 1,3 procent av Sveriges yta. Proportionerna säger något om regionens karaktär: Halland rymmer en förhållandevis stor andel av befolkningen på en liten del av landytan, i ett land som ur ett europeiskt perspektiv tillhör de allra största men också de mest glesbefolkade, med i genomsnitt knappt 26 invånare per kvadratkilometer.
 
 ```{=html}
 <p class="figur-label">Karta 1: Kommuner, tätorter och infrastruktur i Sydsverige</p>
@@ -369,7 +369,7 @@ Ortsstrukturer och befolkningskoncentrationer studeras mer i detalj i nästa avs
 
 ### Befolkningsfördelning och koncentration
 
-Hallands drygt 345 000 invånare gör regionen till den sjunde folkrikaste av landets 21 län. Befolkningen är fördelad på sex kommuner, vilket är det lägsta antalet efter Gotlands enda. Halmstad är störst med drygt 106 000 invånare, följt av Kungsbacka (86 000), Varberg (69 000), Falkenberg (47 000), Laholm (27 000) och Hylte (10 000). Riksmedianen för Sveriges 290 kommuner ligger vid knappt 19 500 invånare. Fyra av Hallands sex kommuner överstiger det värdet; Halmstad placerar sig som landets 25:e folkrikaste kommun och Kungsbacka som den 50:e. Halland är med andra ord en region med få men förhållandevis stora kommuner. Fördelningen mellan dem är dessutom jämnare än i många andra län: ingen enskild kommun dominerar på samma sätt som Uppsala dominerar Uppsala län eller Umeå dominerar Västerbotten.
+Hallands drygt 346 000 invånare gör regionen till den sjunde folkrikaste av landets 21 län. Befolkningen är fördelad på sex kommuner, vilket är det lägsta antalet efter Gotlands enda. Halmstad är störst med drygt 106 000 invånare, följt av Kungsbacka (86 000), Varberg (knappt 70 000), Falkenberg (47 000), Laholm (knappt 27 000) och Hylte (10 000). Fem av Hallands sex kommuner överstiger riksmedianen; Halmstad placerar sig som landets 17:e folkrikaste kommun och Kungsbacka som den 27:e. Halland är med andra ord en region med få men förhållandevis stora kommuner. Fördelningen mellan dem är dessutom jämnare än i många andra län: ingen enskild kommun dominerar på samma sätt som Uppsala dominerar Uppsala län eller Umeå dominerar Västerbotten.
 
 ```{=html}
 <p class="figur-label">Figur 1: Sveriges 290 kommuner efter befolkningsstorlek</p>
@@ -382,14 +382,14 @@ grafStepper([
     label: "kommun",
     group: "län",
     title: "Sveriges 290 kommuner efter befolkningsstorlek",
-    subtitle: "Hallands kommuner markerade",
-    caption: "Källa: SCB (2024). Logaritmisk skala. Streckad linje = riksmedian.",
+    subtitle: "Hallands kommuner markerade. Folkmängd 31 december 2025.",
+    caption: "Källa: SCB, kommunbefolkning 2025. Logaritmisk skala. Streckad linje = riksmedian.",
     xLabel: "Antal invånare",
     filter: ["Halland"],
     highlight: ["Halland"],
     formatValue: d => d.toLocaleString("sv-SE"),
     logScale: true,
-    vline: { value: 19495, label: "Riksmedian" },
+    vline: { value: 16237, label: "Riksmedian" },
     logo: "logo_farg.svg",
     interactive: true
   }),
@@ -398,11 +398,11 @@ grafStepper([
     label: "kommun",
     facet: "län",
     title: "Sveriges kommuner efter befolkningsstorlek",
-    subtitle: "Samtliga 290 kommuner, sorterade per län. Halland markerat.",
-    caption: "Källa: SCB (2024). Logaritmisk skala. Streckad linje = riksmedian.",
+    subtitle: "Samtliga 290 kommuner, sorterade per län. Halland markerat. Folkmängd 31 december 2025.",
+    caption: "Källa: SCB, kommunbefolkning 2025. Logaritmisk skala. Streckad linje = riksmedian.",
     highlight: ["Halland"],
     logScale: true,
-    vline: { value: 19495, label: "Riksmedian" },
+    vline: { value: 16237, label: "Riksmedian" },
     formatValue: d => d.toLocaleString("sv-SE"),
     interactive: true,
     logo: "logo_farg.svg"
@@ -459,7 +459,7 @@ function createRankSizeChart() {
 
   const header = container.append("div").attr("class", "graf-header");
   header.append("div").attr("class", "graf-title").text("Ortshierarki: kumulativ befolkningsandel");
-  header.append("div").attr("class", "graf-subtitle").text("De 10 största tätorterna, andel av regionens totalbefolkning");
+  header.append("div").attr("class", "graf-subtitle").text("De 10 största tätorterna, andel av regionens totalbefolkning. Tätortsavgränsning 2023, befolkning 2024.");
 
   const selectorCtrl = createSelectorPanel(header, {
     filterState,
@@ -993,8 +993,8 @@ stapeldiagram(nordregio, {
   color: "typologi",
   horizontal: true,
   title: "Befolkningens fördelning på urban-rural typologi",
-  subtitle: "Andel av regionens befolkning per klass. Nordregios 7-gradiga typologi.",
-  caption: "Källa: Nordregio 2024, rutnätsbaserad klassificering (1×1 km). Befolkning 2022.",
+  subtitle: "Andel av regionens befolkning per klass, januari 2022. Nordregios 7-gradiga typologi.",
+  caption: "Källa: Nordregio 2024, rutnätsbaserad klassificering (1×1 km). Befolkning januari 2022.",
   xLabel: "Andel (%)",
   colors: ["#1b0a3c", "#7b2d8e", "#0f7b3f", "#8cd211", "#ffc107", "#e8491a", "#f0d9a0"],
   highlight: ["Halland"],
@@ -1015,8 +1015,8 @@ karta(nordregioKarta, {
   colorBy: "typ",
   colors: ["#1b0a3c", "#7b2d8e", "#0f7b3f", "#8cd211", "#ffc107", "#e8491a", "#f0d9a0"],
   title: "Urban-rural typologi",
-  subtitle: "Nordregios klassificering, 1×1 km rutnät. Halland markerat.",
-  caption: "Källa: Nordregio 2024. Rutnätsbaserad klassificering (1 km²). Befolkningsdata 2022.",
+  subtitle: "Nordregios klassificering, 1×1 km rutnät. Halland markerat. Befolkning januari 2022.",
+  caption: "Källa: Nordregio 2024. Rutnätsbaserad klassificering (1 km²). Befolkning januari 2022.",
   highlight: ["Halland"],
   zoomTo: true,
   zoomPadding: 1.6,
@@ -1053,8 +1053,8 @@ karta(tathetHalland, {
   bubbleOpacity: 0.3,
   bubbleInteractive: true,
   title: "Befolkningstäthet per km²",
-  subtitle: "Hallands län. Cirkelstorlek motsvarar antal invånare per 1×1 km ruta, 2022.",
-  caption: "Källa: Nordregio 2024, baserat på SCB befolkningsstatistik per 1 km-ruta.",
+  subtitle: "Hallands län. Cirkelstorlek motsvarar antal invånare per 1×1 km ruta, januari 2022.",
+  caption: "Källa: Nordregio 2024, baserat på SCB befolkningsstatistik per 1 km-ruta, januari 2022.",
   overlay: tatorter,
   overlayLabel: "name",
   overlayPop: "population",
@@ -1062,4 +1062,8 @@ karta(tathetHalland, {
 })
 ```
 
-Kartan bekräftar den bild som vuxit fram genom kapitlet. Befolkningen i Halland koncentreras i ett närmast sammanhängande urbant band längs kusten och E6-korridoren, från Kungsbacka i norr till Halmstad i söder. De mest tätbefolkade rutorna återfinns i stadskärnorna, men utanför dessa präglas regionen av en bred zon med tiotals till hundratals invånare per km². Det är denna zon, inte stadskärnorna var för sig, som utgör Hallands verkliga stadsgeografi. Merparten av länets invånare bor i den. Halland är, sammanfattningsvis, en region med en genomgående urban karaktär: inte koncentrerad till en enda stor stad, men inte heller rural i någon meningsfull bemärkelse. Det är en utspridd, flerkärnig och infrastrukturellt sammanbunden stadsregion längs den halländska kusten.
+Kartan bekräftar den bild som vuxit fram genom kapitlet. Befolkningen i Halland koncentreras i ett närmast sammanhängande urbant band längs kusten och E6-korridoren, från Kungsbacka i norr till Halmstad i söder. De mest tätbefolkade rutorna återfinns i stadskärnorna, men utanför dessa präglas regionen av en bred zon med tiotals till hundratals invånare per km². Det är denna zon, inte stadskärnorna var för sig, som utgör Hallands verkliga stadsgeografi. Merparten av länets invånare bor i den.
+
+Mönstret kan kvantifieras genom att dela länet i två delar: *kust* och *inland*. Som gräns använder vi Västkustbanan, den järnväg som löper genom samtliga kuststäder från Kungsbacka till Halmstad. Allt väster om banan, inklusive en buffertzon på 2,5 kilometer österut, definieras som kustområdet. Det är en förenkling, men en funktionellt meningsfull sådan: väster om Västkustbanan ligger alla sex kommunhuvudorter utom Hyltebruk, alla större tätorter, och merparten av den sammanhängande bebyggelsen. År 2024 bodde 264 000 av Hallands 345 000 invånare i kustområdet, motsvarande drygt tre av fyra hallänningar. Inlandet, öster om banan, hade 80 000 invånare fördelade på en betydligt större yta. Det är inte en obebodd geografi; här finns jordbruksbygd, mindre samhällen och Hylte kommuns inland. Men den demografiska tyngdpunkten ligger entydigt längs kusten.
+
+Halland är, sammanfattningsvis, en region med en genomgående urban karaktär: inte koncentrerad till en enda stor stad, men inte heller rural i någon meningsfull bemärkelse. Det är en utspridd, flerkärnig och infrastrukturellt sammanbunden stadsregion längs den halländska kusten.

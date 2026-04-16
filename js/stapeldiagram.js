@@ -78,9 +78,23 @@ export function stapeldiagram(data, {
     return data.filter(d => d[time] === t);
   };
 
-  // Beräkna max-värde över alla tider (för stabil skala)
+  // Beräkna min/max-värde över alla tider (för stabil skala)
   const dataMax = d3.max(data, d => d[y]);
+  const dataMin = d3.min(data, d => d[y]);
   const valueNice = niceScale(dataMax, 5);
+
+  // Hantera negativa värden: utöka ticks och domän nedåt
+  if (dataMin < 0) {
+    const negMin = Math.floor(dataMin / valueNice.interval) * valueNice.interval;
+    const newTicks = [];
+    for (let v = negMin; v <= valueNice.max; v += valueNice.interval) {
+      newTicks.push(Math.round(v * 1000) / 1000);
+    }
+    valueNice.ticks = newTicks;
+    valueNice.min = negMin;
+  } else {
+    valueNice.min = 0;
+  }
 
   // Dimensioner - tydlig breakout-effekt
   // Best practice: ~48px per kategori för god läsbarhet
@@ -507,11 +521,22 @@ export function stapeldiagram(data, {
       .padding(0.33);
 
     const xScale = d3.scaleLinear()
-      .domain([0, valueNice.max])
+      .domain([valueNice.min, valueNice.max])
       .range([axisLeft, autoWidth - marginRight]);
+
+    const hasNegValues = dataMin < 0;
 
     // Grupp för zebra-bakgrund (uppdateras vid animation)
     const zebraGroup = svg.append("g").attr("class", "zebra-group");
+
+    // Nollinje vid negativa värden
+    if (hasNegValues) {
+      svg.append("line")
+        .attr("x1", xScale(0)).attr("x2", xScale(0))
+        .attr("y1", marginTop).attr("y2", chartHeight - marginBottom)
+        .attr("stroke", "#999").attr("stroke-width", 1)
+        .attr("stroke-dasharray", "3,2");
+    }
 
     // X-axel (värden) - OWID-stil (ingen grid för horisontell - zebra räcker)
     svg.append("g")
@@ -672,7 +697,7 @@ export function stapeldiagram(data, {
         // Stapel
         barGroupsEnter.append("rect")
           .attr("class", "bar-rect")
-          .attr("x", axisLeft)
+          .attr("x", hasNegValues ? xScale(0) : axisLeft)
           .attr("rx", 3)
           .style("cursor", "pointer");
 
@@ -726,19 +751,28 @@ export function stapeldiagram(data, {
               updateBars(false);
             });
 
-          // Animera stapelbredd
-          g.select(".bar-rect").transition().duration(duration)
-            .attr("width", Math.max(0, xScale(d[y]) - axisLeft));
+          // Animera stapelbredd (hantera negativa värden)
+          if (hasNegValues) {
+            const zeroX = xScale(0);
+            const valX = xScale(d[y]);
+            g.select(".bar-rect").transition().duration(duration)
+              .attr("x", Math.min(zeroX, valX))
+              .attr("width", Math.max(0, Math.abs(valX - zeroX)));
+          } else {
+            g.select(".bar-rect").transition().duration(duration)
+              .attr("width", Math.max(0, xScale(d[y]) - axisLeft));
+          }
 
           // Värde-etikett
           g.select(".bar-value")
             .attr("y", barHeight / 2)
             .attr("fill", isHl ? "#666" : "#aaa")
             .attr("font-size", "12px")
+            .attr("text-anchor", hasNegValues && d[y] < 0 ? "end" : "start")
             .text(formatY(d[y]));
 
           g.select(".bar-value").transition().duration(duration)
-            .attr("x", xScale(d[y]) + 6);
+            .attr("x", hasNegValues && d[y] < 0 ? xScale(d[y]) - 6 : xScale(d[y]) + 6);
         });
       }
 
